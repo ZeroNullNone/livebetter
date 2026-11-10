@@ -180,6 +180,8 @@ test('publication verifies bytes, not just HTTP 200 or a version label', async (
   await assert.rejects(verifyPublished('https://guide.example/', M, expected, response(A)), /version/);
   await assert.rejects(verifyPublished('https://guide.example/', M, expected, response(M, 'SPA fallback')), /mismatch/);
   await assert.rejects(verifyPublished('http://guide.example/', M, expected, response()), /HTTPS/);
+  const blocked = async () => new Response('Challenge page', {status: 403, headers: {'cf-ray': 'example-SIN', 'cf-mitigated': 'challenge'}});
+  await assert.rejects(verifyPublished('https://guide.example/', M, expected, blocked), /HTTP 403.*cf-ray=example-SIN.*cf-mitigated=challenge/);
 });
 
 test('build exports public assets only, with version hashes; never follows symlinks', async () => {
@@ -193,6 +195,8 @@ test('build exports public assets only, with version hashes; never follows symli
     const hashes = buildSite(root, M);
     assert.equal(hashes['assets/style.css'], digest('body{}'));
     assert.equal(JSON.parse(fs.readFileSync(path.join(root, 'dist/version.json'))).commit, M);
+    assert.match(fs.readFileSync(path.join(root, 'dist/_headers'), 'utf8'), /^\/\*\n  Cache-Control: .*\bno-transform\b/m);
+    assert.ok(!Object.hasOwn(hashes, '_headers')); // Pages consumes it instead of serving it
     assert.ok(!fs.existsSync(path.join(root, 'dist/.env')) && !fs.existsSync(path.join(root, 'dist/assets/.env')));
     fs.symlinkSync(path.join(root, '.env'), path.join(root, 'assets/secret.js'));
     assert.throws(() => buildSite(root, M), /symlink/);

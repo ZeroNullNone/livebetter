@@ -31,6 +31,9 @@ export function buildSite(root, commit) {
     }
   }
   for (const file of PUBLIC) copy(file);
+  // Pages consumes this control file; it is not a public resource to hash.
+  // Preserve deployed bytes: Cloudflare JSD injection would break verification.
+  fs.writeFileSync(path.join(out, '_headers'), '/*\n  Cache-Control: public, max-age=0, must-revalidate, no-transform\n');
   fs.writeFileSync(path.join(out, 'version.json'), JSON.stringify({version: 1, commit, files: hashes}, null, 2) + '\n');
   return hashes;
 }

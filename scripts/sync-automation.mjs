@@ -87,7 +87,13 @@ export async function verifyPublished(site, commit, expected, fetcher = fetch) {
   async function read(file) {
     const url = new URL(file, root); url.searchParams.set('version', commit);
     const response = await fetcher(url, {cache: 'no-store', signal: AbortSignal.timeout(30_000)});
-    if (!response.ok) throw new Error(`Publication unavailable: ${file} (HTTP ${response.status})`);
+    if (!response.ok) {
+      const details = ['cf-ray', 'cf-mitigated'].map(key => {
+        const value = response.headers.get(key);
+        return value ? `${key}=${value}` : '';
+      }).filter(Boolean).join(', ');
+      throw new Error(`Publication unavailable: ${file} (HTTP ${response.status})${details ? ` [${details}]` : ''}`);
+    }
     return Buffer.from(await response.arrayBuffer());
   }
   const version = JSON.parse((await read('version.json')).toString());

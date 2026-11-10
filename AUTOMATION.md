@@ -87,6 +87,8 @@ import {entries, digest} from './scripts/validate-sync.mjs';
 
 Cloudflare 构建输出 version.json，包含完整提交 SHA 和全部公开资源的 SHA256。发布验证等待约五分钟并校验实际资源字节，不把 HTTP 200（例如 SPA 回退页）当成功。成功后才评论并关闭同步 Issue。
 
+构建同时生成 Pages 配置文件 `_headers`，为公开文件声明 `Cache-Control: public, max-age=0, must-revalidate, no-transform`。Cloudflare 会据此停止 JavaScript Detections 脚本注入，保留文件字节以供哈希验证；该控制文件不属于公开资源清单。[Cloudflare 说明](https://developers.cloudflare.com/cloudflare-challenges/challenge-types/javascript-detections/)。此响应头不放行被防火墙拦截的请求；若出现 HTTP 403，按日志中的 cf-ray/cf-mitigated 对照 Security Events 查看具体服务与规则，仅调整误拦截的范围。免费 Bot Fight Mode 不支持 WAF Skip 例外，需按实际服务处理，而非直接添加宽泛放行。
+
 使用 GITHUB_TOKEN 合并不会自动触发 push 工作流，因此合并程序在 GitHub 确认合并成功后，显式 dispatch Verify publication，在默认分支执行。普通用户 push 到 main 仍通过原有 push 事件触发验证。此触发只运行验证，不执行 Cloudflare 部署；部署仍由 Pages Git integration 处理。[GitHub 触发规则](https://docs.github.com/en/actions/how-tos/write-workflows/choose-when-workflows-run/trigger-a-workflow)、[dispatch API 权限](https://docs.github.com/en/rest/actions/workflows#create-a-workflow-dispatch-event)。
 
 部署失败或另一提交抢先发布时，Issue 保持打开。如果合并成功但 dispatch 失败，合并工作流会报错，并提示手动触发验证；不要重试合并或重新迁移。修复权限/部署后，在 Actions 中选择 Verify publication → Run workflow → main，启动新运行（不要只重跑旧提交的失败运行）。它会构建当前提交、确认线上资源与之匹配，再按当前已迁移状态关闭对应 Issue。校验失败不会回滚或删除线上数据。
