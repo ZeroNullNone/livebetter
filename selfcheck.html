@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-MY" data-type="software" data-radius="soft" data-buttons="tonal" data-motion>
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>生活自查 · 高性价比人生指南</title><meta name="description" content="按你的情况选择自查主题，逐项回答，再把适合的建议保存到个人行动清单。">
+<meta name="page-type" content="software"><meta name="site-kind" content="software"><meta name="theme-color" content="#204d3c">
+<meta property="og:type" content="website"><meta property="og:title" content="生活自查 · 高性价比人生指南"><meta property="og:description" content="按你的情况选择自查主题，逐项回答，再把适合的建议保存到个人行动清单。"><meta property="og:image" content="assets/share.jpg">
+<link rel="icon" href="assets/mark.svg" type="image/svg+xml">
+<script src="assets/theme.js"></script>
+<link rel="stylesheet" href="assets/guide.css"><link rel="stylesheet" href="assets/selfcheck.css"><link rel="stylesheet" href="assets/motion/motion.css">
+<script type="module" src="assets/motion/motion.js"></script><script type="module" src="assets/moments/moments.js"></script>
+</head><body>
+<!-- Software · white-mint-tiles · field-guide spread · surface-pairs · tonal · counter-rolls. -->
+<a class="skip-link" href="#main">跳到主要内容</a>
+<header class="nav"><div class="wrap nav-in"><a class="wordmark" href="index.html" aria-label="人生指南首页"><img src="assets/mark.svg" width="36" height="36" alt=""><span>人生指南<small>FIELD GUIDE</small></span></a>
+<nav class="main-links" aria-label="主导航"><a href="index.html"><svg class="ic" aria-hidden="true"><use href="assets/icons.svg#book"/></svg>阅读指南</a><a href="selfcheck.html" aria-current="page"><svg class="ic" aria-hidden="true"><use href="assets/icons.svg#quiz"/></svg>生活自查</a></nav>
+<div class="nav-tools"><a href="index.html?portal=1"><svg class="ic" aria-hidden="true"><use href="assets/icons.svg#quick"/></svg>马来西亚速查</a><span class="vline"></span><button id="theme" type="button" aria-label="切换深浅色外观" title="切换深浅色外观"><svg class="ic" aria-hidden="true"><use href="assets/icons.svg#moon"/></svg><svg class="ic" aria-hidden="true"><use href="assets/icons.svg#sun"/></svg></button></div></div></header>
+<noscript><p class="wrap no-js">搜索、个人清单和自查需要 JavaScript。你也可以直接<a href="README.md">阅读指南目录</a>。</p></noscript>
+<main class="wrap check-wrap" id="main" tabindex="-1">
+<header class="hero check-mast" data-enter><div><div class="kicker"><i></i> SELF CHECK &nbsp; / &nbsp; MY</div><h1>生活自查<span>.</span></h1><p>看看哪些事已经做到，哪些值得下一步去做。</p></div>
+<div class="check-stamp" data-moment="counter-rolls"><b data-count>05</b><small>自查主题</small></div></header>
+<div id="status" role="status">正在读取自查题目…</div>
+<section id="ask" hidden aria-label="自查问卷">
+<aside class="step-rail" aria-label="自查步骤"><div class="kicker">本次自查</div><ol><li id="phase-0"><b>01</b><div>基本情况<small>选择适合你的题目</small></div></li><li id="phase-1"><b>02</b><div>逐项自查<small>按主题回答或跳过</small></div></li><li><b>03</b><div>行动建议<small>查看结果并保存清单</small></div></li></ol>
+<div class="privacy"><svg class="ic" aria-hidden="true"><use href="assets/icons.svg#lock"/></svg> 答案只保存在本机</div></aside>
+<div class="form-pane"><div id="qs"><div id="profile-qs"></div><div id="topic-qs" hidden></div></div>
+<p id="form-error" class="form-error" role="alert"></p>
+<div class="form-bar"><button class="link-back" type="button" id="prev" hidden><svg class="ic" aria-hidden="true"><use href="assets/icons.svg#back"/></svg> 上一步</button><button type="button" class="link-back" id="reset">清空重填</button><span id="prog" class="prog" role="status"></span><button type="button" class="btn primary" id="go">开始答题 <svg class="ic" aria-hidden="true"><use href="assets/icons.svg#arrow"/></svg></button></div>
+<button class="early-result" id="early-result" type="button" hidden>先看已答结果 →</button></div>
+</section>
+  <section id="out" hidden>
+    <div class="kicker"><i></i> YOUR REVIEW</div><h1 tabindex="-1" id="result-title">自查结果</h1>
+    <p class="verdict" id="verdict"></p>
+    <div class="sum" id="sum"></div>
+    <div id="todo"></div><details class="report-details"><summary>各主题完成情况</summary><p>按已答题目中做到的比例，从低到高排列。</p><div id="bars"></div></details>
+    <div class="note"><b>为什么不算「少活几年」：</b>每条的数字来自不同研究、不同人群，而且抽烟、不运动、睡得差这些习惯常常一起出现。把各条的风险乘到一起会重复计算，所以每条只给它自己那份证据。</div>
+    <h2 id="done-h">已经做到的</h2>
+    <ul class="done-list" id="done"></ul>
+    <div class="bar">
+      <span class="prog">答案保存在你本机浏览器中。</span>
+      <button class="btn ghost" id="back" type="button">返回修改答案</button>
+    </div>
+  </section>
+</main><footer class="foot"><div class="wrap"><span>人生指南 <i>/</i> 马来西亚版</span><a href="https://github.com/eternity4719/HowToLiveBetter" target="_blank" rel="noopener">原作 HowToLiveBetter ↗</a></div></footer><script src="assets/selfcheck.js"></script></body></html>

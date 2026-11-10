@@ -1,0 +1,51 @@
+name: Validate content
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+concurrency:
+  group: content-checks-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+jobs:
+  content:
+    name: Content checks
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      SITE_ROOT: ${{ github.workspace }}/site
+    steps:
+      # The tests/gates come from the base branch; an author cannot weaken them
+      # in the PR it asks to merge. No write token or model credentials here.
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.base.sha || github.sha }}
+          path: trusted
+          persist-credentials: false
+      - uses: actions/checkout@v4
+        with:
+          repository: ${{ github.event.pull_request.head.repo.full_name || github.repository }}
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+          path: site
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node trusted/scripts/status-my.mjs --detail
+      - run: node trusted/scripts/test-localization.mjs
+      - run: node --test trusted/scripts/test-automation.mjs
+      - name: Check sync evidence and permitted files
+        if: github.event_name == 'pull_request' && startsWith(github.head_ref, 'sync/upstream-')
+        run: node trusted/scripts/validate-sync.mjs "$BASE_SHA"
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+      - name: Browser regression
+        run: node trusted/scripts/test-guide.mjs
+        env:
+          CHROME_PATH: /usr/bin/google-chrome
+      - name: Build public files
+        run: node trusted/scripts/build-site.mjs
+        env:
+          CF_PAGES_COMMIT_SHA: ${{ github.event.pull_request.head.sha || github.sha }}
