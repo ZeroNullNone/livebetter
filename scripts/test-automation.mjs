@@ -184,6 +184,46 @@ test('publication verifies bytes, not just HTTP 200 or a version label', async (
   await assert.rejects(verifyPublished('https://guide.example/', M, expected, blocked), /HTTP 403.*cf-ray=example-SIN.*cf-mitigated=challenge/);
 });
 
+test('publication paces requests and retries only the rate-limited resource', async () => {
+  const files = {'first.md': 'first', 'second.md': 'second'};
+  const expected = Object.fromEntries(Object.entries(files).map(([file, body]) => [file, digest(body)]));
+  const requested = [], delays = [];
+  const fetcher = async url => {
+    const file = new URL(url).pathname.slice(1);
+    requested.push(file);
+    if (file === 'version.json') return new Response(JSON.stringify({version: 1, commit: M, files: expected}));
+    if (file === 'second.md' && requested.filter(f => f === file).length === 1) return new Response('Slow down', {status: 429, headers: {'Retry-After': '2'}});
+    return new Response(files[file]);
+  };
+  await verifyPublished('https://guide.example/', M, expected, fetcher, async ms => {delays.push(ms);});
+  assert.deepEqual(requested, ['version.json', 'first.md', 'second.md', 'second.md']);
+  assert.deepEqual(delays, [1000, 1000, 2000]);
+});
+
+test('publication honors Retry-After dates and bounds rate-limit recovery', async t => {
+  const now = Date.parse('2026-11-11T00:00:00Z');
+  t.mock.method(Date, 'now', () => now);
+  for (const {after, failures, delays: expectedDelays, rejects} of [
+    {after: new Date(now + 60_000).toUTCString(), failures: 1, delays: [60_000]},
+    {after: null, failures: 2, delays: [15_000, 30_000]},
+    {after: 'invalid', failures: 1, delays: [15_000]},
+    {after: '0', failures: 1, delays: [1000]},
+    {after: '301', failures: Infinity, delays: [], rejects: true},
+    {after: null, failures: Infinity, delays: [15_000, 30_000, 60_000, 120_000], rejects: true},
+  ]) {
+    let requests = 0;
+    const delays = [];
+    const fetcher = async () => ++requests <= failures
+      ? new Response('Slow down', {status: 429, headers: after === null ? {} : {'Retry-After': after}})
+      : new Response(JSON.stringify({version: 1, commit: M, files: {}}));
+    const run = verifyPublished('https://guide.example/', M, {}, fetcher, async ms => {delays.push(ms);});
+    if (rejects) await assert.rejects(run, {code: 'RATE_LIMITED', message: /HTTP 429/});
+    else await run;
+    assert.deepEqual(delays, expectedDelays);
+    assert.equal(requests, expectedDelays.length + 1);
+  }
+});
+
 test('build exports public assets only, with version hashes; never follows symlinks', async () => {
   const root = fs.mkdtempSync(path.join(os.tmpdir(), 'guide-automation-'));
   try {

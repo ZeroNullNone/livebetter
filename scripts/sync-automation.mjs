@@ -80,21 +80,38 @@ export async function mergeCandidate(api, repo, number, {authors, reviewers}) {
   return merged;
 }
 
-export async function verifyPublished(site, commit, expected, fetcher = fetch) {
+export async function verifyPublished(site, commit, expected, fetcher = fetch, pause = ms => new Promise(resolve => setTimeout(resolve, ms))) {
   const root = new URL(site);
   if (root.protocol !== 'https:' || root.username || root.password || root.search || root.hash) throw new Error('PUBLIC_SITE_URL must be a credential-free HTTPS URL');
   if (!root.pathname.endsWith('/')) root.pathname += '/';
+  let requested = false;
   async function read(file) {
     const url = new URL(file, root); url.searchParams.set('version', commit);
-    const response = await fetcher(url, {cache: 'no-store', signal: AbortSignal.timeout(30_000)});
-    if (!response.ok) {
-      const details = ['cf-ray', 'cf-mitigated'].map(key => {
+    let delay = requested ? 1000 : 0;
+    for (let attempt = 0; ; attempt++) {
+      if (delay) await pause(delay);
+      requested = true;
+      const response = await fetcher(url, {cache: 'no-store', signal: AbortSignal.timeout(30_000)});
+      if (response.ok) return Buffer.from(await response.arrayBuffer());
+      await response.body?.cancel();
+      if (response.status === 429 && attempt < 4) {
+        const after = response.headers.get('retry-after');
+        const retryMs = after && /^\d+$/.test(after.trim()) ? Number(after) * 1000 : Date.parse(after ?? '') - Date.now();
+        delay = Number.isFinite(retryMs) ? Math.max(1000, retryMs) : 15_000 * 2 ** attempt;
+        // Do not retry early when the server asks for a wait beyond our budget.
+        if (delay <= 300_000) {
+          console.log(`Rate limited: ${file}; retry ${attempt + 1}/4 in ${Math.ceil(delay / 1000)}s`);
+          continue;
+        }
+      }
+      const details = ['cf-ray', 'cf-mitigated', 'retry-after'].map(key => {
         const value = response.headers.get(key);
         return value ? `${key}=${value}` : '';
       }).filter(Boolean).join(', ');
-      throw new Error(`Publication unavailable: ${file} (HTTP ${response.status})${details ? ` [${details}]` : ''}`);
+      const error = new Error(`Publication unavailable: ${file} (HTTP ${response.status})${details ? ` [${details}]` : ''}`);
+      if (response.status === 429) error.code = 'RATE_LIMITED';
+      throw error;
     }
-    return Buffer.from(await response.arrayBuffer());
   }
   const version = JSON.parse((await read('version.json')).toString());
   if (version.version !== 1 || version.commit !== commit || Object.keys(version.files ?? {}).length !== Object.keys(expected).length) throw new Error('Expected version is not published yet');
@@ -145,7 +162,7 @@ async function main() {
     for (let attempt = 0; ; attempt++) {
       try {await verifyPublished(process.env.PUBLIC_SITE_URL, version.commit, version.files); break;}
       catch (error) {
-        if (attempt >= 19) throw error;
+        if (error.code === 'RATE_LIMITED' || attempt >= 19) throw error;
         console.log(`Waiting for deployment (${attempt + 1}/20): ${error.message}`);
         await new Promise(resolve => setTimeout(resolve, 15_000));
       }
