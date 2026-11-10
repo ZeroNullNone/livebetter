@@ -93,6 +93,8 @@ Cloudflare 构建输出 version.json，包含完整提交 SHA 和全部公开资
 
 部署失败或另一提交抢先发布时，Issue 保持打开。如果合并成功但 dispatch 失败，合并工作流会报错，并提示手动触发验证；不要重试合并或重新迁移。修复权限/部署后，在 Actions 中选择 Verify publication → Run workflow → main，启动新运行（不要只重跑旧提交的失败运行）。它会构建当前提交、确认线上资源与之匹配，再按当前已迁移状态关闭对应 Issue。校验失败不会回滚或删除线上数据。
 
+Git 连接断开期间的推送可能没有创建 Pages 部署。恢复连接后，若重试旧部署，Source 仍会指向该旧提交；应通过一次新的 main 推送触发自动部署，并核对 Pages 的 Source 与 GitHub main 最新 SHA 一致，再运行发布验证。
+
 合并轮询的拒绝原因在 Actions 日志中；未满足门禁时会跳过，不代表已完成。API/权限错误不会执行合并；不做盲目写入重试。关闭三个 enabled 开关即可停用对应自动操作。
 
 ```sh
