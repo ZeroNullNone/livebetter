@@ -13,6 +13,13 @@ jobs:
     if: vars.AUTO_MERGE_SYNC == 'enabled'
     runs-on: ubuntu-latest
     timeout-minutes: 15
+    permissions:
+      contents: write
+      actions: write
+      pull-requests: read
+      issues: read
+      checks: read
+      statuses: read
     steps:
       # Always run trusted default-branch code, including manual dispatches.
       - uses: actions/checkout@v4
@@ -22,14 +29,9 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - uses: actions/create-github-app-token@v2
-        id: bot
-        with:
-          app-id: ${{ vars.SYNC_APP_ID }}
-          private-key: ${{ secrets.SYNC_APP_PRIVATE_KEY }}
       - run: node scripts/sync-automation.mjs merge
         env:
-          GH_TOKEN: ${{ steps.bot.outputs.token }}
+          GITHUB_TOKEN: ${{ github.token }}
           AUTO_MERGE_SYNC: ${{ vars.AUTO_MERGE_SYNC }}
           SYNC_AUTHORS: ${{ vars.SYNC_AUTHORS }}
           SYNC_REVIEWERS: ${{ vars.SYNC_REVIEWERS }}

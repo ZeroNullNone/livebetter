@@ -70,6 +70,13 @@ export async function mergeCandidate(api, repo, number, {authors, reviewers}) {
   const merged = await api.request(`${route}/pulls/${number}/merge`, {method: 'PUT', body: {sha: pr.head.sha, merge_method: 'squash'}});
   if (merged.merged !== true || !SHA.test(merged.sha ?? '')) throw new Error('GitHub did not confirm the merge');
   console.log(`Merged #${number} at ${merged.sha}; issue #${issueNumber} remains open until publication`);
+  // GITHUB_TOKEN merges do not trigger push workflows. Explicit dispatch does;
+  // verify the latest default branch, including any intervening commits.
+  try {
+    await api.request(`${route}/actions/workflows/verify-publication.yml/dispatches`, {method: 'POST', body: {ref: metadata.default_branch}});
+  } catch (cause) {
+    throw Object.assign(new Error(`PR #${number} merged, but publication dispatch failed. Run Verify publication on the latest default branch: ${cause.message}`, {cause}), {code: 'PUBLICATION_DISPATCH_FAILED'});
+  }
   return merged;
 }
 
@@ -111,13 +118,16 @@ async function main() {
   if (mode === 'merge') {
     if (process.env.AUTO_MERGE_SYNC !== 'enabled') {console.log('Automatic merging disabled'); return;}
     const authors = names(process.env.SYNC_AUTHORS), reviewers = names(process.env.SYNC_REVIEWERS);
-    if (!authors.length || !reviewers.length || !process.env.GH_TOKEN) throw new Error('Configure trusted authors/reviewers and the merge App token');
+    if (!authors.length || !reviewers.length || !(process.env.GITHUB_TOKEN || process.env.GH_TOKEN)) throw new Error('Configure trusted authors/reviewers and GITHUB_TOKEN');
     const api = github(), route = repoPath(repo);
     const pulls = await api.list(`${route}/pulls?state=open`);
     const eligible = pulls.filter(p => p.body?.includes(PR_MARKER) && trusted(p.user?.login, authors));
     for (const pr of eligible) {
       try {await mergeCandidate(api, repo, pr.number, {authors, reviewers});}
-      catch (error) {console.log(`PR #${pr.number}: ${error.message}`);}
+      catch (error) {
+        if (error.code === 'PUBLICATION_DISPATCH_FAILED') throw error;
+        console.log(`PR #${pr.number}: ${error.message}`);
+      }
       // One candidate per poll: never start a second migration concurrently.
       break;
     }

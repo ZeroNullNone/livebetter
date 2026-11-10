@@ -116,7 +116,7 @@ test('CI requires a real success and rejects failed/pending reruns', () => {
   assert.throws(() => checkCI([{...green[0], app: {id: 2, slug: 'fake'}}], {total_count: 0}), /Required/);
 });
 
-function mergeAPI({race = false, reject = false, badCI = false} = {}) {
+function mergeAPI({race = false, reject = false, badCI = false, mergeFailed = false, dispatchFailed = false} = {}) {
   const m = migration(), writes = []; let reads = 0;
   const pr = {number: 3, state: 'open', draft: false, body: markerBody(PR_MARKER, {issue: 12}),
     base: {sha: A, ref: 'main'}, head: {sha: H, ref: `sync/upstream-${B}`, repo: {full_name: 'o/r'}},
@@ -132,7 +132,14 @@ function mergeAPI({race = false, reject = false, badCI = false} = {}) {
       throw new Error(url);
     },
     request: async (url, options) => {
-      if (options) {writes.push({url, ...options}); return {merged: true, sha: M};}
+      if (options) {
+        writes.push({url, ...options});
+        if (url.endsWith('/dispatches')) {
+          if (dispatchFailed) throw new Error('HTTP 403');
+          return null;
+        }
+        return {merged: !mergeFailed, sha: M};
+      }
       if (url === route) return {default_branch: 'main'};
       if (url.endsWith('/pulls/3')) {reads++; return race && reads > 1 ? {...pr, head: {...pr.head, sha: B}} : pr;}
       if (url.endsWith('/issues/12')) return {state: 'open', user: {login: 'github-actions[bot]'}, body: markerBody(ISSUE_MARKER, batch)};
@@ -146,11 +153,24 @@ function mergeAPI({race = false, reject = false, badCI = false} = {}) {
 test('merge gate uses expected SHA; stale/rejected/failed evidence never writes', async () => {
   const options = {authors: ['author'], reviewers: ['reviewer']};
   let mock = mergeAPI(); await mergeCandidate(mock.api, 'o/r', 3, options);
-  assert.deepEqual(mock.writes, [{url: '/repos/o/r/pulls/3/merge', method: 'PUT', body: {sha: H, merge_method: 'squash'}}]);
+  assert.deepEqual(mock.writes, [
+    {url: '/repos/o/r/pulls/3/merge', method: 'PUT', body: {sha: H, merge_method: 'squash'}},
+    {url: '/repos/o/r/actions/workflows/verify-publication.yml/dispatches', method: 'POST', body: {ref: 'main'}},
+  ]);
   for (const flags of [{race: true}, {reject: true}, {badCI: true}]) {
     mock = mergeAPI(flags); await assert.rejects(mergeCandidate(mock.api, 'o/r', 3, options)); assert.equal(mock.writes.length, 0);
   }
   mock = mergeAPI(); await assert.rejects(mergeCandidate(mock.api, 'o/r', 3, {...options, authors: []})); assert.equal(mock.writes.length, 0);
+});
+
+test('publication dispatch requires a confirmed merge and reports post-merge failures', async () => {
+  const options = {authors: ['author'], reviewers: ['reviewer']};
+  let mock = mergeAPI({mergeFailed: true});
+  await assert.rejects(mergeCandidate(mock.api, 'o/r', 3, options), /did not confirm/);
+  assert.equal(mock.writes.length, 1);
+  mock = mergeAPI({dispatchFailed: true});
+  await assert.rejects(mergeCandidate(mock.api, 'o/r', 3, options), {code: 'PUBLICATION_DISPATCH_FAILED', message: /merged, but publication dispatch failed.*HTTP 403/});
+  assert.deepEqual(mock.writes.map(w => w.method), ['PUT', 'POST']); // no Issue close or second merge
 });
 
 test('publication verifies bytes, not just HTTP 200 or a version label', async () => {

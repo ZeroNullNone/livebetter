@@ -1,0 +1,301 @@
+{
+  "date": "2026-11-10",
+  "scope": "自动扫描全部正文、专题、目录及阅读／自查页面；关键词与来源风险筛查，不代表逐条法律或医学核实。",
+  "files": 48,
+  "chapters": 34,
+  "essays": 9,
+  "entries": 772,
+  "formatErrors": [],
+  "findings": [],
+  "affectedEntries": [],
+  "reports": [
+    {
+      "file": "book/01-不要早死.md",
+      "entries": 49,
+      "hits": [],
+      "formatErrors": []
+    },
+    {
+      "file": "book/02-不要慢慢死.md",
+      "entries": 47,
+      "hits": [],
+      "formatErrors": []
+    },
+    {
+      "file": "book/03-不要浪费精力.md",
+      "entries": 27,
+      "hits": [],
+      "formatErrors": []
+    },
+    {
+      "file": "book/04-不要浪费时间.md",
+      "entries": 18,
+      "hits": [],
+      "formatErrors": []
+    },
+    {
+      "file": "book/05-不要浪费钱.md",
+      "entries": 51,
+      "hits": [],
+      "formatErrors": []
+    },
+    {
+      "file": "book/06-反面清单.md",
+      "entries": 35,
+      "hits": [],
+      "formatErrors": []
+    },
+    {
+      "file": "book/07-没钱的时候怎么活.md",
+      "entries": 23,
+      "hits": [],
+      "formatErrors": []
+    },
+    {
+      "file": "book/08-别把自己搭进去.md",
+      "entries": 46,
+      "hits": [],
+      "formatErrors": []
+    },
+    {
+      "file": "book/09-普通人容易踩的法律红线.md",
+      "entries": 29,
+      "hits": [],
+      "formatErrors": []
+    },
+    {
+      "file": "book/10-恋爱和结婚划不划算.md",
+      "entries": 23,
+      "hits": [],
+      "formatErrors": []
+    },
+    {
+      "file": "book/11-程序员和技术人容易踩的红线.md",
+      "entries": 21,
+      "hits": [],
+      "formatErrors": []
+    },
+    {
+      "file": "book/12-创业与做生意.md",
+      "entries": 28,
+      "hits": [],
+      "formatErrors": []
+    },
+    {
+      "file": "book/13-紧急情况.md",
+      "entries": 49,
+      "hits": [],
+      "formatErrors": []
+    },
+    {
+      "file": "book/14-账号与信息安全.md",
+      "entries": 12,
+      "hits": [],
+      "formatErrors": []
+    },
+    {
+      "file": "book/15-租房与买房.md",
+      "entries": 18,
+      "hits": [],
+      "formatErrors": []
+    },
+    {
+      "file": "book/16-得了慢性病之后怎么活.md",
+      "entries": 14,
+      "hits": [],
+      "formatErrors": []
+    },
+    {
+      "file": "book/17-家里有老人.md",
+      "entries": 13,
+      "hits": [],
+      "formatErrors": []
+    },
+    {
+      "file": "book/18-养孩子划不划算.md",
+      "entries": 7,
+      "hits": [],
+      "formatErrors": []
+    },
+    {
+      "file": "book/19-在职离职和工伤.md",
+      "entries": 25,
+      "hits": [],
+      "formatErrors": []
+    },
+    {
+      "file": "book/20-刚出生的孩子怎么带.md",
+      "entries": 17,
+      "hits": [],
+      "formatErrors": []
+    },
+    {
+      "file": "book/21-出国旅行与境外安全.md",
+      "entries": 13,
+      "hits": [],
+      "formatErrors": []
+    },
+    {
+      "file": "book/22-怎么放松.md",
+      "entries": 13,
+      "hits": [],
+      "formatErrors": []
+    },
+    {
+      "file": "book/23-学什么技能划算.md",
+      "entries": 25,
+      "hits": [],
+      "formatErrors": []
+    },
+    {
+      "file": "book/24-看病.md",
+      "entries": 15,
+      "hits": [],
+      "formatErrors": []
+    },
+    {
+      "file": "book/25-人走了以后要办什么.md",
+      "entries": 12,
+      "hits": [],
+      "formatErrors": []
+    },
+    {
+      "file": "book/26-做一个网站或平台.md",
+      "entries": 13,
+      "hits": [],
+      "formatErrors": []
+    },
+    {
+      "file": "book/27-怀孕和生产.md",
+      "entries": 20,
+      "hits": [],
+      "formatErrors": []
+    },
+    {
+      "file": "book/28-别为了外形把身体搞坏.md",
+      "entries": 10,
+      "hits": [],
+      "formatErrors": []
+    },
+    {
+      "file": "book/29-遭遇重大打击之后.md",
+      "entries": 14,
+      "hits": [],
+      "formatErrors": []
+    },
+    {
+      "file": "book/30-上学以后的孩子.md",
+      "entries": 21,
+      "hits": [],
+      "formatErrors": []
+    },
+    {
+      "file": "book/31-十八岁之后有哪几条路.md",
+      "entries": 17,
+      "hits": [],
+      "formatErrors": []
+    },
+    {
+      "file": "book/32-出国留学.md",
+      "entries": 12,
+      "hits": [],
+      "formatErrors": []
+    },
+    {
+      "file": "book/33-残疾之后怎么活.md",
+      "entries": 21,
+      "hits": [],
+      "formatErrors": []
+    },
+    {
+      "file": "book/34-家里的常备药别吃出事.md",
+      "entries": 14,
+      "hits": [],
+      "formatErrors": []
+    },
+    {
+      "file": "docs/做平台要办哪些证.md",
+      "entries": 0,
+      "hits": [],
+      "formatErrors": []
+    },
+    {
+      "file": "docs/刚确诊慢性病之后.md",
+      "entries": 0,
+      "hits": [],
+      "formatErrors": []
+    },
+    {
+      "file": "docs/孩子出生前后要办的事.md",
+      "entries": 0,
+      "hits": [],
+      "formatErrors": []
+    },
+    {
+      "file": "docs/家庭应急装备清单.md",
+      "entries": 0,
+      "hits": [],
+      "formatErrors": []
+    },
+    {
+      "file": "docs/换工作、换城市之前.md",
+      "entries": 0,
+      "hits": [],
+      "formatErrors": []
+    },
+    {
+      "file": "docs/生物钟和夜班.md",
+      "entries": 0,
+      "hits": [],
+      "formatErrors": []
+    },
+    {
+      "file": "docs/结婚划不划算.md",
+      "entries": 0,
+      "hits": [],
+      "formatErrors": []
+    },
+    {
+      "file": "docs/被裁了之后先做什么.md",
+      "entries": 0,
+      "hits": [],
+      "formatErrors": []
+    },
+    {
+      "file": "docs/遇到陌生人出事该不该停.md",
+      "entries": 0,
+      "hits": [],
+      "formatErrors": []
+    },
+    {
+      "file": "README.md",
+      "entries": 0,
+      "hits": [],
+      "formatErrors": []
+    },
+    {
+      "file": "index.html",
+      "entries": 0,
+      "hits": [],
+      "formatErrors": []
+    },
+    {
+      "file": "selfcheck.html",
+      "entries": 0,
+      "hits": [],
+      "formatErrors": []
+    },
+    {
+      "file": "assets/reader.js",
+      "entries": 0,
+      "hits": [],
+      "formatErrors": []
+    },
+    {
+      "file": "assets/selfcheck.js",
+      "entries": 0,
+      "hits": [],
+      "formatErrors": []
+    }
+  ]
+}

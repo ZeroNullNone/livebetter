@@ -1,0 +1,5843 @@
+{
+  "date": "2026-11-10",
+  "baselineCount": 156,
+  "resolvedCount": 156,
+  "sources": {
+    "court": {
+      "title": "Malaysian Judiciary. Procedures in Civil Cases",
+      "url": "https://www.kehakiman.gov.my/en/procedures-civil-cases"
+    },
+    "ttpm": {
+      "title": "KPDN. Tribunal for Consumer Claims：权限、消费者定义及排除事项",
+      "url": "https://www.kpdn.gov.my/en/corporate-info/department/secretary-general/tribunal-for-consumer-claims"
+    },
+    "pidm": {
+      "title": "PIDM. Deposit Insurance System",
+      "url": "https://www.pidm.gov.my/general/how-we-protect-you/dis"
+    },
+    "fmos": {
+      "title": "FMOS. How to File a Dispute",
+      "url": "https://www.fmos.org.my/en/how-to-file-a-dispute/"
+    },
+    "fep": {
+      "title": "BNM. Foreign Exchange Policy Notices，Notice 3 及居民投资问答",
+      "url": "https://www.bnm.gov.my/fep/policies/notices"
+    },
+    "digital": {
+      "title": "SC. Digital Assets：受监管平台与产品",
+      "url": "https://www.sc.com.my/digital-assets"
+    },
+    "redbook": {
+      "title": "Malaysian Bar. The Police and Your Basic Rights，2023 年版",
+      "url": "https://www.malaysianbar.org.my/article/news/bar-news/news/the-police-and-your-basic-rights-red-book-"
+    },
+    "dvact": {
+      "title": "KPWKM. Domestic Violence Act 1994（Act 521），第 1、3A 条等",
+      "url": "https://www.kpwkm.gov.my/uploads/content-downloads/file_20250425142936.pdf"
+    },
+    "ecom2024": {
+      "title": "KPDN. Consumer Protection (Electronic Trade Transaction) Regulations 2024（P.U. (A) 449/2024）",
+      "url": "https://repositori.kpdn.gov.my/bitstream/123456789/5299/1/PERATURAN%20URUSNIAGA%20PERDAGANGAN%20DALAM%20ELEKTRONIK%202024.pdf"
+    },
+    "ssmreg": {
+      "title": "SSM. Guidelines for Registration of New Business",
+      "url": "https://www.ssm.com.my/Pages/Register_Business_Company_LLP/Business/Business-Document/guidelines_for_registration_of_new_business_05062018.pdf"
+    },
+    "annual": {
+      "title": "SSM. Annual Submission",
+      "url": "https://www.ssm.com.my/Pages/Register_Business_Company_LLP/Company/Annual-Submission.aspx"
+    },
+    "myfex": {
+      "title": "KPDN. MyFEX 2.0 FAQ",
+      "url": "https://myfex.kpdn.gov.my/faq"
+    },
+    "mqa": {
+      "title": "MQA. Recognition and Equivalency for Public Services",
+      "url": "https://www2.mqa.gov.my/mqr/english/epengiktirafan.cfm"
+    },
+    "ppa": {
+      "title": "PPA. PRS Tax Relief",
+      "url": "https://www.ppa.my/joining-prs/prs-tax-relief/"
+    },
+    "piam": {
+      "title": "PIAM. Stronger Storms Ahead: How Malaysians Can Prepare for the Monsoon",
+      "url": "https://piam.org.my/news-media/stay-ahead/articles/page/Stronger-Storms-Ahead-How-Malaysians-Can-Prepare-for-the-Monsoon/"
+    },
+    "food": {
+      "title": "KKM. Food Safety and Quality Programme：Food Act、Food Regulations 与标签要求",
+      "url": "https://www.moh.gov.my/en/corporate-info/division-information/food-safety-and-quality-programme"
+    },
+    "dosh": {
+      "title": "DOSH. Industry Code of Practice for Safe Working in a Confined Space 2010 及培训资格",
+      "url": "https://dosh.gov.my/en/semakan/pusat-pengajar-ruang-terkurung/"
+    },
+    "atom": {
+      "title": "Jabatan Tenaga Atom. Radiation Emergency / Introduction",
+      "url": "https://www.atom.gov.my/en/pengenalan/"
+    },
+    "pdp": {
+      "title": "JPDP. FAQ：适用范围、资料主体权利及投诉",
+      "url": "https://www.pdp.gov.my/en/faq/"
+    },
+    "housing": {
+      "title": "Jabatan Perumahan Negara. 房屋买卖合约、LAD 与 TTPR 指引",
+      "url": "https://ehome.kpkt.gov.my/index.php/pages/view/236"
+    },
+    "housingfaq": {
+      "title": "KPKT. Soalan Lazim — Tribunal Tuntutan Pembeli Rumah",
+      "url": "https://www.kpkt.gov.my/index.php/pages/view/292"
+    },
+    "land": {
+      "title": "JKPTG. Act List：National Land Code 与各地土地制度",
+      "url": "https://www.jkptg.gov.my/en/resources/act-list"
+    },
+    "sarawakland": {
+      "title": "Forest Department Sarawak. Native Customary Rights Land",
+      "url": "https://forestry.sarawak.gov.my/web/subpage/webpage_view/1006"
+    },
+    "consent": {
+      "title": "SUHAKAM. Penjelasan tentang Undang-undang Rogol Berkanun，2025-09-24",
+      "url": "https://suhakam.org.my/wp-content/uploads/2025/09/Kenyataan-Media-No.-40-2025-Penjelasan-tentang-Undang-undang-Rogol-Berkanun-Melindungi-Kanak-Kanak-daripada-Eksploitasi.pdf"
+    },
+    "kwsp": {
+      "title": "KWSP. i-Saraan：资格、奖励与自愿缴纳",
+      "url": "https://www.kwsp.gov.my/en/member/savings/i-saraan"
+    },
+    "free-look": {
+      "title": "Liberty Insurance Malaysia. Customer Service Charter：life / family takaful free-look",
+      "url": "https://prodlibertyweb.libertyinsurance.com.my/customer-service-charter"
+    },
+    "liam": {
+      "title": "LIAM. Medical & Health Insurance 消费者指南",
+      "url": "https://www.liam.org.my/images/liam/medical_health_insurance.pdf"
+    },
+    "consumer-act": {
+      "title": "KPDN. Consumer Protection Act 1999（Act 599），商品与服务的保证及补救",
+      "url": "https://www.kpdn.gov.my/images/2024/awam/akta/ttpm/Akta%20599.pdf"
+    },
+    "nomination": {
+      "title": "LIAM / Malaysian Takaful Association. FAQ on Making a Nomination",
+      "url": "https://www.liam.org.my/images/liam/FAQ%20on%20Making%20A%20Nomination-f.pdf"
+    },
+    "aianom": {
+      "title": "AIA Malaysia. Service Requests：提名、受托人、wasi 与 conditional hibah",
+      "url": "https://www.aia.com.my/en/help-support/faq/service-requests.html"
+    },
+    "motac": {
+      "title": "MOTAC. Semakan：持牌旅行社及违规实体查询",
+      "url": "https://www.motac.gov.my/semakan/"
+    },
+    "puspakom": {
+      "title": "PUSPAKOM. FAQ：过户与其他车辆检验",
+      "url": "https://www.puspakom.com.my/faq/?lang=ms"
+    },
+    "food-reg": {
+      "title": "KKM. Food Regulations 1985，FAOLEX 收录文本（标签基本规则）",
+      "url": "https://faolex.fao.org/docs/pdf/mal27305_original.pdf"
+    },
+    "penal": {
+      "title": "AGC. Penal Code（Act 574）：有关罪名及私人防卫基本条文；不引用旧版罚则",
+      "url": "https://lom.agc.gov.my/ilims/upload/portal/akta/LOM/EN/Penal%20Code%20ACT%20574%20-%20TP%20LULUS%2021_2_2018.pdf"
+    },
+    "enforcement": {
+      "title": "Malaysian Judiciary. What Do I Do With Court Order",
+      "url": "https://www.kehakiman.gov.my/en/what-do-i-do-court-order"
+    },
+    "contracts": {
+      "title": "MIDA / InvestMalaysia. Contracts Act 1950（Act 136）",
+      "url": "https://www.investmalaysia.gov.my/media/o0ajehya/contracts-act-1950.pdf"
+    },
+    "mental": {
+      "title": "KKM. Mental Health Act 2001（Act 615）",
+      "url": "https://www.moh.gov.my/images/04-penerbitan/akta-kesihatan/mental%20health%20act%202001.pdf"
+    },
+    "oscc": {
+      "title": "KKM. One Stop Crisis Center: Policy and Guidelines for Hospitals",
+      "url": "https://www.moh.gov.my/images/04-penerbitan/polisi/10.pdf"
+    },
+    "ipcc": {
+      "title": "IPCC. Saluran Aduan：SPEAKS 与书面投诉",
+      "url": "https://www.ipcc.gov.my/aduan-salah-laku/saluran-aduan"
+    },
+    "jbg": {
+      "title": "JBG. Legal Aid Services：案件类型与资格",
+      "url": "https://www.jbg.gov.my/index.php/en/services/legal-aid-services"
+    },
+    "mdi": {
+      "title": "MdI. Soalan Lazim — Kebankrapan",
+      "url": "https://www.mdi.gov.my/soalan-lazim-kebankrapan-1/"
+    },
+    "company": {
+      "title": "SSM. Assets and Liabilities Will Be Separated",
+      "url": "https://www.ssm.com.my/Pages/Panduan-Interaktif/assets-and-liabilities-will-be-separated-.aspx"
+    },
+    "dog": {
+      "title": "MBPJ. Dog Licensing and Kennel By-Laws 2007（当地例子）",
+      "url": "https://www.mbpj.gov.my/sites/default/files/20-uuk_pelesenan_anjing_dan_rumah_pembiakan_anjing_majlis_bandaraya_petaling_jaya_2007.pdf"
+    },
+    "muslimfamily": {
+      "title": "MyGovernment. Marriage of Muslim Couples：州属许可与登记",
+      "url": "https://www.malaysia.gov.my/en/categories/family-institution/marriage-of-muslim-couples"
+    },
+    "nonfamily": {
+      "title": "MyGovernment. Marriage of Non-Muslim Couples",
+      "url": "https://www.malaysia.gov.my/en/categories/family-institution/marriage-of-non-muslim-couples"
+    },
+    "muslimdivorce": {
+      "title": "MyGovernment. Divorce of Muslim Couples：婚姻财产、赡养及法庭",
+      "url": "https://www.malaysia.gov.my/en/categories/family-institution/divorce-of-muslim-couples"
+    },
+    "nondivorce": {
+      "title": "MyGovernment. Divorce for Non-Muslim Couples",
+      "url": "https://www.malaysia.gov.my/en/categories/family-institution/divorce-for-non-muslim-couples"
+    },
+    "macc": {
+      "title": "MACC. Act 694：主要贪污罪行",
+      "url": "https://www.sprm.gov.my/index.php?id=21&page_id=75&articleid=481"
+    },
+    "evidence": {
+      "title": "Laws of Malaysia. Evidence Act 1950（Act 56），2012 重印，ICJ 收录；电子证据基本规则",
+      "url": "https://www.icj.org/wp-content/uploads/1950/05/Malaysia-Evidence-Act-1950-2012-eng.pdf"
+    },
+    "contentcomplaint": {
+      "title": "CFM. Lodging Complaints via the MCMC Redress Portal",
+      "url": "https://cfm.my/wp-content/uploads/2025/01/Frequently-Asked-Questions-CCMD.pdf"
+    },
+    "caam": {
+      "title": "CAAM. Unmanned Aircraft System：Authorisation to Fly 与飞行条件",
+      "url": "https://www.caam.gov.my/public/unmanned-aircraft-system-uas/"
+    },
+    "arms": {
+      "title": "PDRM. Panduan Permohonan：枪械及受管制武器许可",
+      "url": "https://www.rmp.gov.my/orang-awam/pelesenan/pelesenan-am/panduan-permohonan"
+    },
+    "adoption": {
+      "title": "JPN. Adopted Child FAQ：Act 253、Act 257 与宗教差异",
+      "url": "https://www.jpn.gov.my/en/faq/adopted-child/"
+    },
+    "adoption-region": {
+      "title": "MyGovernment. Adoption Registration：各地区路线",
+      "url": "https://www.malaysia.gov.my/en/categories/personal-identification/adoption-registration"
+    },
+    "wildlife": {
+      "title": "PERHILITAN. Enforcement FAQ：半岛野生动物许可",
+      "url": "https://www.wildlife.gov.my/en/soalan-lazim-penguatkuasaan/"
+    },
+    "sarawak-wildlife": {
+      "title": "Forest Department Sarawak. Protected Animals of Sarawak",
+      "url": "https://forestry.sarawak.gov.my/web/subpage/webpage_view/791"
+    },
+    "copyright": {
+      "title": "MyIPO. Copyright Act 1987（Act 332），第 13 条等",
+      "url": "https://www.myipo.gov.my/wp-content/uploads/2025/09/Copyright-Act-1987-Act-332.pdf"
+    },
+    "organ": {
+      "title": "KKM. Unrelated Living Organ Donation: Policy and Procedures",
+      "url": "https://www.moh.gov.my/moh/resources/auto%20download%20images/589d78c926165.pdf"
+    },
+    "organinfo": {
+      "title": "National Transplant Resource Centre. Pendermaan Organ",
+      "url": "https://www.dermaorgan.gov.my/pendermaan-organ/"
+    },
+    "fire": {
+      "title": "DOE. Open Burning：第 29A 条禁令与例外",
+      "url": "https://www.doe.gov.my/en/open-burning/"
+    },
+    "gaming": {
+      "title": "AGC. Common Gaming Houses Act 1953（Act 289）",
+      "url": "https://lom.agc.gov.my/act-detail.php?a=YWN0PTI4OSZsYW5nPUJJJmRhdGU9MDEtMDEtMjAwNnxlMGY0MDM4ODg1YWE3Y2U1ZjIxM2U0MzUxYjAxZThkZDYwYjA4N2QxNGIzNDIxY2JmNzFkM2M4MGI1NzJmNWE3"
+    },
+    "film": {
+      "title": "KDN. Film Censorship Act 2002（Act 620）与指引",
+      "url": "https://www.moha.gov.my/utama/index.php/en/pejabat-penapisan-filem/peruntukan-akta-penapisan-filem-2002"
+    },
+    "tax-record": {
+      "title": "LHDN. Income Tax and You：申报及七年资料保存责任",
+      "url": "https://phl.hasil.gov.my/pdf/pdfam/R01_2020_CUKAI_PENDAPATAN_DAN_ANDA.pdf"
+    },
+    "einv": {
+      "title": "LHDN. e-Invoice Implementation Timeline 与现行 FAQ",
+      "url": "https://www.hasil.gov.my/en/e-invois/pelaksanaan-e-invois-di-malaysia/garis-masa-pelaksanaan-e-invois/"
+    },
+    "sst": {
+      "title": "Royal Malaysian Customs. MySST — Registering Business",
+      "url": "https://mysst.customs.gov.my/registering-business/"
+    },
+    "tax-return": {
+      "title": "LHDN. Return Form Filing Programme（含 dormant 主体申报说明）",
+      "url": "https://www.hasil.gov.my/media/tvojk1ho/rf-filing-programme-for-2025.pdf"
+    },
+    "strikeoff": {
+      "title": "SSM. Section 550 — Application to Strike Off Company",
+      "url": "https://www.ssm.com.my/Pages/Legal_Framework/PDF%20Tab%202/application_to_strike_of_company_s550.pdf"
+    },
+    "trademark": {
+      "title": "MyIPO. Trademark Basics",
+      "url": "https://www.myipo.gov.my/trademark-basics-2/"
+    },
+    "food-hygiene": {
+      "title": "KKM. Food Safety and Quality Programme：Food Hygiene Regulations 2009",
+      "url": "https://www.moh.gov.my/en/corporate-info/division-information/food-safety-and-quality-programme"
+    },
+    "food-drug": {
+      "title": "NPRA. Product Classification Guideline — Drugs or Food Products",
+      "url": "https://npra.gov.my/~npraweb/index.php/my/classification-guideline/product-classification-guideline.html"
+    },
+    "labour": {
+      "title": "MyGovernment. Labour Law：半岛、沙巴与砂拉越制度",
+      "url": "https://www.malaysia.gov.my/en/topics/labour-law"
+    },
+    "sc-markets": {
+      "title": "SC. Guidelines on Recognized Markets：ECF、P2P 等受监管渠道",
+      "url": "https://www.sc.com.my/regulation/guidelines/recognizedmarkets"
+    },
+    "agents": {
+      "title": "LPPEH / LPEPH. FAQ：房地产专业人员及名册查询",
+      "url": "https://lpeph.gov.my/faq"
+    },
+    "agent-account": {
+      "title": "LPPEH / LPEPH. Forms：Client Account Rule 59",
+      "url": "https://lpeph.gov.my/form"
+    },
+    "strata": {
+      "title": "KPKT. Tribunal Perumahan dan Pengurusan Strata",
+      "url": "https://www.kpkt.gov.my/index.php/pages/view/438"
+    },
+    "lpg": {
+      "title": "PETROS. LPG Gas Safety Advice，2022-12-21",
+      "url": "https://www.petroleumsarawak.com/publications/2022/21-dec-2022-petros-lpg-gas-safety-advice"
+    },
+    "lpg-police": {
+      "title": "PDRM. Panduan Keselamatan Berkaitan Penggunaan Tong Gas",
+      "url": "https://www.rmp.gov.my/laman-utama/peringatan/jomberingat/2020/02/16/jomberingat-panduan-keselamatan-berkaitan-penggunaan-tong-gas"
+    },
+    "cpr": {
+      "title": "KKM. Manual CPR untuk Komuniti",
+      "url": "https://www2.moh.gov.my/moh/resources/Arkib/MANUAL_CPR_UNTUK_KOMUNITI_KKM.pdf"
+    },
+    "seizures": {
+      "title": "CDC. First Aid for Seizures",
+      "url": "https://www.cdc.gov/epilepsy/first-aid-for-seizures/index.html"
+    },
+    "chemical": {
+      "title": "CCOHS. First Aid for Chemical Exposures（急救与 SDS 指引）",
+      "url": "https://www.ccohs.ca/oshanswers/chemicals/firstaid.html"
+    },
+    "chemical-um": {
+      "title": "Universiti Malaya, Faculty of Medicine. Chemical Management Manual",
+      "url": "https://medicine.um.edu.my/pdf/OSHE/documents/9.%20FOM%20OSHE%20SOP%20Guidelines/FOM%20CMM%20%28FINAL%20FINAL%20printing%29.pdf"
+    },
+    "alcohol": {
+      "title": "NHS. Alcohol Poisoning（临床急救原则；马来西亚紧急电话改为 999）",
+      "url": "https://www.nhs.uk/conditions/alcohol-poisoning/"
+    },
+    "quit": {
+      "title": "KKM Melaka. Quitline / JomQuit 戒烟服务",
+      "url": "https://mbar.moh.gov.my/2/page.php?id=614"
+    },
+    "vape": {
+      "title": "Parlimen Malaysia. Hansard 2025-10-07，KKM 关于 Act 852 与电子烟的答复",
+      "url": "https://hansard.parlimen.gov.my/hansard/dewan-rakyat/2025-10-07"
+    },
+    "sim": {
+      "title": "Apple Support. Use a SIM PIN for your iPhone or iPad",
+      "url": "https://support.apple.com/en-ie/118228"
+    },
+    "sim-replace": {
+      "title": "CelcomDigi Help. How to get a SIM/eSIM replacement",
+      "url": "https://help.celcomdigi.com/en/support/solutions/articles/70000666597-how-to-get-a-sim-esim-replacement-"
+    },
+    "spub": {
+      "title": "KKM Program Perkhidmatan Farmasi. Sistem Pendispensan Ubat Bersepadu（SPUB）",
+      "url": "https://pharmacy.moh.gov.my/ms/entri/sistem-pendispensan-ubat-bersepadu-spub.html"
+    },
+    "myubat": {
+      "title": "KKM. Medicines Supply Management System for Pharmacy Value Added Services（MyUBAT）",
+      "url": "https://pharmacy.moh.gov.my/en/content/medicines-supply-management-system-pharmacy-value-added-services-myubat.html"
+    },
+    "primarycare": {
+      "title": "KKM. Family Health Development Division — Primary Health Care",
+      "url": "https://hq.moh.gov.my/bpkk/"
+    },
+    "ecom-review": {
+      "title": "KPDN. Review of E-Commerce Legislation in Malaysia，2025（现行制度与改革建议须区分）",
+      "url": "https://www.kpdn.gov.my/images/2025/pengumuman/KPDN-E-Com-Review-FINAL-ENG.pdf"
+    },
+    "mcmc-framework": {
+      "title": "MCMC. New Regulatory Framework for a Safer Internet for Children and Families，2024",
+      "url": "https://www.mcmc.gov.my/skmmgovmy/media/General/PressRelease/MS_NEW-REGULATORY-FRAMEWORK-FOR-A-SAFER-INTERNET-FOR-CHILDREN-AND-FAMILIES.pdf"
+    },
+    "mcmc-deeming": {
+      "title": "MCMC 2025-12-15 公告，经 BERNAMA 发布：2026-01-01 起大型平台 ASP(C) deeming provision",
+      "url": "https://www.bernama.com/en/news.php/general/news.php?id=2502828"
+    },
+    "aesthetic": {
+      "title": "KKM. Amalan Perubatan Estetik — 3P（Prosedur, Pengamal, Premis）",
+      "url": "https://hq.moh.gov.my/medicalprac/estetik/"
+    },
+    "aesthetic-guide": {
+      "title": "KKM. Guidelines on Aesthetic Medical Practice for Registered Medical Practitioners，第二版",
+      "url": "https://moh.gov.my/images/04-penerbitan/penerbitan-klinikal/pengurusan-kesihatan-dan-kawalan-penyakit/Guidelines_on_Aesthetic_Medical_Practice_for_Registered_Medical_Practitioners_2nd_edition.pdf"
+    },
+    "cosmetic": {
+      "title": "NPRA. Cosmetic Main Page — Notification and Product Safety",
+      "url": "https://www.npra.gov.my/index.php/en/cosmetic-main-page.html"
+    },
+    "cosmetic-check": {
+      "title": "NPRA. Reporting on Notified Cosmetic Products / QUEST3+ 查询",
+      "url": "https://www.npra.gov.my/index.php/en/consumers/reporting/reporting-on-notified-cosmetic-products.html"
+    },
+    "drug-check": {
+      "title": "KKM Pharmacy. How to identify medicines registered with MOH",
+      "url": "https://pharmacy.moh.gov.my/en/faq/how-identify-medicines-are-registered-moh.html"
+    },
+    "steroid-study": {
+      "title": "Horwitz H, Andersen JT, Dalhoff KP. Health consequences of androgenic anabolic steroid use. J Intern Med（丹麦观察研究）",
+      "url": "https://doi.org/10.1111/joim.12850"
+    },
+    "community": {
+      "title": "JKM. Program Komuniti — Soalan Lazim",
+      "url": "https://komuniti.jkm.gov.my/soalan-lazim"
+    },
+    "akpk": {
+      "title": "MyGovernment. Financial advisory services by AKPK",
+      "url": "https://www.malaysia.gov.my/en/categories/finance-tax-and-zakat/financial-education/financial-advisory-services-by-akpk"
+    },
+    "akpk-free": {
+      "title": "BNM. Agensi Kaunseling Dan Pengurusan Kredit Commences Operations（免费辅导及债务重组服务）",
+      "url": "https://www.bnm.gov.my/-/agensi-kaunseling-dan-pengurusan-kredit-commences-operations"
+    },
+    "mqa-forms": {
+      "title": "MQA. Forms & Submission of Applications — 海外资格认可及 eSisraf 查询",
+      "url": "https://www.mqa.gov.my/new/pakr.cfm"
+    },
+    "mqa-foreign": {
+      "title": "MQA. Pengesahan Pengiktirafan Kelayakan Luar Negara Yang Baharu",
+      "url": "https://www.mqa.gov.my/new/pluarnegara.cfm"
+    },
+    "child-sexual": {
+      "title": "Federal Government Gazette. Sexual Offences Against Children Act 2017（Act 792），ILO NATLEX 收录原文，第 2 条等",
+      "url": "https://natlex.ilo.org/dyn/natlex2/natlex2/files/download/106350/MYS106350%20Mys.pdf"
+    },
+    "fisheries": {
+      "title": "Jabatan Perikanan Malaysia. Fisheries Act 1985（Act 317），第 26 条；不援引旧版罚则",
+      "url": "https://www.dof.gov.my/wp-content/uploads/2020/08/akta-perikanan-1975-akta-317.pdf"
+    },
+    "fisheries-sabah": {
+      "title": "Jabatan Perikanan Sabah. Ops Kirai di Pasar Ikan Tawau，2024-08（爆鱼执法）",
+      "url": "https://fishdept.sabah.gov.my/2024/08/ops-kirai-di-pasar-ikan-tawau/"
+    },
+    "payments": {
+      "title": "BNM. Application for Approval and Registration — 支付业务按实际模式分类",
+      "url": "https://www.bnm.gov.my/application-for-approval-and-registration"
+    },
+    "crossborder": {
+      "title": "JPDP. Cross Border Personal Data Transfer Guidelines",
+      "url": "https://www.pdp.gov.my/ppdpv1/wp-content/uploads/2025/08/GP_CBPDT_EN.pdf"
+    },
+    "electrical": {
+      "title": "ST. ST-SIRIM Label and Electrical Equipment Approval",
+      "url": "https://www.st.gov.my/stakeholders/awareness/electrical-safety/st-sirim"
+    },
+    "ecos": {
+      "title": "ECoS. Approved Consumer Electrical Equipment",
+      "url": "https://ecos.gov.my/node/292"
+    },
+    "paracetamol": {
+      "title": "NPRA. Pharmaniaga Paracetamol RiMUP（产品说明书示例，按实际产品使用）",
+      "url": "https://www.npra.gov.my/index.php/en/consumer-medication-information-leaflets-rimup.raw?element=73072a74-677b-422f-b029-25562bd71d81&item_id=4888&method=download&task=callelement"
+    },
+    "childmed": {
+      "title": "NHS. Medicines for babies and children（医学建议；不采用英国收费制度）",
+      "url": "https://www.nhs.uk/baby/health/medicines-for-babies-and-children/"
+    },
+    "returnmed": {
+      "title": "KKM Pharmacy. Bagaimana cara pembuangan ubat yang sesuai dan dibolehkan?",
+      "url": "https://pharmacy.moh.gov.my/ms/soalan-lazim/bagaimana-cara-pembuangan-ubat-sesuai-dibolehkan.html"
+    },
+    "metro": {
+      "title": "NPRA. Pharmaniaga Metronidazole RiMUP",
+      "url": "https://www.npra.gov.my/index.php/en/consumer-medication-information-leaflets-rimup.raw?element=73072a74-677b-422f-b029-25562bd71d81&item_id=5166&method=download&task=callelement"
+    },
+    "chlorphen": {
+      "title": "NPRA. Pharmaniaga Chlorpheniramine RiMUP",
+      "url": "https://npra.gov.my/index.php/en/consumer-medication-information-leaflets-rimup.raw?element=73072a74-677b-422f-b029-25562bd71d81&item_id=2903&method=download&task=callelement"
+    },
+    "nhs-omeprazole": {
+      "title": "NHS. Omeprazole",
+      "url": "https://www.nhs.uk/medicines/omeprazole/"
+    },
+    "dental": {
+      "title": "KKM Oral Health Programme. 牙齿矫正与假牙套说明",
+      "url": "https://hq.moh.gov.my/ohp/images/pdf/ebuletin/buletin_gigi_ebook4.pdf"
+    },
+    "dentalreg": {
+      "title": "Malaysian Dental Council. Practitioner registration / professional regulation",
+      "url": "https://hq.moh.gov.my/ohp/mdc/faq.html"
+    },
+    "tb": {
+      "title": "KKM. Management of Tuberculosis，第四版，2021",
+      "url": "https://www.moh.gov.my/images/04-penerbitan/penerbitan-klinikal/panduan-amalan-klinikal/CPG-_Management_of_Tuberculosis_4th_Edition.pdf"
+    },
+    "customs": {
+      "title": "Jabatan Kastam Diraja Malaysia. Traveler’s Guide",
+      "url": "https://www.customs.gov.my/en/individu/pengembara/travelers-guide"
+    },
+    "consular": {
+      "title": "Wisma Putra. Travel Advisory",
+      "url": "https://www.kln.gov.my/web/guest/travel-advisory"
+    },
+    "sarawak-fire": {
+      "title": "BOMBA. Fire Safety",
+      "url": "https://www.bomba.gov.my/"
+    },
+    "pdp-amend": {
+      "title": "JPDP. Personal Data Protection (Amendment) Act 2024（Act A1727）",
+      "url": "https://www.pdp.gov.my/ppdpv1/wp-content/uploads/2024/11/Act-A1727.pdf"
+    },
+    "dbn": {
+      "title": "JPDP. Data Breach Notification Guidelines，第 5–9 段",
+      "url": "https://www.pdp.gov.my/ppdpv1/wp-content/uploads/2025/08/GP_DBN_ENG.pdf"
+    },
+    "beneficial": {
+      "title": "SSM. Guideline for the Reporting Framework for Beneficial Ownership of Companies，2025 修订",
+      "url": "https://www.ssm.com.my/Pages/Legal_Framework/Document/Guideline%20BO%20%28Revised%29%202025%20fair.pdf"
+    },
+    "fund-fees": {
+      "title": "SC InvestSmart. Investor’s Guide to Exchange-traded Funds — 费用、交易成本及风险",
+      "url": "https://investsmartsc.my/learning-zone/learn-capital-market-products-and-services/investors-guide-to-exchange-traded-funds/"
+    },
+    "oscc-policy": {
+      "title": "KKM. One Stop Crisis Center: Policy and Guidelines for Hospitals",
+      "url": "https://www.moh.gov.my/moh/resources/Polisi/OSCC_policy.pdf"
+    }
+  },
+  "entries": [
+    {
+      "id": "1-4",
+      "file": "book/01-不要早死.md",
+      "oldTitle": "### 4. 煤气软管和减压阀到期就换，不自己改燃气管道，上门推销高价阀门可以直接拒绝",
+      "newTitle": "煤气桶软管和煤气头要检查；漏气先离开，别开关电器",
+      "reason": "改用本地 LPG 安全指引，删除未经支持的全国更换年限及境外燃气法。",
+      "sourceIds": [
+        "lpg",
+        "lpg-police"
+      ],
+      "grade": "C",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "PETROS 的本地安全指引要求定期检查减压阀和软管、使用获认证设备，并让煤气桶处于通风处。维护与及早离开能减少漏气发展成火灾、爆炸或中毒的机会；没有可靠数据量化个人能少出多少事故。",
+      "applicability": "只在安全且无需接近泄漏处时关阀；不要为找漏点而留在浓烈煤气味的屋内。管道煤气请供应商安排合资格人员处理。遇到上门强销「必须换」的配件，先自行联系供应商核对身份。",
+      "contentSha256": "ef4a91974405c6b9327781c865c275fa33ef13a1cb806890dcde13c67626d6de"
+    },
+    {
+      "id": "1-36",
+      "file": "book/01-不要早死.md",
+      "oldTitle": "### 36. 不捡、不拆、不卖来路不明的金属件，带三叶草警示标志的离远点",
+      "newTitle": "不捡、不拆来路不明的工业金属件；疑似放射源就离远并报案",
+      "reason": "删除境外事故频率、处罚及未复核热线，以 Atom Malaysia 和 999 建立本地处理路线。",
+      "sourceIds": [
+        "atom"
+      ],
+      "grade": "C",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "马来西亚原子能局（Jabatan Tenaga Atom／Atom Malaysia）负责相关辐射安全监管和应急事务。让受训人员定位、检测和收容，比凭外观判断安全可靠。删除了其他国家的事故发生率，不能用它估算马来西亚个人风险。",
+      "applicability": "不要为了拍清楚标志而靠近；曾接触过的，要向接线员说明位置、接触方式和是否带走物品，按专业人员指示处置。此处针对失控放射源，不把正常医疗 X 光检查写成同一种风险。",
+      "contentSha256": "89d9f7278852ab270bf3c135da76aeccda193d87276ee7d4e04f10076b23cdad"
+    },
+    {
+      "id": "1-46",
+      "file": "book/01-不要早死.md",
+      "oldTitle": "### 46. 下化粪池、窨井、污水池、菜窖地窖、发酵罐等有限空间前，先通风、检测合格、落实防护和监护，条件不够不进入。有人倒下别跟着下去，打 999",
+      "newTitle": "化粪池、污水井和储罐不能自行下去；有人倒下别跟着进，打 999",
+      "reason": "以 DOSH 密闭空间守则重写，移除境外事故百分比及可能诱发自行入井的简化流程。",
+      "sourceIds": [
+        "dosh"
+      ],
+      "grade": "C",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "DOSH 的密闭空间作业实务守则要求风险评估、进入许可、气体检测、合适通风、受训进入人员及外部监护，并预先安排救援。普通家人或工友贸然下井，可能同样迅速失去意识。",
+      "applicability": "外面的人不能用普通风扇、绳子或「有人看着」代替完整进入与救援方案。把现场位置和空间内可能的化学品告诉消拯员。伤者安全救出后，若无正常呼吸，按 999 指导做 CPR。",
+      "contentSha256": "5663d3cd1ce8b726f6f70e0e2ba70b3724b6fd1a33049a960d512e7e95ee2f28"
+    },
+    {
+      "id": "2-6",
+      "file": "book/02-不要慢慢死.md",
+      "oldTitle": "### 6. 已经戒不掉再考虑电子烟，本来不吸烟的人别碰",
+      "newTitle": "想戒烟先找戒烟服务；不吸烟的人不要开始用电子烟",
+      "reason": "删除境外电子烟销售制度和未经本轮复核的效应数字，转为 KKM 戒烟服务与本地 Act 852。",
+      "sourceIds": [
+        "quit",
+        "vape"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "临床试验中的戒烟方案，不能直接等同市售电子烟的成分、安全性或马来西亚药品许可。马来西亚以 Act 852 管理包括电子烟在内的吸烟产品，涉及未成年人、广告和销售限制；不能沿用其他国家的口味及零售规定。",
+      "applicability": "向服务方说明你抽什么、每天用量、既往病史及之前尝试；出现不适就求诊。各州及地方政府也可能有零售限制，「网上买得到」不能证明合法或获准作戒烟药。",
+      "contentSha256": "3f95147deaeb92250cae21a4160f45d86598633d8a0f8ea70a1acf866e7b15c8"
+    },
+    {
+      "id": "5-20",
+      "file": "book/05-不要浪费钱.md",
+      "oldTitle": "### 20. 开个人养老金账户前先算节税、查领取条件；不交个税或税率只有 3% 的人，别只为抵税交钱",
+      "newTitle": "考虑 PRS 前先算实际省税、费用和提款限制",
+      "reason": "按 PPA 的所列资料，重写「考虑 PRS 前先算实际省税、费用和提款限制」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "ppa"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "PPA 说明，合资格个人的 PRS 缴纳可申请每年最高 RM3,000 税务减免，延续至 2030 课税年。减免减少应课税收入，不是政府退回同额现金；没有应缴税额时，不会凭空多出这笔节税。",
+      "applicability": "先保留应急现金。按自己的税务居民及申报资格核对；有宗教投资要求的，可另比较符合伊斯兰教义的 PRS 产品，不按族群替人选。",
+      "contentSha256": "db3561347f243aa0ded330a8f5f73baf3bbbd8fa85d50182b3d2c687b27f777e"
+    },
+    {
+      "id": "5-22",
+      "file": "book/05-不要浪费钱.md",
+      "oldTitle": "### 22. 交预付款要签书面合同；商家出风险要停收，跑路前你有权要回未消费的余额",
+      "newTitle": "交预付款前写清服务、有效期、退款与停业安排",
+      "reason": "按 KPDN、KPDN 的所列资料，重写「交预付款前写清服务、有效期、退款与停业安排」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "consumer-act",
+        "ttpm"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "《1999年消费者保护法令》对消费服务设有合理技能、适合用途等保证；具体补救取决于违约事实。属个人消费且符合权限、金额与期限的，可向 TTPM 索偿；商家破产不保证退款能全部收回。",
+      "applicability": "KPDN 投诉用于执法调查，TTPM 用于有权限的消费索偿；不是每项服务都属于 TTPM。不要把长期大额预付当成受 PIDM 保障的储蓄。",
+      "contentSha256": "4b76244c3cd3e1aff703c8afa89f0698a5b0d44554303569307b83634365c9ef"
+    },
+    {
+      "id": "5-23",
+      "file": "book/05-不要浪费钱.md",
+      "oldTitle": "### 23. 大额非必需购买设 24 小时冷静期，网购善用七日无理由退货",
+      "newTitle": "非必需购买先等一天，网购前看清退货理由与期限",
+      "reason": "按 KPDN、KPDN 的所列资料，重写「非必需购买先等一天，网购前看清退货理由与期限」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "consumer-act",
+        "ttpm"
+      ],
+      "grade": "C",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "单纯改变主意能否退，主要看具体政策；货不对办、有缺陷或不符法定保证的，另有消费者补救。保存商品说明、订单、开箱记录和退货沟通，不把平台自愿保障误当所有交易的统一法律。",
+      "applicability": "等一天是控制冲动的经验做法，证据等级按经验建议列 C。定制品、易腐货、数字服务及促销品尤其要先查条款；法定保证不因商家一句「概不退换」就当然消失。",
+      "contentSha256": "b76d6a53167282ccad2e0d5971383d566f744ec81c685cbe6152173035660d8f"
+    },
+    {
+      "id": "5-25",
+      "file": "book/05-不要浪费钱.md",
+      "oldTitle": "### 25. 保险优先买消费型，把「返还」「分红」当作不保证的部分",
+      "newTitle": "保险先比较保障和总成本，分清定期寿险、储蓄与投连产品",
+      "reason": "按 LIAM、Liberty Insurance Malaysia 的所列资料，重写「保险先比较保障和总成本，分清定期寿险、储蓄与投连产品」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "liam",
+        "free-look"
+      ],
+      "grade": "C",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "把纯保障、储蓄与投资成分分开比较，可看出相同预算能买到多少实际保障。向保险公司或 takaful 经营者索取产品披露书及正式保单；有疑问直接书面询问，避免只凭代理口头说明。",
+      "applicability": "产品适合与否取决于家庭责任、已有保障、预算及宗教选择，不因属于某个族群就默认必须买某类产品。这里是比较方法，不保证某一类永远最便宜。",
+      "contentSha256": "4b0a7f4e2e7ff22b9410b4802481b3c184d45ed04494b4ffe256cfe700cf9c71"
+    },
+    {
+      "id": "5-26",
+      "file": "book/05-不要浪费钱.md",
+      "oldTitle": "### 26. 三者险买够：交强险限额全国统一且不高，超出的部分从你自己家里出",
+      "newTitle": "买车险看清第三方、自车损失和水灾保障",
+      "reason": "按 PIAM 的所列资料，重写「买车险看清第三方、自车损失和水灾保障」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "piam"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "PIAM 提醒，一般综合汽车保单的水灾损失需要 Special Perils 等相应扩展保障。逐项核对第三方责任、自车保障、约定价值或市值、自付额、驾驶及用途限制，再决定所需范围。",
+      "applicability": "保险和汽车 takaful 都要以自己的保单／证书为准。住在易淹地区或经常驶过水灾路段时，把相关保障纳入预算；不要为取证或救车冒险涉水。",
+      "contentSha256": "f3244d18a7aa76a71c1a91a857b0ee266bc971360c5255e1bbf43b5d5b808664"
+    },
+    {
+      "id": "5-27",
+      "file": "book/05-不要浪费钱.md",
+      "oldTitle": "### 27. 先存出 3 到 6 个月生活费的应急金，放在随时能取的地方",
+      "newTitle": "先存三到六个月必要开销，确认存放产品是否受 PIDM 保障",
+      "reason": "按 PIDM 的所列资料，重写「先存三到六个月必要开销，确认存放产品是否受 PIDM 保障」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "pidm"
+      ],
+      "grade": "C",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "PIDM 对成员银行的合资格存款，一般按每名存款人、每家成员银行最高 RM250,000 保障；同一银行多个个人户口不会各自重新取得额度，传统与伊斯兰存款另有分别保障规则。",
+      "applicability": "三到六个月是预算参考，零工或收入不稳者可按实际需要调整。基金、股票、虚拟资产及其他投资不能只因在银行买就当作受存款保障。",
+      "contentSha256": "16b307894c4efa45c2727b2f28b384af6eb494ec9d6738ec43026ce5c87c884d"
+    },
+    {
+      "id": "5-28",
+      "file": "book/05-不要浪费钱.md",
+      "oldTitle": "### 28. 提前还房贷之前先做一道比较题，不要凭感觉",
+      "newTitle": "提前还房贷前，把节息、费用与可动用现金放在一起算",
+      "reason": "按 FMOS 的所列资料，重写「提前还房贷前，把节息、费用与可动用现金放在一起算」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "fmos"
+      ],
+      "grade": "C",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "比较可减少的贷款利息／融资利润、重融资的估价及法律费用、还款后的现金缓冲，才能判断是否划算。Flexi 或 semi-flexi 的抵扣与提款规则按银行产品，不把另一家银行的功能直接套用。",
+      "applicability": "这是现金流比较方法，不保证银行必须减息。先要求银行书面解释合同；涉及合资格金融争议，可按程序转 FMOS，不能把利率高低本身一概当成可获赔的争议。",
+      "contentSha256": "0a4ab58e1d4bd6a8395814ca9716e8cae1a873cb05ddfcd3d50e5c9a6366d994"
+    },
+    {
+      "id": "5-29",
+      "file": "book/05-不要浪费钱.md",
+      "oldTitle": "### 29. 网购认平台规则和法条，不认主播和「好评」",
+      "newTitle": "网购先核对卖家、商品说明和平台退款流程",
+      "reason": "按 KPDN、KPDN 的所列资料，重写「网购先核对卖家、商品说明和平台退款流程」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "consumer-act",
+        "ttpm"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "消费商品须符合适用的法定保证。发生缺陷或货不对办，先向卖家与平台提出具体补救，保留编号；再按纠纷性质向 KPDN 投诉或向有权限的 TTPM 索偿。",
+      "applicability": "平台承诺的退款保障和法定保证要分别看。私人偶发二手交易、公司采购、受排除的服务，不一定走同一套消费者仲裁渠道。",
+      "contentSha256": "417b2fe44e861aee135d7f71a06edc3b53ea4e7c8d5d9c576e1233751b723dbd"
+    },
+    {
+      "id": "5-30",
+      "file": "book/05-不要浪费钱.md",
+      "oldTitle": "### 30. 直播间买的东西出了问题，先向平台要卖家和带货人的信息，平台必须给",
+      "newTitle": "直播购物出问题，先固证并追查实际卖家",
+      "reason": "按 KPDN、KPDN 的所列资料，重写「直播购物出问题，先固证并追查实际卖家」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "consumer-act",
+        "ttpm"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "谁负责退款或损失，要看实际卖方、陈述、平台角色和法律责任，不能假设主播或平台在每案都自动连带赔偿。有消费争议用 KPDN／TTPM 的相应渠道，疑似诈骗同时联系银行和警方。",
+      "applicability": "索取他人身份资料仍受隐私及合法程序限制，不是买家一开口就能拿到全部证件。不要公开他人的完整身份证或银行资料来讨钱。",
+      "contentSha256": "53e0f8190153e04c4d7a5b3896db94bfc8823a9474ef80ce4675b2c4c4b73e5a"
+    },
+    {
+      "id": "5-31",
+      "file": "book/05-不要浪费钱.md",
+      "oldTitle": "### 31. 买到不安全的食品，除了退钱还能要十倍价款，增加赔偿不足一千元的按一千元算",
+      "newTitle": "买到疑似不安全食品，先停吃、留样与就医，再投诉索偿",
+      "reason": "按 KKM、KPDN、KPDN 的所列资料，重写「买到疑似不安全食品，先停吃、留样与就医，再投诉索偿」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "food-reg",
+        "consumer-act",
+        "ttpm"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "食品安全执法由 KKM 等有关机关按食品法处理；购买纠纷可按消费者法提出适当补救。人身伤害及死亡索偿不属 TTPM 权限，不能写成买到不安全食品就自动获固定倍数赔偿。",
+      "applicability": "医药费等损失要保留凭据，是否有因果关系及赔偿须按证据处理。不要为了维持「证据」而继续吃有问题的食品或延误就医。",
+      "contentSha256": "ad037d0eeb6e968aa70adc9eb537ebd9e66f569df8a6b72a4cfd6a588005c38e"
+    },
+    {
+      "id": "5-33",
+      "file": "book/05-不要浪费钱.md",
+      "oldTitle": "### 33. 手串、玉石、名表、潮玩按「花掉的钱」算账，不按「存下的钱」算",
+      "newTitle": "首饰、名表与收藏品按消费预算，别把标价当变现价值",
+      "reason": "按 KPDN 的所列资料，重写「首饰、名表与收藏品按消费预算，别把标价当变现价值」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "consumer-act"
+      ],
+      "grade": "C",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "把买入价、鉴定费、保养、佣金和实际回收报价一起算，能区分消费满足与投资回报。宣传与货品明显不符时保留证据，按适用消费者规则处理，不保证收藏品升值。",
+      "applicability": "这是预算原则，不能据此判断某件物品真伪。宗教或文化用途可按个人选择安排，不把所有家庭都设定为同样的购买习惯。",
+      "contentSha256": "5963832389b3b1f6f3c3b5561f0d528a58fe3d22549718fa43a08e7f08319e50"
+    },
+    {
+      "id": "5-35",
+      "file": "book/05-不要浪费钱.md",
+      "oldTitle": "### 35. 盲盒、抽卡这类随机销售，按「这笔钱不会回来」算",
+      "newTitle": "盲盒和抽卡先定上限，把重复消费算进总预算",
+      "reason": "按 KPDN 的所列资料，重写「盲盒和抽卡先定上限，把重复消费算进总预算」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "consumer-act"
+      ],
+      "grade": "C",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "记录一周或一个月的实际支付，并关掉无须再次确认的扣款，比只看单次价格更容易发现失控。虚假宣传、未交付等可按实际消费争议处理，抽到不喜欢的物品不等于自动有退款权。",
+      "applicability": "这属于控制消费的经验建议。涉及现金下注、赌博或儿童消费时另有法律与保护问题，不把普通商品买卖规则套在所有随机玩法上。",
+      "contentSha256": "12e379f1ae5f864e14927517d373df4d59f93c8857759ac558a265e583d87fb8"
+    },
+    {
+      "id": "5-36",
+      "file": "book/05-不要浪费钱.md",
+      "oldTitle": "### 36. 在意食品里加了什么，就买预包装的：散装柜台法律上不要求标配料表",
+      "newTitle": "有过敏、饮食或宗教要求，先看配料和有关认证",
+      "reason": "按 KKM 的所列资料，重写「有过敏、饮食或宗教要求，先看配料和有关认证」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "food-reg"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "《1985年食品条例》对包装食品的名称、配料等标签有具体要求。包装、散装和餐饮的资料形式不同，不能把没看到完整配料表当成没有相关成分。",
+      "applicability": "严重食物过敏者应明确询问交叉接触风险；无法确认就选其他食物。食品种类及标签要求会有修订，经营者须用 KKM 当前规则逐项核对。",
+      "contentSha256": "097b9c645d4c25da892f520dc2b716237a0f96e871be305b277a9fd37dff8b29"
+    },
+    {
+      "id": "5-38",
+      "file": "book/05-不要浪费钱.md",
+      "oldTitle": "### 38. 想买美股这类海外资产，走 QDII 基金或港股通，别去境外券商开户，也别拿每年的换汇额度去买",
+      "newTitle": "投资海外资产前，核对中介资质、外汇政策和税务",
+      "reason": "按 BNM 的所列资料，重写「投资海外资产前，核对中介资质、外汇政策和税务」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "fep"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "BNM Notice 3 按投资者和资金类别规定外币资产投资；无境内令吉借款的居民个人，与有该类借款者的条件不同。按自己的事实向银行核对，保留交易及税务记录。",
+      "applicability": "外汇政策的居民定义不单按国籍判断。中介在外国持牌不等于已获准在马来西亚招揽客户；宗教合规、汇率与市场风险另行评估。",
+      "contentSha256": "561d5ef3c8318cae953a7ea3a83dedf3f9f9409d6ce8edeeba80fdd188e62651"
+    },
+    {
+      "id": "5-39",
+      "file": "book/05-不要浪费钱.md",
+      "oldTitle": "### 39. 只给自己扛不住的损失买保险，扛得住的损失用应急金兜着",
+      "newTitle": "保险先保自己承担不起的损失，小额支出留预算",
+      "reason": "按 LIAM、PIAM 的所列资料，重写「保险先保自己承担不起的损失，小额支出留预算」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "liam",
+        "piam"
+      ],
+      "grade": "C",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "比对公司福利、政府医疗、已有保单的年度上限、自付额、等待期与除外条款，能避免以为重复付费就会重复获得所有赔款。具体赔付按保障性质和合同。",
+      "applicability": "这是保障需求的整理方法，不是每个人必须买相同组合。已有疾病如实申报；选择传统保险或 takaful 时按自身需要和宗教要求核对。",
+      "contentSha256": "c7d087507c3dfbab65aa5fa660f7f86a00348aa4e8b7efb418a30871a982b4ca"
+    },
+    {
+      "id": "5-40",
+      "file": "book/05-不要浪费钱.md",
+      "oldTitle": "### 40. 家里有人靠你的收入过日子，先给挣钱的人买定期寿险，别先给孩子买",
+      "newTitle": "有人依赖你的收入时，先算主要收入者的身故保障缺口",
+      "reason": "按 LIAM / Malaysian Takaful Association、LIAM 的所列资料，重写「有人依赖你的收入时，先算主要收入者的身故保障缺口」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "nomination",
+        "liam"
+      ],
+      "grade": "C",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "比较现有 EPF、储蓄、雇主保障与寿险／家庭 takaful 后，再估需要补的金额和年限；定期保障通常可作为比较对象，但价格及承保因年龄、健康和条款不同。",
+      "applicability": "照顾家庭而没有薪水的人，其照顾工作也可能有替代成本。不要把保险当成制造事故或伤害自己的财务安排；有危机时先寻求现实支持。",
+      "contentSha256": "fc77eaccb7eae7297b419e674b418e8f84d5628fc172dcbd8201d49e26e78682"
+    },
+    {
+      "id": "5-41",
+      "file": "book/05-不要浪费钱.md",
+      "oldTitle": "### 41. 签了一年以上的人身险又后悔，在犹豫期内退掉，保费基本全退",
+      "newTitle": "收到新保单就核对 free-look 冷静期，想取消尽快书面通知",
+      "reason": "按 Liberty Insurance Malaysia、FMOS 的所列资料，重写「收到新保单就核对 free-look 冷静期，想取消尽快书面通知」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "free-look",
+        "fmos"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "在适用期间取消的处理与过期后退保不同。超过冷静期后，退保金可能少于已付金额；应向公司索取书面计算，不只听代理说「随时退都一样」。",
+      "applicability": "不同保险类别并非一律同样期限或全额退款。对处理有争议，先向公司正式投诉，再按 FMOS 的权限与时限申请处理。",
+      "contentSha256": "952b2b1be72c0389013964665988b6cf447abc5c56a40ebffc0922ff9d9ac1e6"
+    },
+    {
+      "id": "5-42",
+      "file": "book/05-不要浪费钱.md",
+      "oldTitle": "### 42. 在银行柜台签字前，先看清手里的是存款还是保险",
+      "newTitle": "银行卖的也可能是投资或保险，签字前看产品名称与风险",
+      "reason": "按 PIDM、FMOS 的所列资料，重写「银行卖的也可能是投资或保险，签字前看产品名称与风险」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "pidm",
+        "fmos"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "PIDM 的存款保障只适用于合资格存款；产品须看具体保障体系及条件。把年期、费用、提早退出损失、保证与非保证部分逐项确认，拒绝把演示收益当固定利息。",
+      "applicability": "保险及 takaful 的保单利益保障另有范围，不能与存款额度混用。被误导时保留销售资料和沟通记录，向银行及有关机构投诉。",
+      "contentSha256": "1164aac3d33b6087eba6db583c1a56b660ece80b6e203eef6b25811a29a45f2a"
+    },
+    {
+      "id": "5-43",
+      "file": "book/05-不要浪费钱.md",
+      "oldTitle": "### 43. 想退保就自己找保险公司办，别找「代理退保」，觉得被误导了打 12378 投诉",
+      "newTitle": "退保或投诉直接找公司，别把账号和证件交给收费中介",
+      "reason": "按 FMOS 的所列资料，重写「退保或投诉直接找公司，别把账号和证件交给收费中介」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "fmos"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "先向有关金融机构正式投诉；不满意最终决定时，一般可在收到决定后六个月内转 FMOS，或机构六十天未回应时按程序申请。是否受理还看争议类型、权限与其他条件。",
+      "applicability": "不要为了退保编造病史、伪造证据或把 OTP 交给中介。急需现金可询问合同内的其他选择，但不能假设所有保单都有借款或减额功能。",
+      "contentSha256": "5d96f98b8fc563aa7e8a8b18ba8a81e608338db418ac607bdcd7b6a4edd766d4"
+    },
+    {
+      "id": "5-44",
+      "file": "book/05-不要浪费钱.md",
+      "oldTitle": "### 44. 保单上把受益人写成具体的人，出了事记得去领钱：寿险 5 年、其他保险 2 年内要主张",
+      "newTitle": "保单提名先分清受益人、执行人和 conditional hibah",
+      "reason": "按 LIAM / Malaysian Takaful Association、AIA Malaysia、FMOS 的所列资料，重写「保单提名先分清受益人、执行人和 conditional hibah」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "nomination",
+        "aianom",
+        "fmos"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "LIAM／MTA 区分受益人与负责管理分配的执行人；家庭 takaful 可涉及 wasi 或 conditional hibah。办理后确认公司已经登记，告知可靠家人文件位置；出险后尽早按保单通知及提交材料。",
+      "applicability": "未成年受益人、转让、信托和宗教继承规则要单独问清。不要套用一律身故五年、其他两年的索赔期限；合同通知期限与争议程序分别核对。",
+      "contentSha256": "f810095fae55034bb116332f1aaab4d3c18b69e43ade2bb035c0c708a7afb18c"
+    },
+    {
+      "id": "5-45",
+      "file": "book/05-不要浪费钱.md",
+      "oldTitle": "### 45. 别拿钱买比特币、泰达币这类虚拟货币，别人拉你一起投也不跟：交易不受法律保护，亏了打官司也要不回来",
+      "newTitle": "虚拟资产不保证保本，也不是每种平台和产品都获准",
+      "reason": "按 SC 的所列资料，重写「虚拟资产不保证保本，也不是每种平台和产品都获准」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "digital"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "SC 的数字资产页面列出 RMO-DAX 等受规管类别与经营者。实际平台、资产和服务是否在许可范围内须分别查；冒名平台、保证收益和私人转账收款仍是风险信号。",
+      "applicability": "数字资产不是 PIDM 保障的存款。宗教合规须看具体资产及 SC 伊斯兰教法咨询理事会的相关认定，不能按族群或「币」这个总称判断。",
+      "contentSha256": "ca3a79c54e80fd416615ec0fb947af0f5e2e8b7df08b9f1f64ef8da1c0395924"
+    },
+    {
+      "id": "5-46",
+      "file": "book/05-不要浪费钱.md",
+      "oldTitle": "### 46. 没单位的人自己交职工养老保险，按最低档交、先把年限交够最划算；别当成一交就赚，按最低档也要领约 10 年才回本",
+      "newTitle": "自雇储蓄退休金，比较 EPF 自愿缴纳和 i-Saraan 资格",
+      "reason": "按 KWSP 的所列资料，重写「自雇储蓄退休金，比较 EPF 自愿缴纳和 i-Saraan 资格」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "kwsp"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "KWSP 的标准 i-Saraan 面向符合条件、未满六十岁的自雇或无固定收入公民会员；当前配对率为 20%，每年最高 RM500，并有终身上限。特殊计划及不属此资格的人另查。",
+      "applicability": "EPF 是个人退休储蓄体系，不能用固定缴费年限或「领十年回本」概括。传统储蓄与 Simpanan Shariah 可按个人选择核对派息及适用规则。",
+      "contentSha256": "cfdd24c29ddd87214bd8c55a965309808fa05902911c2d3578a4c940b7d66060"
+    },
+    {
+      "id": "5-48",
+      "file": "book/05-不要浪费钱.md",
+      "oldTitle": "### 48. 在车商那里买二手车，先查出险和维修记录，合同里写明「不是事故车、泡水车」；被隐瞒了可以要求退车并赔三倍车款",
+      "newTitle": "买二手车先独立检查，把事故、水灾与里程声明写进合约",
+      "reason": "按 PUSPAKOM、KPDN、KPDN 的所列资料，重写「买二手车先独立检查，把事故、水灾与里程声明写进合约」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "puspakom",
+        "consumer-act",
+        "ttpm"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "核对车辆识别资料、融资结清和 JPJ 过户所需文件；若车商的事实陈述误导或货品不符适用保证，保留证据提出补救。不能承诺一发现隐瞒就自动获固定倍数车款。",
+      "applicability": "从车商购买与向私人直接购买，适用救济可不同。不要把押金付到与合约无关的私人户口，过户前先确认谁承担检验与其他费用。",
+      "contentSha256": "cab82d9c46dccf88a28d7f7cdd3cf4922064f758ca4ad2bfd8704a8eec0a070b"
+    },
+    {
+      "id": "5-49",
+      "file": "book/05-不要浪费钱.md",
+      "oldTitle": "### 49. 在 4S 店买车，不交「金融服务费」，保险、贷款、上牌也不必在店里办",
+      "newTitle": "买车把车价、贷款、保险和注册费用拆开比较",
+      "reason": "按 KPDN、FMOS 的所列资料，重写「买车把车价、贷款、保险和注册费用拆开比较」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "consumer-act",
+        "fmos"
+      ],
+      "grade": "C",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "汽车贷款和保单各有正式合同及披露。收取什么费用、可否用外部融资或保险，要先核对具体交易；不把某个收费名称直接写成全国一律不得收。",
+      "applicability": "不同融资结构与租购条款可能不同。未理解时别签空白文件；投诉车商与投诉银行／保险机构，要分别用有权限的渠道。",
+      "contentSha256": "031af8120d2329258a58e4df241451a5e1ff81a81ea2a6f457da2072a16119cc"
+    },
+    {
+      "id": "5-50",
+      "file": "book/05-不要浪费钱.md",
+      "oldTitle": "### 50. 跟团游被导游带进没约定的购物店买了东西，回来 30 天内找旅行社退货，货款让旅行社先垫",
+      "newTitle": "跟团购物出争议，保留行程和收据，向旅行社书面追讨",
+      "reason": "按 MOTAC、KPDN、KPDN 的所列资料，重写「跟团购物出争议，保留行程和收据，向旅行社书面追讨」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "motac",
+        "consumer-act",
+        "ttpm"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "MOTAC 提供持牌旅行社及违规实体查询；消费索偿另按合同、损失、管辖和 TTPM 权限处理。没有全国一律回国三十天内由旅行社先垫付退款的通用保证。",
+      "applicability": "境外商店、机票航空服务和境外履约可能涉及不同管辖；TTPM 不处理航空服务及人身伤害等排除事项。宗教朝圣团也须核对相应牌照和配套。",
+      "contentSha256": "7ad1d7def184892b45bc3008d3548918c40862e945d5ff2a2d7f175994e8ae86"
+    },
+    {
+      "id": "5-51",
+      "file": "book/05-不要浪费钱.md",
+      "oldTitle": "### 51. 银行员工推荐的理财，先在这家银行自己的 App 或官网里查到再买，查不到的可能是员工私卖的「飞单」",
+      "newTitle": "银行职员推介的产品，也要从官方渠道独立核实",
+      "reason": "按 PIDM、FMOS、SC 的所列资料，重写「银行职员推介的产品，也要从官方渠道独立核实」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "pidm",
+        "fmos",
+        "digital"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "金融机构销售的产品也有不同风险和保障。要求正式披露及付款凭证；银行、保险或资本市场服务的合资格争议，可依相应机构与 FMOS 程序处理，疑似诈骗另向银行和警方报告。",
+      "applicability": "未列入警示名单不等于已获批准。不要把款项转到职员或中间人的私人户口；核实过程中也不要交出网银密码、OTP 或远程控制权限。",
+      "contentSha256": "01584fb906cd9e976cb65323b2c8c02dad6c23aece6576b3af261e6c26f06c46"
+    },
+    {
+      "id": "8-15",
+      "file": "book/08-别把自己搭进去.md",
+      "oldTitle": "### 15. 身边人说出「谁也别想好过」「带着孩子一起走」，别当气话：近亲属可以直接送诊，公安接到报警也必须管",
+      "newTitle": "有人威胁伤害自己、孩子或他人，先安排安全和紧急求助",
+      "reason": "按 KKM、KKM、KPWKM 的所列资料，重写「有人威胁伤害自己、孩子或他人，先安排安全和紧急求助」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "mental",
+        "oscc",
+        "dvact"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "精神科评估、非自愿入院和紧急保护有法定条件，不能仅凭家人一句话就把成年人关起来。医生及有关人员依评估处理；疑似家暴还可由医院 OSCC、警方及福利官协助安全安排。",
+      "applicability": "先处理现场危险，不要用「只是气话」或「应该有精神病」替代评估。保持安全距离，向专业人员提供事实，不自行替对方诊断。",
+      "contentSha256": "417f14639456b9820c6d3c51a6878d837cf175e1866a8cad2bd2de908d18d5e2"
+    },
+    {
+      "id": "8-16",
+      "file": "book/08-别把自己搭进去.md",
+      "oldTitle": "### 16. 网上不骂人、不造谣、不转发没核实的事；被网暴先留证再报警",
+      "newTitle": "网上表达先核实事实，被威胁或诽谤先保存证据",
+      "reason": "按 AGC、CFM、Malaysian Judiciary 的所列资料，重写「网上表达先核实事实，被威胁或诽谤先保存证据」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "penal",
+        "contentcomplaint",
+        "court"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "马来西亚的诽谤、刑事恐吓及网络违法内容须按本地法律及证据判断，没有统一的几天行政拘留规则。MCMC 内容投诉与民事索偿也不是同一种程序。",
+      "applicability": "不要转发他人完整证件、住址或亲密影像来反击。合理批评不应被一概写成禁止讨论；发现现实人身威胁时先报警。",
+      "contentSha256": "58c76582c2fcaf17f45e098b7adea6444c376e80f660a4b9db8b9808f7c0f5b2"
+    },
+    {
+      "id": "8-17",
+      "file": "book/08-别把自己搭进去.md",
+      "oldTitle": "### 17. 签字前把纸看完，不替人签字，不在空白纸上签",
+      "newTitle": "合约和电子确认看完才签，不签空白文件",
+      "reason": "按 MIDA / InvestMalaysia 的所列资料，重写「合约和电子确认看完才签，不签空白文件」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "contracts"
+      ],
+      "grade": "C",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "合同是否成立、有没有误导或胁迫及如何撤销，要看实际事实和法律，并不是一句「没看清」就一定能免责。保留完整文本、附件与签署过程，能减少日后证据争议。",
+      "applicability": "身份证副本可注明用途并遮盖非必需资料，但不保证别人无法滥用。电子签署或人脸验证也要先确认所授权的交易。",
+      "contentSha256": "685f6e956520a42fec980b2e7c49f2a5266a2a8860e0ffa1ee8994904e0e7580"
+    },
+    {
+      "id": "8-18",
+      "file": "book/08-别把自己搭进去.md",
+      "oldTitle": "### 18. 借钱写清借条，替人担保前先想清楚自己愿不愿意替他还",
+      "newTitle": "借款与担保写清楚，签之前按自己可能要还全部来评估",
+      "reason": "按 MIDA / InvestMalaysia、Malaysian Judiciary 的所列资料，重写「借款与担保写清楚，签之前按自己可能要还全部来评估」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "contracts",
+        "court"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "马来西亚合同法对担保等安排有规定，实际责任取决于担保文本和法律；不能套用另一套法律里只靠某两个字区分责任的办法。借贷业务、利息和盖印另有适用要求。",
+      "applicability": "担保人与共同借款人不同；说「我只是见证」不决定你在文件里的法律身份。不要借给自己承受不起损失的钱，也不替人伪造用途或收入。",
+      "contentSha256": "f9eef3713e34c5a280ef280a4947213cbe8d29952844fee33621eb3c3460b596"
+    },
+    {
+      "id": "8-20",
+      "file": "book/08-别把自己搭进去.md",
+      "oldTitle": "### 20. 被起诉、被执行了，如实报财产、能还多少还多少，别把房和钱转给亲友或公司",
+      "newTitle": "收到诉讼或执行文件及时处理，不转移资产逃避法庭命令",
+      "reason": "按 Malaysian Judiciary、AGC 的所列资料，重写「收到诉讼或执行文件及时处理，不转移资产逃避法庭命令」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "enforcement",
+        "penal"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "司法机构列明判债人传票、查封拍卖及 garnishee 扣押款项等执行程序。法庭可按程序查明偿付能力并作命令；恶意处理财产还可能引发其他责任，不以境外刑期估算。",
+      "applicability": "有争议或确实未获送达时尽快找律师，不私自认定文件无效。转让资产、家庭赠与和破产期间处置财产都可能影响他人权利。",
+      "contentSha256": "ee869a9753659b21cbe7fdf14bdf1b67ced8e2d04b15aef3a1f9dd97c6fdb415"
+    },
+    {
+      "id": "8-21",
+      "file": "book/08-别把自己搭进去.md",
+      "oldTitle": "### 21. 被限制消费或者被列入失信名单，先查清是按哪一条纳入的，能纠正的申请纠正",
+      "newTitle": "被限制出境、宣告破产或信用记录出错，先找出具体机关和原因",
+      "reason": "按 MdI、Malaysian Judiciary 的所列资料，重写「被限制出境、宣告破产或信用记录出错，先找出具体机关和原因」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "mdi",
+        "court"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "马来西亚破产由法庭程序作出，MdI 负责有关行政管理；破产者出境等事项有许可要求。处理信用资料或移民限制，不能套用境外统一「失信名单」的删除或禁消费规则。",
+      "applicability": "不要把还清一笔债等同于所有记录会自动即时消失。核对收到的解除或许可文件，并向相关机关确认已更新。",
+      "contentSha256": "55343505337a13bca7e033a487d1b67118f13d35bb11e6f7b00eedb45e9a7b77"
+    },
+    {
+      "id": "8-22",
+      "file": "book/08-别把自己搭进去.md",
+      "oldTitle": "### 22. 网购、二手交易被骗，先平台投诉，再报警，再算值不值得起诉",
+      "newTitle": "网购或二手交易被骗，先保住资金和证据，再选对追讨渠道",
+      "reason": "按 Malaysian Judiciary、KPDN、FMOS 的所列资料，重写「网购或二手交易被骗，先保住资金和证据，再选对追讨渠道」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "court",
+        "ttpm",
+        "fmos"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "合资格个人消费可按 TTPM 权限索偿；私人之间的金钱纠纷，个人不超过 RM5,000 的请求可考虑法庭小额索偿。身份、送达、证据、时效与追回能力仍须评估。",
+      "applicability": "KPDN 投诉不等于已经取得退款裁决；银行争议按金融机构及 FMOS 程序。不要使用境外金额起点或保证几个月结案的说法。",
+      "contentSha256": "3e154b434971a4196463576d9bda4d69d270494e80bd2cb7c0bd473164ccd062"
+    },
+    {
+      "id": "8-23",
+      "file": "book/08-别把自己搭进去.md",
+      "oldTitle": "### 23. 恋爱和婚内的大额赠与，交付之前想清楚，交付之后原则上要不回",
+      "newTitle": "大额转账前写清是借款、赠与还是附条件付款",
+      "reason": "按 MIDA / InvestMalaysia、MyGovernment、MyGovernment 的所列资料，重写「大额转账前写清是借款、赠与还是附条件付款」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "contracts",
+        "muslimdivorce",
+        "nondivorce"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "退款、返还或婚姻财产请求须看合同、付款事实、欺诈等依据，以及适用的民事或州属伊斯兰家庭法。保留完整来往，不能仅凭转账备注保证结果。",
+      "applicability": "共同资产、父母出资、子女费用和礼物要分开记录。涉及原住民习惯法或跨境资产时，应向有关司法或法律服务机构确认处理路线。",
+      "contentSha256": "6a5439f4c53bd983e70ae1c576fd0dd6e95ae3b771da4deb8f92375e3ca0b80f"
+    },
+    {
+      "id": "8-24",
+      "file": "book/08-别把自己搭进去.md",
+      "oldTitle": "### 24. 彩礼走转账并备注，聊天记录留好；借婚姻要钱可以要回",
+      "newTitle": "婚礼礼金、聘金或 mas kahwin 先分性质，再谈取消后的处理",
+      "reason": "按 MIDA / InvestMalaysia、MyGovernment、MyGovernment 的所列资料，重写「婚礼礼金、聘金或 mas kahwin 先分性质，再谈取消后的处理」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "contracts",
+        "muslimfamily",
+        "nonfamily"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "婚约解除或发生欺诈后的请求，按适用民事合同、州属伊斯兰家庭法或有关习惯法处理，不能保证某类婚礼付款在未注册时必然退回。付款和实物交付都留证据。",
+      "applicability": "别因对方族群推断宗教或法律。双方不接受的高额婚礼支出应在付款前谈妥，不借高息贷款维持排场。",
+      "contentSha256": "9b42debf74d360c4aa7d9df894b08ab8dba68ba764d77a30073e322b896871eb"
+    },
+    {
+      "id": "8-25",
+      "file": "book/08-别把自己搭进去.md",
+      "oldTitle": "### 25. 婚前财产不用怕，房子加名和父母出资先写清楚",
+      "newTitle": "婚前资产、父母出资与房产份额在付款和登记前说清",
+      "reason": "按 MyGovernment、MyGovernment、JKPTG 的所列资料，重写「婚前资产、父母出资与房产份额在付款和登记前说清」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "nondivorce",
+        "muslimdivorce",
+        "land"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "非穆斯林离婚由民事法庭按适用规则考虑婚姻财产；穆斯林可涉及 harta sepencarian 等州属程序。产权、合同和贡献证据都重要，不承诺一份私下协议必然约束法庭。",
+      "applicability": "把姓名加入地契、信托、赠与或转让都可能有税费与权利变化。沙巴、砂拉越及受限制土地，还须先查土地资格和州同意条件。",
+      "contentSha256": "017ac39f17fd36f94e7ae8962735f66de4953c194624434df0b2f5af076abedc"
+    },
+    {
+      "id": "8-26",
+      "file": "book/08-别把自己搭进去.md",
+      "oldTitle": "### 26. 结婚前核对对方婚姻状况，以结婚为幌子骗钱的按诈骗罪追究",
+      "newTitle": "结婚前向正确登记机关核实婚姻状况，别只看身份证",
+      "reason": "按 MyGovernment、MyGovernment、AGC 的所列资料，重写「结婚前向正确登记机关核实婚姻状况，别只看身份证」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "nonfamily",
+        "muslimfamily",
+        "penal"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "非穆斯林一般走 JPN 登记；穆斯林向州宗教局申请，涉及多妻等情况须按州法先取得有关批准。发现假证件或以婚姻作诱饵骗钱，按事实报案和咨询返还途径。",
+      "applicability": "姓名、族群、宗教及公民身份各是不同条件。境外婚姻、改宗、原住民习惯婚姻或既有配偶问题，在确定婚期前核对。",
+      "contentSha256": "c64b1a0aa5c7fe7aaa7fdbdb3702d9f24eb12cda836316f212412353c2445bf9"
+    },
+    {
+      "id": "8-27",
+      "file": "book/08-别把自己搭进去.md",
+      "oldTitle": "### 27. 上门维修、验车、装修，先问价再动手，全程在旁边看着",
+      "newTitle": "维修和装修先确认诊断、分项报价及加项授权",
+      "reason": "按 KPDN、KPDN 的所列资料，重写「维修和装修先确认诊断、分项报价及加项授权」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "consumer-act",
+        "ttpm"
+      ],
+      "grade": "C",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "消费服务有合理技能等法定保证；收费或服务陈述涉及误导时，可保存报价、照片、旧零件和对话提出补救。KPDN 执法投诉与 TTPM 索偿按权限分别办理。",
+      "applicability": "这是减少争议的实务做法，不要求你站在危险作业旁监督。承包商用电、煤气及结构工程须有相应能力和许可。",
+      "contentSha256": "76f1871c7d2e1830e500522c6b38f5d6c2768c860b32a17722fce5c06008f749"
+    },
+    {
+      "id": "8-28",
+      "file": "book/08-别把自己搭进去.md",
+      "oldTitle": "### 28. 别当「挂名法人」，别把身份证借给人注册公司",
+      "newTitle": "不要当挂名董事、股东或借出身份注册业务",
+      "reason": "按 SSM、SSM、AGC 的所列资料，重写「不要当挂名董事、股东或借出身份注册业务」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "company",
+        "ssmreg",
+        "penal"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "Sdn Bhd 是独立法人，但不表示董事失责、个人担保或本人违法也全部免责。独资与合伙业务的责任结构不同；发现身份被冒用，要保存资料并向 SSM、银行及警方处理。",
+      "applicability": "董事辞任、公司还款和从注册记录除名不是同一件事，须按法定程序办理。不要把空白签名文件、MyKad 或网银权限交给别人代管。",
+      "contentSha256": "9b872a11abb76a2bea4f7a19d0f6cc99a4034b1b376fdee0a38b5a30043fbd98"
+    },
+    {
+      "id": "8-30",
+      "file": "book/08-别把自己搭进去.md",
+      "oldTitle": "### 30. 养狗必须牵绳：不牵绳出了事是无过错责任（你有没有错都要赔），赔到底。狗还要按时打狂犬病疫苗、办养犬登记",
+      "newTitle": "养狗做好牵引、防走失、牌照和地区要求，咬伤后立即处理",
+      "reason": "按 MBPJ、AGC 的所列资料，重写「养狗做好牵引、防走失、牌照和地区要求，咬伤后立即处理」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "dog",
+        "penal"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "例如 MBPJ 设有犬只牌照及牵引规定；《刑法典》也涉及动物的疏忽管束。伤人后的民事责任看具体事实和适用法律，不能承诺所有情况均按绝对无过错规则赔到底。",
+      "applicability": "接种与狂犬病防控按当地兽医部门要求核对，沙巴、砂拉越等地尤其要查当前安排。尊重公共场所使用者的安全、文化和宗教需要，但不按族群假设个人偏好。",
+      "contentSha256": "8d6caa533b380d347576c5b69428f45052100c69865907bfd6d97390df5eef61"
+    },
+    {
+      "id": "8-31",
+      "file": "book/08-别把自己搭进去.md",
+      "oldTitle": "### 31. 对方喝到意识不清、睡着，或者可能不满 14 岁，就不要发生关系",
+      "newTitle": "对方无法自由同意、意识不清或年龄不明，就停止性接触",
+      "reason": "按 AGC、SUHAKAM 的所列资料，重写「对方无法自由同意、意识不清或年龄不明，就停止性接触」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "penal",
+        "consent"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "马来西亚的性犯罪与儿童保护规则不能套用境外十四岁门槛。SUHAKAM 说明，与未满十六岁女孩性交涉及法定强奸；其他儿童性罪行及宗教法律须分别看，详见第 9 节第 18 条。",
+      "applicability": "这不是说年满十六岁就自动合法。所有性别、儿童保护、胁迫、权力关系、行为性质及穆斯林所属州法律都可能影响判断。",
+      "contentSha256": "4a8088a4d19580acc0ee2c62e9ded7f5b0613a6960bb1825793c7efcebfc118f"
+    },
+    {
+      "id": "8-32",
+      "file": "book/08-别把自己搭进去.md",
+      "oldTitle": "### 32. 发生关系、裸聊之后对方拿报警、发照片、告诉你单位来要钱，一分钱不给，一条记录不删，直接报警",
+      "newTitle": "亲密影像勒索先停止追加付款，保存威胁并报案",
+      "reason": "按 AGC、CFM、Malaysian Judiciary 的所列资料，重写「亲密影像勒索先停止追加付款，保存威胁并报案」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "penal",
+        "contentcomplaint",
+        "court"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "马来西亚《刑法典》的勒索和恐吓等条文可按事实适用。平台举报、内容投诉与警方调查分别有作用；向律师咨询禁令或损害赔偿时提供完整证据，而不是自行公开影像反击。",
+      "applicability": "已付款的及时联系银行；有即时人身危险拨 999。涉及儿童影像时不要为了留证而转发或自行反复下载，保存来源线索并交警方指导。",
+      "contentSha256": "37ffe79f7550c6267fbd03c92b9c2867ebdcc641443332f6d00e3d7ab3d700ba"
+    },
+    {
+      "id": "8-33",
+      "file": "book/08-别把自己搭进去.md",
+      "oldTitle": "### 33. 被人捏造事实举报，可以要求追究：够治安处罚的可拘留 5 日以下或罚款，情节较重的拘留 5 到 10 日，够罪的判 3 年以下",
+      "newTitle": "遭到捏造举报，逐项保留反证并通过律师或警方处理",
+      "reason": "按 AGC、Malaysian Bar、JBG 的所列资料，重写「遭到捏造举报，逐项保留反证并通过律师或警方处理」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "penal",
+        "redbook",
+        "jbg"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "《刑法典》涉及虚假资料、虚假控告等罪名；是否构成须看故意、资料内容及其他要件。不要套用境外行政拘留或刑期，也不要以报复威胁对方撤案。",
+      "applicability": "收到警方或法庭通知及时求助；请律师核对是否有诽谤、恶意检控或其他民事请求及其条件，不能保证每宗撤案都能反告成功。",
+      "contentSha256": "5b0ccfa1b2f7693baebee87d6e52877be5f9f2e5fed1fe945235d3d97575ba23"
+    },
+    {
+      "id": "8-34",
+      "file": "book/08-别把自己搭进去.md",
+      "oldTitle": "### 34. 证据不足本来就应当判无罪，逼出来的口供应当排除；判了还有申诉和再审",
+      "newTitle": "被调查先取得法律协助，笔录逐字核对，受到威胁及时提出",
+      "reason": "按 Malaysian Bar、Malaysian Judiciary、JBG 的所列资料，重写「被调查先取得法律协助，笔录逐字核对，受到威胁及时提出」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "redbook",
+        "court",
+        "jbg"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "律师公会 Red Book 说明可在签署前核对及更正笔录，并说明被捕后的律师和医疗协助。证据可采性、控方举证和上诉须按马来西亚程序处理，不用境外「申诉再审」路线代替。",
+      "applicability": "不同程序的期限和权利例外要由律师核对。对警员失当可向 IPCC 书面投诉，投诉不代替及时提出辩护或上诉。",
+      "contentSha256": "e4496c4152c984b5563ccd897886ec1cd975eb3a019d9803a39f9a482c994ac1"
+    },
+    {
+      "id": "8-35",
+      "file": "book/08-别把自己搭进去.md",
+      "oldTitle": "### 35. 被羁押后撤案、不起诉或者判无罪的，去申请国家赔偿，按天算钱",
+      "newTitle": "怀疑非法拘留或执法侵害，先取医疗与拘留记录，再寻求法律救济",
+      "reason": "按 Malaysian Bar、IPCC、JBG 的所列资料，重写「怀疑非法拘留或执法侵害，先取医疗与拘留记录，再寻求法律救济」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "redbook",
+        "ipcc",
+        "jbg",
+        "court"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "马来西亚的民事索偿、有关司法救济及警员失当投诉各有权限。保留释放文件、法庭命令、诊疗和工作损失记录，可向律师或合资格法律援助服务评估下一步；IPCC 可受理警员失当投诉。",
+      "applicability": "不要把投诉调查当成已经取得赔偿裁决。期限会因诉因、被告与程序不同而不同，先取得个案意见，不等行政投诉完成才处理法院期限。",
+      "contentSha256": "7fec5feb80b7a7b187bfd6841775f34823e7e03aef4acb1567fd27d162d31c12"
+    },
+    {
+      "id": "8-36",
+      "file": "book/08-别把自己搭进去.md",
+      "oldTitle": "### 36. 自己是受害人去索赔，走 KPDN（内贸部）e-Aduan 或消费人索偿仲裁庭（TTPM）、起诉或者律师，别单独赴对方的约，别把「给钱」和「我不曝光」绑成一句话",
+      "newTitle": "要求赔偿走书面索偿和有权限的程序，不用曝光威胁换钱",
+      "reason": "按 Malaysian Judiciary、KPDN、AGC 的所列资料，重写「要求赔偿走书面索偿和有权限的程序，不用曝光威胁换钱」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "court",
+        "ttpm",
+        "penal"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "消费纠纷、合同欠款、身体伤害和金融服务各有不同程序。TTPM 不是所有受害人都能使用的赔偿机关；私人金钱请求可按条件考虑小额索偿或其他民事诉讼。",
+      "applicability": "真实索偿不保证一定胜诉；过高或没有依据的金额也要能解释。联系本身有安全风险时，改用律师或正式程序，保留送达记录。",
+      "contentSha256": "d5d39d653c124d77aeb6a21d6886b21ee9f41b3894849c1bb5a7abddec95fe17"
+    },
+    {
+      "id": "8-37",
+      "file": "book/08-别把自己搭进去.md",
+      "oldTitle": "### 37. 被网暴了：先开防护、先固证，再在平台、禁令、报警三条路里挑",
+      "newTitle": "被网暴或泄露隐私，先缩小接触面并保全来源",
+      "reason": "按 AGC、CFM、JPDP 的所列资料，重写「被网暴或泄露隐私，先缩小接触面并保全来源」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "penal",
+        "contentcomplaint",
+        "pdp",
+        "court"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "刑事恐吓、跟踪或恶意散布等是否违法，按本地条文和事实判断；民事禁令与赔偿须由有权限的法庭处理。商业资料处理还可能涉及 JPDP，私人关系争议不一定都受 PDPA 覆盖。",
+      "applicability": "现实威胁或有人找上门先拨 999。不要在公开截图里再次暴露自己的证件、住址或儿童资料。",
+      "contentSha256": "be453529c7b7e9f2ac56fad6726810ba4bf3d5eba701961620bf51779cbd6e03"
+    },
+    {
+      "id": "8-38",
+      "file": "book/08-别把自己搭进去.md",
+      "oldTitle": "### 38. 「先给人买保险再动手」这条路法律上从头堵死：钱一分拿不到，罪按故意杀人加保险诈骗数罪并罚",
+      "newTitle": "不能把伤人、造假或隐瞒当成保险或遗产安排",
+      "reason": "按 AGC、LIAM / Malaysian Takaful Association、LIAM 的所列资料，重写「不能把伤人、造假或隐瞒当成保险或遗产安排」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "penal",
+        "nomination",
+        "liam"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "是否承保、谁有权领取和是否因故意行为丧失权益，按有关法律和具体合同处理。不能用「所有情况下钱都绝对不赔」代替正式规则，更不能用潜在赔款设计伤害行为。",
+      "applicability": "若身边人已表达明确伤害计划，先按本节第 15 条处理人身安全。涉及已有事故，由警方、医生和保险机构按事实调查。",
+      "contentSha256": "4cb56382a8181b26006e77cc48580a7a467e343e156f53ed1a481f2f0cc3970e"
+    },
+    {
+      "id": "8-39",
+      "file": "book/08-别把自己搭进去.md",
+      "oldTitle": "### 39. 报警当场要受案回执，不立案要书面通知：7 日内可申请复议，再 7 日可申请复核，检察院能通知公安立案",
+      "newTitle": "报案保留副本、编号和调查员资料，跟进或投诉走正式渠道",
+      "reason": "按 Malaysian Bar、IPCC 的所列资料，重写「报案保留副本、编号和调查员资料，跟进或投诉走正式渠道」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "redbook",
+        "ipcc"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "警方调查、检控决定、法庭程序与警员失当投诉不同。认为警员拒绝履职或行为不当，可依 IPCC 的 SPEAKS／书面渠道提交具体事实和支持材料。",
+      "applicability": "新证据补交原调查单位并留记录；投诉不保证案件必然起诉。面对即时危险直接拨 999，不能只等线上投诉回覆。",
+      "contentSha256": "cde81e047eadec73a627fe8e5cd382bad460495e0e99d87db2618b25c07faf73"
+    },
+    {
+      "id": "8-40",
+      "file": "book/08-别把自己搭进去.md",
+      "oldTitle": "### 40. 别给办案、执法的人送钱送卡：行贿自己也判，对监察、执法、司法人员行贿还要从重",
+      "newTitle": "办事不送钱送卡，遭索贿保存事实并向 MACC 反映",
+      "reason": "按 MACC、Malaysian Bar 的所列资料，重写「办事不送钱送卡，遭索贿保存事实并向 MACC 反映」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "macc",
+        "redbook"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "MACC 说明索取、收受、给予或提供贿赂等主要罪行。被索贿或已卷入时，尽快通过官方渠道报告并咨询法律责任；不自行承诺付钱做诱捕，也不按境外刑期估算后果。",
+      "applicability": "合法官方规费应有正式收据，不付到私人户口。受到暴力威胁先保护安全和报警，保留完整来往，不删改对自己不利的内容。",
+      "contentSha256": "755294ea1e7411606f8d49cab6146bb07f7ac8c1c4109df1ae2fbaa2f0dbd724"
+    },
+    {
+      "id": "8-41",
+      "file": "book/08-别把自己搭进去.md",
+      "oldTitle": "### 41. 可能翻脸的电话和面谈，直接开录音：自己参加的谈话，不用先征得对方同意",
+      "newTitle": "重要沟通尽量留书面记录，录音前考虑隐私与合法性",
+      "reason": "按 Laws of Malaysia、JPDP、Malaysian Judiciary 的所列资料，重写「重要沟通尽量留书面记录，录音前考虑隐私与合法性」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "evidence",
+        "pdp",
+        "court"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "电子记录、录音和文件的真实性、取得方式及与案件的关系，须按证据规则和具体情境判断。商业个人资料处理、保密义务及私人空间还有各自限制。",
+      "applicability": "不要闯入、安装窃听设备、截取他人账户或威胁对方说话。合法取得的原件保持完整，另做备份，不以剪辑片段冒充全部经过。",
+      "contentSha256": "e7d690828b25836ad504fffa3f2569fbf17340c041c121b7185388319f30cf00"
+    },
+    {
+      "id": "8-42",
+      "file": "book/08-别把自己搭进去.md",
+      "oldTitle": "### 42. 现场出了事，先拍全景，再拍位置关系，最后拍损坏和伤情，原图原视频别删",
+      "newTitle": "现场先顾安全，再拍全景、位置和损坏，保留原档",
+      "reason": "按 Laws of Malaysia、Malaysian Judiciary 的所列资料，重写「现场先顾安全，再拍全景、位置和损坏，保留原档」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "evidence",
+        "court"
+      ],
+      "grade": "C",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "完整记录有助重建经过，但照片本身不自动决定责任。交警方、保险公司或法庭时，说明何时、何地、由谁拍摄，按程序提供原始资料。",
+      "applicability": "危及生命时先撤离、求救或配合救援。不要为了拍照走进车流、拍摄伤者隐私后公开，或无故移动可能涉及犯罪的现场物品。",
+      "contentSha256": "2a70c506ecfc7f1a2a3aaae34c5e5e3c0e7ed55657401f255a485406c90f71b3"
+    },
+    {
+      "id": "8-43",
+      "file": "book/08-别把自己搭进去.md",
+      "oldTitle": "### 43. 被家暴了：先报警留下出警记录，再去法院申请人身安全保护令，不用先离婚，也不收费",
+      "newTitle": "家暴先安全就医，向福利官和警方询问 EPO、IPO 与 PO",
+      "reason": "按 KPWKM、KKM 的所列资料，重写「家暴先安全就医，向福利官和警方询问 EPO、IPO 与 PO」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "dvact",
+        "oscc"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "《1994年家庭暴力法令》适用于马来西亚所有人；符合第 3A 条身体伤害或恐惧情形的 EPO 无须以报案为申请前提，有效七天并按送达规则生效。IPO、PO 则走相应法庭程序，医院 OSCC 可协助治疗和转介。",
+      "applicability": "法定家庭关系及保护条件须按个案确认，未同居恋爱关系不当然等同所有法定家暴关系。保护令不是绝对安全保证，和可靠人员共同安排避险。",
+      "contentSha256": "8b4f433cf9d58895c412da1d4f14c7741bca0894b5ebb819d106238a5d47a537"
+    },
+    {
+      "id": "8-44",
+      "file": "book/08-别把自己搭进去.md",
+      "oldTitle": "### 44. 家里人赌博欠了债，别急着替他还：赌债法律不保护，为赌借的钱也不算夫妻共同债务",
+      "newTitle": "亲友赌博欠债，不先替他认债、签担保或交出证件",
+      "reason": "按 MIDA / InvestMalaysia、AGC 的所列资料，重写「亲友赌博欠债，不先替他认债、签担保或交出证件」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "contracts",
+        "penal"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "合同法对博彩或打赌协议及担保等安排有不同规则，具体可执行性看事实。家属若签了共同借款或担保，责任须另查；暴力讨债、恐吓和扣人应报案。",
+      "applicability": "不要在催收压力下签新文件或以自己名义借钱补洞。先把家庭生活费与患者可动用的资金安排好，并协助其寻求戒赌和财务支持。",
+      "contentSha256": "567cae87086ff11bd0d85912cd05caad237b087d1fb7a8b4688a90fbaf1b34ca"
+    },
+    {
+      "id": "8-45",
+      "file": "book/08-别把自己搭进去.md",
+      "oldTitle": "### 45. 熟人让你「帮忙刷个脸、做个见证」去办贷款，或者要你念验证码，别答应：这叫 AB 贷，借款人是你，不是担保人",
+      "newTitle": "代人验证身份或办贷款前，先确认文件里的借款人是谁",
+      "reason": "按 MIDA / InvestMalaysia、FMOS、AGC 的所列资料，重写「代人验证身份或办贷款前，先确认文件里的借款人是谁」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "contracts",
+        "fmos",
+        "penal"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "是否遭欺诈、贷款是否获授权及有什么抗辩，需要按合同和事实判断。发现冒名申请立即联系贷款机构、保留认证及转账记录并报案；合资格金融争议再依正式投诉及 FMOS 程序处理。",
+      "applicability": "不要保证一经欺骗所有债务都会撤销，也不要认定所有争议银行必胜。要求取得合同副本，及时咨询律师，避免让中介替你编造另一套说法。",
+      "contentSha256": "c588fb7001d96a4782ba9d900e591e579c7116dc00c8a3a015de88e2bf700146"
+    },
+    {
+      "id": "8-46",
+      "file": "book/08-别把自己搭进去.md",
+      "oldTitle": "### 46. 给门窗装好锁、门外装一盏感应灯，出门真的锁上：防入室盗窃靠这几样，单装一个报警器看不出用",
+      "newTitle": "锁好门窗、照明和出入管理一起做，别只依赖报警器",
+      "reason": "按 AGC、Malaysian Bar 的所列资料，重写「锁好门窗、照明和出入管理一起做，别只依赖报警器」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "penal",
+        "redbook"
+      ],
+      "grade": "C",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "这些措施降低机会性入侵风险，但不能保证不失窃。以安全存放钥匙、记录重要物品及出事后报警为基础，比只买设备而不用更实际。",
+      "applicability": "这是居家防范建议，没有马来西亚家庭采用某一组合后必降多少的统一数据。不要以铁窗、锁链或堆物堵死逃生出口。",
+      "contentSha256": "3de88b614e68ccd13c5a8bd4a5a670b0ece50fc6596e4db30cc078f33c0fe6bc"
+    },
+    {
+      "id": "9-1",
+      "file": "book/09-普通人容易踩的法律红线.md",
+      "oldTitle": "### 1. 群里不转发不知真假的灾情、疫情、警情消息，不 P 图、不用 AI 造现场图",
+      "newTitle": "灾情、疫情和警情先查官方出处，不制作或传播假现场",
+      "reason": "按 AGC、CFM 的所列资料，重写「灾情、疫情和警情先查官方出处，不制作或传播假现场」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "penal",
+        "contentcomplaint"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "马来西亚涉及虚假资料、公众恐慌、恐吓等规则，要看内容、意图及实际法律要件。不能沿用境外拘留天数或把所有错误转发都写成同等罪责。",
+      "applicability": "官方来源也要核对是否旧通告或冒名账号。发表亲历信息时写清自己看到的范围，不把推测包装成警方或卫生部门结论。",
+      "contentSha256": "472d3f24398a1ba03b96f05c13955aa5d29c1de3dcf1ae00badfdb6da16252c2"
+    },
+    {
+      "id": "9-2",
+      "file": "book/09-普通人容易踩的法律红线.md",
+      "oldTitle": "### 2. 不发、不转侮辱英烈的图片、表情包和评论，不拿国旗国歌开玩笑",
+      "newTitle": "讨论宗教、族群和公共象征，避免煽动仇恨、威胁或伪造事实",
+      "reason": "按 AGC、CFM 的所列资料，重写「讨论宗教、族群和公共象征，避免煽动仇恨、威胁或伪造事实」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "penal",
+        "contentcomplaint"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "相关责任须按《刑法典》、通讯及其他适用法律逐项判断；不能把另一国的英烈罪名、国旗国歌罚则搬来。被投诉时保存完整上下文并取得法律协助。",
+      "applicability": "这不是禁止合理讨论公共事务。按行为和内容评估，不因使用某种语言、族群或宗教身份就推定违法。",
+      "contentSha256": "e134d4190757b0f70ffb3d223689ec3f85b4c65e694a63cc8548168536c76da2"
+    },
+    {
+      "id": "9-3",
+      "file": "book/09-普通人容易踩的法律红线.md",
+      "oldTitle": "### 3. 境外网站上的东西看完就关，不截图、不转发、不搬进群里，也不在评论区跟着说",
+      "newTitle": "浏览和分享境外内容也看内容与用途，不帮忙传播违法材料",
+      "reason": "按 AGC、CFM 的所列资料，重写「浏览和分享境外内容也看内容与用途，不帮忙传播违法材料」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "penal",
+        "contentcomplaint"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "《刑法典》对恐怖主义相关行为和材料等设有条文；具体行为、知情和法律要件须分别判断。不能写成「只看或只存就一定没事」，也不能把所有境外信息一律当成禁止内容。",
+      "applicability": "发现疑似犯罪材料，保存必要来源线索并向平台或警方报告；不要在群聊里转发原件「提醒大家」，尤其涉及儿童影像时。",
+      "contentSha256": "30643bc7f166110c7aa60420637ad1c3526fa3691c7eeffbe2c93c06807dbd44"
+    },
+    {
+      "id": "9-4",
+      "file": "book/09-普通人容易踩的法律红线.md",
+      "oldTitle": "### 4. 黄色视频自己看归自己（涉及未成年人的除外），别往群里发、别卖「资源」、别建群",
+      "newTitle": "色情和亲密影像别转发，儿童性虐待材料更不能制作、持有或获取",
+      "reason": "按 KDN、AGC、SUHAKAM 的所列资料，重写「色情和亲密影像别转发，儿童性虐待材料更不能制作、持有或获取」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "film",
+        "penal",
+        "consent",
+        "child-sexual"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "马来西亚的电影检查、刑法和儿童性罪行法律按具体材料及行为适用；制作、传播、交易、访问或持有的规则并不相同。不要照搬境外群人数、获利金额或刑期当合法边界。",
+      "applicability": "未满十八岁的儿童均应受保护，不按性别或族群作例外。遇到疑似儿童材料，不自行传播取证，按警方或平台的报告流程提交链接与账号线索。",
+      "contentSha256": "0baf59e88a68e2be842156df6123afd96d7b901e50a1602184f8b43addce5b11"
+    },
+    {
+      "id": "9-5",
+      "file": "book/09-普通人容易踩的法律红线.md",
+      "oldTitle": "### 5. 「兼职」要你用自己的卡收钱、取现、转账，不管给多少好处费都不做",
+      "newTitle": "不出租银行户口，不替陌生人收款、取现或转钱",
+      "reason": "按 AGC、FMOS 的所列资料，重写「不出租银行户口，不替陌生人收款、取现或转钱」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "penal",
+        "fmos"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "马来西亚警方调查钱驴及诈骗资金流，可能涉及账户控制、知情及有关金融和刑法责任。即使你没有编写骗局，也不能保证只按帮忙处理。发现异常立即联系银行并报案。",
+      "applicability": "不要将别人的指示删除后再说自己不知道。已经交出权限的先要求银行限制账户，并按指示重设安全资料；不要自行把疑似赃款转走。",
+      "contentSha256": "f8638685e1363f3facd6cb7a73f62122a9c7f33e35de3ef475b19a23de63fab4"
+    },
+    {
+      "id": "9-6",
+      "file": "book/09-普通人容易踩的法律红线.md",
+      "oldTitle": "### 6. 有人拉你去「包装材料」贷款、按贷款额分你好处费，一个都不做",
+      "newTitle": "不伪造工资、雇佣或交易文件申请贷款，也不做分佣人头",
+      "reason": "按 AGC、MIDA / InvestMalaysia 的所列资料，重写「不伪造工资、雇佣或交易文件申请贷款，也不做分佣人头」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "penal",
+        "contracts"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "《刑法典》涉及欺骗及伪造等罪名，合同后果另须按事实判断。中介教你说谎不免除自身责任；银行审批通过也不能使假资料合法。",
+      "applicability": "已提交的资料有误，应尽快向机构说明并保留处理记录，不再用另一份假资料补漏洞。涉及既有调查时取得律师意见。",
+      "contentSha256": "f082d087af05b3e340f219184c81ac4d91980ca0c61f0200700d53c5048ea66a"
+    },
+    {
+      "id": "9-7",
+      "file": "book/09-普通人容易踩的法律红线.md",
+      "oldTitle": "### 7. 捡到银行卡不取钱，捡到手机、钱包联系失主或交给警察，不揣走",
+      "newTitle": "捡到钱包、电话或银行卡，交回失主或警局，不使用里面的钱",
+      "reason": "按 AGC 的所列资料，重写「捡到钱包、电话或银行卡，交回失主或警局，不使用里面的钱」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "penal"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "《刑法典》对不诚实挪用、盗窃及欺骗等有不同要件；是否构成犯罪看事实，不用境外固定金额或信用卡刑期判断。把物品交警方并留记录，比自行使用后再解释稳妥。",
+      "applicability": "不要公开物主完整身份证和银行卡照片「寻人」。若担心当面交还安全，可通过警局或管理处按合法程序处理。",
+      "contentSha256": "5778220727887d009c804d8b94180418decbd439eb0ff1fdb6224232e07cca99"
+    },
+    {
+      "id": "9-8",
+      "file": "book/09-普通人容易踩的法律红线.md",
+      "oldTitle": "### 8. 优惠用自己的真实身份领，不买虚拟号批量注册小号，不靠漏洞重复领",
+      "newTitle": "优惠按真实资格领取，不造假账号或利用系统漏洞套现",
+      "reason": "按 AGC、MIDA / InvestMalaysia 的所列资料，重写「优惠按真实资格领取，不造假账号或利用系统漏洞套现」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "penal",
+        "contracts"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "虚假身份、欺骗取得财物、未获授权操作或伪造记录可引发不同责任；平台还可能追回优惠或限制账户。不能用境外诈骗金额门槛推算什么规模才违法。",
+      "applicability": "活动条款也须合法，但对条款不满应投诉或停止参加，不靠假资料解决。已经误领的保留记录并向平台说明。",
+      "contentSha256": "401874e1c2c2dbb1ca8c84f14828d8a76c6be00e6eda734e3196ed6a3d0951da"
+    },
+    {
+      "id": "9-9",
+      "file": "book/09-普通人容易踩的法律红线.md",
+      "oldTitle": "### 9. 阳台、窗户不往外扔任何东西，烟头、垃圾袋、酒瓶都算",
+      "newTitle": "窗户、阳台和高处不抛物，放置物品也防坠落",
+      "reason": "按 AGC 的所列资料，重写「窗户、阳台和高处不抛物，放置物品也防坠落」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "penal"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "马来西亚会按危及生命、造成伤害、财物损坏及其他实际事实处理；不必等真砸伤人，才需要认真防范。民事赔偿和住宅管理责任也可能同时存在。",
+      "applicability": "发现有物品持续坠落，先避开危险区域并通知管理层；有即时危险拨 999。不要在楼下冒险拍摄或自行与对方冲突。",
+      "contentSha256": "9f23cdf21e58d531a3f36ca777b13efba6316ce1aa013daf847743e71f03bf39"
+    },
+    {
+      "id": "9-10",
+      "file": "book/09-普通人容易踩的法律红线.md",
+      "oldTitle": "### 10. 不网购仿真枪、钢珠枪、气枪，不买来路不明的「玩具枪」",
+      "newTitle": "枪械、气枪和仿真武器先查 PDRM 许可，不从网店随便买",
+      "reason": "按 PDRM、AGC 的所列资料，重写「枪械、气枪和仿真武器先查 PDRM 许可，不从网店随便买」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "arms",
+        "penal"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "PDRM 的武器申请指引列有枪械及受管制武器相关程序；是否获准看具体物品、用途、持有和进口要求。不能套用另一国的枪口能量数字当作本地安全边界。",
+      "applicability": "未经确认不把物品带到公共场所试射或展示。涉及海关、邮寄、比赛或俱乐部，还须确认各自条件，避免用陌生人账户代购。",
+      "contentSha256": "364e0d56318cba6b553ed4cbc89a1180839f27913f506df6e07e269082d20482"
+    },
+    {
+      "id": "9-11",
+      "file": "book/09-普通人容易踩的法律红线.md",
+      "oldTitle": "### 11. 买了无人机先实名登记，机场、军事区和城市管制空域不飞，不破解限高",
+      "newTitle": "飞无人机先查 CAAM 许可、空域和拍摄条件",
+      "reason": "按 CAAM 的所列资料，重写「飞无人机先查 CAAM 许可、空域和拍摄条件」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "caam"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "CAAM 官方说明飞行受空域、高度和作业类型等限制；批准也附具体地点、时段和操作条件。不能把实名登记当作全国通行证，也不能拿别国限高破解经验来用。",
+      "applicability": "沙巴、砂拉越、保护区或敏感设施可能另有场地或地方要求。尊重他人隐私，不在集会人群、道路或救援现场擅飞。",
+      "contentSha256": "628609a399e019ca5e096f4da1dafb82308312a02808bc12584de41a72c8029c"
+    },
+    {
+      "id": "9-12",
+      "file": "book/09-普通人容易踩的法律红线.md",
+      "oldTitle": "### 12. 不偷拍别人，不在出租屋、民宿、酒店房间装摄像头",
+      "newTitle": "不偷拍私密空间，不在出租房或住宿单位装隐藏摄影机",
+      "reason": "按 AGC、JPDP、CFM 的所列资料，重写「不偷拍私密空间，不在出租房或住宿单位装隐藏摄影机」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "penal",
+        "pdp",
+        "contentcomplaint"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "偷窥、侮辱隐私或散布影像可能涉及刑法等责任；商业住宿对个人资料的处理还须按 PDPA 适用范围核对。不是每种拍摄都由同一法规处理，也没有可直接套用的境外拘留天数。",
+      "applicability": "别把疑似偷拍片段再发上网。不要非法闯入、破解设备或破坏现场来调查，按警方及平台指示保全证据。",
+      "contentSha256": "1597ae0c2299db8a4c4c33b696fb67781892a94b82be7efe9ab91f0800bf7d1e"
+    },
+    {
+      "id": "9-13",
+      "file": "book/09-普通人容易踩的法律红线.md",
+      "oldTitle": "### 13. 麻将、扑克可以打，不抽头、不当庄、不组局收钱，不玩网络赌博",
+      "newTitle": "打牌和游戏不自动免赌博法律，别当庄、抽佣或替人收注",
+      "reason": "按 AGC、AGC 的所列资料，重写「打牌和游戏不自动免赌博法律，别当庄、抽佣或替人收注」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "gaming",
+        "penal"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "《1953年公共赌博场所法令》等规管赌博行为，穆斯林还要看所属州的伊斯兰刑事法律。不能把某类获准活动推广成所有人都可参与，也不沿用境外赌资起点。",
+      "applicability": "区分纯娱乐与以金钱或有价物作赌注，不替赌博平台当代理或出租账户。对规则有疑问先停止下注并取得针对活动的法律意见。",
+      "contentSha256": "ac1bb288e5db47f25451123199970ba688f4925339b88c5a39a797e54283e4a3"
+    },
+    {
+      "id": "9-14",
+      "file": "book/09-普通人容易踩的法律红线.md",
+      "oldTitle": "### 14. 不吃野味，不买卖、不养保护动物当宠物，野兰花、崖柏、红豆杉也别挖别买卖",
+      "newTitle": "不随意捕捉、购买或携带野生动植物，先查当地保护与许可",
+      "reason": "按 PERHILITAN、Forest Department Sarawak 的所列资料，重写「不随意捕捉、购买或携带野生动植物，先查当地保护与许可」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "wildlife",
+        "sarawak-wildlife"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "半岛向 PERHILITAN 核对有关受保护物种和许可；沙巴、砂拉越有各自野生动物、林业及公园制度。物种、来源、用途与进出口分别核对，不照抄境外植物名单。",
+      "applicability": "野生采集、受保护地区与 CITES 等要求可能同时适用。不要因动物在网上常见，就认为本地已可自由交易；原住民习惯权利也不是所有人的通用豁免。",
+      "contentSha256": "e8ef22dd654b12b08684a1bd49eca7043d94c026a9c3681389215a73bdc4e526"
+    },
+    {
+      "id": "9-15",
+      "file": "book/09-普通人容易踩的法律红线.md",
+      "oldTitle": "### 15. 要债不扣人、不关人、不跟到家里赖着不让走",
+      "newTitle": "讨债走协商或法庭，不扣人、扣证件或强闯住处",
+      "reason": "按 AGC、Malaysian Judiciary、Malaysian Judiciary 的所列资料，重写「讨债走协商或法庭，不扣人、扣证件或强闯住处」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "penal",
+        "court",
+        "enforcement"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "《刑法典》有非法限制人身自由、恐吓、勒索及侵入等相关罪名。即使债真实存在，追债方法仍须合法；取得判决后也由法定执行程序处理。",
+      "applicability": "催收涉及即时暴力危险时报警。不要为逼对方付款，在网络公开家属、儿童或完整证件资料。",
+      "contentSha256": "4fb803fe83a9347d53caa4d617c05da4f0ab6b4253fea5420c2eb4ef6e145329"
+    },
+    {
+      "id": "9-16",
+      "file": "book/09-普通人容易踩的法律红线.md",
+      "oldTitle": "### 16. 身份证不借人，不用别人的身份证，也不拿别人的证件登记、开卡、买票",
+      "newTitle": "MyKad、居民证件和护照不借人冒用，遗失按主管机关补办",
+      "reason": "按 AGC、SSM 的所列资料，重写「MyKad、居民证件和护照不借人冒用，遗失按主管机关补办」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "penal",
+        "ssmreg"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "冒名、伪造、欺骗及相关登记规则按实际行为处理；不同证件和身份有不同补办程序。证件被盗用或遗失后，尽快联系 JPN、移民部门或使领馆及涉及机构，保存报案与处理记录。",
+      "applicability": "MyKad 并非所有居民都持有；永久居民和外籍人士按自己的合法证件办理。雇佣或租住关系不意味着对方可无限期扣留原件。",
+      "contentSha256": "a25a8cd2a5f55aa4f44f8291c4e4ecb374785cde97c75f31a5dba95c4b43c6da"
+    },
+    {
+      "id": "9-17",
+      "file": "book/09-普通人容易踩的法律红线.md",
+      "oldTitle": "### 17. 被警察拦下或带走时配合，不推、不打、不抢执法记录仪，喝了酒更要忍",
+      "newTitle": "被警察截查时保持冷静，确认身份、原因和是否已被捕",
+      "reason": "按 Malaysian Bar 的所列资料，重写「被警察截查时保持冷静，确认身份、原因和是否已被捕」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "redbook"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "律师公会 Red Book 说明警察截查、证人笔录、逮捕、律师和医疗协助的基本做法。普通调查羁押与特殊法律的条件不同，不能将某一个时间上限写成所有案件通用。",
+      "applicability": "权利有具体程序和例外，无法确认时先联系律师。对警员失当可按 IPCC 渠道另行投诉，投诉与当场依法配合并不冲突。",
+      "contentSha256": "4d29d7198e3444dc399dc8152b082befa6ac2e50aed17937a06b3ace2cd8fe23"
+    },
+    {
+      "id": "9-18",
+      "file": "book/09-普通人容易踩的法律红线.md",
+      "oldTitle": "### 18. 对方不满 14 岁就不能发生关系，「她同意」不是理由",
+      "newTitle": "儿童性保护不套境外年龄线，十六岁也不是所有性行为的通行证",
+      "reason": "按 SUHAKAM、AGC、Federal Government Gazette 的所列资料，重写「儿童性保护不套境外年龄线，十六岁也不是所有性行为的通行证」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "consent",
+        "penal",
+        "child-sexual"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "儿童性罪行法保护未满十八岁的儿童，诱骗、性接触、性通讯及儿童性虐待材料等另有要件；成人行为也须有有效同意。宗教、婚姻、权力关系和行为性质都可能影响适用法律。",
+      "applicability": "不是把十四岁改成十六岁就完成判断。不要借婚姻或其他例外为与儿童发生性行为寻找空间；疑似儿童受害应向警方及保护机构求助。",
+      "contentSha256": "7fea9fb910d3491530b01d6fba5b108d1d1bb9d90b9d680989326ac6a4f76b4a"
+    },
+    {
+      "id": "9-19",
+      "file": "book/09-普通人容易踩的法律红线.md",
+      "oldTitle": "### 19. 动手打人前算清这笔账：拘留、赔钱、判刑",
+      "newTitle": "发生冲突先脱离，动手可能同时带来刑事和民事责任",
+      "reason": "按 AGC、Malaysian Judiciary 的所列资料，重写「发生冲突先脱离，动手可能同时带来刑事和民事责任」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "penal",
+        "court"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "马来西亚的伤害、武器、共同参与及私人防卫须按事实和法律要件判断。赔偿和解不保证刑事调查或检控自动终止；法庭赔偿请求也须有依据。",
+      "applicability": "防卫应为处理正在发生的危险，并受必要程度等限制。安全离开后不要再追击报复；有急迫危险拨 999。",
+      "contentSha256": "541a407e2d7b170d6150f748c21924c5349b8ab7a528c49f863e8e39f0d5a1bd"
+    },
+    {
+      "id": "9-20",
+      "file": "book/09-普通人容易踩的法律红线.md",
+      "oldTitle": "### 20. 孩子生下来养不了，只有民政登记这一条合法出路：收钱把孩子给人可能按拐卖罪判，扔下不管是遗弃罪",
+      "newTitle": "无力照顾孩子时先找 JKM，收养按宗教和地区走正规程序",
+      "reason": "按 JPN、MyGovernment 的所列资料，重写「无力照顾孩子时先找 JKM，收养按宗教和地区走正规程序」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "adoption",
+        "adoption-region"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "西马 Act 253 的事实收养登记与 Act 257 的法庭收养不同，后者针对非穆斯林；沙巴、砂拉越另有程序。收养不自动解决孩子公民权，也不代表立即取得所有继承效果。",
+      "applicability": "家庭、宗教和孩子身份影响文件及效果，不能按族群猜。孩子当前有危险时先求救，不为等完文件让其处于无人照顾状态。",
+      "contentSha256": "30087a1c0be6753fea738e8cc97d7b8063218db58285202fe4ef21583d4bcfc6"
+    },
+    {
+      "id": "9-21",
+      "file": "book/09-普通人容易踩的法律红线.md",
+      "oldTitle": "### 21. 别伪造事故、别夸大损失骗理赔：这是保险诈骗罪，帮你作证、帮你修车、帮你鉴定的人一起算",
+      "newTitle": "保险与 takaful 索赔如实报，不伪造事故、报价或医疗资料",
+      "reason": "按 AGC、LIAM、FMOS 的所列资料，重写「保险与 takaful 索赔如实报，不伪造事故、报价或医疗资料」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "penal",
+        "liam",
+        "fmos"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "《刑法典》涉及欺骗、伪造及协助犯罪等条文，保单还可能涉及拒赔、撤销或追讨。没有统一的境外保险诈骗金额起点可当作本地安全线。",
+      "applicability": "争议金额或被拒赔先要求书面理由，并在权限和期限内投诉。不要因保险公司没有立即发现，就认为资料已经被正式认可。",
+      "contentSha256": "7c6a0c002e055e3c0f32492cb466386fc78f9f14b2dca4b389504d140c2d64cf"
+    },
+    {
+      "id": "9-22",
+      "file": "book/09-普通人容易踩的法律红线.md",
+      "oldTitle": "### 22. 不卖自己的器官，也别帮人找供体：肾到手 2 万多，同一枚转手卖 20 万，钱要被没收还要按交易额罚 10 到 20 倍",
+      "newTitle": "器官捐赠走正规移植团队，不买卖器官或替中介招供体",
+      "reason": "按 KKM、National Transplant Resource Centre 的所列资料，重写「器官捐赠走正规移植团队，不买卖器官或替中介招供体」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "organ",
+        "organinfo"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "KKM 的活体非亲属捐赠政策禁止器官和组织买卖，并设独立评估程序；并非只有某几种血缘关系才可讨论捐赠。是否适合由移植团队和有关独立程序评估。",
+      "applicability": "供受双方的自愿、健康和长期风险都要评估。宗教问题可另咨询可信宗教及医疗机构，不能以族群或未经核实的个案金额替所有人作结论。",
+      "contentSha256": "6304393f42532a72a2e09b4bb4dbe876bf80ec7dc5dbaf68e7ebc0ffed4b8bcd"
+    },
+    {
+      "id": "9-23",
+      "file": "book/09-普通人容易踩的法律红线.md",
+      "oldTitle": "### 23. 别嫖娼：默认档是拘留 10 到 15 日，不是罚点钱了事",
+      "newTitle": "避开性交易和招嫖广告，不把私下交易当作合法或安全保证",
+      "reason": "按 AGC、SUHAKAM 的所列资料，重写「避开性交易和招嫖广告，不把私下交易当作合法或安全保证」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "penal",
+        "consent"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "是否构成罪行看行为、对象、胁迫及适用法律；穆斯林另须看所属州的伊斯兰刑事法律。若被诈骗或勒索，保留证据并报案，不再付钱换取「删除」。",
+      "applicability": "这是规避法律与人身风险的建议，不把所有个案混成同一罪名。遭胁迫或剥削的人应获得保护，不应因害怕被责备而放弃求助。",
+      "contentSha256": "666a117af3db97962b7cd0647c5e48d01842f7679bab2fc85e1a67a844701752"
+    },
+    {
+      "id": "9-24",
+      "file": "book/09-普通人容易踩的法律红线.md",
+      "oldTitle": "### 24. 汉化漫画、搬运影视剧、分享网盘资源和盗版电子书，不收钱也是侵权；挂广告、收会员费就可能判刑",
+      "newTitle": "翻译、转贴影视与分享电子书，先核对版权或适用例外",
+      "reason": "按 MyIPO 的所列资料，重写「翻译、转贴影视与分享电子书，先核对版权或适用例外」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "copyright"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "《1987年版权法令》规管作品及衍生作品，并有公平处理等具体例外。是否适用研究、评论或私人学习等例外，要看用途、范围及其他因素，不用境外作品数量或会员数当刑事门槛。",
+      "applicability": "合法授权要核对地域、媒介、年期和商业使用范围。平台上找得到的素材也可能没有再授权给你的权利。",
+      "contentSha256": "81d822e3ac4605a44a7a533f9984884d8f28b9dcd08bbc711e63571efdc08d6d"
+    },
+    {
+      "id": "9-25",
+      "file": "book/09-普通人容易踩的法律红线.md",
+      "oldTitle": "### 25. 写同人、做二创拿去出版或卖钱，先取得原作许可，或者把借来的人物名字和关系换成自己的",
+      "newTitle": "二创、同人和改编先核对授权，改名不等于自动变成原创",
+      "reason": "按 MyIPO 的所列资料，重写「二创、同人和改编先核对授权，改名不等于自动变成原创」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "copyright"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "马来西亚版权法保护符合条件的表达和衍生作品，也有具体例外；是否侵权须看复制或改编了什么，以及适用授权。不要用一宗境外文学案件作为本地统一规则。",
+      "applicability": "题材、概念和具体表达不是一回事。使用开放许可时遵守署名、相同方式分享或非商业等条件，不自行扩大许可。",
+      "contentSha256": "90c6bd29feef14380aca9364a58c13f859abe0d3ea67d43da47a9f02590de1a0"
+    },
+    {
+      "id": "9-26",
+      "file": "book/09-普通人容易踩的法律红线.md",
+      "oldTitle": "### 26. 别为了防身买甩棍、电击器、匕首、辣椒水带在身上，放在车里也算携带",
+      "newTitle": "防身工具先查分类和携带理由，不把车内存放当作自动合法",
+      "reason": "按 PDRM、AGC 的所列资料，重写「防身工具先查分类和携带理由，不把车内存放当作自动合法」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "arms",
+        "penal"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "PDRM 提供有关受管制武器的申请程序；使用任何物品伤人还会按实际行为及防卫条件判断。不要把「买来防身」当成携带和使用的全面免责。",
+      "applicability": "优先采用离开、求助和安全路线等风险较低做法。不能把某国的管制刀具清单，或卖家提供的免罪保证当作马来西亚许可。",
+      "contentSha256": "ca8e2fc0155d66448ca8a279d9a4c9a88c21ce8131d2de7af80fb9867f0c6fa4"
+    },
+    {
+      "id": "9-27",
+      "file": "book/09-普通人容易踩的法律红线.md",
+      "oldTitle": "### 27. 捕鱼、钓鱼时，禁渔期和禁渔区不下网，任何时候都不电鱼、毒鱼、炸鱼，不用禁用渔具",
+      "newTitle": "捕鱼和钓鱼先查水域、物种及许可，不电鱼、毒鱼或炸鱼",
+      "reason": "改用渔业局 Act 317 第 26 条和沙巴执法资料，删除境外禁渔期、金额及误配野生动物法来源。",
+      "sourceIds": [
+        "fisheries",
+        "fisheries-sabah"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "马来西亚渔业及相关州属、水域或公园制度各有适用范围；不能照搬另一条河或另一个国家的禁渔期和刑期。爆炸物、毒物和电力还可能危及其他人及生态。",
+      "applicability": "这里的行动底线是不用危险方式、不在不明权限的地方捕捞；具体许可向所属地区渔业主管机关核对，不把半岛资料自动套到沙巴和砂拉越。",
+      "contentSha256": "b0247ccfdd69e4684202ea8e2c9c09964e04c14cd075f5c6156b09462a1016ed"
+    },
+    {
+      "id": "9-28",
+      "file": "book/09-普通人容易踩的法律红线.md",
+      "oldTitle": "### 28. 上坟、烧荒、野炊时不在林区和草原点火，看到山火打 999",
+      "newTitle": "野外和住宅区不随意露天焚烧，发现失控火势拨 999",
+      "reason": "按 DOE 的所列资料，重写「野外和住宅区不随意露天焚烧，发现失控火势拨 999」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "fire"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "DOE 说明《1974年环境素质法令》第 29A 条禁止露天焚烧，并有宪报规定的具体例外；森林、公园及地方规则还可能同时适用。不能借用境外林地面积和判刑数字。",
+      "applicability": "不同信仰的仪式均须兼顾消防与环境规则。看到火势蔓延先远离、报告准确位置，不冒险独自救火。",
+      "contentSha256": "1d005b5d10c44b3a757085c6966de799398d390611d1bb54627dd09d86d33884"
+    },
+    {
+      "id": "9-29",
+      "file": "book/09-普通人容易踩的法律红线.md",
+      "oldTitle": "### 29. 考公、考研、考驾照和考职业资格时，不替人考、不找人替考，不买卖答案，不帮人组织作弊",
+      "newTitle": "考试自己应考，不代考、不买答案，也不协助身份造假",
+      "reason": "按 AGC、MACC 的所列资料，重写「考试自己应考，不代考、不买答案，也不协助身份造假」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "penal",
+        "macc"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "欺骗、冒名和伪造等可能适用《刑法典》，纪律与资格处理另由有关考试或发证机构依规则决定。不能把境外公职和考试刑期直接套入。",
+      "applicability": "出现技术或身份登记问题用正式申诉程序，不找所谓内部包过渠道。成绩复核、合理便利与作弊是不同事情。",
+      "contentSha256": "c1d0aadaa2695d4398e8abd67e885eea4edc509072ccd85cd460fd99d3632fda"
+    },
+    {
+      "id": "12-1",
+      "file": "book/12-创业与做生意.md",
+      "oldTitle": "### 1. 只拿亏得起的钱创业，不动家底、不借钱开张",
+      "newTitle": "创业先定亏损上限，分开家庭生活费与业务资金",
+      "reason": "按 SSM、SSM、MIDA / InvestMalaysia 的所列资料，重写「创业先定亏损上限，分开家庭生活费与业务资金」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "company",
+        "ssmreg",
+        "contracts"
+      ],
+      "grade": "C",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "独资、合伙和公司的责任不同；公司虽是独立法人，个人担保或本人失责仍可能影响私人财产。把资金、账户和票据分清，才能知道业务亏了多少及谁负责。",
+      "applicability": "这是风险预算方法，不保证使用某种注册形式就不会亏。家属只因与你有亲属关系，不应被写成自动承担全部生意债务。",
+      "contentSha256": "51bfad91c9789aaf54187b0e789eaed9a021926a193068a4b580e1a4e4138da0"
+    },
+    {
+      "id": "12-2",
+      "file": "book/12-创业与做生意.md",
+      "oldTitle": "### 2. 不给公司贷款签个人担保，配偶更不要跟着签",
+      "newTitle": "公司融资要求个人担保时，先按可能由自己还来评估",
+      "reason": "按 MIDA / InvestMalaysia、SSM 的所列资料，重写「公司融资要求个人担保时，先按可能由自己还来评估」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "contracts",
+        "company"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "《1950年合同法令》涉及保证人、主债务人及担保责任，具体范围、持续性和解除按文本与法律处理。不能套用另一套法律里「一般／连带」几个字的分法。",
+      "applicability": "分别核对共同借款、担保、抵押及公司董事签署身份。要求融资方说明金额、期限和何时可解除，不能只听「永远不会找你」。",
+      "contentSha256": "11d55e5b19f88ab41ba1db39dc7d324b926fb3ac9d41d05126e9fa54326753bf"
+    },
+    {
+      "id": "12-3",
+      "file": "book/12-创业与做生意.md",
+      "oldTitle": "### 3. 开张前选对主体：个体户和合伙人赔到底，有限公司才「有限」",
+      "newTitle": "开业前比较独资、合伙和有限公司的责任与持续成本",
+      "reason": "按 SSM、SSM 的所列资料，重写「开业前比较独资、合伙和有限公司的责任与持续成本」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "company",
+        "ssmreg"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "SSM 说明公司具有独立法律人格；但个人担保、董事责任或本人违法不自动由公司承担。ROBA 下独资／合伙的注册资格与地域适用另查，不能套用境外五年缴足认缴资本规则。",
+      "applicability": "公民、永久居民和外籍人士可用的形式不同；沙巴、砂拉越的独资及地方执照另核对。实际出资、股份和股东协议仍须记录。",
+      "contentSha256": "a5b0dd69177f94be8cd6c35413836f5ab82c4444f929c7fd0e5e06aef6704566"
+    },
+    {
+      "id": "12-4",
+      "file": "book/12-创业与做生意.md",
+      "oldTitle": "### 4. 不当挂名股东，不替人代持股权",
+      "newTitle": "不借名持股或当挂名董事，先查真实控制与申报责任",
+      "reason": "按 SSM、SSM、SSM 的所列资料，重写「不借名持股或当挂名董事，先查真实控制与申报责任」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "company",
+        "annual",
+        "beneficial"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "SSM 对公司资料、成员及董事记录有正式程序，公司独立人格不等于借名安排没有后果。实际身份与责任要按文件核对，不以境外的股东出资连带规则作结论。",
+      "applicability": "如发现身份被冒用，保存证据并向 SSM、银行及警方处理。合法信托或代持也不能拿来隐瞒依法必须申报的真实控制。",
+      "contentSha256": "e6f6b7b40de6cc768f14756b2bb4b70f2c0d721ddbb0467a1697af1e62873f19"
+    },
+    {
+      "id": "12-5",
+      "file": "book/12-创业与做生意.md",
+      "oldTitle": "### 5. 加盟前先查商务部备案，拿到书面披露，把「冷静期」写进合同",
+      "newTitle": "加盟前查 MyFEX，拿到完整披露、合约与退出条件再付钱",
+      "reason": "按 KPDN、MIDA / InvestMalaysia 的所列资料，重写「加盟前查 MyFEX，拿到完整披露、合约与退出条件再付钱」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "myfex",
+        "contracts"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "MyFEX 2.0 提供特许经营的注册及申请流程。加盟人与品牌方的义务、披露及冷静期须按《1998年特许经营法令》及具体合同核对，不能沿用境外门店数量和备案时限。",
+      "applicability": "已有注册不代表加盟一定赚钱。要求可核对的成本和现有店铺资料，警惕先交不可退大额款才给看合同的安排。",
+      "contentSha256": "7b0de9e4acad16237b1f69c7fed54b13b8f8ffc94fe99ccb4490e0c7299aa054"
+    },
+    {
+      "id": "12-6",
+      "file": "book/12-创业与做生意.md",
+      "oldTitle": "### 6. 注册前把名称、经营场所、经营范围和注册资本定下来，材料齐了当场就能领执照",
+      "newTitle": "先确认业务形式和资格，再办注册及地方营业执照",
+      "reason": "按 SSM、SSM 的所列资料，重写「先确认业务形式和资格，再办注册及地方营业执照」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "ssmreg",
+        "company"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "SSM 指引列明名称、业主、地址和业务等资料，并强调注册商业后仍须取得有关许可。按自己的主体准备文件、支付官方费用，保留批准与有效期，不把注册等同已经可经营所有业务。",
+      "applicability": "外籍身份不能直接套用公民／永久居民的独资注册路线。营业地点、行业、招牌、食品或其他专业许可可能要另办。",
+      "contentSha256": "5729b0644b4e4c02e196f2d0cf56f1dc113817a25330e20b9b6770e581b3067b"
+    },
+    {
+      "id": "12-7",
+      "file": "book/12-创业与做生意.md",
+      "oldTitle": "### 7. 要许可证的行当，证没下来不开张",
+      "newTitle": "行业和场地许可确认后才开张，SSM 注册不是万能牌照",
+      "reason": "按 SSM 的所列资料，重写「行业和场地许可确认后才开张，SSM 注册不是万能牌照」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "ssmreg"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "SSM 注册指引明确，业务经营者仍负责取得相关机关执照或许可。许可可能来自联邦、州、地方政府或专业监管机构，不能套用一个通用的「无证经营罪」及境外罚款。",
+      "applicability": "线上、家里经营和只做小规模，也不自动免所有规定。特别是对儿童、病人、食品或客户资金有实际接触的业务。",
+      "contentSha256": "6f3094d5e00d457ee201ea6cc3678171b2e4ed34a791e8da50909cfe8fc1eb11"
+    },
+    {
+      "id": "12-8",
+      "file": "book/12-创业与做生意.md",
+      "oldTitle": "### 8. 做食品先看自己落在哪一档：生产和做餐饮要许可，只卖预包装的改备案，卖生鲜肉菜不用证",
+      "newTitle": "做餐饮或食品，逐项核对场所注册、地方执照与食品处理条件",
+      "reason": "按 KKM、SSM 的所列资料，重写「做餐饮或食品，逐项核对场所注册、地方执照与食品处理条件」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "food-hygiene",
+        "ssmreg"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "KKM 按食品法、食品条例及《2009年食品卫生条例》监管场所和食品处理者；地方政府也有营业及场地要求。食品处理培训、健康和卫生要求按实际活动落实。",
+      "applicability": "需提供或宣传清真产品时，另查 JAKIM／州宗教机构的认证及标志规则，不以老板或员工的族群代替认证。其他宗教与过敏需求也要准确说明。",
+      "contentSha256": "93eb6ea1bf33fd40e80c84a8e204b993eeebc34251336227d6a698cb6af3f744"
+    },
+    {
+      "id": "12-9",
+      "file": "book/12-创业与做生意.md",
+      "oldTitle": "### 9. 卖预包装食品先核对标签：生产日期、保质期、配料表按规定标齐",
+      "newTitle": "卖包装食品按 KKM 规则核对标签与过敏资料",
+      "reason": "按 KKM、KKM 的所列资料，重写「卖包装食品按 KKM 规则核对标签与过敏资料」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "food-reg",
+        "food-hygiene"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "《1985年食品条例》规定包装食品的标签资料及形式，马来西亚制造与进口食品的语言等要求须分别核对。日期、营养和特定成分要求取决于食品类别，不照抄境外统一模板。",
+      "applicability": "有清真、素食、无某过敏原等声明时要有真实依据，并考虑交叉接触。包装外观与合法性、食品安全不是同一回事。",
+      "contentSha256": "2736a194d6c7e3339b173b003a39430d91ef19659b393dcb35637efee4d67929"
+    },
+    {
+      "id": "12-10",
+      "file": "book/12-创业与做生意.md",
+      "oldTitle": "### 10. 普通食品不许说能治病：标签、说明书、广告和直播话术都算",
+      "newTitle": "食品和保健品宣传按真实分类，不擅称可治疗疾病",
+      "reason": "按 NPRA、KKM、KPDN 的所列资料，重写「食品和保健品宣传按真实分类，不擅称可治疗疾病」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "food-drug",
+        "food-reg",
+        "consumer-act"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "NPRA 的食品—药品边界指引说明，不同分类由不同监管要求管理；食品标签和广告须符合有关食品规则，药品及相关广告另有条件。不要沿用境外广告费倍数当处罚依据。",
+      "applicability": "天然、中药、草药或传统使用都不是治疗保证。有疑问先取得正式分类，不用「仅供参考」字样抵销前面的夸大疗效。",
+      "contentSha256": "60654b06cf6c257dbd3f3bfe87be3bdbad52a43c763cbbb1cdb8c89a0cda13be"
+    },
+    {
+      "id": "12-11",
+      "file": "book/12-创业与做生意.md",
+      "oldTitle": "### 11. 食品这一行有刑事线：卖病死肉、超标货就够罪，掺了有毒有害的不看金额、起刑一档就是五年以下",
+      "newTitle": "食品来源和冷链留记录，疑似污染先停卖并配合追溯",
+      "reason": "按 KKM、KKM 的所列资料，重写「食品来源和冷链留记录，疑似污染先停卖并配合追溯」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "food-hygiene",
+        "food-reg"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "食品法与食品卫生规则覆盖制造、处理、储存、包装和运输等环节。实际责任看不安全食品、违规过程与证据，不照搬境外刑期或金额起点。",
+      "applicability": "清真要求、动物来源及兽医检验可能另外适用；不把其中一个证书当成全部安全保证。员工也要知道停卖和上报流程。",
+      "contentSha256": "b8218bcc0ac32abbd02dc347bda08e2bf0403f0b8172a575c4b977e8a8c2cf05"
+    },
+    {
+      "id": "12-12",
+      "file": "book/12-创业与做生意.md",
+      "oldTitle": "### 12. 领了执照就按期如实申报，没有收入也要报，符合条件才零申报",
+      "newTitle": "按主体和收入类型申报，没生意不等于自动免报",
+      "reason": "按 LHDN、LHDN、LHDN 的所列资料，重写「按主体和收入类型申报，没生意不等于自动免报」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "tax-return",
+        "tax-record",
+        "einv"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "LHDN 的申报计划包含 dormant 主体的处理；账目须反映真实交易，支持资料一般须按规定保存七年。注册、所得税、雇主申报、SST 与 e-Invoice 是不同义务。",
+      "applicability": "申报日历按当前课税年核对，旧版资料只用于理解结构。税务居民、非居民及纳闽实体另有适用规则，不按公民身份单独判断税务。",
+      "contentSha256": "c76a5bf387634f4105f80ccc07530efef72a2cffd91ebb07e46611c011317089"
+    },
+    {
+      "id": "12-13",
+      "file": "book/12-创业与做生意.md",
+      "oldTitle": "### 13. 发票只按真实交易开，小规模纳税人用足免税额",
+      "newTitle": "真实交易才开发票，SST 和 e-Invoice 分开核对",
+      "reason": "按 Royal Malaysian Customs、LHDN、LHDN 的所列资料，重写「真实交易才开发票，SST 和 e-Invoice 分开核对」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "sst",
+        "einv",
+        "tax-record"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "海关 MySST 按行业和营业额等条件规定登记，部分项目有特殊条件；e-Invoice 实施另分阶段及主体。没有达到某一项门槛，不代表免所得税或可以用假交易单据。",
+      "applicability": "跨境、关联企业、新开业和特殊行业应按当前 FAQ 核对。别替别人「借单」或伪造交易，退货取消也要保留真实对应关系。",
+      "contentSha256": "fcddb04e50746786efdd36909b0e7677a485232d23e5111f449726b4ec1aa620"
+    },
+    {
+      "id": "12-14",
+      "file": "book/12-创业与做生意.md",
+      "oldTitle": "### 14. 自称税务局、打电话或发消息催你往指定账号交钱报税的都是骗子，办税只走电子税务局和 12366",
+      "newTitle": "税务来电先独立核实，付款只走 LHDN 官方确认的渠道",
+      "reason": "按 LHDN、FMOS 的所列资料，重写「税务来电先独立核实，付款只走 LHDN 官方确认的渠道」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "tax-record",
+        "fmos"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "从 MyTax 检查税务资料和正式通知；向 LHDN 核实案件及收款说明。不向私人户口或所谓安全账户转账，不提供密码、OTP 或远程控制权限。",
+      "applicability": "疑似被骗转账立即联系银行和 NSRC 997，并按警方指示报案。不要等所谓上门核查结束才保护账户。",
+      "contentSha256": "3ee0486b78d03bb08cfa6e1eca0121145994f40ea4fbf53e467db9218796d094"
+    },
+    {
+      "id": "12-15",
+      "file": "book/12-创业与做生意.md",
+      "oldTitle": "### 15. 收钱写「定金」不写「订金」，违约金写明数，账期当放贷来审",
+      "newTitle": "订金、deposit 和违约处理写清楚，别靠两个中文字判断",
+      "reason": "按 MIDA / InvestMalaysia、KPDN 的所列资料，重写「订金、deposit 和违约处理写清楚，别靠两个中文字判断」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "contracts",
+        "consumer-act"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "《1950年合同法令》对违约损失、约定金额和返还等有相应原则，具体可追回多少须看法律与事实。给客户账期也是信用风险，要设额度、到期提醒和停止供货条件。",
+      "applicability": "不要把所有订金都写成绝不退，也不承诺对方违约必退双倍。房地产、加盟及受规管产品可能有特别合同规则，须另核对。",
+      "contentSha256": "d626a51cea6cb80339ceb7c189e79bc63ac95e268059beca4f06d699ee640020"
+    },
+    {
+      "id": "12-17",
+      "file": "book/12-创业与做生意.md",
+      "oldTitle": "### 17. 工资按合同和法律给，加薪、借款、奖金都走书面",
+      "newTitle": "雇佣条件、工资和奖金写清楚，按所在地区劳工法执行",
+      "reason": "按 MyGovernment、MIDA / InvestMalaysia 的所列资料，重写「雇佣条件、工资和奖金写清楚，按所在地区劳工法执行」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "labour",
+        "contracts"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "西马／纳闽、沙巴和砂拉越有不同劳工法及部门；加班费、扣薪、假期和终止条件还与岗位、工资和身份有关。员工欠款也不能让雇主任意扣工资。",
+      "applicability": "争议先向相应 JTK 查询；无理解雇与欠薪程序也不同。外籍雇员、家政工、公务员及独立承包商不能全部套同一说明。",
+      "contentSha256": "1fffd346844ec8b5ae241a8ad3d5bdfce974819326503df09ac6725d0acda3de"
+    },
+    {
+      "id": "12-20",
+      "file": "book/12-创业与做生意.md",
+      "oldTitle": "### 20. 进货一批留一批票据和上家信息，进货价明显低于市场价的不进：员工替公司进的假货，算公司犯罪时老板也是被判的那个",
+      "newTitle": "采购保留供货、授权与批次资料，不碰明显可疑的便宜货",
+      "reason": "按 MyIPO、MyIPO、KPDN 的所列资料，重写「采购保留供货、授权与批次资料，不碰明显可疑的便宜货」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "trademark",
+        "copyright",
+        "consumer-act"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "商标及版权侵权、假冒和误导各有法律要件；责任看行为、知情及相关规定，不套境外利润或货值起点。记录能帮助追溯，但不自动洗掉实际违法行为。",
+      "applicability": "食品、药品、电器及其他受规管货物还要查本身的批准或安全条件。不要用一份通用供应商声明代替所有检查。",
+      "contentSha256": "7f9262f436dc0503f5d7ed8c79070ba5ca3e1c85c7534af83233c255c6d289e6"
+    },
+    {
+      "id": "12-21",
+      "file": "book/12-创业与做生意.md",
+      "oldTitle": "### 21. 商品、包装、吊牌和宣传图上的图案要么自己做要么买授权，改个颜色、加个图标不算「改过了」",
+      "newTitle": "商标、图片、字体和包装素材逐项核对使用权",
+      "reason": "按 MyIPO、MyIPO 的所列资料，重写「商标、图片、字体和包装素材逐项核对使用权」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "trademark",
+        "copyright"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "MyIPO 说明注册商标权利，版权法保护符合条件的作品及改编。名称、图形、包装、商品及销售地区须分别检查授权，不以境外复制数量当作可自由使用门槛。",
+      "applicability": "同时核对开放许可是否允许商业、改作及转给客户。宗教、王室、官方或公共象征还可能有特别限制，不当作普通装饰随意使用。",
+      "contentSha256": "ecdd17ecb21c0222177768808d678ce81799e42ca5b71329fa3df3f90dd416ff"
+    },
+    {
+      "id": "12-22",
+      "file": "book/12-创业与做生意.md",
+      "oldTitle": "### 22. 在岗位上按规程办事，规程之外的好意先想清楚责任归谁",
+      "newTitle": "按岗位权限和安全程序工作，紧急情况及时上报并求助",
+      "reason": "按 DOSH、MIDA / InvestMalaysia、AGC 的所列资料，重写「按岗位权限和安全程序工作，紧急情况及时上报并求助」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "dosh",
+        "contracts",
+        "penal"
+      ],
+      "grade": "C",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "职业安全、专业纪律、合同与一般刑民责任可能同时适用。马来西亚不能一概承诺「自愿救人造成损害一律免责」；先做有能力完成、符合指引的必要协助。",
+      "applicability": "不要为避免承担责任而延误报警或合理求助，也不要越权实施自己不会的高风险操作。单位培训和事故记录是实际防护的一部分。",
+      "contentSha256": "527b6715f6bd0c9659840317da7f55576edfcfc595b864bb5525bec87a463dc9"
+    },
+    {
+      "id": "12-23",
+      "file": "book/12-创业与做生意.md",
+      "oldTitle": "### 23. 亏了就按程序退场：能简易注销就注销，资不抵债走破产，别放着不管",
+      "newTitle": "停业按主体办终止、除名或清盘，债务和申报不能放着",
+      "reason": "按 SSM、SSM、MdI 的所列资料，重写「停业按主体办终止、除名或清盘，债务和申报不能放着」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "strikeoff",
+        "company",
+        "mdi"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "SSM 第 550 条除名申请设有资产、负债、税务及诉讼等条件；不符合就不能假作无债公司申请。公司独立人格与有关董事或担保责任须分别处理。",
+      "applicability": "业务停止后仍可能有税表、资料保存和员工结算义务。不能承诺简单公示若干天就免掉所有责任；按实际注册和受理机关办理。",
+      "contentSha256": "8fadc2da4f0ca94e4f0d6bf1e6c6959354135c0bb97489780949c3b0d2e99b8a"
+    },
+    {
+      "id": "12-24",
+      "file": "book/12-创业与做生意.md",
+      "oldTitle": "### 24. 花钱请人代运营网店、上开店培训、做「无货源」之前，先问清后面还要不要加钱、销量从哪来",
+      "newTitle": "代运营、开店课或代发货先验合同和真实交付，不为提现反复加钱",
+      "reason": "按 MIDA / InvestMalaysia、AGC、KPDN 的所列资料，重写「代运营、开店课或代发货先验合同和真实交付，不为提现反复加钱」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "contracts",
+        "penal",
+        "ttpm"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "商业服务的交付、退款与损失要靠合同和交易证据；虚构交易、欺骗和冒名另可能涉及刑法。以公司或业务目的采购，不能默认自己有 TTPM 的个人消费资格。",
+      "applicability": "不给服务商主网银、OTP 或无限制后台权限。要求可验收成果、支出审批和终止交接条款，不靠「保证销量」口号付款。",
+      "contentSha256": "4cfda275060cca4991884d8ee6e87fc2ad57a8148f441e8c34ce5a318f90d43a"
+    },
+    {
+      "id": "12-25",
+      "file": "book/12-创业与做生意.md",
+      "oldTitle": "### 25. 开公司、当个体户的，每年 1 月 1 日到 6 月 30 日上网报上一年的年报，没生意也要报，年报不收费",
+      "newTitle": "公司年报按注册周年申报，财务报表、税表与商业续期另办",
+      "reason": "按 SSM、SSM 的所列资料，重写「公司年报按注册周年申报，财务报表、税表与商业续期另办」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "annual",
+        "ssmreg"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "SSM 列明年报与财务报表是不同提交，财报按公司类别及传阅／股东大会等规则计时。独资和合伙的商业续期、LLP 申报、地方执照及 LHDN 税表另有程序。",
+      "applicability": "费用以官方表为准，秘书或代理费另列。遇到漏报通知从官方系统核对，不直接扫描陌生人的收款码或登录链接。",
+      "contentSha256": "14eb8771af28e27e55def030299c55fabcbb4f200ae7c387a27113d5078fa17a"
+    },
+    {
+      "id": "12-26",
+      "file": "book/12-创业与做生意.md",
+      "oldTitle": "### 26. 找人凑钱做生意，只找亲友和员工当面谈，不在朋友圈、群里公开招人投钱，也别让亲友替你再去拉人",
+      "newTitle": "募资前先分清借款、入股与受监管集资，亲友也要有真实文件",
+      "reason": "按 SC、MIDA / InvestMalaysia、SSM 的所列资料，重写「募资前先分清借款、入股与受监管集资，亲友也要有真实文件」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "sc-markets",
+        "contracts",
+        "company"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "SC 的 ECF、P2P 等有受监管平台和规则；普通商业股权、私人借款与吸收公众存款不能混为一谈。项目真实、事后退款或只在群聊里说，也不自动免除原本义务。",
+      "applicability": "创业亏损风险须真实披露，股东、借款人和担保人的文件分开。不要把某个族群或宗教融资渠道的资格当作所有人都符合。",
+      "contentSha256": "fd41e0c35db8ba99b196a57988551f9a8229310fdd9d559d479072953ea9693a"
+    },
+    {
+      "id": "12-27",
+      "file": "book/12-创业与做生意.md",
+      "oldTitle": "### 27. 租铺面开店，签约前先查这间房能不能开你的店：住宅改成店要同一栋楼的业主全都同意，住宅楼里不能新开有油烟的餐馆",
+      "newTitle": "租店前确认土地用途、地方执照、消防和建筑管理条件",
+      "reason": "按 SSM、JKPTG、KKM 的所列资料，重写「租店前确认土地用途、地方执照、消防和建筑管理条件」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "ssmreg",
+        "land",
+        "food-hygiene"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "SSM 指引强调仍须取得相关经营许可；场地还受州土地、地方规划、卫生、消防与分层管理条件影响。不能套用境外一律全栋同意或统一禁餐饮的规则。",
+      "applicability": "租约写清许可未获批、装修审批、还原和退还订金的处理，但私约不能代替法定批准。沙巴、砂拉越及不同地方政府的程序须分别确认。",
+      "contentSha256": "29b6310a1f0448d3bfb9b0c786378135facb7d11edfe1dab9ec37df38d4b9c04"
+    },
+    {
+      "id": "12-28",
+      "file": "book/12-创业与做生意.md",
+      "oldTitle": "### 28. 几个人合伙开店，开张前把出资、分钱、谁说了算、谁拿工资、怎么退出写成书面协议",
+      "newTitle": "合伙前写清出资、工资、决策、账目和退出，不只约定分钱",
+      "reason": "按 SSM、SSM、MIDA / InvestMalaysia 的所列资料，重写「合伙前写清出资、工资、决策、账目和退出，不只约定分钱」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "ssmreg",
+        "company",
+        "contracts"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "独资合伙、LLP 与公司股东协议的法律结构不同。写清各方权限及相应合同，不能把另一套法律的默认分红或一致表决规则直接套过来。",
+      "applicability": "合伙协议不能当然限制外部债权人的合法权利。对银行、房东及供应商签了什么担保或共同责任，另列清楚。",
+      "contentSha256": "92a890c6f5b8646ff8bd39846a7ff5d3755289eaaf7bbb3be2a12a6f2ecfc16a"
+    },
+    {
+      "id": "13-1",
+      "file": "book/13-紧急情况.md",
+      "oldTitle": "### 1. 有人倒地、叫不应、没正常呼吸，立刻用力按压胸口，让旁人打 999 并找 AED",
+      "newTitle": "有人无反应且没有正常呼吸：打 999、开始胸外按压、找 AED",
+      "reason": "使用 KKM 社区 CPR 与本地急救电话，删除境外施救者绝对免责条款。",
+      "sourceIds": [
+        "cpr"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "KKM 社区 CPR 教材把及早识别、呼叫 999、按压及 AED 列为紧急救命步骤。不必等到能准确摸出脉搏才行动；非专业人员反复摸脉可能耽误按压。",
+      "applicability": "成人与儿童、婴儿及溺水者的急救方法有区别，按接线员及受训内容处理。救援期间尽量安排另一人引导救护车；不要为了录像而延误。这里不承诺施救者自动获得任何民事免责。",
+      "contentSha256": "e922d8e2a53174899b438e0a187fd2365616c1a0cabb87f978234db305790d5c"
+    },
+    {
+      "id": "13-2",
+      "file": "book/13-紧急情况.md",
+      "oldTitle": "### 2. 老人摔倒、有人倒地，先蹲下喊他、打 999，别急着把人扶起来；陌生人这档走开在国内也合法，停下来就别上手搬",
+      "newTitle": "有人摔倒先看安全、反应和呼吸；别急着硬扶起来",
+      "reason": "删除将外国救助责任和诉讼风险套给本地路人的说法，改为可执行的现场急救步骤。",
+      "sourceIds": [
+        "cpr",
+        "redbook"
+      ],
+      "grade": "C",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "优先识别危及生命的情况，能避免把心脏骤停当成普通跌倒，也减少不必要搬动。现场不安全先退开并报警；能做的协助包括报位置、引导救援和寻找 AED。",
+      "applicability": "医疗需要同意及具体急救判断；法律责任取决于行为、关系和事实，不能简单保证「路人走开必定免责」或「好心救人永不担责」。需要记录时由另一人处理，保护伤者隐私。长文见《遇到陌生人出事该不该停》。",
+      "contentSha256": "dc8169895683ea5a77809c5046529a2e579d3a97bc2526580709599ce3ed34c1"
+    },
+    {
+      "id": "13-16",
+      "file": "book/13-紧急情况.md",
+      "oldTitle": "### 16. 有人抽搐倒地，清开周围、让他侧躺、看表计时，什么都别往嘴里塞；孩子发烧时抽搐也一样",
+      "newTitle": "抽搐时移开危险物、保护头部并计时，不压住人、不往嘴里塞东西",
+      "reason": "保留明确标为国际医学来源的急救原则，删除境外救助免责制度并使用 999。",
+      "sourceIds": [
+        "seizures"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "CDC 的癫痫急救指引建议，抽搐超过 5 分钟、连续发作而未恢复、首次发作、呼吸困难、受伤或在水中发作时寻求急救。医学原则可参考国际指引，在马来西亚的紧急电话是 999。",
+      "applicability": "怀孕、合并其他严重病况或情况不明时也应尽快求助；有个人急救计划者按计划处理。不要误把抽搐理解成某种宗教或族群问题，也不以迷信仪式替代医疗。",
+      "contentSha256": "9ef264ec652060e943b2b42c2cbc10ab1512fe3b3d55cf33c96e73a8e68a49ff"
+    },
+    {
+      "id": "13-21",
+      "file": "book/13-紧急情况.md",
+      "oldTitle": "### 21. 酸碱等化学品溅到身上，立刻脱掉污染的衣服、用大量流动清水冲，眼睛要掰开眼皮冲，冲够时间再走",
+      "newTitle": "化学品溅到身上或眼睛，立即按安全资料表冲洗并求助",
+      "reason": "移除境外强制冲洗规定与一刀切时长，改为本地实验室流程、SDS 及急诊处理。",
+      "sourceIds": [
+        "chemical",
+        "chemical-um"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "大学实验室及职业健康指引强调立即去污、充分冲洗，以及按具体化学品的 SDS 急救说明处理。不同物质有不同要求，不能把统一冲洗分钟数当作所有化学灼伤都已处理完成。",
+      "applicability": "严重暴露、眼部受伤、呼吸不适或意识异常，打 999；不要为找 SDS 而拖延初步急救。水反应性物质等特殊情况按现场专门程序和专业人员指示处置，带上产品名称供医护判断。",
+      "contentSha256": "8ca75bd448a30be150eeabfb2e162692154a6b3f6ace024a83ab9cfbd2ed44d0"
+    },
+    {
+      "id": "13-36",
+      "file": "book/13-紧急情况.md",
+      "oldTitle": "### 36. 荒郊野外被陌生人索财，钱给他，不动手，记特征，脱身后报警",
+      "newTitle": "遇抢劫先保命，脱离危险后报警；别追打已经逃走的人",
+      "reason": "删除境外特殊防卫制度及追击免责结论，按马来西亚自卫限制重写。",
+      "sourceIds": [
+        "penal",
+        "redbook"
+      ],
+      "grade": "C",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "马来西亚《刑事法典》的自卫权有范围和必要性限制。面对即时威胁与威胁结束后追赶报复，是不同情况；不能把「他先抢我」当成事后任意伤人的许可。",
+      "applicability": "安全比拍摄重要。报案如实描述，不保证抢劫一定能追回财物、保险一定赔付或任何反击都获免责。受伤就求诊，保留报告。",
+      "contentSha256": "a7e5e3a0d69174eb125a229055e0b2b0c1a402445cf13a6cf115617fbb830f03"
+    },
+    {
+      "id": "13-37",
+      "file": "book/13-紧急情况.md",
+      "oldTitle": "### 37. 撞见一群人打架，退开走人，别上去拉架、别围观、别捡地上的家伙；要报警就退到安全距离打 999 报警",
+      "newTitle": "看到打架先拉开距离、打 999；保护别人也不要加入追打",
+      "reason": "删除境外互殴认定及绝对免责说法，区分报警、撤离与有限度保护他人。",
+      "sourceIds": [
+        "penal",
+        "redbook"
+      ],
+      "grade": "C",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "本地《刑事法典》允许在法律限定范围内防卫自己或他人，但必须结合威胁是否即时、所用力量是否必要等事实判断。不是一动手就一律算互殴，也不是自称劝架就必定免责。",
+      "applicability": "安全后保留原始视频、目击者联络方式；不要剪辑传播伤者面孔或未经核实的指控。警方问话时只说自己看到的事实，涉及自身刑事风险时请律师。",
+      "contentSha256": "807170a21186babcc6f38fa529f67bf793b26bccebb098dfea6739d3a5f2fad5"
+    },
+    {
+      "id": "13-39",
+      "file": "book/13-紧急情况.md",
+      "oldTitle": "### 39. 救人受了伤、搭进了钱，先找加害人和医保，再去申报见义勇为确认",
+      "newTitle": "救人时自己受伤，先就医并留记录，再逐项查保险和赔偿途径",
+      "reason": "删除境外救助奖金和法定补偿承诺，改为马来西亚可实际查询的医疗、保险与索赔路线。",
+      "sourceIds": [
+        "liam",
+        "court"
+      ],
+      "grade": "C",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "医疗保障、工伤保障及向造成伤害者索赔，是不同途径，各有资格、事实和文件要求。协助别人不自动产生政府奖励，也不自动由被救者或家属付清所有损失。",
+      "applicability": "公民与非公民的医疗收费、援助资格可能不同；一般居民也不能假定自己受工伤保险保障。有人承诺能代领「见义勇为奖金」并索费，先向有关机构直接核对。",
+      "contentSha256": "85363819fa0dfbdf07ac49a1d7415f4e850f3b6160a87e9d12620cbce76d01e9"
+    },
+    {
+      "id": "13-46",
+      "file": "book/13-紧急情况.md",
+      "oldTitle": "### 46. 有人喝醉了，让他侧躺、有人一直守着，别让他一个人睡；叫不醒、呼吸慢或不规律、抽搐、身上发凉就打 999",
+      "newTitle": "喝酒后叫不醒、呼吸异常或不断呕吐，立即打 999",
+      "reason": "改成本地紧急处理与包容性聚会用语，删除境外共同饮酒连带赔偿结论。",
+      "sourceIds": [
+        "alcohol",
+        "cpr"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "NHS 急救指引强调及时叫救护车、持续观察呼吸和避免错误的醒酒办法；这里采用通用医学原则，并使用马来西亚的急救电话。一起喝酒者应提供可靠信息，不能只把人送到门口就离开。",
+      "applicability": "聚会先尊重每个人的宗教、健康和个人选择，不劝酒、不把饮酒当作融入某族群的条件。是否有法律责任须按实际行为判断，不能照搬其他国家「同桌喝酒必定赔」的规则。",
+      "contentSha256": "6dcb3aa02e10cfef71c3e95a77d27fdd3fc976d88875e843a17fbf260d3f5e17"
+    },
+    {
+      "id": "14-3",
+      "file": "book/14-账号与信息安全.md",
+      "oldTitle": "### 3. 手机设锁屏密码，SIM 卡设 PIN 码",
+      "newTitle": "手机设强锁屏密码；SIM PIN 和解锁恢复资料也要保护",
+      "reason": "移除境外电讯制度，把 SIM PIN、PUK、锁屏及本地补卡流程分清。",
+      "sourceIds": [
+        "sim",
+        "sim-replace"
+      ],
+      "grade": "C",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "Apple 的说明确认，SIM PIN 可在设备重启或移除 SIM 后要求解锁。PIN／PUK 连续输错会锁住卡，不知道号码就找原电讯公司，不要试猜；这项设置也不能阻止所有补卡诈骗或账号盗用。",
+      "applicability": "更换 SIM／eSIM 要走电讯公司官方渠道并按身份核验要求办理。电话号码用于银行 OTP 时，同时保护电讯账户和银行登入方式，定期检查异常变更通知。",
+      "contentSha256": "ecedd4935cc0f4d76cb6bb555e494b1e16b25e0f78c8bf18e4694272be793d7e"
+    },
+    {
+      "id": "14-5",
+      "file": "book/14-账号与信息安全.md",
+      "oldTitle": "### 5. 卡被盗刷先挂失冻结再报警，然后要求银行赔：证明「是你自己刷的」是银行的责任",
+      "newTitle": "银行卡出现不认识的交易，先冻结并立刻向银行提出争议",
+      "reason": "删除境外银行卡举证与全额赔偿规则，建立银行争议及 FMOS 路线。",
+      "sourceIds": [
+        "fmos"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "银行会按交易方式、认证记录、通知时点和产品条款调查，不能保证一报失就免付全部损失。先向银行正式投诉，仍无法解决且符合资格，可循 FMOS 的金融争议程序处理。",
+      "applicability": "FMOS 通常要求先投诉金融机构：收到最终答复后须在其规定期限内申请；未获答复也有相应等待条件。保留书面答复，不要相信「任何盗刷银行都必须全赔」或「输入 OTP 就完全不能申诉」。",
+      "contentSha256": "6c97dd97857fd205a91b1099d4e097e7c6a156c676d3d5e59e297f5b02fab92f"
+    },
+    {
+      "id": "14-7",
+      "file": "book/14-账号与信息安全.md",
+      "oldTitle": "### 7. 别为了用 App 点「全部同意」：不是必需的信息，你不同意也不能拒绝给你服务",
+      "newTitle": "App 要资料先看用途；非必要权限可以拒绝，必要资料按服务判断",
+      "reason": "删除境外个人信息法，区分 PDPA 商业适用范围、非必要权限与履约资料。",
+      "sourceIds": [
+        "pdp"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "马来西亚 PDPA 主要规范商业交易中的个人资料处理，涵盖通知、选择、用途与安全等原则，但有适用范围及例外。不是所有政府、私人或家庭场景都可用同一套 PDPA 投诉。",
+      "applicability": "联邦与州政府不在该法一般适用范围内；遇索取 MyKad、护照或敏感资料，核对主体与必要性，不把证件照发给不明客服。不同国籍都应按实际资料处理场景判断。",
+      "contentSha256": "70a2b1bc57585953002cd63ab7224ab276203ad4492c0ac9d7ba0b434c6925d2"
+    },
+    {
+      "id": "14-8",
+      "file": "book/14-账号与信息安全.md",
+      "oldTitle": "### 8. 你有权查看、复制、更正和删除自己的个人信息，被拒绝可以起诉",
+      "newTitle": "资料有误、营销骚扰或用途不明，向资料持有人书面提出要求",
+      "reason": "移除境外无限删除、惩罚性赔偿结论，改用 JPDP 列明的权利与适用限制。",
+      "sourceIds": [
+        "pdp"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "JPDP 的权利说明及 FAQ 列有资料主体的查阅、更正、撤回同意及制止直接营销等权利，同时存在条件与例外。处理不当可向 JPDP 投诉；本地制度不等于无条件删除权，也不自动带来金钱赔偿。",
+      "applicability": "只通过机构核实过的渠道提供必要身份资料；不要为投诉再向不明网站交一遍证件。涉及索赔、政府资料或不属于商业交易的情况，须找相应投诉或法律途径。",
+      "contentSha256": "fc88281fc15041fb2d55e389aaf1382c74583ff09201b994d519558b8454c9f3"
+    },
+    {
+      "id": "14-11",
+      "file": "book/14-账号与信息安全.md",
+      "oldTitle": "### 11. 每年查一次自己名下有几张电话卡、几张银行卡，查出不是自己办的就去注销",
+      "newTitle": "定期盘点名下银行、信用卡及电话账户，逐家关闭不用的",
+      "reason": "移除境外名下账户统一查询渠道，改成马来西亚逐机构盘点与注销流程。",
+      "sourceIds": [
+        "pdp",
+        "sim-replace"
+      ],
+      "grade": "C",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "闲置账户和旧号码容易让人忽略异常收费、遗失联络和恢复验证风险。马来西亚的银行、信用资料与电讯记录属于不同系统，信用报告也不等于完整存款账户或 SIM 清单。",
+      "applicability": "机构会按 MyKad、护照等文件核对身份；别把证件号码输入自称「一键查询」的广告链接。查到不认识的账户或欠款，直接向该机构申诉并按情况报案。",
+      "contentSha256": "c8a5146fc889eef6a8238ec4e6ce9a81ead1e3e5cbe771f0562d046cc31ec5f4"
+    },
+    {
+      "id": "14-12",
+      "file": "book/14-账号与信息安全.md",
+      "oldTitle": "### 12. 换手机号码、不用旧号之前，先把银行、支付和社交账号改绑到新号上，别让旧号欠费停机了事",
+      "newTitle": "换电话号码前，先迁移银行、邮箱及账号验证，再停旧号码",
+      "reason": "删除境外一键解绑制度，改为银行、电讯与第三方账号分别迁移。",
+      "sourceIds": [
+        "sim-replace",
+        "sim"
+      ],
+      "grade": "C",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "号码停用后可能重新分配给别人，而许多服务仍会把验证发给账户里留下的旧号码。每家服务独立更新；电讯公司补卡、转台或换号码，不会替你改好所有第三方账户。",
+      "applicability": "更换 SIM 和更换号码是不同操作。手机已丢失或旧号码已失效时，直接走各机构人工恢复程序，别购买「代收 OTP」服务；恢复代码存放在受保护的手机外位置。",
+      "contentSha256": "00b0fba2deabfaa2f3e76221fdfdcc84be048bdbe0a74a1dde61146f7534393a"
+    },
+    {
+      "id": "15-1",
+      "file": "book/15-租房与买房.md",
+      "oldTitle": "### 1. 租房时押金的数额、退还时间和扣减情形，必须写进合同",
+      "newTitle": "租约写清押金、扣款依据、退还期限和交接记录",
+      "reason": "按 MIDA / InvestMalaysia、Malaysian Judiciary 的所列资料，重写「租约写清押金、扣款依据、退还期限和交接记录」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "contracts",
+        "court"
+      ],
+      "grade": "C",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "押金纠纷主要看有效租约、付款及交接证据；不能把另一国租赁条例当成马来西亚法定格式。提出扣款时要求明细，追讨按适用合同及法庭程序办理。",
+      "applicability": "这是降低争议的做法，不保证一句合同文字就排除所有法定义务。住宅、商业用途与所在地区可能有不同问题；不默认租房纠纷都属 TTPM。",
+      "contentSha256": "dab6b385ff69c25e2da25746137ba226943a78c63e2658f7b68dd8de91b1220e"
+    },
+    {
+      "id": "15-2",
+      "file": "book/15-租房与买房.md",
+      "oldTitle": "### 2. 被断水断电、换锁、上门威胁赶人，先报警留证：法规禁止用这些方式逼你腾房",
+      "newTitle": "遇换锁、断水电或威胁赶人，先安全留证并取得法律协助",
+      "reason": "按 MIDA / InvestMalaysia、Malaysian Judiciary、AGC 的所列资料，重写「遇换锁、断水电或威胁赶人，先安全留证并取得法律协助」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "contracts",
+        "court",
+        "penal"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "占有、终止租约、欠租与重新取得房屋的争议须走适用法律程序，不能由一方口头决定所有权利。法庭及律师可处理相应紧急或民事救济，警方不会自动替所有合同争议作最终裁判。",
+      "applicability": "房东也不应凭债务争议自行施加危险手段。私人物业、分层设施及公用事业公司的法定处理权限不是同一回事，先确认谁作了什么决定。",
+      "contentSha256": "e8995455541d51f6c9a31eedc2cda5e521f48ad7c91475a497d4a1062aaffa74"
+    },
+    {
+      "id": "15-3",
+      "file": "book/15-租房与买房.md",
+      "oldTitle": "### 3. 中介不得代收代付租金和押金，钱直接给房东",
+      "newTitle": "房租和押金付给谁，先核实业主、授权与正式收据",
+      "reason": "按 LPPEH / LPEPH、LPPEH / LPEPH、MIDA / InvestMalaysia 的所列资料，重写「房租和押金付给谁，先核实业主、授权与正式收据」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "agents",
+        "agent-account",
+        "contracts"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "通过受监管的房地产公司办事时，从官方名册核对人员与公司，并向公司确认收款安排。监管机构有客户户口相关要求；不要只凭代理发来的私人收款号码转账。",
+      "applicability": "直接向房东付款也要先核实其出租权。分租或代理收款须有清楚文件，收据上的性质和收款人应与合同一致。",
+      "contentSha256": "fe50e739301ff0f2c97931d4d49fbdc4a708948ec483d3be40bd62b5ee6d19f1"
+    },
+    {
+      "id": "15-4",
+      "file": "book/15-租房与买房.md",
+      "oldTitle": "### 4. 租长租公寓先查它的资金监管账户，别图便宜一次性付一年",
+      "newTitle": "长租配套别只看折扣，先查出租权和提前付款风险",
+      "reason": "按 MIDA / InvestMalaysia、Malaysian Judiciary 的所列资料，重写「长租配套别只看折扣，先查出租权和提前付款风险」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "contracts",
+        "court"
+      ],
+      "grade": "C",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "主租约是否允许分租、经营者是否有权出租、未履约时如何退钱，都要有书面依据。马来西亚没有可直接照抄的全国「长租资金监管账户」要求，不能把宣传或账户名称当保本保证。",
+      "applicability": "小额订金也要拿收据并核实身份。公寓、学生宿舍、服务式住宿和酒店式配套的合同可能不同，不把所有住处都当普通住宅租约。",
+      "contentSha256": "6b959e29fc81d2002ee4c8dde203ae01bef820191fb0b198d6cc70fc286eeb46"
+    },
+    {
+      "id": "15-5",
+      "file": "book/15-租房与买房.md",
+      "oldTitle": "### 5. 房子租期内被卖掉，租约继续有效，不用搬",
+      "newTitle": "房屋易主或被拍卖，先核对租约效力及新业主安排",
+      "reason": "按 JKPTG、MIDA / InvestMalaysia、Malaysian Judiciary 的所列资料，重写「房屋易主或被拍卖，先核对租约效力及新业主安排」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "land",
+        "contracts",
+        "court"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "土地、租赁和拍卖规则取决于地区、权利性质与事实。向买卖双方取得租金、押金和续住交接的书面确认；有冲突尽早由律师判断，不能搬用另一国的绝对租赁保护规则。",
+      "applicability": "不要把租金付给刚发消息自称新屋主的人而不核实。沙巴和砂拉越适用各自土地制度；长期登记租赁与短期租约也不能混为一谈。",
+      "contentSha256": "01d42c51f7e8c95b1e3de227a5e3399b52f93a666282c0b941328f481ab50705"
+    },
+    {
+      "id": "15-6",
+      "file": "book/15-租房与买房.md",
+      "oldTitle": "### 6. 租房签约前核对产权证和抵押情况，所有款项走转账并备注用途",
+      "newTitle": "租房先核对业主、地契资料和出租授权，再付款",
+      "reason": "按 JKPTG、LPPEH / LPEPH、MIDA / InvestMalaysia 的所列资料，重写「租房先核对业主、地契资料和出租授权，再付款」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "land",
+        "agents",
+        "contracts"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "土地资料、抵押和处分限制按所属州及权限查询；需要正式查询时可由土地局或律师办理。不能保证任何人带一张身份证就能免费查到全部房产资料。",
+      "applicability": "核对资料要尊重个人资料保护，不把证件贴到公开群。核实不到授权或要求付款给无关私人户口时先暂停。",
+      "contentSha256": "235a199fb791438a4750a5e648295a6910bd3158e737c0543e6bd742375dfd15"
+    },
+    {
+      "id": "15-9",
+      "file": "book/15-租房与买房.md",
+      "oldTitle": "### 9. 城镇户口想搬去乡下住，只租农房，别买宅基地和宅基地上的房子",
+      "newTitle": "买乡区或受限制土地前，分清马来保留地、土著单位和原住民土地",
+      "reason": "按 JKPTG、Forest Department Sarawak 的所列资料，重写「买乡区或受限制土地前，分清马来保留地、土著单位和原住民土地」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "land",
+        "sarawakland"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "JKPTG 说明半岛《国家土地法典》不适用于沙巴和砂拉越；马来保留地与各州限制须另查。砂拉越 NCR 等权利也不能只凭私人买卖纸张推定已合法转移。",
+      "applicability": "外籍、公民、土著及依法定义的原住民资格不是同一个条件。不要借人头或用空白授权绕过限制；租用也须确认出租权和用途。",
+      "contentSha256": "6f0fe8a79ad438ef964993cce75735b9c959ce77423a96d235c60f1e60f3b59c"
+    },
+    {
+      "id": "15-10",
+      "file": "book/15-租房与买房.md",
+      "oldTitle": "### 10. 买期房时先看预售许可证，定金、首付和贷款只打进合同写明的预售资金监管账户",
+      "newTitle": "买发展商新房先查 APDL、项目与 SPA，按正式付款安排转账",
+      "reason": "按 Jabatan Perumahan Negara、KPKT 的所列资料，重写「买发展商新房先查 APDL、项目与 SPA，按正式付款安排转账」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "housing",
+        "housingfaq"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "对受房屋发展法及标准合约管制的项目，付款和进度有专门规则；KPKT 指引警告发展商不能在没有 SPA 时任意收款。转账按合约及律师确认，不付到销售员私人户口。",
+      "applicability": "上述联邦框架有地域与项目范围，沙巴、砂拉越须按当地房屋制度查。商业、拍卖、转售及特定服务式单位也不能一律套标准住宅 SPA。",
+      "contentSha256": "afadd081e11024a8f70fde5b5b4ca6c58be12d0bbecb991b622ef915d451ca28"
+    },
+    {
+      "id": "15-11",
+      "file": "book/15-租房与买房.md",
+      "oldTitle": "### 11. 买新房交了认购定金或者首付，没签成正式合同、贷款批不下来（比如签约后政策收紧、银行停贷）又怪不到你的，要求开发商退钱",
+      "newTitle": "新房贷款被拒或无法签约，先按适用 SPA 和订购条件处理",
+      "reason": "按 Jabatan Perumahan Negara、KPKT、MIDA / InvestMalaysia 的所列资料，重写「新房贷款被拒或无法签约，先按适用 SPA 和订购条件处理」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "housing",
+        "housingfaq",
+        "contracts"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "按适用标准 SPA 的融资、违约及终止条款核对；不受该框架管制的交易，还要看合同和其他法律。争议可按 KPKT／当地主管机关或法庭的相应权限处理。",
+      "applicability": "不要签不实收入材料求过贷。订购协议、银行批准函和正式买卖合约不是同一文件；律师须说明贷款未足额和审批条件的后果。",
+      "contentSha256": "e3e52f3b8a4ea281027bd536bde80f6cdd4f55c6ce4078cd1045a8d1ac62418f"
+    },
+    {
+      "id": "15-12",
+      "file": "book/15-租房与买房.md",
+      "oldTitle": "### 12. 买新房签合同前看清面积误差怎么处理，楼书、广告和沙盘上的承诺拍照留好",
+      "newTitle": "买房规格、面积、图则与配套，签 SPA 前逐项核对",
+      "reason": "按 Jabatan Perumahan Negara、MIDA / InvestMalaysia、JKPTG 的所列资料，重写「买房规格、面积、图则与配套，签 SPA 前逐项核对」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "housing",
+        "contracts",
+        "land"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "面积差异、规格变更和补救须看当地法律及适用 SPA，不能用境外固定百分比作为马来西亚通用退房权。广告是否有误导与合同是否违约，也要按证据分别评估。",
+      "applicability": "要求销售员把重要承诺交由发展商正式确认。先弄清附属停车位、使用权和共有设施的法律性质，别只看平面图颜色。",
+      "contentSha256": "d079007719b2f519102dce18a349e19186c9e4b7a353c3cda84f155322d7d4fd"
+    },
+    {
+      "id": "15-13",
+      "file": "book/15-租房与买房.md",
+      "oldTitle": "### 13. 买新房遇上开发商逾期交房、逾期办证，先发书面催告留证据，再按合同要违约金",
+      "newTitle": "发展商迟交屋，先算适用 LAD 并留意索偿期限",
+      "reason": "按 Jabatan Perumahan Negara、KPKT 的所列资料，重写「发展商迟交屋，先算适用 LAD 并留意索偿期限」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "housing",
+        "housingfaq"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "KPKT 的标准合约指引有迟交赔偿安排；联邦 TTPR 处理相应发展商 SPA 争议，通常金额上限 RM50,000，并有按 CCC、DLP 或终止等事项计算的申索期限。",
+      "applicability": "TTPR 的联邦说明限西马及纳闽，不是普通租赁或所有转售争议都能用。实际赔偿和期限按适用合约、法律及获准安排核算，不自行停止付款。",
+      "contentSha256": "b5822577b9ccb0a8461517143aa0c7bdb661750d9ad94ba5dd73d5456e6d5f36"
+    },
+    {
+      "id": "15-14",
+      "file": "book/15-租房与买房.md",
+      "oldTitle": "### 14. 买房签约前查清有没有查封和抵押，签约后去不动产登记机构办预告登记",
+      "newTitle": "买房签约前做正式土地与卖方核查，过户和 caveat 交由律师判断",
+      "reason": "按 JKPTG、Forest Department Sarawak、MIDA / InvestMalaysia 的所列资料，重写「买房签约前做正式土地与卖方核查，过户和 caveat 交由律师判断」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "land",
+        "sarawakland",
+        "contracts"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "半岛土地制度与沙巴、砂拉越不同。私入地契 caveat 是否有依据、怎样保护权益及何时登记过户，要按真实权利由律师评估，不能把境外预登记和固定失效天数直接套入。",
+      "applicability": "不具依据的 caveat 也可能带来后果。不要拿一份旧土地查询就保证签约当天没有变化，付款和解除抵押的步骤须与律师确认。",
+      "contentSha256": "699ca8775924b06b503d5eba8d5d8070418d2815a0d2e6f1910c78af6693e15d"
+    },
+    {
+      "id": "15-15",
+      "file": "book/15-租房与买房.md",
+      "oldTitle": "### 15. 背着浮动利率房贷的，利率比新发放的房贷高出一截时，找银行协商降利率或者申请置换",
+      "newTitle": "房贷利率偏高可询问重新定价或再融资，先算全部成本",
+      "reason": "按 MIDA / InvestMalaysia、FMOS 的所列资料，重写「房贷利率偏高可询问重新定价或再融资，先算全部成本」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "contracts",
+        "fmos"
+      ],
+      "grade": "C",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "再融资会涉及估价、法律、印花、提前还款及保障费用，视实际贷款而定；把节息幅度和所需年数一起算。伊斯兰融资的利润、回扣及结清安排按自己的合同核对。",
+      "applicability": "不要只为降低月供就无限延长年期。本文不提供一笔固定金额贷款必省多少的例子；以银行正式报价和实际现金流计算。",
+      "contentSha256": "2fa513b62380a634fe528c183ecb2eacfa8db61017d27fc6d7f67c08ecdc3338"
+    },
+    {
+      "id": "15-17",
+      "file": "book/15-租房与买房.md",
+      "oldTitle": "### 17. 住小区被物业停水、停电、停暖、停气逼交物业费的，向当地房地产主管部门投诉；自己欠了物业费，物业只能催告、起诉或者申请仲裁",
+      "newTitle": "分层管理费有争议，先查账目与书面依据，再向 COB 或有关仲裁庭处理",
+      "reason": "按 KPKT、Malaysian Judiciary 的所列资料，重写「分层管理费有争议，先查账目与书面依据，再向 COB 或有关仲裁庭处理」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "strata",
+        "court"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "KPKT 的房屋与分层管理仲裁机制有各自权限；西马／纳闽的 JMB、MC 和 COB 框架不能自动套到沙巴、砂拉越。争议仍按所在地区的适用制度提出。",
+      "applicability": "不要因不满意服务就停止所有无争议费用，也不要断言管理层在每种情况下可任意断基本供应。安全或公用事业紧急问题同时联系有关单位，必要时咨询律师。",
+      "contentSha256": "159a05bf21c0009e0f2e783f73f10c80826cb7eab0a7da5138ae2c5ace2f6828"
+    },
+    {
+      "id": "15-18",
+      "file": "book/15-租房与买房.md",
+      "oldTitle": "### 18. 买新房收房时当场验房、把问题写进交房记录，漏水和水电管线出毛病，在《住宅质量保证书》的保修期内找开发商修",
+      "newTitle": "交屋先验屋，DLP 内书面报修并保存送达证明",
+      "reason": "按 Jabatan Perumahan Negara、KPKT 的所列资料，重写「交屋先验屋，DLP 内书面报修并保存送达证明」的行动、适用条件与原有境外依据。",
+      "sourceIds": [
+        "housing",
+        "housingfaq"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "KPKT 的适用标准 SPA 指引列有交付空置占有后 24 个月 DLP；报告、修补及后续费用追讨有程序。具体项目、地区及合约不同，不可套用境外一律五年或两年保修。",
+      "applicability": "DLP 不是保证所有项目都可任意自行维修后扣款；先按通知和补救程序处理。结构危险、漏电等先保障安全，不为等待发展商回复而继续冒险使用。",
+      "contentSha256": "f23c08b46a6d6a827833ad04f5e9e35ac84d78168f5f1afe41a3c68eb09bcb6c"
+    },
+    {
+      "id": "16-5",
+      "file": "book/16-得了慢性病之后怎么活.md",
+      "oldTitle": "### 5. 病情稳定的慢性病，在社区医院一次可以开到 12 周的药",
+      "newTitle": "长期用药先安排续药；想换地点领药，可询问 SPUB 或 MyUBAT",
+      "reason": "删除境外长处方法定周数，改用 KKM SPUB 与 MyUBAT 的实际续药流程。",
+      "sourceIds": [
+        "spub",
+        "myubat"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "KKM 的 SPUB 为合资格的长期处方病人安排跨参与设施领药，需按原药房的转介和文件要求办理；MyUBAT 则协助管理参与设施提供的续药服务。提前协调能减少断药和不必要往返。",
+      "applicability": "没有全国一律可开「最长 12 周」的保证；数量取决于病情、复诊、药物类别和库存。带药单、过敏记录及身份证明；库存不足或即将断药，尽早联系药房，不自行减量或换药。",
+      "contentSha256": "fd4ceb8a38756b7cbbd7dd4f5281488af77653e97d7d5e052476102238a04b06"
+    },
+    {
+      "id": "16-6",
+      "file": "book/16-得了慢性病之后怎么活.md",
+      "oldTitle": "### 6. 在社区签家庭医生之前，问清楚哪些进医保、哪些自费",
+      "newTitle": "慢性病找固定团队跟进；政府诊所、私人诊所和 panel clinic 分开问清",
+      "reason": "删除境外家庭医生签约及医保套餐，改成本地 KK、FMS、GP 和 panel clinic 路线。",
+      "sourceIds": [
+        "primarycare",
+        "spub"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "马来西亚的基层医疗可承担长期病况监测和转介，但公共、私人及雇主安排是不同支付体系。连续记录血压、血糖、药物和不良反应，有助下次复诊判断，而不是每次重头说起。",
+      "applicability": "公民补贴收费不等于非公民收费，医药卡也不一定赔普通门诊慢性病。信仰、族群或语言不决定医疗资格；需要语言协助时提早告知，避免只按「华人家庭医生」理解固定跟进。",
+      "contentSha256": "ec83d1d80e1fb5a07e89107c1286b546ee9f93708534444a6dc483f4aac98aab"
+    },
+    {
+      "id": "26-2",
+      "file": "book/26-做一个网站或平台.md",
+      "oldTitle": "### 2. 马来西亚没有中国式「ICP 许可证」，但电商平台必须向马来西亚公司委员会（SSM）注册并遵守国内贸易部（KPDN）《2012年消费者保护（电子商业交易）条例》",
+      "newTitle": "网店先办适用的商业登记，按 2024 电商条例准备卖家资料与交易说明",
+      "reason": "替换旧电商条例，分清卖家／平台责任、地区登记和国文要求，移除统一八项与旧罚款。",
+      "sourceIds": [
+        "ssmreg",
+        "ecom2024",
+        "ecom-review"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "2024 年电商条例第 3 条及附表列出网上市场卖家的十项披露资料；第 4 条要求以国文披露，可加其他语言。第 6 条要求提供订单双方确认及纠错途径。自营、社交销售和多商户模式先按实际功能确认适用范围，再落实资料与流程。",
+      "applicability": "准备国文（Bahasa Melayu）交易资料，可并列英文、中文或其他适合顾客的语言。商业登记不能代替食品、金融、旅游等许可，外籍人士也不能自动套用公民／永久居民的个人商业登记资格。详表见专题文章。",
+      "contentSha256": "b320824a835d736b2b34956c6deb83164bf49262903e54362bc456c6ea100d86"
+    },
+    {
+      "id": "26-3",
+      "file": "book/26-做一个网站或平台.md",
+      "oldTitle": "### 3. 直播与多媒体内容规管：马来西亚无需「网文证/视听证」，但受 MCMC《1998年通讯与多媒体法令》及广播内容准则（Content Code）约束",
+      "newTitle": "先让 MCMC 按实际服务分类，音视频、直播和社交平台不能笼统当作免牌照",
+      "reason": "修正 ASP(C) 类别及 2026 视为注册安排，删除所有音视频免牌照和过时罚则。",
+      "sourceIds": [
+        "mcmc-framework",
+        "mcmc-deeming"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "MCMC 对大型社交媒体和即时通信服务采用 ASP(C) 框架，并公布自 2026 年起适用的视为注册安排（deeming provision）。这不是「所有音视频网站无需视听牌照」，也不是旧版罚款数字可以概括的规则。",
+      "applicability": "牌照分类、内容准则、版权和儿童安全是不同事项；即使某类别获豁免，也不等于内容无需管理。大型平台应按最新人数门槛与法定安排执行；小网站则先确认服务性质，不把人数门槛当作通用免责线。",
+      "contentSha256": "6e6632649b37da5ce7a606d76a6b32a418e230e58bcb772389c47a1bb63a54e9"
+    },
+    {
+      "id": "26-5",
+      "file": "book/26-做一个网站或平台.md",
+      "oldTitle": "### 5. 运营平台让第三方卖家入驻：必须履行卖家实名核验、备存交易记录至少七年，并配合内陆税收局（LHDN）申报涉税信息",
+      "newTitle": "做多商户平台，分别管理卖家档案、交易税务记录和个人资料",
+      "reason": "逐项核对 2024 条例第 8 条三年卖家与交易记录，区分税务七年及个人资料保留。",
+      "sourceIds": [
+        "ecom2024",
+        "tax-record",
+        "einv",
+        "pdp"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "供应商档案的三年要求，与所得税账簿通常七年的保存责任、电子发票及 PDPA 是不同义务。分别记录起算、删除和争议保全条件，既能提供查核资料，也避免无目的地长期保留所有用户的聊天和浏览记录。",
+      "applicability": "按 LHDN 当前电子发票适用阶段和规则安排，不是每个小卖家都同日起实施。规定记录的保存起点、删除限制和争议保全分别写清；收证件前说明用途并限制访问。",
+      "contentSha256": "68bd28f8ea0379e5be8a9e169c43345b83ac8829261bca4bf396430162742a19"
+    },
+    {
+      "id": "28-2",
+      "file": "book/28-别为了外形把身体搞坏.md",
+      "oldTitle": "### 2. 打针、埋线、开刀之前查两样：机构许可证上有没有「医疗美容」，动手的人是不是主诊医师",
+      "newTitle": "做医疗美容查 3P：项目、医生资格和场所，美容院招牌不够",
+      "reason": "删除境外医美许可证和刑罚，采用 KKM 的 3P、MMC/APC/LCP 本地资格路径。",
+      "sourceIds": [
+        "aesthetic",
+        "aesthetic-guide"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "KKM 的医疗美容指引要求相关程序由具相应资格的医生在合规医疗场所进行。查清资格、感染控制、并发症处理和转送安排，比只比套餐价格更能避开无资格操作者。",
+      "applicability": "不是所有美容护理都是医疗程序，也不是任何注册医生可做所有项目。说明病史、过敏和正在用的药；出现视力变化、剧痛、呼吸困难等严重异常立即求急救。",
+      "contentSha256": "2c25f504ece557df230b12860ea4e23696c25a75f375ff64bc81bf7ff1372616"
+    },
+    {
+      "id": "28-5",
+      "file": "book/28-别为了外形把身体搞坏.md",
+      "oldTitle": "### 5. 不要用合成代谢类固醇（「增肌针」「口服药」）来长肌肉",
+      "newTitle": "不要为增肌自行买类固醇或照健身教练的针剂方案用药",
+      "reason": "保留标明丹麦样本的原始研究，移除境外药品法，并补上 NPRA 本地药品核验。",
+      "sourceIds": [
+        "steroid-study",
+        "drug-check"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "丹麦使用者随访研究观察到类固醇使用与较差健康结局相关，但不能把外国样本的具体风险直接当作每个马来西亚人的预测。当地药品应通过 NPRA／KKM 渠道核对注册状态；有 MAL 号码也不代表适合你自行使用。",
+      "applicability": "不同活性成分的法律分类和供应条件要分别判断，删除了境外处方管理条款。若已用药，不自行加药「补救」；胸痛、气促或严重情绪变化要及时就医。",
+      "contentSha256": "27e75cc69121dc6dfc1cd12be25553d6391eac74d8a51676c9c7c2549dcc6476"
+    },
+    {
+      "id": "28-10",
+      "file": "book/28-别为了外形把身体搞坏.md",
+      "oldTitle": "### 10. 买祛斑美白霜先拿包装上的「国妆特字」编号去国家药监局网站核对，别用微商卖的、美容院自己配的祛斑霜",
+      "newTitle": "买护肤品查 NPRA 通报状态，别把 NOT 号码当成美白疗效或绝对安全保证",
+      "reason": "删除境外化妆品批准文号，分清 NPRA 的 NOT 与 MAL，并删除通报等于安全批准的暗示。",
+      "sourceIds": [
+        "cosmetic",
+        "cosmetic-check"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "马来西亚采用化妆品通报制度，通报不等于逐件产品已被政府检测、批准功效或永远安全。NPRA 会公布安全警示和通报取消；汞等违禁成分也可能出现在冒牌或违规产品。",
+      "applicability": "敏感、灼痛、皮疹或色素异常，应停止使用并向医生／药剂师咨询，按 NPRA 渠道报告。不同肤色都值得保护，不把更白的肤色写成某族群或所有人的共同目标。",
+      "contentSha256": "34c835ce3accb003fd77156ada2764602a44eab62e623611af27af52a2c3a47c"
+    },
+    {
+      "id": "29-6",
+      "file": "book/29-遭遇重大打击之后.md",
+      "oldTitle": "### 6. 没有亲人也没有朋友的，把「盯着你的那个人」换成三样东西：能进你家门的邻居、社区的探访名单、手机里的紧急联络",
+      "newTitle": "独居或遭遇变故，和可信的人约好联系与失联后的处理方式",
+      "reason": "删除境外社区自动登记、定期探访承诺，改为跨族群、自愿的本地支持安排。",
+      "sourceIds": [
+        "community"
+      ],
+      "grade": "C",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "有人及时发现异常、帮忙求医和维持日常联系，有实际支持价值；不承诺能降低某个固定死亡比例。需要更多支持，可向当地社区组织或 JKM 询问现有服务，而不是假定独居者会自动获政府定期探访。",
+      "applicability": "尊重个人隐私和不愿公开住址的选择。失联伴随明确危险征象才按情况求助；有即时生命危险打 999，其他情况先按约定联系，不把普通漏回信息一律当事故。",
+      "contentSha256": "244ef27e00729f418a02390e68bf957d7d6dae3db9586e78deb9cb28aad5c593"
+    },
+    {
+      "id": "29-13",
+      "file": "book/29-遭遇重大打击之后.md",
+      "oldTitle": "### 13. 别拿死当还债的办法：两年内的寿险不赔，工伤不认，债照样先从遗产里扣",
+      "newTitle": "债务压得喘不过气时，先找人陪伴，再联系 AKPK 和债权人",
+      "reason": "删除境外继承与保险自杀免责年限及工伤排除结论，改为 AKPK、医疗与当下安全行动。",
+      "sourceIds": [
+        "akpk",
+        "akpk-free"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "AKPK 提供财务辅导，并为符合条件的借款人协商债务管理方案；不是借新钱、免除全部债务或自动停止一切追讨。先求助能把现金流、法律及情绪问题分别处理。",
+      "applicability": "不同保险／takaful、债务、共同借款和遗产安排的后果各不相同，不在此列轻生相关赔付条件或时点。辅导和债务处理不以族群、语言或信仰推定；需要语言协助可先询问。",
+      "contentSha256": "c254e96a640ac4fb4deca80ff317d7702d24660309cc318d98642e21b74053f4"
+    },
+    {
+      "id": "32-1",
+      "file": "book/32-出国留学.md",
+      "oldTitle": "### 1. 交学费之前先查学校在不在留服中心的认证院校名单里",
+      "newTitle": "报名海外课程前，查学校、具体课程与回马来西亚的使用要求",
+      "reason": "删除境外留服认证框架，改为所在地认可、MQA 及马来西亚专业资格的分别核验。",
+      "sourceIds": [
+        "mqa",
+        "mqa-forms",
+        "mqa-foreign"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "MQA 的 MQR 主要供查马来西亚高等教育课程，不能拿它当所有外国大学的完整名单。海外资格可按 MQA 的认可查询／申请途径及相关使用单位要求处理；学位被学校颁发，不自动等于能在马来西亚注册执业。",
+      "applicability": "以课程和用途核验，不按华人、马来人、印裔或宗教推定认可与否。海外认可、马来西亚资格认可、公务员任用和专业执业是不同问题，要分别问清。",
+      "contentSha256": "f560f47678d024dd3f4e953ad56eb5b58786bdf518e9b6bee3f0385a51e9204d"
+    },
+    {
+      "id": "32-9",
+      "file": "book/32-出国留学.md",
+      "oldTitle": "### 9. 回国前留出认证时间：马来西亚学术资格鉴定机构（MQA）认证要 10 到 20 个工作日",
+      "newTitle": "毕业前收齐学历文件；回马来西亚是否要认可文件，先问接收单位",
+      "reason": "删除境外统一认证材料及时限，解释 MQA 的课程认可与个人证书核验区别。",
+      "sourceIds": [
+        "mqa",
+        "mqa-forms",
+        "mqa-foreign"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "MQA 说明其资格认可／等值工作并非替每名毕业生做个人学历真伪认证。把「课程是否获认可」「证书是否真实」「能否用于某职位或执业」分开问，能减少递错材料和误信代办。",
+      "applicability": "没有全国所有海外毕业生统一十至二十个工作日办结的保证。保留原件和官方电子副本；护照、签证及就读记录按用途准备，但不要交给不明代办长期扣留。",
+      "contentSha256": "d4494b62b84d3f9581e97beba541b1a8872e2b758d5159050dc6066adeecf26b"
+    },
+    {
+      "id": "32-10",
+      "file": "book/32-出国留学.md",
+      "oldTitle": "### 10. 报名前在留服中心的公告里搜一次学校名，被「加强审查」的学校认证至少要等 60 个工作日",
+      "newTitle": "报名前查官方警示和专业认可，别相信「包认证、包注册执业」",
+      "reason": "移除境外加强审查名单与六十天规则，改为马来西亚课程、校区、届别与用途核验。",
+      "sourceIds": [
+        "mqa",
+        "mqa-forms",
+        "mqa-foreign"
+      ],
+      "grade": "B",
+      "status": "reviewed-and-rewritten",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "verifiedContent": "认可范围可能只涵盖某课程、校区和届别；课程更名、远程或合作办学也可能改变适用性。使用 MQA 的官方认可渠道并核实专业要求，比听中介承诺可靠；不存在适用于马来西亚所有海外课程的「加强审查至少六十个工作日」规则。",
+      "applicability": "要求中介把退款条件写清；所谓内部关系不能取代正式认可。已付费后发现不符，先保存广告、合约、付款及官方回复，再按交易地点和合约找投诉或法律途径。",
+      "contentSha256": "2e7cf264f6985890b34b270d6295beb4c6aba48a84de7838b6800557f7403a4c"
+    }
+  ],
+  "additionalEntries": [
+    {
+      "id": "1-5",
+      "file": "book/01-不要早死.md",
+      "oldTitle": "不采、不买、不吃野生蘑菇，任何「土办法鉴别」都不成立",
+      "newTitle": "不采、不买、不吃野生蘑菇，任何「土办法鉴别」都不成立",
+      "changedFields": [
+        "收益"
+      ],
+      "sourceIds": [],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "1-6",
+      "file": "book/01-不要早死.md",
+      "oldTitle": "电动脚车和个人代步车不推进走廊、不进电梯、不在屋里充电",
+      "newTitle": "锂电池不放逃生通道充电，不用损坏或改装电池",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "sourceIds": [
+        "electrical",
+        "sarawak-fire"
+      ],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "1-29",
+      "file": "book/01-不要早死.md",
+      "oldTitle": "减重、戒烟、把血压血糖控住，勃起功能能跟着好转",
+      "newTitle": "减重、戒烟、把血压血糖控住，勃起功能能跟着好转",
+      "changedFields": [
+        "备注"
+      ],
+      "sourceIds": [],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "1-31",
+      "file": "book/01-不要早死.md",
+      "oldTitle": "有过高危行为就去查一次艾滋病，政府健康诊所（KK）免费、结果保密",
+      "newTitle": "有过 HIV 暴露风险，向 KK 或社区机构安排检测，确认保密与收费",
+      "changedFields": [
+        "标题",
+        "成本"
+      ],
+      "sourceIds": [],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "1-33",
+      "file": "book/01-不要早死.md",
+      "oldTitle": "别把「救回来」当成兜底：喝农药、吸煤气之后急诊能保住的是命，可能保不住肺和脑子",
+      "newTitle": "疑似农药或煤气中毒立即求医，别等症状加重才求助",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "sourceIds": [
+        "dosh",
+        "chemical"
+      ],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "1-39",
+      "file": "book/01-不要早死.md",
+      "oldTitle": "65 岁以上的女性去做一次双能 X 线骨密度检查，绝经后有骨质疏松危险因素的不用等到 65 岁",
+      "newTitle": "65 岁以上的女性去做一次双能 X 线骨密度检查，绝经后有骨质疏松危险因素的不用等到 65 岁",
+      "changedFields": [
+        "成本"
+      ],
+      "sourceIds": [],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "1-41",
+      "file": "book/01-不要早死.md",
+      "oldTitle": "上野外冰面前先打孔量厚度，不到 15 厘米别上，河上的冰和冰钓洞边别去",
+      "newTitle": "赴寒冷地区旅行，不自行踏上野外冰面，按当地开放与安全指示活动",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话"
+      ],
+      "sourceIds": [],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "1-42",
+      "file": "book/01-不要早死.md",
+      "oldTitle": "装好护罩、戴上护目镜加面屏再用角磨机，双手握稳，别装木工锯片切木头",
+      "newTitle": "装好护罩、戴上护目镜加面屏再用角磨机，双手握稳，别装木工锯片切木头",
+      "changedFields": [
+        "成本",
+        "说人话",
+        "收益"
+      ],
+      "sourceIds": [],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "1-44",
+      "file": "book/01-不要早死.md",
+      "oldTitle": "心慌、心跳乱就去做心电图，查出房颤请医生评估吃抗凝药防中风，别拿阿司匹林代替",
+      "newTitle": "心慌、心跳乱就去做心电图，查出房颤请医生评估吃抗凝药防中风，别拿阿司匹林代替",
+      "changedFields": [
+        "成本"
+      ],
+      "sourceIds": [],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "1-45",
+      "file": "book/01-不要早死.md",
+      "oldTitle": "成年人查一次丙肝抗体，阳性就再查核酸，确诊了吃 8 到 12 周口服药，绝大多数能治好",
+      "newTitle": "成年人查一次丙肝抗体，阳性就再查核酸，确诊了吃 8 到 12 周口服药，绝大多数能治好",
+      "changedFields": [
+        "成本"
+      ],
+      "sourceIds": [],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "1-47",
+      "file": "book/01-不要早死.md",
+      "oldTitle": "45 岁以上，住在胃癌食管癌高发地区、有家族史或幽门螺杆菌阳性的，去做胃镜筛查",
+      "newTitle": "45 岁以上，住在胃癌食管癌高发地区、有家族史或幽门螺杆菌阳性的，去做胃镜筛查",
+      "changedFields": [
+        "成本"
+      ],
+      "sourceIds": [],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "1-49",
+      "file": "book/01-不要早死.md",
+      "oldTitle": "咳嗽、咳痰两周以上或者痰里带血，去结核病定点医院查肺结核，确诊了按方案把药吃满，别觉得好了就停",
+      "newTitle": "咳嗽两周不退、痰中带血或接触结核病人，尽快到诊所检查",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "sourceIds": [
+        "tb"
+      ],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "2-1",
+      "file": "book/02-不要慢慢死.md",
+      "oldTitle": "戒烟，越早越好",
+      "newTitle": "戒烟，越早越好",
+      "changedFields": [
+        "成本"
+      ],
+      "sourceIds": [],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "2-3",
+      "file": "book/02-不要慢慢死.md",
+      "oldTitle": "戒烟别光靠忍，先去拿药：吃伐尼克兰的成功率能翻一倍多",
+      "newTitle": "戒烟别光靠忍，先去拿药：吃伐尼克兰的成功率能翻一倍多",
+      "changedFields": [
+        "成本",
+        "来源",
+        "备注"
+      ],
+      "sourceIds": [],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "2-5",
+      "file": "book/02-不要慢慢死.md",
+      "oldTitle": "去戒烟门诊，或者打 政府诊所（Klinik Kesihatan）戒烟门诊（Klinik Berhenti Merokok） 问当地有没有戒烟服务",
+      "newTitle": "到 Klinik Kesihatan 询问戒烟门诊，或通过 KKM 的戒烟服务找帮助",
+      "changedFields": [
+        "标题",
+        "成本",
+        "来源",
+        "备注"
+      ],
+      "sourceIds": [
+        "quit"
+      ],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "2-9",
+      "file": "book/02-不要慢慢死.md",
+      "oldTitle": "把家里的食盐换成低钠盐（钾盐）",
+      "newTitle": "把家里的食盐换成低钠盐（钾盐）",
+      "changedFields": [
+        "成本"
+      ],
+      "sourceIds": [],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "2-10",
+      "file": "book/02-不要慢慢死.md",
+      "oldTitle": "认真刷牙，每天清一次牙缝，缺了牙去看牙医",
+      "newTitle": "认真刷牙，每天清一次牙缝，缺了牙去看牙医",
+      "changedFields": [
+        "成本"
+      ],
+      "sourceIds": [],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "2-12",
+      "file": "book/02-不要慢慢死.md",
+      "oldTitle": "成年后定期查血脂，40 岁前每 2 到 5 年一次、40 岁起每年一次；有高血压、高血脂就按医嘱规律吃药，别自行停",
+      "newTitle": "成年后定期查血脂，40 岁前每 2 到 5 年一次、40 岁起每年一次；有高血压、高血脂就按医嘱规律吃药，别自行停",
+      "changedFields": [
+        "成本"
+      ],
+      "sourceIds": [],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "2-14",
+      "file": "book/02-不要慢慢死.md",
+      "oldTitle": "常打网球、羽毛球、乒乓球这类球拍类运动",
+      "newTitle": "常打网球、羽毛球、乒乓球这类球拍类运动",
+      "changedFields": [
+        "成本"
+      ],
+      "sourceIds": [],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "2-20",
+      "file": "book/02-不要慢慢死.md",
+      "oldTitle": "每天都喝酒、一停就手抖心慌的人，别自己硬戒",
+      "newTitle": "每天都喝酒、一停就手抖心慌的人，别自己硬戒",
+      "changedFields": [
+        "成本"
+      ],
+      "sourceIds": [],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "2-21",
+      "file": "book/02-不要慢慢死.md",
+      "oldTitle": "想少喝酒，先把一周喝了多少数出来，再找医生聊几分钟",
+      "newTitle": "想少喝酒，先把一周喝了多少数出来，再找医生聊几分钟",
+      "changedFields": [
+        "备注"
+      ],
+      "sourceIds": [],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "2-22",
+      "file": "book/02-不要慢慢死.md",
+      "oldTitle": "每天吃一小把坚果",
+      "newTitle": "每天吃一小把坚果",
+      "changedFields": [
+        "成本"
+      ],
+      "sourceIds": [],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "2-25",
+      "file": "book/02-不要慢慢死.md",
+      "oldTitle": "每周喝三次以上茶",
+      "newTitle": "每周喝三次以上茶",
+      "changedFields": [
+        "成本",
+        "备注"
+      ],
+      "sourceIds": [],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "2-26",
+      "file": "book/02-不要慢慢死.md",
+      "oldTitle": "每天喝三到四杯咖啡，咖啡因总量不超过 400 mg，不加糖不加奶盖；孕妇、骨折风险高的女性和喝了心慌、焦虑、失眠的人除外",
+      "newTitle": "每天喝三到四杯咖啡，咖啡因总量不超过 400 mg，不加糖不加奶盖；孕妇、骨折风险高的女性和喝了心慌、焦虑、失眠的人除外",
+      "changedFields": [
+        "成本"
+      ],
+      "sourceIds": [],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "2-27",
+      "file": "book/02-不要慢慢死.md",
+      "oldTitle": "每天吃够 5 份（约 400 g）水果蔬菜",
+      "newTitle": "每天吃够 5 份（约 400 g）水果蔬菜",
+      "changedFields": [
+        "成本"
+      ],
+      "sourceIds": [],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "2-29",
+      "file": "book/02-不要慢慢死.md",
+      "oldTitle": "做饭、取暖不烧煤和柴，换成电或燃气",
+      "newTitle": "做饭、取暖不烧煤和柴，换成电或燃气",
+      "changedFields": [
+        "成本"
+      ],
+      "sourceIds": [],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "2-30",
+      "file": "book/02-不要慢慢死.md",
+      "oldTitle": "热的东西放一放再喝，不喝滚烫的茶、汤和咖啡",
+      "newTitle": "热的东西放一放再喝，不喝滚烫的茶、汤和咖啡",
+      "changedFields": [
+        "备注"
+      ],
+      "sourceIds": [],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "2-34",
+      "file": "book/02-不要慢慢死.md",
+      "oldTitle": "每天喝一两份奶或酸奶",
+      "newTitle": "每天喝一两份奶或酸奶",
+      "changedFields": [
+        "成本"
+      ],
+      "sourceIds": [],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "2-42",
+      "file": "book/02-不要慢慢死.md",
+      "oldTitle": "炒菜、煎炸时打开抽油烟机，从开火一直开到做完",
+      "newTitle": "炒菜、煎炸时打开抽油烟机，从开火一直开到做完",
+      "changedFields": [
+        "成本"
+      ],
+      "sourceIds": [],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "2-44",
+      "file": "book/02-不要慢慢死.md",
+      "oldTitle": "本来就想养狗的，把每天遛狗算进走路量，别为了长寿专门去养狗",
+      "newTitle": "本来就想养狗的，把每天遛狗算进走路量，别为了长寿专门去养狗",
+      "changedFields": [
+        "成本"
+      ],
+      "sourceIds": [],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "2-45",
+      "file": "book/02-不要慢慢死.md",
+      "oldTitle": "查出糖尿病前期（血糖偏高、还没到糖尿病），就靠少吃、减重、多动把糖尿病往后推，每半年复查一次血糖",
+      "newTitle": "查出糖尿病前期（血糖偏高、还没到糖尿病），就靠少吃、减重、多动把糖尿病往后推，每半年复查一次血糖",
+      "changedFields": [
+        "成本"
+      ],
+      "sourceIds": [],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "3-9",
+      "file": "book/03-不要浪费精力.md",
+      "oldTitle": "到点就睡，不为游戏、短视频、色情内容熬夜",
+      "newTitle": "到点就睡，不为游戏、短视频、色情内容熬夜",
+      "changedFields": [
+        "收益"
+      ],
+      "sourceIds": [],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "5-15",
+      "file": "book/05-不要浪费钱.md",
+      "oldTitle": "不频繁交易股票，行情暴涨暴跌的时候更要少动手",
+      "newTitle": "不频繁交易股票，行情暴涨暴跌的时候更要少动手",
+      "changedFields": [
+        "说人话",
+        "收益",
+        "备注"
+      ],
+      "sourceIds": [],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "5-16",
+      "file": "book/05-不要浪费钱.md",
+      "oldTitle": "不借钱投资、不加杠杆、不买自己看不懂的",
+      "newTitle": "不借钱投资、不加自己承受不起的杠杆、不买看不懂的产品",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "sourceIds": [
+        "digital",
+        "sc-markets"
+      ],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "5-18",
+      "file": "book/05-不要浪费钱.md",
+      "oldTitle": "同类基金优先选费率低的",
+      "newTitle": "比较同类基金的总费用，别只看宣传回报或单项管理费",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "来源",
+        "备注"
+      ],
+      "sourceIds": [
+        "fund-fees"
+      ],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "5-24",
+      "file": "book/05-不要浪费钱.md",
+      "oldTitle": "不为「划线价」和大促囤货",
+      "newTitle": "不为「划线价」和大促囤货",
+      "changedFields": [
+        "说人话",
+        "收益",
+        "来源"
+      ],
+      "sourceIds": [
+        "consumer-act"
+      ],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "5-32",
+      "file": "book/05-不要浪费钱.md",
+      "oldTitle": "买大件前先查国家抽检通报、SIRIM 认证和能效标识",
+      "newTitle": "买电器核对适用的安全认证、能效标签和保养安排",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "来源",
+        "备注"
+      ],
+      "sourceIds": [
+        "electrical",
+        "ecos"
+      ],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "5-34",
+      "file": "book/05-不要浪费钱.md",
+      "oldTitle": "珠宝玉石只认带 CMA 标志的检测报告，并到发证部门官网核一下这家机构",
+      "newTitle": "买珠宝核对独立鉴定报告、货品对应资料和退换条件",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "sourceIds": [
+        "ttpm",
+        "consumer-act"
+      ],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "5-47",
+      "file": "book/05-不要浪费钱.md",
+      "oldTitle": "买新车提车时当场验车，收好发票和三包凭证；头 7 天、头 60 天里出大毛病，可以要求换车或退车",
+      "newTitle": "新车交车当场验车，保存保养条款和每次维修记录",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "sourceIds": [
+        "ttpm",
+        "consumer-act"
+      ],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "6-20",
+      "file": "book/06-反面清单.md",
+      "oldTitle": "不要因为体检查出胆囊结石、但从没疼过，就去预防性切胆囊",
+      "newTitle": "不要因为体检查出胆囊结石、但从没疼过，就去预防性切胆囊",
+      "changedFields": [
+        "备注"
+      ],
+      "sourceIds": [],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "8-29",
+      "file": "book/08-别把自己搭进去.md",
+      "oldTitle": "出入境不帮陌生人带东西，不代收来路不明的包裹",
+      "newTitle": "出入境不帮陌生人带东西，也不代收来路不明的包裹",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "sourceIds": [
+        "redbook"
+      ],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "11-15",
+      "file": "book/11-程序员和技术人容易踩的红线.md",
+      "oldTitle": "做 App 或网站只收业务必需的个人资料，备齐马来文与英文双语隐私声明，未满 18 岁须家长同意",
+      "newTitle": "做 App 或网站只收业务必需的个人资料，备齐马来文与英文双语隐私声明，未满 18 岁须家长同意",
+      "changedFields": [
+        "来源"
+      ],
+      "sourceIds": [
+        "pdp-amend",
+        "dbn"
+      ],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "11-16",
+      "file": "book/11-程序员和技术人容易踩的红线.md",
+      "oldTitle": "马来西亚无需中国大陆式的 ICP 备案，但商业网站和 App 上线必须亮明 SSM 注册信息，并做好安全防护与日志留存",
+      "newTitle": "商业网站先核对登记与交易披露，安全日志按实际需要管理",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "sourceIds": [
+        "ecom2024",
+        "ssmreg",
+        "pdp"
+      ],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "12-18",
+      "file": "book/12-创业与做生意.md",
+      "oldTitle": "先卖再造：用预售和小订单验证有人买，再投钱生产",
+      "newTitle": "先卖再造：用预售和小订单验证有人买，再投钱生产",
+      "changedFields": [
+        "成本"
+      ],
+      "sourceIds": [],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "12-19",
+      "file": "book/12-创业与做生意.md",
+      "oldTitle": "样品做出来先过一遍量产清单，再谈开工",
+      "newTitle": "样品做好先做小批量试产，算现金流并查本地产品要求",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "来源",
+        "备注"
+      ],
+      "sourceIds": [
+        "food",
+        "trademark",
+        "food-hygiene",
+        "drug-check",
+        "electrical"
+      ],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "13-9",
+      "file": "book/13-紧急情况.md",
+      "oldTitle": "突然一记「这辈子最疼的头痛」，一小时内就到最疼，立刻去急诊做头颅 CT",
+      "newTitle": "突然一记「这辈子最疼的头痛」，一小时内就到最疼，立刻去急诊做头颅 CT",
+      "changedFields": [
+        "成本"
+      ],
+      "sourceIds": [],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "13-10",
+      "file": "book/13-紧急情况.md",
+      "oldTitle": "老人磕过头之后两三周到几个月变得走路不稳、迟钝、嗜睡或者一侧没劲，去做头颅 CT",
+      "newTitle": "老人磕过头之后两三周到几个月变得走路不稳、迟钝、嗜睡或者一侧没劲，去做头颅 CT",
+      "changedFields": [
+        "成本"
+      ],
+      "sourceIds": [],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "13-11",
+      "file": "book/13-紧急情况.md",
+      "oldTitle": "一条腿突然肿起来、发紧、按着疼，尽快就医；再加上突然喘不上气或者胸痛，立刻打 999",
+      "newTitle": "一条腿突然肿起来、发紧、按着疼，尽快就医；再加上突然喘不上气或者胸痛，立刻打 999",
+      "changedFields": [
+        "成本"
+      ],
+      "sourceIds": [],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "13-12",
+      "file": "book/13-紧急情况.md",
+      "oldTitle": "大出血先用手死死压住伤口，四肢压不住就上止血带，同时打 999",
+      "newTitle": "大出血先用手死死压住伤口，四肢压不住就上止血带，同时打 999",
+      "changedFields": [
+        "成本"
+      ],
+      "sourceIds": [],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "13-13",
+      "file": "book/13-紧急情况.md",
+      "oldTitle": "被狗、猫咬伤或抓破皮，先用肥皂水和流水交替冲 15 分钟，当天去打疫苗",
+      "newTitle": "被狗、猫咬伤或抓破皮，先用肥皂水和流水交替冲 15 分钟，当天去打疫苗",
+      "changedFields": [
+        "成本"
+      ],
+      "sourceIds": [],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "13-23",
+      "file": "book/13-紧急情况.md",
+      "oldTitle": "中暑的人只要清醒，就少量多次喝凉的淡盐水或运动饮料，别猛灌、别喝酒和高糖饮料",
+      "newTitle": "中暑的人只要清醒，就少量多次喝凉的淡盐水或运动饮料，别猛灌、别喝酒和高糖饮料",
+      "changedFields": [
+        "成本"
+      ],
+      "sourceIds": [],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "13-24",
+      "file": "book/13-紧急情况.md",
+      "oldTitle": "火灾时贴地爬、摸门再开门、门烫就别开，走楼梯不坐电梯，出去了别回头",
+      "newTitle": "火灾时贴地爬、摸门再开门、门烫就别开，走楼梯不坐电梯，出去了别回头",
+      "changedFields": [
+        "成本"
+      ],
+      "sourceIds": [],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "13-26",
+      "file": "book/13-紧急情况.md",
+      "oldTitle": "有人噎住说不出话，1 岁以上的站到背后做 5 次拍背加 5 次腹部冲击，倒下就做心肺复苏",
+      "newTitle": "有人噎住说不出话，1 岁以上的站到背后做 5 次拍背加 5 次腹部冲击，倒下就做心肺复苏",
+      "changedFields": [
+        "备注"
+      ],
+      "sourceIds": [],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "13-27",
+      "file": "book/13-紧急情况.md",
+      "oldTitle": "在戈壁、沙漠、无人区迷路或车坏了，留在原地或车旁，先报位置，再遮阳保温，省水，不乱走",
+      "newTitle": "到海外沙漠、荒野等偏远地区迷路或车坏了，留在原地或车旁，先报位置，再遮阳保温，省水，不乱走",
+      "changedFields": [
+        "标题",
+        "成本"
+      ],
+      "sourceIds": [],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "13-28",
+      "file": "book/13-紧急情况.md",
+      "oldTitle": "发抖、说话含糊、走路打晃是失温，换掉湿衣、包起来，先暖躯干，喝热甜饮不喝酒",
+      "newTitle": "发抖、说话含糊、走路打晃是失温，换掉湿衣、包起来，先暖躯干，喝热甜饮不喝酒",
+      "changedFields": [
+        "成本"
+      ],
+      "sourceIds": [],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "13-29",
+      "file": "book/13-紧急情况.md",
+      "oldTitle": "被蛇咬，坐下别动、摘掉戒指手表、尽快送医院打抗蛇毒血清，不切、不吸、不绑死",
+      "newTitle": "被蛇咬，坐下别动、摘掉戒指手表、尽快送医院打抗蛇毒血清，不切、不吸、不绑死",
+      "changedFields": [
+        "收益"
+      ],
+      "sourceIds": [],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "13-38",
+      "file": "book/13-紧急情况.md",
+      "oldTitle": "可能被 HIV 暴露了，72 小时内去拿阻断药，越早越好",
+      "newTitle": "可能被 HIV 暴露了，72 小时内去拿阻断药，越早越好",
+      "changedFields": [
+        "成本"
+      ],
+      "sourceIds": [],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "13-42",
+      "file": "book/13-紧急情况.md",
+      "oldTitle": "被性侵之后，先到安全的地方打 999 报警；验伤之前别洗澡、别洗衣服、别收拾房间，72 小时内去医院",
+      "newTitle": "遭性侵先到安全处，尽快去医院急诊／OSCC，不等报案才求医",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "来源",
+        "备注"
+      ],
+      "sourceIds": [
+        "oscc-policy"
+      ],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "13-44",
+      "file": "book/13-紧急情况.md",
+      "oldTitle": "不满 1 岁的婴儿没反应、没正常呼吸，开免提打 999，做婴儿心肺复苏：按 30 下吹 2 口气",
+      "newTitle": "不满 1 岁的婴儿没反应、没正常呼吸，开免提打 999，做婴儿心肺复苏：按 30 下吹 2 口气",
+      "changedFields": [
+        "备注"
+      ],
+      "sourceIds": [],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "13-49",
+      "file": "book/13-紧急情况.md",
+      "oldTitle": "大便变成黑色、粘马桶的柏油样，当天去急诊；头晕、出冷汗或吐血就打 999",
+      "newTitle": "大便变成黑色、粘马桶的柏油样，当天去急诊；头晕、出冷汗或吐血就打 999",
+      "changedFields": [
+        "成本"
+      ],
+      "sourceIds": [],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "14-9",
+      "file": "book/14-账号与信息安全.md",
+      "oldTitle": "刷脸不是必须答应的：有别的办法就不能只让你刷脸，你不同意得给你其他方式",
+      "newTitle": "被要求刷脸时，先问必要性、替代方式和生物识别资料怎样保存",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "sourceIds": [
+        "pdp",
+        "pdp-amend"
+      ],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "15-7",
+      "file": "book/15-租房与买房.md",
+      "oldTitle": "二手房让中介代收房款的，必须走中介在银行开的交易资金专用存款账户",
+      "newTitle": "二手房付款核对主体与托管条件，别转给经纪人的私人账户",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "sourceIds": [
+        "agents",
+        "agent-account"
+      ],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "15-8",
+      "file": "book/15-租房与买房.md",
+      "oldTitle": "别租隔断房：最小出租单位是原设计的房间，厨房、卫生间、阳台不得住人",
+      "newTitle": "租房先看通风、电线与逃生路线，再核对隔间是否获准",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "sourceIds": [
+        "housing",
+        "strata"
+      ],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "16-3",
+      "file": "book/16-得了慢性病之后怎么活.md",
+      "oldTitle": "复查按医生给的间隔做，把每次的指标记在同一个本子上",
+      "newTitle": "复查按医生给的间隔做，把每次的指标记在同一个本子上",
+      "changedFields": [
+        "成本",
+        "说人话",
+        "收益",
+        "来源",
+        "备注"
+      ],
+      "sourceIds": [
+        "spub"
+      ],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "16-4",
+      "file": "book/16-得了慢性病之后怎么活.md",
+      "oldTitle": "别为了试偏方、保健品停掉正规治疗",
+      "newTitle": "别为了试偏方、保健品停掉正规治疗",
+      "changedFields": [
+        "收益",
+        "来源"
+      ],
+      "sourceIds": [],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "16-7",
+      "file": "book/16-得了慢性病之后怎么活.md",
+      "oldTitle": "确诊糖尿病就去查一次眼底，之后按医生给的间隔查；每年查一次脚",
+      "newTitle": "确诊糖尿病就去查一次眼底，之后按医生给的间隔查；每年查一次脚",
+      "changedFields": [
+        "成本"
+      ],
+      "sourceIds": [],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "16-9",
+      "file": "book/16-得了慢性病之后怎么活.md",
+      "oldTitle": "确诊痛风后长了痛风石、影像上看到骨头被啃出缺损或每年发作 2 次以上的，就长期吃降尿酸药，把血尿酸压到 360 µmol/L 以下并一直维持",
+      "newTitle": "确诊痛风后长了痛风石、影像上看到骨头被啃出缺损或每年发作 2 次以上的，就长期吃降尿酸药，把血尿酸压到 360 µmol/L 以下并一直维持",
+      "changedFields": [
+        "成本",
+        "备注"
+      ],
+      "sourceIds": [],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "16-11",
+      "file": "book/16-得了慢性病之后怎么活.md",
+      "oldTitle": "查出乙肝表面抗原阳性的，每半年做一次肝脏 B 超加甲胎蛋白，按医生评估决定吃不吃抗病毒药，吃上了别自己停",
+      "newTitle": "查出乙肝表面抗原阳性的，每半年做一次肝脏 B 超加甲胎蛋白，按医生评估决定吃不吃抗病毒药，吃上了别自己停",
+      "changedFields": [
+        "成本",
+        "来源"
+      ],
+      "sourceIds": [],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "16-14",
+      "file": "book/16-得了慢性病之后怎么活.md",
+      "oldTitle": "结肠癌做完手术和化疗的，参加有人指导的运动方案，坚持练满三年",
+      "newTitle": "结肠癌做完手术和化疗的，参加有人指导的运动方案，坚持练满三年",
+      "changedFields": [
+        "备注"
+      ],
+      "sourceIds": [],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "26-1",
+      "file": "book/26-做一个网站或平台.md",
+      "oldTitle": "平台不要自己蓄水资金或代收代付给卖家，接入国行（BNM）持牌支付网关（Payment Gateway）直接结算",
+      "newTitle": "平台收款与卖家结算先设计清楚，支付业务是否须注册由实际模式决定",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "sourceIds": [
+        "payments"
+      ],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "26-4",
+      "file": "book/26-做一个网站或平台.md",
+      "oldTitle": "选服务器：马来西亚本地机房（KL/Cyberjaya/JB）无需网站备案，但上架应用商店需符合 MCMC、PDPA 与 Google/Apple 开发者凭证规范",
+      "newTitle": "选主机看实际区域、资料处理及恢复能力，应用商店另按账号要求准备",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "sourceIds": [
+        "pdp",
+        "crossborder"
+      ],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "26-6",
+      "file": "book/26-做一个网站或平台.md",
+      "oldTitle": "用户生成内容（UGC）审核：建立即时举报机制（Notice & Action）、遵守 MCMC 内容准则，发现违法有害内容立即下架",
+      "newTitle": "开放用户投稿就建立举报、处理和申诉流程，违法内容按适用要求处置",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "sourceIds": [
+        "copyright",
+        "mcmc-framework",
+        "child-sexual"
+      ],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "26-7",
+      "file": "book/26-做一个网站或平台.md",
+      "oldTitle": "用户注册与即时通讯：符合个人资料保护法（PDPA 2010）最小化原则，后台验证手机（OTP）或邮箱，严密保护个人隐私",
+      "newTitle": "注册只收必要资料，提供国文及英文隐私通知，敏感资料另按条件处理",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "sourceIds": [
+        "pdp"
+      ],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "26-8",
+      "file": "book/26-做一个网站或平台.md",
+      "oldTitle": "未成年人保护：依据《2023年网络服务安全法案》与相关儿童法规，限制低龄儿童打赏与不当内容接触，退款纠纷以未成年人保护为原则",
+      "newTitle": "平台涉及儿童，先落实年龄、付款、内容和家长投诉安排",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "sourceIds": [
+        "pdp",
+        "contracts",
+        "child-sexual"
+      ],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "26-9",
+      "file": "book/26-做一个网站或平台.md",
+      "oldTitle": "知识产权侵权与避风港原则：遵循《1987年版权法令》第 43 条款通知与下架（Notice and Takedown）机制",
+      "newTitle": "收到版权投诉先保全通知并处理，避风港须满足具体法定条件",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "sourceIds": [
+        "copyright"
+      ],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "26-10",
+      "file": "book/26-做一个网站或平台.md",
+      "oldTitle": "跨境数据传输：遵守马来西亚《2010年个人资料保护法（2024年修订法令）》第 129 条规限",
+      "newTitle": "用户资料传到境外，先落实 PDPA 第 129 条依据和接收方保障",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "sourceIds": [
+        "pdp",
+        "crossborder"
+      ],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "26-11",
+      "file": "book/26-做一个网站或平台.md",
+      "oldTitle": "选服务器与云服务商：优先选择具备本地数据中心与多可用区的大型云平台（AWS / Google Cloud / Azure / Alibaba Cloud Malaysia），规避无保障小机房",
+      "newTitle": "选云服务看合约、备份和实测，不按厂商大小猜保障",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "来源",
+        "备注"
+      ],
+      "sourceIds": [
+        "pdp"
+      ],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "26-12",
+      "file": "book/26-做一个网站或平台.md",
+      "oldTitle": "网站或 App 里的用户信息泄露（或被篡改、丢失）了，马上补救，并在 72 小时内通报马来西亚个资委（JPDP）与国家网络安全机构（MyCERT）",
+      "newTitle": "个人资料外泄先止损、保全记录，按 JPDP 通报标准及时间处理",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "sourceIds": [
+        "pdp",
+        "pdp-amend",
+        "dbn"
+      ],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "26-13",
+      "file": "book/26-做一个网站或平台.md",
+      "oldTitle": "卖自动续费会员的，开通前和每次扣钱前都要显著提醒用户，取消入口要好找",
+      "newTitle": "订阅收费、续费及取消条件先说清，提醒扣费并让退订容易",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "sourceIds": [
+        "consumer-act",
+        "payments"
+      ],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "28-6",
+      "file": "book/28-别为了外形把身体搞坏.md",
+      "oldTitle": "要吃减肥药、打司美格鲁肽这类减重针，就去医院拿处方、按医生安排加量和复查，别在不用处方就发货的网店买，也别去美容院打",
+      "newTitle": "减重药由医生评估适应症、注册产品及随访，不买来路不明的瘦身针",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "来源",
+        "备注"
+      ],
+      "sourceIds": [
+        "aesthetic",
+        "drug-check"
+      ],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "28-7",
+      "file": "book/28-别为了外形把身体搞坏.md",
+      "oldTitle": "性激素类药只在医生开方并定期复查的前提下用，不要网购、不要自己加量",
+      "newTitle": "性激素类药只在医生开方并定期复查的前提下用，不要网购、不要自己加量",
+      "changedFields": [
+        "成本",
+        "来源",
+        "备注"
+      ],
+      "sourceIds": [
+        "drug-check"
+      ],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "28-8",
+      "file": "book/28-别为了外形把身体搞坏.md",
+      "oldTitle": "如果「觉得自己丑」已经到反复照镜子、反复想改的程度，先做一次体像评估再谈手术",
+      "newTitle": "如果「觉得自己丑」已经到反复照镜子、反复想改的程度，先做一次体像评估再谈手术",
+      "changedFields": [
+        "成本"
+      ],
+      "sourceIds": [],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "28-9",
+      "file": "book/28-别为了外形把身体搞坏.md",
+      "oldTitle": "矫正牙齿要找有正畸资质的医生当面检查、按时复诊，别网购牙套自己在家戴",
+      "newTitle": "矫正牙齿找注册牙医检查、按时复诊，不网购牙套自己戴",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "sourceIds": [
+        "dental",
+        "dentalreg"
+      ],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "29-14",
+      "file": "book/29-遭遇重大打击之后.md",
+      "oldTitle": "自己经历车祸、被打、灾难之后，别指望出事后马上做的一次性心理晤谈；过了一个月噩梦、闪回、提心吊胆还很重的，去精神科做创伤聚焦的心理治疗",
+      "newTitle": "自己经历车祸、被打、灾难之后，别指望出事后马上做的一次性心理晤谈；过了一个月噩梦、闪回、提心吊胆还很重的，去精神科做创伤聚焦的心理治疗",
+      "changedFields": [
+        "收益",
+        "备注"
+      ],
+      "sourceIds": [],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "32-6",
+      "file": "book/32-出国留学.md",
+      "oldTitle": "出发前和在读期间，看一眼教育部的留学预警",
+      "newTitle": "出发前和在读期间，查看 Wisma Putra、使领馆及留学地的官方通知",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "sourceIds": [
+        "consular"
+      ],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "32-7",
+      "file": "book/32-出国留学.md",
+      "oldTitle": "澳大利亚：OSHC 必须覆盖全程且中间不能断，落地拿不出保险可能被拒绝入境",
+      "newTitle": "澳大利亚：OSHC 必须覆盖全程且中间不能断，落地拿不出保险可能被拒绝入境",
+      "changedFields": [
+        "成本"
+      ],
+      "sourceIds": [],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "33-3",
+      "file": "book/33-残疾之后怎么活.md",
+      "oldTitle": "精神障碍住院以自愿为原则，依据《2001年精神健康法令》仅两类危急情形可非自愿强制收治",
+      "newTitle": "精神健康住院须按医疗评估和法定程序，家属不能自行拘禁",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "证据等级",
+        "来源",
+        "备注"
+      ],
+      "sourceIds": [
+        "mental"
+      ],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "34-1",
+      "file": "book/34-家里的常备药别吃出事.md",
+      "oldTitle": "同时吃两种感冒药或止痛药之前，先看成分表，扑热息痛（Paracetamol，俗称 Panadol）只能占一种，吃多了没不舒服也当天去医院",
+      "newTitle": "感冒药和止痛药先查成分，避免重复吃 paracetamol；疑似过量立即求医",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "来源",
+        "备注"
+      ],
+      "sourceIds": [
+        "paracetamol"
+      ],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "34-2",
+      "file": "book/34-家里的常备药别吃出事.md",
+      "oldTitle": "孩子发烧不用阿司匹林、尼美舒利和安乃近，含安乃近的感冒药也不给未成年人吃，液体退烧药用药盒里配的量具量",
+      "newTitle": "孩子退烧先确认年龄、体重和药品浓度，用配套量具量",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "来源",
+        "备注"
+      ],
+      "sourceIds": [
+        "paracetamol",
+        "childmed"
+      ],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "34-4",
+      "file": "book/34-家里的常备药别吃出事.md",
+      "oldTitle": "2 岁以下的孩子感冒，别自己喂复方感冒药和止咳药",
+      "newTitle": "婴幼儿咳嗽感冒，别自己叠加复方感冒药和止咳水",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "来源",
+        "备注"
+      ],
+      "sourceIds": [
+        "drug-check",
+        "childmed"
+      ],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "34-6",
+      "file": "book/34-家里的常备药别吃出事.md",
+      "oldTitle": "反酸烧心自己买奥美拉唑，最多吃 7 天；吞咽困难、呕血、黑便就直接去医院",
+      "newTitle": "反酸常发先问药剂师；吞咽困难、呕血或黑便不要只吃胃药",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "来源",
+        "备注"
+      ],
+      "sourceIds": [
+        "drug-check",
+        "nhs-omeprazole"
+      ],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "34-10",
+      "file": "book/34-家里的常备药别吃出事.md",
+      "oldTitle": "过期药和用不上的剩药定期清出来，连包装投进有害垃圾桶，别留在家里",
+      "newTitle": "过期药和剩药交给合适的回收渠道，别冲进马桶或留给孩子拿到",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "来源",
+        "备注"
+      ],
+      "sourceIds": [
+        "paracetamol",
+        "returnmed"
+      ],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "34-11",
+      "file": "book/34-家里的常备药别吃出事.md",
+      "oldTitle": "用头孢、甲硝唑这类抗菌药期间和停药后 7 天内不喝酒，藿香正气水、止咳糖浆这类含酒精的药也不碰",
+      "newTitle": "用药前问清能否喝酒，甲硝唑等药按实际说明避酒",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "来源",
+        "备注"
+      ],
+      "sourceIds": [
+        "metro"
+      ],
+      "status": "revised-for-consistency"
+    },
+    {
+      "id": "34-12",
+      "file": "book/34-家里的常备药别吃出事.md",
+      "oldTitle": "吃了含氯苯那敏（扑尔敏）、苯海拉明的感冒药或抗过敏药，吃药期间别开车，也别登高干活、别操作机器",
+      "newTitle": "可能嗜睡的感冒药、抗过敏药，开车前先问清影响",
+      "changedFields": [
+        "标题",
+        "成本",
+        "说人话",
+        "收益",
+        "来源",
+        "备注"
+      ],
+      "sourceIds": [
+        "chlorphen"
+      ],
+      "status": "revised-for-consistency"
+    }
+  ],
+  "remainingCount": 0,
+  "method": "逐条检查原文六字段，核对所列一手法律、主管机关或原始研究；用有依据的本地行动重写，不以风险标记替代修改。删除不支持的境外金额、期限及赔偿承诺；国际医学资料注明来源地区。",
+  "limitations": [
+    "核对记录支持此次改写保留的结论；不宣称全部 772 条研究数据均重新完成文献复核。",
+    "法律重印文本的年份保留；未据旧重印文本新增当前刑期或罚额。",
+    "州属、资格和个案条件不能给出一项全国统一保证，正文给出对应本地办理路径。",
+    "部分官方站点抓取不稳定，使用可读官方页面、已索引原文或原始法令的机构收录本；不将访问失败当作事实证据。"
+  ],
+  "validation": {
+    "contentBaseline": {
+      "resolved": 156,
+      "remaining": 0
+    },
+    "structure": {
+      "chapters": 34,
+      "essays": 9,
+      "entries": 772,
+      "formatErrors": 0,
+      "localizationFindings": 0
+    },
+    "commands": [
+      {
+        "command": "node scripts/status-my.mjs --write-report",
+        "exitCode": 0
+      },
+      {
+        "command": "node scripts/test-localization.mjs",
+        "exitCode": 0
+      },
+      {
+        "command": "node scripts/test-guide.mjs",
+        "exitCode": 0,
+        "environment": "Real Chrome; disposable profile; local static HTTP server",
+        "coverage": [
+          "directory",
+          "essays",
+          "search and filters",
+          "resolved-entry content",
+          "marketplace records",
+          "marriage and birth routes",
+          "notes and saved state",
+          "self-check validation and persistence",
+          "tracker sync and deep links",
+          "home and self-check widths 320, 390, 768, 820, 1024, 1440px"
+        ]
+      }
+    ],
+    "publication": "local-only; not deployed"
+  }
+}

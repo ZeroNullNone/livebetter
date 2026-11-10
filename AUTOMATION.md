@@ -2,7 +2,7 @@
 
 项目侧流程：GitHub Actions 检查原作者 → 网页云端任务改写 → Content checks → 独立网页云端任务复核 → 合并机器人 → Cloudflare Git integration → 线上文件验证 → 关闭 Issue。
 
-当前只提供项目代码。没有创建远程仓库、GitHub App、ChatGPT 定时任务、Cloudflare 项目或修改账户权限。检查、合并和发布验证各有独立开关，默认关闭。没有调用模型的脚本或模型 API Key。
+项目已初始化 Git 并推送；ChatGPT 定时任务、Cloudflare 和账户权限仍需按下面步骤配置。检查、合并和发布验证各有独立开关，默认关闭。没有调用模型的脚本或模型 API Key。
 
 ## 首版边界
 
@@ -14,11 +14,11 @@
 
 ## 一次性配置顺序
 
-1. 创建自己的公开 GitHub 仓库，默认分支 main，启用 Issues，上传当前项目。保留原作者署名及许可证。此本地目录目前没有 Git 仓库；不要把上游 HEAD 当作本地已完成版本。
+1. 已完成 Git 初始化与推送。确认自己的公开 GitHub 仓库默认分支为 main，启用 Issues，并保留原作者署名及许可证；不要把上游 HEAD 当作本地已完成版本。
 2. 独立确认已完成迁移的上游完整 SHA，然后运行 `node scripts/check-upstream.mjs --init-sha <full-sha>`，检查并提交 .upstream_sync.json。命令只确认提交存在，不能确认迁移完整；基准仍不明确时不要启用上游检查。不要把最新版本直接标为已处理。
 3. 在 ChatGPT 网页端确认 GitHub 连接可访问目标仓库，先手动测试读取 Issue、在测试分支提交文件、创建 PR、发表复核评论。验证后台执行不会停在登录或操作批准。当前订阅/工具可见性不构成无人值守端到端验收；若权限拒绝，保持自动合并关闭。不要仅为测试而扩大到无关仓库。
-4. 配置 GitHub Actions。PR 的 `Content checks` 应成功；main 的 ruleset 要求 PR、成功的 `Content checks` 且分支保持最新。不要求人工 review/Code Owner approval，不给机器人 bypass。支持 squash merge。此实现通过带预期 head SHA 的 merge API 执行合并，不依赖 GitHub 的 Allow auto-merge 开关。
-5. 创建只安装在目标仓库的 GitHub App：Contents、Pull requests 读写；Issues、Actions、Checks、Commit statuses 只读（关闭 Issue 由发布验证工作流执行）。不要授予 Workflows 或 Administration/bypass。把 App ID 放在变量 SYNC_APP_ID、私钥放在 Secret SYNC_APP_PRIVATE_KEY。合并机器人必须与测试/改写环境隔离。
+4. 配置 GitHub Actions。现有本地化测试依赖 `artifacts/localization-verification-20261110.json`，需将原始核对记录纳入版本控制；只补回本地文件或重跑旧提交的任务不能修复远程缺失。PR 的 `Content checks` 应成功；main 的 ruleset 要求 PR、成功的 `Content checks` 且分支保持最新。不要求人工 review/Code Owner approval，不给机器人 bypass。支持 squash merge。此实现通过带预期 head SHA 的 merge API 执行合并，不依赖 GitHub 的 Allow auto-merge 开关。
+5. 不需要创建 GitHub App、PAT 或私钥 Secret。GitHub Actions 自动提供当前仓库的短期 GITHUB_TOKEN；不要手动添加同名 Secret。merge-sync.yml 仅为合并任务声明 Contents/Actions 写权限，以及 Pull requests/Issues/Checks/Commit statuses 读权限，测试任务仍只读。组织策略若禁止所需权限，工作流会失败，不能绕过分支规则。
 6. 建立 Cloudflare Pages **Git integration**，连接该仓库：生产分支 main，preset None，根目录仓库根，构建命令 `node scripts/build-site.mjs`，输出 dist，Node.js 22。不要再配置第二条 Direct Upload 部署。构建仅导出公开文件和版本/资源哈希；不导出脚本、凭证、任务提示词或审查记录。
 7. 在 Pages 的 Custom domains 添加域名并按提示配置 DNS/HTTPS。根域名需要 Cloudflare nameservers；子域名可用当前 DNS 服务商的 CNAME。先在 Pages 关联域名再添加 CNAME。
 8. 设置下表变量，先不要启用 AUTO_MERGE_SYNC。手动跑一次完整测试批次，验证检查失败/旧复核/文件越界不能合并，发布错误不能关闭 Issue。
@@ -33,12 +33,10 @@
 | AUTO_MERGE_SYNC | Variable | 验收后设为 enabled，启用每小时四次的合并轮询 |
 | SYNC_AUTHORS | Variable | 逗号分隔的可信 PR 创建者 GitHub login（使用实测身份） |
 | SYNC_REVIEWERS | Variable | 逗号分隔的可信复核评论者 GitHub login，可与作者相同 |
-| SYNC_APP_ID | Variable | 合并 App ID |
-| SYNC_APP_PRIVATE_KEY | Secret | 合并 App 私钥，不提交到仓库 |
 | PUBLIC_SITE_URL | Variable | 正式 HTTPS 地址，例如 https://guide.example.com/ |
 | PUBLICATION_CHECK_ENABLED | Variable | Pages 配置成功后设为 enabled |
 
-不需要 OPENAI_API_KEY 或 Cloudflare API token。ChatGPT 云端任务使用订阅与已连接 GitHub 工具；Cloudflare 自行从 GitHub 构建部署。真实权限/额度和后台可用性必须实测。
+此方案不需要手动配置任何 Actions Secret，也不需要 OPENAI_API_KEY 或 Cloudflare API token。ChatGPT 云端任务使用订阅与已连接 GitHub 工具；Cloudflare 自行从 GitHub 构建部署。真实权限/额度和后台可用性必须实测。
 
 ## 机器可读契约
 
@@ -89,7 +87,9 @@ import {entries, digest} from './scripts/validate-sync.mjs';
 
 Cloudflare 构建输出 version.json，包含完整提交 SHA 和全部公开资源的 SHA256。发布验证等待约五分钟并校验实际资源字节，不把 HTTP 200（例如 SPA 回退页）当成功。成功后才评论并关闭同步 Issue。
 
-部署失败或另一提交抢先发布时，Issue 保持打开。修复部署后，在最新 main 上重新运行 Verify publication；不要重新改写同一批。它会构建当前提交、确认线上资源与之匹配，再按当前已迁移状态关闭对应 Issue。校验失败不会回滚或删除线上数据。
+使用 GITHUB_TOKEN 合并不会自动触发 push 工作流，因此合并程序在 GitHub 确认合并成功后，显式 dispatch Verify publication，在默认分支执行。普通用户 push 到 main 仍通过原有 push 事件触发验证。此触发只运行验证，不执行 Cloudflare 部署；部署仍由 Pages Git integration 处理。[GitHub 触发规则](https://docs.github.com/en/actions/how-tos/write-workflows/choose-when-workflows-run/trigger-a-workflow)、[dispatch API 权限](https://docs.github.com/en/rest/actions/workflows#create-a-workflow-dispatch-event)。
+
+部署失败或另一提交抢先发布时，Issue 保持打开。如果合并成功但 dispatch 失败，合并工作流会报错，并提示手动触发验证；不要重试合并或重新迁移。修复权限/部署后，在 Actions 中选择 Verify publication → Run workflow → main，启动新运行（不要只重跑旧提交的失败运行）。它会构建当前提交、确认线上资源与之匹配，再按当前已迁移状态关闭对应 Issue。校验失败不会回滚或删除线上数据。
 
 合并轮询的拒绝原因在 Actions 日志中；未满足门禁时会跳过，不代表已完成。API/权限错误不会执行合并；不做盲目写入重试。关闭三个 enabled 开关即可停用对应自动操作。
 
