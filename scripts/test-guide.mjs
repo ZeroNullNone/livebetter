@@ -30,6 +30,33 @@ async function exercise(){
     frame.style.width='1024px';click('[data-topic="2"]');
     const visibleChapters=()=>[...doc().querySelectorAll('.sec-block:not([hidden])')].map(b=>Number(b.dataset.sec));
     await wait(()=>visibleChapters().join()==='5,7,12,19','Money theme did not load all four chapters');
+    // Compare rendered text with the source, including scope notes after a directory.
+    const readme=await (await fetch('/README.md')).text();
+    const files=[...new Set([...readme.matchAll(/\]\((book\/\d+-[^)]+\.md)\)/g)].map(m=>m[1]))];
+    const normalized=s=>s.replace(/\*\*/g,'').replace(/\[([^\]]+)\]\([^)]+\)/g,'$1').replace(/\s+/g,'');
+    await Promise.all(files.map(async(file)=>{
+      const md=await (await fetch('/'+file)).text(), n=Number(file.match(/book\/(\d+)/)[1]);
+      const original=md.split(/^### \d+\./m)[0].split(/^# \d+\. [^\n]+\n/m)[1], brief=el('#sec-'+n+' .chapter-intro');
+      const copy=brief.cloneNode(true);
+      copy.querySelectorAll('.brief-dir-head,.brief-group.ungrouped,.brief-note>h3').forEach(x=>x.remove());
+      if(normalized(copy.textContent)!==normalized(original))throw Error('Original introduction changed in chapter '+n);
+      const ids=[...md.matchAll(/^### (\d+)\. /gm)].map(m=>'e-'+n+'-'+m[1]);
+      const links=[...brief.querySelectorAll('.brief-entries a')];
+      if(ids.length!==links.length || !ids.every(id=>links.some(a=>a.hash==='#'+id)&&doc().getElementById(id)))throw Error('Incomplete chapter directory: '+n);
+    }));
+    assert(files.length===34,'All 34 chapter introductions retain their original text and every directory entry targets its card');
+    click('#topic-tree [data-group="0"] .topic-name');
+    const entryLink=el('#sec-1 .brief-entries a[href$="#e-1-2"]'), beforeCard=el('#e-1-2');
+    entryLink.scrollIntoView({block:'center'});const beforeTop=entryLink.getBoundingClientRect().top;entryLink.click();
+    await wait(()=>doc().activeElement===el('#e-1-2 h3') && Math.abs(beforeCard.getBoundingClientRect().top-el('header.nav').getBoundingClientRect().bottom)<30,'Direct entry link missed its card');
+    assert(beforeCard===el('#e-1-2') && el('#xref-pop').hidden,'An introduction link scrolls directly to the existing card without a popover');
+    click('#e-1-2 .brief-return');await wait(()=>doc().activeElement===entryLink && Math.abs(entryLink.getBoundingClientRect().top-beforeTop)<4,'Return lost the guide position');
+    click('#topic-tree [data-chapter="33"]');
+    const cross=el('#sec-33 .chapter-intro a[href$="#e-19-14"]'), crossCard=el('#e-19-14');
+    cross.scrollIntoView({block:'center'});cross.click();
+    await wait(()=>doc().activeElement===crossCard.querySelector('h3'),'Cross-topic reference failed');
+    assert(crossCard===el('#e-19-14') && visibleChapters().join()==='5,7,12,19','Cross-topic references reveal the right theme without reloading the document');
+    click('#e-19-14 .brief-return');await wait(()=>doc().activeElement===cross && !el('#sec-33').hidden,'Return to the original theme failed');
     const counts=[219,107,127,121,131,67];
     for(const [i,expected] of counts.entries()){
       click('#topic-tree [data-group="'+i+'"] .topic-name');
@@ -45,6 +72,9 @@ async function exercise(){
     assert(!sameCard.querySelector('details') && sameCard.querySelector('.cost').textContent && sameCard.querySelector('.gain').textContent && sameCard.querySelector('.entry-ref').textContent.includes('证据 A 级'),'Cost and gain shown; evidence and sources grouped');
     assert(win().getComputedStyle(sameCard.querySelector('.entry-ref')).fontSize!==win().getComputedStyle(sameCard.querySelector('.gain')).fontSize,'Reference uses secondary type');
     frame.style.width='320px';await wait(()=>el('#index-toggle').offsetWidth,'Mobile index missing');
+    click('#sec-14 .brief-entries a[href$="#e-14-9"]');
+    await wait(()=>Math.abs(el('#e-14-9').getBoundingClientRect().top-el('.index-mobile').getBoundingClientRect().bottom)<30,'Mobile entry obscured');
+    assert(noOverflow() && el('#sec-14 .brief-directory').getBoundingClientRect().width<=320,'Ungrouped chapter has a working single-column directory on mobile');
     click('#index-toggle');assert(el('.reader-column').inert,'Open mobile index keeps keyboard focus out of the covered text');selectChapter(26);
     assert(!el('#catalog').classList.contains('index-open') && noOverflow(),'Mobile chapter navigation closes the index and fits');
     await wait(()=>Math.abs(el('#sec-26 .sec-h').getBoundingClientRect().top-el('.index-mobile').getBoundingClientRect().bottom)<30,'Mobile chapter heading obscured');

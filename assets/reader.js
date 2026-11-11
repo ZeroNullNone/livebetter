@@ -366,7 +366,7 @@ function spy(){
 addEventListener('scroll', spy, { passive:true });
 
 // Keep the target under the sticky bars while nearby lazy cards acquire their final height.
-function jumpTo(id, focus = false){
+function jumpTo(id, focus = false, returnTop = null){
   clearTimeout(jumpTimer); clearTimeout(spyT); jumpTimer = 0;
   const target = document.getElementById(id);
   if (!target || target.hidden) return;
@@ -376,10 +376,20 @@ function jumpTo(id, focus = false){
   const card = CARD_OF.get(target.matches('.sec-block') ? target.querySelector('.card:not([hidden])') : target);
   if (card && card.key !== CUR_KEY) renderCard(card,CUR_TERMS,CUR_KEY);
   const spot = target.classList.contains('sec-block') ? target.querySelector('.sec-h') : target;
-  if (focus){ const heading=spot.querySelector('h2,h3'); heading?.setAttribute('tabindex','-1'); heading?.focus({preventScroll:true}); }
+  document.querySelector('.brief-return')?.remove();
+  if(history.state?.briefFrom && id===location.hash.slice(1)){
+    const bar=target.querySelector('.card-meta,.sec-h');
+    if(bar){const b=document.createElement('button');b.type='button';b.className='brief-return';b.textContent='↑ 返回导读';b.onclick=()=>history.back();bar.append(b);}
+  }
+  if (focus){
+    const dest=spot.matches('a')?spot:spot.querySelector('h2,h3');
+    if(dest && !dest.matches('a'))dest.tabIndex=-1;
+    dest?.focus({preventScroll:true});
+  }
   let tries = 0;
   const align = () => {
     spot.scrollIntoView({block:'start',behavior:'instant'});
+    if(returnTop!==null) window.scrollBy({top:spot.getBoundingClientRect().top-returnTop,behavior:'instant'});
     jumpTimer = ++tries < 4 ? setTimeout(align,65) : 0;
   };
   align();
@@ -445,6 +455,108 @@ function syncCardMyUI(c, k){
   if (nt) nv.innerHTML = `<b>私人笔记：</b>${esc(nt)}`;
 }
 
+// Keep the Markdown as the source of both the prose and the directory. Only
+// promote a paragraph to a group when the entire line is made of valid entries.
+function briefGroup(line, sec){
+  const heading=/^\*\*(.+?)\*\*：(.*)$/.exec(line);
+  if (!heading) return null;
+  const items=[], row=/(.+?)(（第\s*(\d+)\s*条）)([，。；、]|$)/gy;
+  let end=0, m;
+  while ((m=row.exec(heading[2]))){
+    if (!ITEMS.has(sec+'-'+m[3])) return null;
+    items.push({label:m[1],ref:m[2],n:m[3],separator:m[4]}); end=row.lastIndex;
+  }
+  return items.length && end===heading[2].length ? {name:heading[1],items} : null;
+}
+function briefLink(id,label){
+  const a=document.createElement('a');
+  a.href=chapterHref(id.split('-')[1],id); a.dataset.briefTarget=id; a.textContent=label;
+  if(/^\d+$/.test(label)){
+    const [,sec,n]=id.split('-');
+    a.setAttribute('aria-label',n?'第 '+sec+' 章第 '+n+' 条':'第 '+sec+' 章');
+  }
+  return a;
+}
+function briefText(node,line){
+  renderText(node,line,[],false);
+  for (const ref of node.querySelectorAll('.xref')){
+    const keys=ref.dataset.keys.split(',');
+    const dest=k=>k.startsWith('s')?'sec-'+k.slice(1):'e-'+k;
+    if (keys.length===1){ref.replaceWith(briefLink(dest(keys[0]),ref.textContent));continue;}
+    // A written range retains its range notation; each printed number is a link.
+    const text=ref.textContent, lead=text.match(/^(?:第\s*\d+\s*节|本节)(?=第)/)?.[0] || '';
+    const body=text.slice(lead.length), fragment=document.createDocumentFragment();
+    fragment.append(lead); let end=0;
+    for (const m of body.matchAll(/\d+/g)){
+      fragment.append(body.slice(end,m.index));
+      const key=keys.find(k=>(k.startsWith('s')?k.slice(1):k.split('-')[1])===m[0]);
+      fragment.append(key?briefLink(dest(key),m[0]):m[0]); end=m.index+m[0].length;
+    }
+    fragment.append(body.slice(end)); ref.replaceWith(fragment);
+  }
+}
+function buildChapterBrief(s,block){
+  const make=(tag,cls,parent,text)=>{
+    const el=document.createElement(tag); el.className=cls;
+    if(text!==undefined) el.textContent=text; parent.append(el); return el;
+  };
+  const skip=briefLink('e-'+s.n+'-'+s.entries[0].n,'直接读正文 ↓');
+  skip.className='brief-skip'; block.querySelector('.sec-h').append(skip);
+  const brief=make('div','chapter-intro',block), overview=make('div','brief-overview',brief);
+  const parts=s.intro.map(line=>({line,group:briefGroup(line,s.n)}));
+  const groups=parts.filter(p=>p.group).map(p=>p.group);
+  const covered=new Set(groups.flatMap(g=>g.items.map(e=>e.n)));
+  const remaining=s.entries.filter(e=>!covered.has(e.n));
+  let directory=null;
+  function startDirectory(){
+    if(directory) return;
+    directory=make('section','brief-directory',brief);
+    const head=make('div','brief-dir-head',directory);
+    make('h3','',head,'本章条目');
+    const count=groups.length+(groups.length && remaining.length?1:0);
+    const meta=make('span','brief-count',head,count?count+' 组 / ':'');
+    meta.append(block.querySelector('.shown'));
+  }
+  function addGroup(name,items){
+    startDirectory();
+    const row=make('div','brief-group',directory);
+    if(name) make('h4','',row,name); else row.classList.add('ungrouped');
+    const ul=make('ul','brief-entries',row);
+    for(const e of items){
+      const li=make('li','',ul), a=briefLink('e-'+s.n+'-'+e.n,unescMd(e.label.replace(/\*\*/g,'')));
+      li.append(a); make('small','',a,e.ref);
+      if(e.separator) make('span','brief-separator',li,e.separator);
+    }
+  }
+  function paragraph(parent,text){const p=make('p','intro',parent);briefText(p,text);}
+  for(const {line,group} of parts){
+    if(group){addGroup(group.name+'：',group.items);continue;}
+    if(groups.length && /^本节条目按主题/.test(line)){
+      startDirectory();paragraph(directory,line);continue;
+    }
+    const parent=directory || overview;
+    if (/^\*\*.+?\*\*：/.test(line)){paragraph(make('aside','brief-note',parent),line);continue;}
+    // Split only explicit scope lists and evidence/cost explanations. Unknown
+    // formats stay as complete paragraphs, in their original position.
+    const split=line.search(/(?:^|(?<=。))(?=收益那一栏|成本那一栏|多数数字是|有几条标了「随机试验」|这里不把时间换算|本节主要依据|四种口径分开算|世界卫生组织给的数字)/);
+    const main=split<0?line:line.slice(0,split), method=split<0?'':line.slice(split);
+    const row=main&&method?make('div','brief-columns',parent):parent;
+    const list=/^([^：。]+：)([^。]+；[^。]+。)$/.exec(main);
+    if(list){
+      const scope=make('div','brief-scope',row);make('h3','',scope,list[1]);
+      const ul=make('ul','',scope);
+      for(const part of list[2].match(/[^；。]+[；。]/g)) briefText(make('li','',ul),part);
+    }else if(main) paragraph(row,main);
+    if(method){
+      const note=make('aside','brief-note',row);make('h3','',note,'数字怎么读');
+      // Keep the two methodological notes separate when both are present.
+      for(const text of method.split(/(?<=。)(?=成本那一栏)/)) paragraph(note,text);
+    }
+  }
+  if(remaining.length) addGroup(groups.length?'其他条目':'',remaining.map(e=>({n:e.n,label:e.title,ref:'（第 '+e.n+' 条）'})));
+  [skip,...brief.querySelectorAll('a[data-brief-target]')].forEach((a,i)=>a.id='brief-'+s.n+'-'+i);
+}
+
 function build(sections){
   for (const s of sections){ SECS.set(s.n, s); for (const e of s.entries) ITEMS.set(`${s.n}-${e.n}`, e); }
   const list = document.getElementById('list');
@@ -452,11 +564,7 @@ function build(sections){
     const block = document.createElement('section'); block.className='sec-block'; block.dataset.sec = s.n; block.id = 'sec-'+s.n;
     block.innerHTML = `<div class="sec-h"><div><div class="kicker">${esc(topics.find(t=>t[3].includes(Number(s.n)))?.[0] || '章节阅读')} / 第 ${s.n.padStart(2,'0')} 章</div><h2>${esc(s.title)}</h2></div><span class="shown"></span></div>`;
     CUR_SEC = s.n;
-    const intro = document.createElement('div'); intro.className = 'chapter-intro'; block.appendChild(intro);
-    for (const para of s.intro){
-      const p = document.createElement('p'); p.className = 'intro';
-      renderText(p, para, [], false); intro.appendChild(p);
-    }
+    buildChapterBrief(s,block);
     for (const e of s.entries){
       const id = `e-${e.sec}-${e.n}`;
       const k = `${e.sec}-${e.n}`;
@@ -602,7 +710,7 @@ function apply(){
   const family = readerTopic()?.[3];
   const key = terms.join(' ');
   CUR_TERMS = terms; CUR_KEY = key;
-  let shown = 0; const perSec = {};
+  let shown = 0; const perSec = {}, firstShown = {};
   for (const card of CARDS){
     const {e, el} = card;
     const k = `${e.sec}-${e.n}`;
@@ -625,6 +733,7 @@ function apply(){
     if (el.hidden === ok) el.hidden = !ok;
     if (ok){
       shown++; perSec[e.sec] = (perSec[e.sec]||0)+1;
+      firstShown[e.sec] ||= el.id;
       if (card.vis && card.key !== key) renderCard(card, terms, key);
     }
   }
@@ -633,6 +742,9 @@ function apply(){
     const n=perSec[b.n] || 0;
     b.el.hidden=!n && !(wholeTheme && family.includes(Number(b.n)));
     b.count.textContent=(n===b.total?n:n+' / '+b.total)+' 条';
+    const skip=b.el.querySelector('.brief-skip'),first=firstShown[b.n];
+    skip.hidden=!first;
+    if(first){skip.dataset.briefTarget=first;skip.href=chapterHref(b.n,first);}
   }
   document.getElementById('cnt').textContent = shown;
   document.getElementById('empty').hidden = shown !== 0;
@@ -644,6 +756,19 @@ function wire(){
   const sb = document.getElementById('sidebar'), mb = document.getElementById('menu');
   const setMenu = on => { if (on && !sb.open) sb.showModal(); else if (!on && sb.open) sb.close(); };
   const toTop = () => { setMenu(false); setIndexOpen(false); document.getElementById('catalog').scrollIntoView(); };
+  document.getElementById('list').addEventListener('click',ev=>{
+    const link=ev.target.closest('a[data-brief-target]');
+    if(!link || !plainClick(ev))return;
+    const id=link.dataset.briefTarget,target=document.getElementById(id);
+    if(!target)return;
+    ev.preventDefault();
+    const top=link.getBoundingClientRect().top;
+    history.replaceState({...history.state,briefSpot:{id:link.id,top}},'');
+    if(!target.hidden && !target.closest('.sec-block').hidden){
+      // A visible card may be a search result. Keep the user's current filters.
+      history.pushState({briefFrom:link.id},'','#'+id);jumpTo(id,true);
+    }else openChapter(id.split('-')[1],id,false,link.id);
+  });
   mb.addEventListener('click', () => {
     setMenu(true); mb.setAttribute('aria-expanded','true');
     loadBook().then(()=>{ensureReader(); syncControls();}).catch(showReadError);
@@ -988,6 +1113,7 @@ function clearSelection(){
   for (const d of DIMS) state[d].clear(); state.dispute=false; state.todo=false;
 }
 function setSurface(reader){
+  if(!history.state?.briefFrom || !reader) document.querySelector('.brief-return')?.remove();
   const changed=catalog.classList.contains('is-reading')!==reader;
   catalog.classList.toggle('is-reading',reader);
   document.getElementById('cover').hidden=reader;
@@ -1036,11 +1162,11 @@ function renderIndexResults(){
   for(const a of document.querySelectorAll('#essays .index-row')) if(includes(a.textContent)) rows.push(a.outerHTML);
   out.innerHTML='<p class="view-hint">'+(rows.length?'搜索结果 · '+rows.length:'没有匹配项')+'</p>'+rows.join('');
 }
-async function openChapter(n,id='sec-'+n,themeStart=false){
+async function openChapter(n,id='sec-'+n,themeStart=false,briefFrom=null){
   const version=++routeVersion, family=readerTopic();
   const same=family?.[3].includes(Number(n)) && !state.q && !state.dispute && !state.todo && !DIMS.some(d=>d!=='sec' && state[d].size);
   const next=chapterHref(n,id);
-  if(location.search+location.hash!==next) history.pushState(null,'',next);
+  if(briefFrom || location.search+location.hash!==next) history.pushState(briefFrom?{briefFrom}:null,'',next);
   const wasRevealed=revealedKey;
   clearSelection(); state.sec.add(n); revealedKey=id.startsWith('e-')?id.slice(2):'';
   setIndexOpen(false); setSurface(true);
@@ -1074,7 +1200,15 @@ async function restoreRoute(){
   if(anchor && (anchor.hidden || anchor.closest('.sec-block')?.hidden)){
     clearSelection();state.sec.add(target[1]);revealedKey=id.startsWith('e-')?id.slice(2):'';apply();
   }
-  if(target)jumpTo(id);
+  const saved=history.state?.briefSpot, origin=saved && document.getElementById(saved.id);
+  if(origin?.getClientRects().length){
+    // Native history traversal may reset focus after dispatching popstate.
+    await new Promise(resolve=>setTimeout(resolve,0));
+    if(version!==routeVersion)return;
+    const bar=document.querySelector('.index-mobile');
+    const min=(bar.offsetHeight?bar:document.querySelector('header.nav')).getBoundingClientRect().bottom+8;
+    jumpTo(origin.id,true,Math.max(min,Math.min(saved.top,innerHeight-origin.offsetHeight-8)));
+  }else if(target)jumpTo(id);
   else if(readerTopic()){const n=[...state.sec][0];jumpTo('sec-'+n);}
   else if(id==='catalog') document.getElementById('catalog').scrollIntoView();
 }
