@@ -224,6 +224,40 @@ test('publication honors Retry-After dates and bounds rate-limit recovery', asyn
   }
 });
 
+test('build versions local JS/CSS and module dependencies, hashing the deployed bytes', () => {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), 'guide-versioning-'));
+  try {
+    const html = '<script src="assets/app.js"></script><link href="assets/style.css?theme=dark#top">' +
+      '<script src="https://cdn.example/app.js"></script><link href="//cdn.example/style.css">';
+    for (const f of ['index.html', 'selfcheck.html']) fs.writeFileSync(path.join(root, f), html);
+    for (const f of ['README.md', 'updates.json', 'LICENSE', 'LICENSE-CODE']) fs.writeFileSync(path.join(root, f), f);
+    for (const d of ['assets', 'book', 'docs']) fs.mkdirSync(path.join(root, d));
+    const js = "import './side.js'; import {x} from './lib.js?v=old'; import('./lazy.js');" +
+      'new URL(`${id}/moment.css`, import.meta.url); new URL(`${id}/moment.js`, import.meta.url);';
+    fs.writeFileSync(path.join(root, 'assets/app.js'), js);
+    fs.writeFileSync(path.join(root, 'assets/style.css'), '@import "./base.css"; body{color:red}');
+    const read = file => fs.readFileSync(path.join(root, 'dist', file), 'utf8');
+    const hashes = buildSite(root, M);
+    for (const f of ['index.html', 'selfcheck.html']) {
+      assert.ok(read(f).includes(`assets/app.js?v=${M}`));
+      assert.ok(read(f).includes(`assets/style.css?theme=dark&v=${M}#top`));
+      assert.ok(read(f).includes('src="https://cdn.example/app.js"'));
+      assert.ok(read(f).includes('href="//cdn.example/style.css"'));
+      assert.equal(fs.readFileSync(path.join(root, f), 'utf8'), html);
+    }
+    for (const asset of ['./side.js', './lib.js', './lazy.js', '${id}/moment.css', '${id}/moment.js']) {
+      assert.ok(read('assets/app.js').includes(`${asset}?v=${M}`));
+    }
+    assert.ok(read('assets/style.css').includes(`./base.css?v=${M}`));
+    for (const f of ['index.html', 'assets/app.js', 'assets/style.css']) assert.equal(hashes[f], digest(read(f)));
+    assert.equal(fs.readFileSync(path.join(root, 'assets/app.js'), 'utf8'), js);
+    assert.deepEqual(buildSite(root, M), hashes); // deterministic for the publication verifier
+    buildSite(root, H);
+    assert.ok(read('index.html').includes(`assets/app.js?v=${H}`));
+    assert.ok(!read('assets/app.js').includes(M));
+  } finally {fs.rmSync(root, {recursive: true, force: true});}
+});
+
 test('build exports public assets only, with version hashes; never follows symlinks', async () => {
   const root = fs.mkdtempSync(path.join(os.tmpdir(), 'guide-automation-'));
   try {

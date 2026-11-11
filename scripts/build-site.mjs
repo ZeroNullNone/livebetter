@@ -25,7 +25,19 @@ export function buildSite(root, commit) {
       }
     } else {
       if (!/\.(html|md|json|js|css|svg|jpg|png|webp|ico|woff2?)$/.test(relative) && !['LICENSE', 'LICENSE-CODE'].includes(relative)) throw new Error(`Unexpected public asset: ${relative}`);
-      const data = fs.readFileSync(src);
+      let data = fs.readFileSync(src);
+      // Version local JS/CSS URLs, including module imports and new URL() loaders.
+      // Only the build output changes; hash the final bytes used by publication checks.
+      if (/\.(html|js|css)$/.test(relative)) {
+        data = Buffer.from(data.toString('utf8').replace(
+          /(["'`])((?![a-z][a-z\d+.-]*:|\/\/)[^"'`\s<>?#]+?\.(?:js|css))(\?[^"'`\s<>#]*)?(#[^"'`\s<>]*)?\1/gi,
+          (_, quote, asset, query, fragment) => {
+            const params = new URLSearchParams(query);
+            params.set('v', commit);
+            return `${quote}${asset}?${params}${fragment ?? ''}${quote}`;
+          },
+        ));
+      }
       fs.writeFileSync(dest, data);
       hashes[relative] = createHash('sha256').update(data).digest('hex');
     }
