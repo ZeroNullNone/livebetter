@@ -40,3 +40,9 @@ assert.doesNotMatch(salt,/死亡的概率低约 12%|死亡风险低约 12%|健�
 assert.match(read('.github/workflows/merge-sync.yml'),/cron: '30 3 \* \* 1'/);
 assert.match(read('.github/workflows/merge-sync.yml'),/vars.AUTO_MERGE_SYNC == 'enabled'/);
 console.log('Follow-up regression passed: modal source links, salt rate denominator, Monday cron with unchanged enable gate.');
+
+const uro=read(fs.readdirSync(path.join(root,'book')).filter(f=>f.startsWith('33-')).map(f=>'book/'+f)[0]).split('### 21.')[1];
+assert.match(uro,/按风险/);assert.match(uro,/个体化/);assert.match(uro,/不自行服药/);
+assert.doesNotMatch(uro,/务必选用全硅胶|每年必须|严格执行无菌手法|提早数年截断/);
+assert.doesNotMatch(read('README.md'),/脊髓损伤后别长期插着导尿管/);
+console.log('Neuro-urology wording regression passed; this is not independent medical validation.');
