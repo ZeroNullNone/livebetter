@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "kind": "manual-triage-correction",
+  "repo": "ZeroNullNone/livebetter",
+  "baseSha": "2b03b7d5b496cd927ef0bb6800f47bf5bd6805cf",
+  "targetSha": "2b03b7d5b496cd927ef0bb6800f47bf5bd6805cf",
+  "notes": "Repository baseline only; does not advance upstream checkpoint. Prior neuro-urology patch preserved.",
+  "entries": [
+    {
+      "file": "book/24-看病.md",
+      "number": 7,
+      "sha256": "89270a705e511affb4c7b4dbc0d0f8c49143cf14384b41361bc9b459ed50ecd3",
+      "sources": [
+        "https://www.moh.gov.my/images/04-penerbitan/penerbitan-klinikal/panduan-amalan-klinikal/CPG_Management_Of_Acute_Coronary_Syndrome_ACS_1st_Edition_2026_compressed.pdf",
+        "https://www.moh.gov.my/moh/resources/Polisi/EMTS_Book.pdf"
+      ]
+    }
+  ],
+  "files": [],
+  "sources": [
+    {
+      "url": "https://www.moh.gov.my/images/04-penerbitan/penerbitan-klinikal/panduan-amalan-klinikal/CPG_Management_Of_Acute_Coronary_Syndrome_ACS_1st_Edition_2026_compressed.pdf",
+      "checkedAt": "2026-11-13",
+      "access": "Official PDF relevant sections read, pp26,82–83,92"
+    },
+    {
+      "url": "https://www.moh.gov.my/moh/resources/Polisi/EMTS_Book.pdf",
+      "checkedAt": "2026-11-13",
+      "access": "Official PDF indexed text read, pp39–40; direct URL initially returned404"
+    }
+  ]
+}
