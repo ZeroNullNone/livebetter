@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "kind": "manual-fact-check-followup",
+  "repo": "ZeroNullNone/livebetter",
+  "baseSha": "b316f1003b3ab276687189d329054486d333c374",
+  "targetSha": "b316f1003b3ab276687189d329054486d333c374",
+  "notes": "Manual salt evidence correction on merged baseline, not upstream migration. Prior records remain unchanged.",
+  "entries": [
+    {
+      "file": "book/02-不要慢慢死.md",
+      "number": 9,
+      "sha256": "1ced7169a8ef667bbe5ef120c89e7f0cc48161651bcc678af00d43f0146c2c88",
+      "sources": [
+        "https://doi.org/10.1056/NEJMoa2105675",
+        "https://scholars.duke.edu/publication/1495239"
+      ]
+    }
+  ],
+  "files": [],
+  "sources": [
+    {
+      "url": "https://scholars.duke.edu/publication/1495239",
+      "title": "Effect of Salt Substitution on Cardiovascular Events and Death.",
+      "checkedAt": "2026-11-13",
+      "scope": "Original author-institution abstract read; publisher full-text direct access returned403. Trial-design/exclusion details also cross-checked publisher search excerpts."
+    }
+  ]
+}

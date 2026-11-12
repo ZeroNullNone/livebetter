@@ -1,7 +1,7 @@
 name: Merge reviewed sync
 on:
   schedule:
-    - cron: '7,22,37,52 * * * *'
+    - cron: '30 3 * * 1' # Monday 11:30 Asia/Kuala_Lumpur (UTC+08:00)
   workflow_dispatch:
 permissions:
   contents: read
