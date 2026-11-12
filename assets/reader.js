@@ -144,7 +144,7 @@ function trimUrl(u){
   }
   return [u, t];
 }
-const REPO_BLOB = 'https://github.com/eternity4719/HowToLiveBetter/blob/main/';
+const REPO_BLOB = 'https://github.com/ZeroNullNone/livebetter/blob/main/';
 const MD_LINK_RE = /\[([^\]\n]+)\]\(([^)\s]+)\)/;
 const BOLD_RE = /\*\*((?:\\\*|[^*\n])+)\*\*/;
 const unescMd = (s) => s.replace(/\\([*_])/g, '$1');

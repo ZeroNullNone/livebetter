@@ -1,0 +1,2309 @@
+{
+  "version": 1,
+  "kind": "manual-fact-check-correction",
+  "repository": "ZeroNullNone/livebetter",
+  "baselineCommit": "cb213f7b3a26a71a5c931f226a910e64543e1ed2",
+  "date": "2026-11-13",
+  "scope": {
+    "chapters": 34,
+    "entries": 772,
+    "essays": 9
+  },
+  "limitations": "Risk screen and targeted source checks, not independent verification of every claim or citation. Source-link matching alone is not claim verification.",
+  "records": [
+    {
+      "path": "book/01-不要早死.md",
+      "entry": 48,
+      "summary": "删除不安全的自行催吐，标明中国样本",
+      "sources": [
+        "https://www.poison.org/first-aid-for-poisonings"
+      ]
+    },
+    {
+      "path": "book/01-不要早死.md",
+      "entry": 43,
+      "summary": "纠正本地急救号码",
+      "sources": []
+    },
+    {
+      "path": "book/01-不要早死.md",
+      "entry": 43,
+      "summary": "同步旧交叉引用",
+      "sources": []
+    },
+    {
+      "path": "book/01-不要早死.md",
+      "entry": 41,
+      "summary": "海外冰面场景不套用马来西亚号码",
+      "sources": []
+    },
+    {
+      "path": "book/01-不要早死.md",
+      "entry": 12,
+      "summary": "同步安全标题",
+      "sources": []
+    },
+    {
+      "path": "book/01-不要早死.md",
+      "entry": 8,
+      "summary": "纠正马来西亚糖尿病筛查年龄条件与年度间隔",
+      "sources": [
+        "https://mems.my/wp-content/uploads/2021/03/CPG-T2DM_6th-Edition-2020_210226.pdf"
+      ]
+    },
+    {
+      "path": "book/01-不要早死.md",
+      "entry": 19,
+      "summary": "纠正FOBT意向筛查与参与调整口径",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/17253456/"
+      ]
+    },
+    {
+      "path": "book/05-不要浪费钱.md",
+      "entry": 12,
+      "summary": "纠正全部仿制药人体BE及可互换绝对表述，更新防伪标签",
+      "sources": [
+        "https://npra.gov.my/~npraweb/index.php/en/biowaivers.html",
+        "https://pharmacy.moh.gov.my/ms/entri/label-keselamatan-hologram-farmatagtm.html"
+      ]
+    },
+    {
+      "path": "book/05-不要浪费钱.md",
+      "entry": 11,
+      "summary": "区分毛利与净利润",
+      "sources": []
+    },
+    {
+      "path": "book/05-不要浪费钱.md",
+      "entry": 19,
+      "summary": "纠正分散投资无条件不改预期收益",
+      "sources": [
+        "https://doi.org/10.1111/j.1540-6261.1952.tb01525.x"
+      ]
+    },
+    {
+      "path": "book/05-不要浪费钱.md",
+      "entry": 2,
+      "summary": "纠正税务减免性质、适用生育治疗及保险额度",
+      "sources": [
+        "https://www.hasil.gov.my/en/individu/pelepasan-cukai/"
+      ]
+    },
+    {
+      "path": "book/05-不要浪费钱.md",
+      "entry": 13,
+      "summary": "纠正税务减免性质、适用生育治疗及保险额度",
+      "sources": [
+        "https://www.hasil.gov.my/en/individu/pelepasan-cukai/"
+      ]
+    },
+    {
+      "path": "book/07-没钱的时候怎么活.md",
+      "entry": 3,
+      "summary": "更新法律援助经济资源门槛",
+      "sources": [
+        "https://www.jbg.gov.my/index.php/en/component/content/article/381-legal-aid-services?Itemid=1"
+      ]
+    },
+    {
+      "path": "book/07-没钱的时候怎么活.md",
+      "entry": 7,
+      "summary": "更新BWE与BKK金额",
+      "sources": [
+        "https://manfaat.mof.gov.my/bantuan/JKM-001",
+        "https://manfaat.mof.gov.my/bantuan/JKM-005"
+      ]
+    },
+    {
+      "path": "book/07-没钱的时候怎么活.md",
+      "entry": 8,
+      "summary": "更新残障本人及配偶税务减免",
+      "sources": [
+        "https://www.hasil.gov.my/en/individu/pelepasan-cukai/"
+      ]
+    },
+    {
+      "path": "book/08-别把自己搭进去.md",
+      "entry": 19,
+      "summary": "纠正催告信不重启时效、起算及地域",
+      "sources": [
+        "https://www.investmalaysia.gov.my/media/brtdgigj/limitation-act-1953.pdf"
+      ]
+    },
+    {
+      "path": "book/09-普通人容易踩的法律红线.md",
+      "entry": "导览",
+      "summary": "删除旧十四岁年龄导览",
+      "sources": []
+    },
+    {
+      "path": "book/10-恋爱和结婚划不划算.md",
+      "entry": 12,
+      "summary": "纠正只有签字担保才承担配偶债务",
+      "sources": [
+        "https://www.investmalaysia.gov.my/media/o0ajehya/contracts-act-1950.pdf"
+      ]
+    },
+    {
+      "path": "book/10-恋爱和结婚划不划算.md",
+      "entry": 8,
+      "summary": "纠正风险比之比解释",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7047380/"
+      ]
+    },
+    {
+      "path": "book/10-恋爱和结婚划不划算.md",
+      "entry": 9,
+      "summary": "纠正无酬劳动数值与试点样本范围",
+      "sources": [
+        "https://www.krinstitute.org/publications/when-do-men-care-covid-19-insights-on-care-crisis-and-masculinities"
+      ]
+    },
+    {
+      "path": "book/10-恋爱和结婚划不划算.md",
+      "entry": 18,
+      "summary": "纠正遗嘱见证受益人条号与地域",
+      "sources": [
+        "https://rockwillsonline.com.my/document/statute/Wills_Act_1959.pdf"
+      ]
+    },
+    {
+      "path": "book/10-恋爱和结婚划不划算.md",
+      "entry": 14,
+      "summary": "删除虚构撤婚期限及同房限制，纠正s71条件",
+      "sources": [
+        "https://mylegal2u.com/law/act-164/2026-10-26-6d066226.pdf"
+      ]
+    },
+    {
+      "path": "book/05-不要浪费钱.md",
+      "entry": 2,
+      "summary": "更新YA2025教育医疗保险减免",
+      "sources": [
+        "https://www.hasil.gov.my/en/individu/pelepasan-cukai/"
+      ]
+    },
+    {
+      "path": "book/10-恋爱和结婚划不划算.md",
+      "entry": 7,
+      "summary": "纠正一般婚姻统计分母",
+      "sources": [
+        "https://www.dosm.gov.my/portal-main/release-content/marriage-and-divorce-statistics-malaysia-2022"
+      ]
+    },
+    {
+      "path": "book/10-恋爱和结婚划不划算.md",
+      "entry": 18,
+      "summary": "同步遗嘱备注条号和授权书法编号",
+      "sources": [
+        "https://rockwillsonline.com.my/document/statute/Wills_Act_1959.pdf",
+        "https://www.kehakiman.gov.my/ms/soalan-lazim"
+      ]
+    },
+    {
+      "path": "book/02-不要慢慢死.md",
+      "entry": 7,
+      "summary": "补回人工甜味饮料替代模型结果",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6488380/"
+      ]
+    },
+    {
+      "path": "book/02-不要慢慢死.md",
+      "entry": 14,
+      "summary": "纠正研究运动分类",
+      "sources": [
+        "https://bjsm.bmj.com/content/51/10/812"
+      ]
+    },
+    {
+      "path": "book/02-不要慢慢死.md",
+      "entry": 30,
+      "summary": "纠正IARC第3组含义",
+      "sources": [
+        "https://www.iarc.who.int/wp-content/uploads/2018/11/Monographs-QA_Vol116.pdf"
+      ]
+    },
+    {
+      "path": "book/03-不要浪费精力.md",
+      "entry": 3,
+      "summary": "纠正睡眠实验分组与六小时效应",
+      "sources": [
+        "https://doi.org/10.1093/sleep/26.2.117"
+      ]
+    },
+    {
+      "path": "book/06-反面清单.md",
+      "entry": 5,
+      "summary": "纠正GAIT亚组预设性质",
+      "sources": [
+        "https://www.nejm.org/doi/full/10.1056/NEJMoa052771"
+      ]
+    },
+    {
+      "path": "book/08-别把自己搭进去.md",
+      "entry": 19,
+      "summary": "同步时效标题，避免全国六年绝对表述",
+      "sources": [
+        "https://www.investmalaysia.gov.my/media/brtdgigj/limitation-act-1953.pdf"
+      ]
+    },
+    {
+      "path": "book/05-不要浪费钱.md",
+      "entry": 13,
+      "summary": "同步政府专科转介收费纠正",
+      "sources": [
+        "https://www.moh.gov.my/en/core/health-information/service-rates/caj-pesakit-luar"
+      ]
+    },
+    {
+      "path": "book/12-创业与做生意.md",
+      "entry": 16,
+      "summary": "区分 EPF 7 天雇主登记与 SOCSO 30 天登记",
+      "sources": [
+        "https://www.kwsp.gov.my/en/employer/responsibilities/registration"
+      ]
+    },
+    {
+      "path": "book/13-紧急情况.md",
+      "entry": 15,
+      "summary": "严重过敏先使用已获处方的自动注射笔，不等待救护车；无皮疹也可能发生",
+      "sources": [
+        "https://www.gov.uk/drug-safety-update/adrenaline-auto-injector-advice-for-patients"
+      ]
+    },
+    {
+      "path": "book/13-紧急情况.md",
+      "entry": 20,
+      "summary": "统一误服毒物处置，移除自行喝奶或蛋清的行动建议",
+      "sources": [
+        "https://www.nhs.uk/conditions/poisoning/"
+      ]
+    },
+    {
+      "path": "book/13-紧急情况.md",
+      "entry": 38,
+      "summary": "PEP 紧急时限与超过时限后的就医；删除让读者避开急诊的建议",
+      "sources": [
+        "https://www.cdc.gov/hivnexus/hcp/pep/index.html"
+      ]
+    },
+    {
+      "path": "book/14-账号与信息安全.md",
+      "entry": 4,
+      "summary": "移除不适用于马来西亚的中国电信客服号",
+      "sources": []
+    },
+    {
+      "path": "book/16-得了慢性病之后怎么活.md",
+      "entry": 2,
+      "summary": "SPUB 限参与设施；更新 2026-10-01 起 UMP 免费邮寄安排，移除普遍免费和两分钟保证",
+      "sources": [
+        "https://pharmacy.moh.gov.my/ms/entri/sistem-pendispensan-ubat-bersepadu-spub.html",
+        "https://www.mkn.gov.my/web/ms/2026/09/30/penghantaran-ubat-melalui-pos-secara-percuma-bermula-1-okt-2026/"
+      ]
+    },
+    {
+      "path": "book/17-家里有老人.md",
+      "entry": 1,
+      "summary": "更正授权书法令编号 Act 424",
+      "sources": [
+        "https://www.kehakiman.gov.my/en/faq"
+      ]
+    },
+    {
+      "path": "book/17-家里有老人.md",
+      "entry": 7,
+      "summary": "BWE 更新每月 RM600；BPT 保留 RM500",
+      "sources": [
+        "https://www.malaysia.gov.my/my/personas/warga-emas/mendapatkan-bantuan-warga-emas/bantuan-warga-emas-bwe"
+      ]
+    },
+    {
+      "path": "book/18-养孩子划不划算.md",
+      "entry": 1,
+      "summary": "更新 BKK 金额和 YA2025 残障子女减免",
+      "sources": [
+        "https://www.malaysia.gov.my/en/categories/bantuan-kebajikan--kemudahan/bantuan-kewangan/bantuan-kanak-kanak-bkk",
+        "https://www.hasil.gov.my/en/individu/pelepasan-cukai/"
+      ]
+    },
+    {
+      "path": "book/19-在职离职和工伤.md",
+      "entry": 2,
+      "summary": "住院假 60 天与门诊病假分开计算",
+      "sources": [
+        "https://jtksm.gov.my/ms/soalan-lazim/akta-kerja-1955-pindaan-2022/cuti-sakit/berapakah-jumlah-kelayakan-baharu-bagi-cuti"
+      ]
+    },
+    {
+      "path": "book/20-刚出生的孩子怎么带.md",
+      "entry": 5,
+      "summary": "明确喂奶开始及冲调两个计时点，喂剩立即丢弃",
+      "sources": [
+        "https://www.cdc.gov/infant-toddler-nutrition/formula-feeding/preparation-and-storage.html"
+      ]
+    },
+    {
+      "path": "book/21-出国旅行与境外安全.md",
+      "entry": 9,
+      "summary": "APS 海外招聘资格为 B 或 C，不仅 C",
+      "sources": [
+        "https://jtksm.mohr.gov.my/en/services/private-employment-agencies"
+      ]
+    },
+    {
+      "path": "book/22-怎么放松.md",
+      "entry": 12,
+      "summary": "区分头盔研究 OR 与风险降低；颈伤未显著关联不等于证明无风险",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/27450862/"
+      ]
+    },
+    {
+      "path": "book/13-紧急情况.md",
+      "entry": 4,
+      "summary": "移除闭眼站立和自行指鼻筛查；安全休息并立即求救，症状消失也评估",
+      "sources": [
+        "https://www.redcross.org.uk/first-aid/learn-first-aid/stroke",
+        "https://www.nhs.uk/conditions/transient-ischaemic-attack-tia/symptoms/"
+      ]
+    },
+    {
+      "path": "book/13-紧急情况.md",
+      "entry": 12,
+      "summary": "移除前臂/小腿一概禁用止血带；改为伤口近心端5–7.5cm避开关节",
+      "sources": [
+        "https://www.redcross.org/take-a-class/resources/articles/how-to-apply-a-tourniquet"
+      ]
+    },
+    {
+      "path": "book/19-在职离职和工伤.md",
+      "entry": 24,
+      "summary": "工资连带责任更正为s33并补3个月/90天/建筑例外；纠正安全责任适用条件",
+      "sources": [
+        "https://jtksm.gov.my/sites/default/files/2023-11/Akta%20Kerja%201955%20%28Akta%20265%29_0.pdf",
+        "https://dosh.gov.my/wp-content/uploads/2026/01/JKKP_Akta-514_21Januari2026_FINAL.pdf"
+      ]
+    },
+    {
+      "path": "book/19-在职离职和工伤.md",
+      "entry": 7,
+      "summary": "删除签辞职信即丧失一切权利的绝对结论；区分真实自愿辞职、强迫/推定解雇及EIS例外",
+      "sources": [
+        "https://perkeso.gov.my/en/our-services/protection/employment-insurance.html",
+        "https://www.perkeso.gov.my/images/akta/ACT%20800/Akta%20800_EMPLOYMENT%20INSURANCE%20SYSTEM%20ACT%202017.pdf",
+        "https://jpp.mohr.gov.my/ems-pembuangan-kerja-seksyen-20/"
+      ]
+    },
+    {
+      "path": "book/17-家里有老人.md",
+      "entry": 7,
+      "summary": "父母及祖父母医疗/看护减免明确 YA2025 RM8000，移除未经核实 RM10000",
+      "sources": [
+        "https://www.hasil.gov.my/en/individu/pelepasan-cukai/"
+      ]
+    },
+    {
+      "path": "book/17-家里有老人.md",
+      "entry": 11,
+      "summary": "父母及祖父母医疗/看护减免明确 YA2025 RM8000，移除未经核实 RM10000",
+      "sources": [
+        "https://www.hasil.gov.my/en/individu/pelepasan-cukai/"
+      ]
+    },
+    {
+      "path": "book/17-家里有老人.md",
+      "entry": 12,
+      "summary": "父母及祖父母医疗/看护减免明确 YA2025 RM8000，移除未经核实 RM10000",
+      "sources": [
+        "https://www.hasil.gov.my/en/individu/pelepasan-cukai/"
+      ]
+    },
+    {
+      "path": "book/11-程序员和技术人容易踩的红线.md",
+      "entry": 5,
+      "summary": "赌博馆法令编号更正 Act289 而非 Act265",
+      "sources": [
+        "https://lom.agc.gov.my/ilims/upload/portal/akta/LOM/EN/Act%20289.pdf"
+      ]
+    },
+    {
+      "path": "book/23-学什么技能划算.md",
+      "entry": 4,
+      "summary": "限制2026免还范围，移除自动免还承诺",
+      "sources": [
+        "https://www.ptptn.gov.my/en/pelaksanaan-inisiatif-belanjawan-2026/"
+      ]
+    },
+    {
+      "path": "book/23-学什么技能划算.md",
+      "entry": 5,
+      "summary": "区分DLKM的Tc路径与学士Ts路径",
+      "sources": [
+        "https://www.mbot.org.my/registration/qualified-technicians",
+        "https://www.mbot.org.my/registration/graduate-technologists"
+      ]
+    },
+    {
+      "path": "book/23-学什么技能划算.md",
+      "entry": 20,
+      "summary": "区分PE与PEPC提交权限",
+      "sources": [
+        "https://bem.org.my/files/FAQ/PP.pdf"
+      ]
+    },
+    {
+      "path": "book/24-看病.md",
+      "entry": 1,
+      "summary": "纠正政府转诊首次免费、私人转诊RM30",
+      "sources": [
+        "https://www.moh.gov.my/en/core/health-information/service-rates/caj-pesakit-luar"
+      ]
+    },
+    {
+      "path": "book/24-看病.md",
+      "entry": 2,
+      "summary": "同步专科首诊收费范围",
+      "sources": [
+        "https://www.moh.gov.my/en/core/health-information/service-rates/caj-pesakit-luar"
+      ]
+    },
+    {
+      "path": "book/24-看病.md",
+      "entry": 10,
+      "summary": "更新YA2025残障本人配偶税务减免",
+      "sources": [
+        "https://www.hasil.gov.my/en/individu/pelepasan-cukai/"
+      ]
+    },
+    {
+      "path": "book/24-看病.md",
+      "entry": 15,
+      "summary": "OFS更新FMOS并区分理赔与医院监管投诉",
+      "sources": [
+        "https://www.fmos.org.my/en/who-we-are/",
+        "https://www.fmos.org.my/en/faq/"
+      ]
+    },
+    {
+      "path": "book/25-人走了以后要办什么.md",
+      "entry": 2,
+      "summary": "纠正LM02与LM09/LM10表格用途",
+      "sources": [
+        "https://www.jpn.gov.my/en/services/death/ordinary-registration-of-death-peninsular/"
+      ]
+    },
+    {
+      "path": "book/25-人走了以后要办什么.md",
+      "entry": 5,
+      "summary": "删除错套历史迟报罚费与七日家属期限",
+      "sources": [
+        "https://www.jpn.gov.my/en/services/death/ordinary-registration-of-death-peninsular/",
+        "https://www.jpn.gov.my/en/services/death/late-registration-of-death-peninsular/"
+      ]
+    },
+    {
+      "path": "book/27-怀孕和生产.md",
+      "entry": 8,
+      "summary": "纠正普遍平躺抬臀禁走禁浴建议",
+      "sources": [
+        "https://www.nhs.uk/pregnancy/labour-and-birth/signs-that-labour-has-begun/",
+        "https://www.rcog.org.uk/for-the-public/browse-our-patient-information/umbilical-cord-prolapse-in-late-pregnancy/"
+      ]
+    },
+    {
+      "path": "book/29-遭遇重大打击之后.md",
+      "entry": 11,
+      "summary": "移除错置中国省级热线2030政策，改本地MENTARI官方路径",
+      "sources": [
+        "https://mentari.moh.gov.my/frequently-asked-question/",
+        "https://mentari.moh.gov.my/services/"
+      ]
+    },
+    {
+      "path": "book/31-十八岁之后有哪几条路.md",
+      "entry": 1,
+      "summary": "更新SSPA等级、APEL年龄并区别PLKN",
+      "sources": [
+        "https://www.spa.gov.my/syarat-permohonan/spm-svm/pembantu-tadbir-perkeranian-operasi-gred-n1",
+        "https://spa.gov.my/syarat-permohonan/ijazah-sarjana-muda-sarjana-doktor-falsafah/pegawai-tadbir-dan-diplomatik-gred-m9",
+        "https://www2.mqa.gov.my/portalapela/SyaratPermohonanT3.cfm",
+        "https://www.mod.gov.my/index.php/maklumat/plkn-3-0"
+      ]
+    },
+    {
+      "path": "book/31-十八岁之后有哪几条路.md",
+      "entry": 7,
+      "summary": "更新公务员等级并消除唯一入口绝对化",
+      "sources": [
+        "https://www.spa.gov.my/syarat-permohonan/spm-svm/pembantu-tadbir-perkeranian-operasi-gred-n1",
+        "https://spa.gov.my/syarat-permohonan/ijazah-sarjana-muda-sarjana-doktor-falsafah/pegawai-tadbir-dan-diplomatik-gred-m9"
+      ]
+    },
+    {
+      "path": "book/31-十八岁之后有哪几条路.md",
+      "entry": 8,
+      "summary": "教师等级更新DG9、纠正SJKT及自动晋升表述",
+      "sources": [
+        "https://spa.gov.my/syarat-permohonan/ijazah-sarjana-muda-sarjana-doktor-falsafah/pegawai-perkhidmatan-pendidikan-gred-dg9"
+      ]
+    },
+    {
+      "path": "book/31-十八岁之后有哪几条路.md",
+      "entry": 10,
+      "summary": "纠正APEL年龄、免考和学分上限",
+      "sources": [
+        "https://www2.mqa.gov.my/portalapela/SyaratPermohonanT3.cfm",
+        "https://www2.mqa.gov.my/apel/APEL_C/dasarumumc.cfm"
+      ]
+    },
+    {
+      "path": "book/31-十八岁之后有哪几条路.md",
+      "entry": 14,
+      "summary": "纠正海外安置非仅C类执照",
+      "sources": [
+        "https://jtksm.gov.my/en/frequently-asked-questions/private-employment-agencies"
+      ]
+    },
+    {
+      "path": "book/33-残疾之后怎么活.md",
+      "entry": 5,
+      "summary": "删除一期压疮自动清创及统一10秒卸压处方",
+      "sources": [
+        "https://www.nice.org.uk/guidance/cg179/chapter/Recommendations"
+      ]
+    },
+    {
+      "path": "book/33-残疾之后怎么活.md",
+      "entry": 11,
+      "summary": "更新YA2025残障税额与子女高教条件",
+      "sources": [
+        "https://www.hasil.gov.my/en/individu/pelepasan-cukai/"
+      ]
+    },
+    {
+      "path": "book/31-十八岁之后有哪几条路.md",
+      "entry": 2,
+      "summary": "区分职业军警自愿招募与PLKN基础阶段有条件强制义务",
+      "sources": [
+        "https://www.mod.gov.my/index.php/maklumat/plkn-3-0"
+      ]
+    },
+    {
+      "path": "book/31-十八岁之后有哪几条路.md",
+      "entry": 12,
+      "summary": "更新Act872生效状态并移除九成补贴每单自动投保和全额赔偿保证",
+      "sources": [
+        "https://jtksm.gov.my/en/enforcement-gig-workers-act",
+        "https://dosh.gov.my/wp-content/uploads/2026/04/Penetapan-Tarikh-Permulaan-Kuat-Kuasa-Akta-Pekerja-Gig-2025-P.U.-B122_2026.pdf",
+        "https://perkeso.gov.my/en/our-services/protection/self-employed.html"
+      ]
+    },
+    {
+      "path": "book/23-学什么技能划算.md",
+      "entry": 3,
+      "summary": "区分毕业生人数、劳动参与率与总人口分母，删除无对应出处的学历比例和薪资倍数",
+      "sources": [
+        "https://www.dosm.gov.my/portal-main/release-content/graduates-statistics-2024"
+      ]
+    },
+    {
+      "file": "docs/孩子出生前后要办的事.md",
+      "before": "喝剩超过 2 小时的奶直接倒掉。",
+      "after": "配好后未喂过的奶在室温下应于 2 小时内使用；开始喂后 1 小时内用完，喂完剩奶直接丢弃，不留到下一餐。来源：[CDC 配方奶准备与储存](https://www.cdc.gov/infant-toddler-nutrition/formula-feeding/preparation-and-storage.html)。",
+      "sources": [
+        "https://www.cdc.gov/infant-toddler-nutrition/formula-feeding/preparation-and-storage.html"
+      ]
+    },
+    {
+      "file": "docs/孩子出生前后要办的事.md",
+      "before": "第 12 条（新生儿黄疸",
+      "after": "第 13 条（新生儿黄疸",
+      "sources": [
+        "book/20-刚出生的孩子怎么带.md"
+      ]
+    },
+    {
+      "file": "docs/孩子出生前后要办的事.md",
+      "before": "第 15 条（婴儿每天补维生素 D",
+      "after": "第 16 条（婴儿每天补维生素 D",
+      "sources": [
+        "book/20-刚出生的孩子怎么带.md"
+      ]
+    },
+    {
+      "file": "docs/孩子出生前后要办的事.md",
+      "before": "第 16 条（洗澡先放冷水",
+      "after": "第 17 条（洗澡先放冷水",
+      "sources": [
+        "book/20-刚出生的孩子怎么带.md"
+      ]
+    },
+    {
+      "file": "docs/孩子出生前后要办的事.md",
+      "before": "1. 破水了就地平躺、垫高臀部、打 **999** 或让人开车平躺送去医院产房（Labour Room），不要站着走动或先去冲凉，防脐带脱垂。见第 27 节第 8 条（破水）。",
+      "after": "1. 怀疑破水，立即联系产房，记录时间、液体颜色和气味，用卫生巾而不是棉条，按产房指示尽快评估。不要把一般破水一律当成脐带脱垂：若看到或感觉阴道有脐带，立即打 **999**，不要碰或塞回脐带；等待救护车时按接线员指导采用膝胸卧位，或侧卧并垫高髋部。不要自行驾车或为了洗澡延误就医。见第 27 节第 8 条及 [NHS 破水说明](https://www.nhs.uk/pregnancy/labour-and-birth/signs-that-labour-has-begun/)、[RCOG 脐带脱垂急救](https://www.rcog.org.uk/for-the-public/browse-our-patient-information/umbilical-cord-prolapse-in-late-pregnancy/)。",
+      "sources": [
+        "https://www.nhs.uk/pregnancy/labour-and-birth/signs-that-labour-has-begun/",
+        "https://www.rcog.org.uk/for-the-public/browse-our-patient-information/umbilical-cord-prolapse-in-late-pregnancy/"
+      ]
+    },
+    {
+      "file": "docs/刚确诊慢性病之后.md",
+      "before": "9. 记住政府医院专科的收费规则：拿着政府诊所或私人 GP 的 **转诊信** 去政府医院专科（Specialist Clinic），第一次看诊收 **RM5**（由政府诊所转诊甚至免首次 RM5）；如果 **没有转诊信** 自己硬闯政府医院专科，第一次看诊要收 **RM30**，检查费也按非转诊标准另算。见第 24 节第 2 条（级别越低报销比例越高）与第 24 节第 3 条（走基层转诊或者医院的转诊中心）。",
+      "after": "9. 政府医院专科一般须有转诊信并按预约就诊。按 MOH 公民门诊收费规则，政府医务人员转诊的首次专科门诊免费、复诊 **RM5**；私人医生转诊的首次 **RM30**、复诊 **RM5**，检查及治疗费用按适用规则另核对。RM30 不是「无转诊信自行就诊」的通用收费；非公民及豁免资格另计。见第 24 节第 2、3 条及 [MOH 财政部门收费问答](https://www.moh.gov.my/info-korporat/maklumat-bahagian/bahagian-kewangan)。",
+      "sources": [
+        "https://www.moh.gov.my/info-korporat/maklumat-bahagian/bahagian-kewangan"
+      ]
+    },
+    {
+      "file": "docs/刚确诊慢性病之后.md",
+      "before": "就能去全马任何一家靠近你的政府诊所或医院药房继续领剩下的处方药。",
+      "after": "按统一转介流程，在 SPUB 参与设施目录内选择接收药房，并先确认药品、领取时间与转介安排；不是任何政府药房都能直接领。参见 [MOH SPUB 说明与参与目录](https://pharmacy.moh.gov.my/ms/entri/sistem-pendispensan-ubat-bersepadu-spub.html)。",
+      "sources": [
+        "https://pharmacy.moh.gov.my/ms/entri/sistem-pendispensan-ubat-bersepadu-spub.html"
+      ]
+    },
+    {
+      "file": "docs/刚确诊慢性病之后.md",
+      "before": "UMP 邮寄药物到家，只需几块钱邮费",
+      "after": "UMP 邮寄药物到家；自 2026 年 10 月 1 日起，参与计划的合资格配送免邮费，药物及地址是否适用先向药房确认，见 [官方公告](https://www.mkn.gov.my/web/ms/2026/09/30/penghantaran-ubat-melalui-pos-secara-percuma-bermula-1-okt-2026/)",
+      "sources": [
+        "https://www.mkn.gov.my/web/ms/2026/09/30/penghantaran-ubat-melalui-pos-secara-percuma-bermula-1-okt-2026/"
+      ]
+    },
+    {
+      "file": "docs/家庭应急装备清单.md",
+      "before": "## 四、每年检查一次，十分钟做完",
+      "after": "## 四、定期检查：烟雾报警器至少每月测试",
+      "sources": [
+        "https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/smoke-alarms/"
+      ]
+    },
+    {
+      "file": "docs/家庭应急装备清单.md",
+      "before": "可以把检查日固定在每年大扫除（比如农历新年前或国庆日），十分钟把下面几样看一遍：",
+      "after": "每年大扫除时全面检查下面几样，日常还要按制造商要求维护；烟雾报警器不能只等年度检查，至少每月测试一次：",
+      "sources": [
+        "https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/smoke-alarms/"
+      ]
+    },
+    {
+      "file": "docs/家庭应急装备清单.md",
+      "before": "- **烟雾报警器**：按一下 Test 测试键听响不响，电池满一年就换新。",
+      "after": "- **烟雾报警器**：至少每月按 Test 测试键。普通可更换电池的型号按说明书维护，传统 9V 电池至少每年更换；10 年密封电池型不可自行换电池，按提示或寿命更换整机。各型号失效或到期都应及时更换。来源：[USFA 烟雾报警器维护](https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/smoke-alarms/)。",
+      "sources": [
+        "https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/smoke-alarms/"
+      ]
+    },
+    {
+      "file": "README.md",
+      "before": "| 总死亡率 | 一段时间里，一群人当中死掉的人占多大比例，不管死于什么原因。本书用它衡量「活得久不久」。研究原文里叫全因死亡率，英文缩写 ACM |",
+      "after": "| 总死亡率 | 不论死因的死亡指标（全因死亡，ACM）。须看原研究分母：一定时期死亡人数占观察人群的比例是累计死亡风险；死亡人数除以累计观察人时是死亡发生率。两者不可直接互换 |",
+      "sources": [
+        "https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/lesson3/section2.html"
+      ]
+    },
+    {
+      "file": "README.md",
+      "before": "| IRR | 发病率之比。发病率是一段时间里新得这个病的人占多大比例，两组相除，读法同 RR |",
+      "after": "| IRR | 发生率比（incidence rate ratio）。两组新发事件数各除以其累计观察人时，再比较发生率；不是一段时间内患病人数比例之比。IRR 0.87 表示发生率低 13%，不能直接说个人累计患病概率低 13% |",
+      "sources": [
+        "https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/lesson3/section2.html"
+      ]
+    },
+    {
+      "file": "README.md",
+      "before": "| RaR | 发生次数之比。比的是事情发生了多少次（比如摔了多少跤），不是多少人出事，读法同 RR |",
+      "after": "| RaR | 事件率比（rate ratio）。比较两组单位观察人时的事件发生率；依研究定义可计入同一人的重复事件，例如跌倒。不是裸事件次数之比，也不等于出事人数或累计风险之比 |",
+      "sources": [
+        "https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/lesson3/section2.html"
+      ]
+    },
+    {
+      "file": "README.md",
+      "before": "正文尽量用日常说法，但引用研究的时候免不了出现几个统计名词。",
+      "after": "发生率、累计风险及人时分母的区别参见 [CDC 流行病学教材](https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/lesson3/section2.html)。正文尽量用日常说法，但引用研究的时候免不了出现几个统计名词。",
+      "sources": [
+        "https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/lesson3/section2.html"
+      ]
+    },
+    {
+      "file": "README.md",
+      "before": "五年内死亡的概率低约 12%，中风低约 14%。",
+      "after": "试验随访期间按观察人时计算的死亡发生率低约 12%，卒中发生率低约 14%；不是五年累计概率的直接比较。",
+      "sources": [
+        "https://doi.org/10.1056/NEJMoa2105675"
+      ]
+    },
+    {
+      "file": "README.md",
+      "before": "死亡风险低约 12%（RR 0.88）。卒中低约 14%（RR 0.86）。主要心血管事件低约 13%（RR 0.87）。",
+      "after": "死亡发生率低约 12%（rate ratio 0.88）。卒中发生率低约 14%（0.86）。主要心血管事件发生率低约 13%（0.87）。这些比值以观察人时为分母，不是 4.74 年累计风险比。",
+      "sources": [
+        "https://doi.org/10.1056/NEJMoa2105675"
+      ]
+    },
+    {
+      "file": "README.md",
+      "before": "每条来源的核实过程记录在 [docs/核实记录](docs/核实记录/)。",
+      "after": "本地化修订记录见 [2026-11-10 本地化审阅](artifacts/LOCALIZATION_REVIEW_20261110.md)，本次事实检查与修正范围见 [2026-11-13 事实检查记录](artifacts/FACT_CHECK_FIXES_20261113.md)。这些记录不等于每条引用均已完成原文核验；未覆盖及尚待核实的内容应继续查证。",
+      "sources": [
+        "artifacts/LOCALIZATION_REVIEW_20261110.md",
+        "artifacts/FACT_CHECK_FIXES_20261113.md"
+      ]
+    },
+    {
+      "file": "README.md",
+      "before": "有争议的条目会标注「争议」并列出反方证据。所有来源只引原始文献（期刊论文附 DOI 或 PubMed 链接，或 WHO/CDC/国家统计局等官方机构报告），不引二手转述。官方不公开的案件，少数条目引了有记者署名的原创新闻报道，只用来说明「发生过这类事」，来源栏附网页存档，备注写明「只有媒体报道」。不确定的数字标「待核实」。",
+      "after": "有争议的条目会标注「争议」并列出反方证据。来源优先使用原始研究及官方机构文件；历史内容中仍有只有机构名称、缺少直达链接或未完成原文核验的条目，不能据此宣称所有来源均已验证。新闻报道只用于说明所报道的事件，不替代医学研究或法律原文。具体核验范围和遗留问题见本次事实检查记录；未确定的事实应标明限制，不补造来源。",
+      "sources": []
+    },
+    {
+      "file": "README.md",
+      "before": "政府医院门诊 RM1 与专科 RM5",
+      "after": "政府医院公民普通门诊及按转诊来源区分的专科收费",
+      "sources": [
+        "https://www.moh.gov.my/info-korporat/maklumat-bahagian/bahagian-kewangan"
+      ]
+    },
+    {
+      "file": "README.md",
+      "before": "每条建议写明花掉什么、换回什么、证据有多硬，来源只引期刊论文和官方文件，少数官方不公开的案件引署名的原创新闻报道并附网页存档。",
+      "after": "每条建议尝试写明花掉什么、换回什么、证据有多硬，优先引用研究论文和官方文件。现有内容的来源完整性与核验程度并不一致，少数事件还引用新闻报道；请结合核验记录和原始来源阅读。",
+      "sources": []
+    },
+    {
+      "file": "docs/被裁了之后先做什么.md",
+      "before": "受《1955年雇用法令》（Employment Act 1955）保障的雇员，按服务年资计算——工作未满 2 年",
+      "after": "在西马／纳闽，先确认自己适用《1955年雇用法令》相关终止雇佣福利条文和《1980年终止雇佣与暂时停工福利条例》，通常还须连续服务至少 12 个月；沙巴、砂拉越另核对当地劳工法。符合资格者按服务年资计算——服务满 12 个月但未满 2 年",
+      "sources": [
+        "https://jtksm.mohr.gov.my/sites/default/files/2023-03/8.%20EMPLOYMENT%20%28TERMINATION%20%26%20LAY%20OFF%20BENEFITS%29%20REGULATIONS%201980_0.pdf"
+      ]
+    },
+    {
+      "file": "docs/被裁了之后先做什么.md",
+      "before": "见第 19 节第 4 条（被裁先算清 N）。",
+      "after": "见第 19 节第 4 条及 [1980 年条例](https://jtksm.mohr.gov.my/sites/default/files/2023-03/8.%20EMPLOYMENT%20%28TERMINATION%20%26%20LAY%20OFF%20BENEFITS%29%20REGULATIONS%201980_0.pdf)。",
+      "sources": [
+        "https://jtksm.mohr.gov.my/sites/default/files/2023-03/8.%20EMPLOYMENT%20%28TERMINATION%20%26%20LAY%20OFF%20BENEFITS%29%20REGULATIONS%201980_0.pdf"
+      ]
+    },
+    {
+      "file": "docs/被裁了之后先做什么.md",
+      "before": "转诊去政府医院专科只需 **RM5**",
+      "after": "政府医务人员转诊的首次专科门诊免费、复诊 **RM5**；私人转诊首次 **RM30**、复诊 **RM5**，额外服务及豁免按适用规则核对，见 [MOH 收费说明](https://www.moh.gov.my/info-korporat/maklumat-bahagian/bahagian-kewangan)",
+      "sources": [
+        "https://www.moh.gov.my/info-korporat/maklumat-bahagian/bahagian-kewangan"
+      ]
+    },
+    {
+      "file": "README.md",
+      "before": "马来西亚紧急求助热线（24小时全天候）",
+      "after": "马来西亚紧急求助热线（服务时间按各热线说明）",
+      "sources": [
+        "https://sites.google.com/moh.gov.my/ncemh/talian-sokongan-psikososial?oai_link_source=model_response_hotline"
+      ]
+    },
+    {
+      "file": "README.md",
+      "before": "**`15555`**（卫生部 Talian HEAL 心理援助热线）",
+      "after": "[15555](tel:15555?oai_link_source=model_response_hotline)（卫生部 Talian HEAL，每天上午 8 时至午夜 12 时；[服务说明](https://sites.google.com/moh.gov.my/ncemh/talian-sokongan-psikososial?oai_link_source=model_response_hotline)）",
+      "sources": [
+        "https://sites.google.com/moh.gov.my/ncemh/talian-sokongan-psikososial?oai_link_source=model_response_hotline"
+      ]
+    },
+    {
+      "file": "docs/被裁了之后先做什么.md",
+      "before": "随时拨打卫生部心理援助热线 **15555（Talian HEAL）**",
+      "after": "在每天上午 8 时至午夜 12 时拨打卫生部 Talian HEAL [15555](tel:15555?oai_link_source=model_response_hotline)（[服务说明](https://sites.google.com/moh.gov.my/ncemh/talian-sokongan-psikososial?oai_link_source=model_response_hotline)）",
+      "sources": [
+        "https://sites.google.com/moh.gov.my/ncemh/talian-sokongan-psikososial?oai_link_source=model_response_hotline"
+      ]
+    },
+    {
+      "file": "README.md",
+      "before": "LHDN 个人所得税 OKU 减免（本人 RM6,000、配偶 RM5,000、子女 RM6,000）",
+      "after": "LHDN 个人所得税 OKU 减免（YA2025：本人 RM7,000、配偶 RM6,000、残障子女基本 RM8,000；符合条件的高教另加 RM8,000）",
+      "sources": [
+        "https://www.hasil.gov.my/en/individu/pelepasan-cukai/"
+      ]
+    }
+  ],
+  "sourceLinkRecovery": [
+    {
+      "file": "book/23-学什么技能划算.md",
+      "number": 7,
+      "urls": [
+        "https://openknowledge.worldbank.org/bitstream/handle/10986/29672/WPS8402.pdf"
+      ],
+      "note": "World Bank official indexed working paper8402 bibliographic match; PDF not yet read"
+    },
+    {
+      "file": "book/23-学什么技能划算.md",
+      "number": 14,
+      "urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/33683913/"
+      ],
+      "note": "PubMed search matched full bibliographic title, DOI10.1037/bul0000309; open returned empty page so abstract not re-read"
+    },
+    {
+      "file": "book/23-学什么技能划算.md",
+      "number": 15,
+      "urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/16719566/"
+      ],
+      "note": "PubMed search matched bibliographic title/DOI10.1037/0033-2909.132.3.354; open empty"
+    },
+    {
+      "file": "book/23-学什么技能划算.md",
+      "number": 16,
+      "urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/26173288/"
+      ],
+      "note": "PubMed bibliographic search matched authors title DOI10.1177/1529100612453266; abstract retrieval pending"
+    },
+    {
+      "file": "book/23-学什么技能划算.md",
+      "number": 17,
+      "urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/31556629/"
+      ],
+      "note": "PubMed full abstract read. Supports interleaving with material-specific limits; not universal superiority"
+    },
+    {
+      "file": "book/23-学什么技能划算.md",
+      "number": 18,
+      "urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/26162104/"
+      ],
+      "note": "PubMed bibliographic search matched title DOI10.1111/j.1539-6053.2009.01038.x"
+    },
+    {
+      "file": "book/23-学什么技能划算.md",
+      "number": 19,
+      "urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/29733621/"
+      ],
+      "note": "PubMed search matched title authors DOI10.1037/bul0000151; open empty"
+    },
+    {
+      "file": "book/23-学什么技能划算.md",
+      "number": 24,
+      "urls": [
+        "https://www.gov.uk/government/publications/postgraduate-degrees-labour-market-returns"
+      ],
+      "note": "Official DfE search matched 16September2020 report"
+    },
+    {
+      "file": "book/23-学什么技能划算.md",
+      "number": 25,
+      "urls": [
+        "https://www.nature.com/articles/s41598-021-93687-7"
+      ],
+      "note": "Publisher search matched Satinsky2021 title"
+    },
+    {
+      "file": "book/24-看病.md",
+      "number": 5,
+      "urls": [
+        "https://mmc.gov.my/wp-content/uploads/2019/11/Medical-RecordsMedical-Reports.pdf"
+      ],
+      "note": "MMC guideline search matched patients medical-record access; PDF open timed out"
+    },
+    {
+      "file": "book/24-看病.md",
+      "number": 13,
+      "urls": [
+        "https://www.moh.gov.my/en/core/health-assistance/tabung-bantuan-perubatan-tbp"
+      ],
+      "note": "Full official page read. Specialist/medical officer referral via medical social worker, Malaysian citizenship, exclusions for government-funded beneficiaries"
+    },
+    {
+      "file": "book/31-十八岁之后有哪几条路.md",
+      "number": 2,
+      "urls": [
+        "https://www.mod.gov.my/index.php/maklumat/plkn-3-0"
+      ],
+      "note": "Full official FAQ8–9 read; distinguishes conditional compulsory PLKN basic training from volunteer later phases; correct all-volunteer overgeneralization"
+    },
+    {
+      "file": "book/23-学什么技能划算.md",
+      "number": 8,
+      "urls": [
+        "https://www2.mqa.gov.my/mqr/english/epengiktirafan.cfm"
+      ],
+      "note": "Official MQA indexed accreditation recognition instructions; entry portal not individual qualification approval"
+    },
+    {
+      "file": "book/23-学什么技能划算.md",
+      "number": 9,
+      "urls": [
+        "https://hrdcorp.gov.my/hrdcorp-claimable-courses"
+      ],
+      "note": "Official scheme page indexed; supports employer training claim mechanism only, not PERKESO details"
+    },
+    {
+      "file": "book/23-学什么技能划算.md",
+      "number": 11,
+      "urls": [
+        "https://www.dsd.gov.my/en/soalan-lazim"
+      ],
+      "note": "Official JPK FAQ indexed: NOSS registry and MySPIKE purchase/search instructions"
+    },
+    {
+      "file": "book/23-学什么技能划算.md",
+      "number": 21,
+      "urls": [
+        "https://mia.org.my/storage/2025/11/CA-Application-Checklist_24Oct2025_Final.pdf"
+      ],
+      "note": "Official MIA indexed application checklist, qualification routes and3years practical experience; PDF not yet full read"
+    },
+    {
+      "file": "book/24-看病.md",
+      "number": 6,
+      "urls": [
+        "https://www.investmalaysia.gov.my/media/brtdgigj/limitation-act-1953.pdf"
+      ],
+      "note": "Official Limitation Act reprint read in first-sections audit; source identity and s26–27 checked; this does not newly verify medical-litigation deadlines."
+    },
+    {
+      "file": "book/24-看病.md",
+      "number": 14,
+      "urls": [
+        "https://pharmacy.moh.gov.my/ms/entri/sistem-pendispensan-ubat-bersepadu-spub.html"
+      ],
+      "note": "Already verified by audit_middle_sections official SPUB page; not a universal-any-pharmacy entitlement"
+    },
+    {
+      "file": "book/19-在职离职和工伤.md",
+      "number": 16,
+      "urls": [
+        "https://jtksm.gov.my/en/borang/employment-act-1955"
+      ],
+      "note": "Official statute download landing page indexed; specific sexual-harassment provisions require text read"
+    },
+    {
+      "file": "book/19-在职离职和工伤.md",
+      "number": 24,
+      "urls": [
+        "https://jtksm.gov.my/en/borang/employment-act-1955"
+      ],
+      "note": "Official statute download landing page indexed; verify s33 vs33A before amending joint-liability claim"
+    },
+    {
+      "file": "book/33-残疾之后怎么活.md",
+      "number": 1,
+      "urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3108991/"
+      ],
+      "note": "Bibliographic identity for Krassioukov2009 autonomic dysreflexia systematic review confirmed through PubMed-indexed references; full text pending"
+    },
+    {
+      "file": "book/33-残疾之后怎么活.md",
+      "number": 2,
+      "urls": [
+        "https://doi.org/10.1038/sc.2017.98"
+      ],
+      "note": "Bibliographic match for Savic2018 Suicide and traumatic spinal cord injury; PubMed28948966 indexed"
+    },
+    {
+      "file": "book/33-残疾之后怎么活.md",
+      "number": 4,
+      "urls": [
+        "https://doi.org/10.1001/jama.282.23.2215"
+      ],
+      "note": "Bibliographic match SchulzBeach1999; observational older spousal caregivers experiencing strain, not all caregivers"
+    },
+    {
+      "file": "book/33-残疾之后怎么活.md",
+      "number": 5,
+      "urls": [
+        "https://doi.org/10.1111/j.1532-5415.2010.03168.x"
+      ],
+      "note": "Publisher-indexed Brienza2010 wheelchair cushion trial; do not use as support for debridement"
+    },
+    {
+      "file": "book/33-残疾之后怎么活.md",
+      "number": 8,
+      "urls": [
+        "https://www.jkm.gov.my/uploads/content-downloads/file_20250417100935.pdf"
+      ],
+      "note": "Official JKM PDK service manual effective1Mar2025 indexed; eligible Malaysian registered OKU, RM150/month≥8days, group insurance requirement"
+    },
+    {
+      "file": "book/33-残疾之后怎么活.md",
+      "number": 9,
+      "urls": [
+        "https://www.malaysia.gov.my/my/categories/bantuan-kebajikan--kemudahan/bantuan-kesihatan/bantuan-alat-sokongan-alat-tiruan-bat"
+      ],
+      "note": "Official current aid eligibility page indexed in full excerpt; citizen/resident, income and medical recommendation requirements"
+    },
+    {
+      "file": "book/33-残疾之后怎么活.md",
+      "number": 15,
+      "urls": [
+        "https://www.jpj.gov.my/prosedur-pengisytiharan-pengecualian-lesen-kenderaan-motor-lkm-bagi-orang-kurang-upaya-oku/"
+      ],
+      "note": "Full official JPJ procedure read. Specific national/locallyassembled unmodifiedvehicle ownership/licence and onecar+onemotorcycle limits; separate rules for modified vehicles."
+    },
+    {
+      "file": "book/33-残疾之后怎么活.md",
+      "number": 16,
+      "urls": [
+        "https://www.cochrane.org/evidence/CD000197_organised-inpatient-stroke-unit-care"
+      ],
+      "note": "Publisher evidence summary indexed2020; organised stroke unit care, not all rehabilitation"
+    },
+    {
+      "file": "book/33-残疾之后怎么活.md",
+      "number": 17,
+      "urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10529382/"
+      ],
+      "note": "Original ACHIEVE2023 full-text identified by exact publication; benefits vary by cognitive-risk population"
+    },
+    {
+      "file": "book/05-不要浪费钱.md",
+      "number": 8,
+      "urls": [
+        "https://www.investmalaysia.gov.my/media/o0ajehya/contracts-act-1950.pdf"
+      ],
+      "note": "Official law reprint opened, source identity confirmed; particular claims not newly audited"
+    },
+    {
+      "file": "book/05-不要浪费钱.md",
+      "number": 9,
+      "urls": [
+        "https://www.investmalaysia.gov.my/media/o0ajehya/contracts-act-1950.pdf"
+      ],
+      "note": "Official law reprint opened, sections10/11/69; refunds not automatically guaranteed by cited text"
+    },
+    {
+      "file": "book/19-在职离职和工伤.md",
+      "number": 8,
+      "urls": [
+        "https://www.icj.org/wp-content/uploads/1950/05/Malaysia-Evidence-Act-1950-2012-eng.pdf"
+      ],
+      "note": "ICJ-hosted official2012 EvidenceAct reprint opened; electronic evidence section90A"
+    },
+    {
+      "file": "book/19-在职离职和工伤.md",
+      "number": 25,
+      "urls": [
+        "https://www.investmalaysia.gov.my/media/o0ajehya/contracts-act-1950.pdf"
+      ],
+      "note": "Official law reprint opened; does not independently support unspecified court precedents"
+    },
+    {
+      "file": "book/31-十八岁之后有哪几条路.md",
+      "number": 13,
+      "urls": [
+        "https://www.investmalaysia.gov.my/media/o0ajehya/contracts-act-1950.pdf"
+      ],
+      "note": "Official ContractsAct reprint opened; need contract-specific scholarship terms"
+    },
+    {
+      "file": "book/31-十八岁之后有哪几条路.md",
+      "number": 12,
+      "urls": [
+        "https://jtksm.gov.my/en/enforcement-gig-workers-act"
+      ],
+      "note": "Official full page read; Act872 effective31Mar2026, update old proposed-bill status"
+    },
+    {
+      "file": "book/19-在职离职和工伤.md",
+      "number": 7,
+      "urls": [
+        "https://www.perkeso.gov.my/images/imej/akta_dan_peraturan/EMPLOYMENT_INSURANCE_SYSTEM_ACT_2017_Act_800.pdf"
+      ],
+      "note": "Official Act800 indexed s30; voluntary resignation exclusions include constructive dismissal/threats/sexual harassment/dangerous duties, not blanket all resignations"
+    },
+    {
+      "file": "book/19-在职离职和工伤.md",
+      "number": 23,
+      "urls": [
+        "https://jpp.mohr.gov.my/ems-pembuangan-kerja-seksyen-20/"
+      ],
+      "note": "Official JPPM indexed s20 remedy60days; not substitute for named case text"
+    },
+    {
+      "file": "book/33-残疾之后怎么活.md",
+      "number": 20,
+      "urls": [
+        "https://jpp.mohr.gov.my/ems-pembuangan-kerja-seksyen-20/",
+        "https://suhakam.org.my/contact-us/"
+      ],
+      "note": "Official remedy/contact pages identified; distinct roles JPPM reinstatementvsSUHAKAM rights complaints"
+    },
+    {
+      "file": "book/33-残疾之后怎么活.md",
+      "number": 18,
+      "urls": [
+        "https://www.moh.gov.my/images/04-penerbitan/akta-kesihatan/mental%20health%20act%202001.pdf"
+      ],
+      "note": "MOH-hosted Act615 text opened; source identity only, court jurisdiction sections require detailed reading"
+    },
+    {
+      "file": "book/24-看病.md",
+      "number": 2,
+      "urls": [
+        "https://www.moh.gov.my/en/core/health-information/service-rates/caj-pesakit-luar"
+      ],
+      "note": "KKM fee page verified in prior audit by final_sections/health_claims; first/followup/private referral fee distinctions"
+    },
+    {
+      "file": "book/07-没钱的时候怎么活.md",
+      "number": 21,
+      "urls": [
+        "https://www.jwp.gov.my/a/4181"
+      ],
+      "note": "Official JWP29Apr2026 indexed full announcement verifies AnjungKembara and MedanTuanku shelter operations; does not guarantee immediate admission"
+    },
+    {
+      "file": "book/33-残疾之后怎么活.md",
+      "number": 7,
+      "urls": [
+        "https://myrapid.com.my/wp-content/uploads/2026/01/ENG-RAPID-MESRA-FAQ-DEC-2025.pdf"
+      ],
+      "note": "Official Prasarana FAQ indexed updated31Dec2025: renamed RapidMesra(previousOKUSmile), registeredMalaysianOKU activatedconcession card freePrasarana rail/bus"
+    },
+    {
+      "file": "book/33-残疾之后怎么活.md",
+      "number": 12,
+      "urls": [
+        "https://myrapid.com.my/wp-content/uploads/2026/01/ENG-RAPID-MESRA-FAQ-DEC-2025.pdf"
+      ],
+      "note": "Official Prasarana FAQ indexed updated31Dec2025. Supports transport program only, not allAct685 accessibility assertions"
+    },
+    {
+      "file": "book/33-残疾之后怎么活.md",
+      "number": 10,
+      "urls": [
+        "https://phl.hasil.gov.my/pdf/pdfam/PR_03_2019.pdf"
+      ],
+      "note": "Official HASiL PublicRuling3/2019 indexed BusinessExpensesInRespectOfDisabledPerson; current repeal status not checked"
+    }
+  ],
+  "remainingSourcesWithoutUrls": [
+    {
+      "file": "book/05-不要浪费钱.md",
+      "number": 5,
+      "source": "Common Gaming Houses Act 1953 (Act 289) & Pool Betting Act 1967 (Act 384), Laws of Malaysia；标准万字票（4D）概率与派彩数学期望核算（10,000 组合下大万总派彩 RM6,530 ÷ RM10,000 = 65.3%）.",
+      "type": "unresolved-reference"
+    },
+    {
+      "file": "book/07-没钱的时候怎么活.md",
+      "number": 15,
+      "source": "National Registration Regulations 1990, Regulation 25.；Private Employment Agencies Act 1981 (Act 246).；Direct Sales and Anti-Pyramid Scheme Act 1993 (Act 500).；Moneylenders Act 1951 (Act 400), Sections 5 & 17A. Laws of Malaysia.",
+      "type": "unresolved-reference"
+    },
+    {
+      "file": "book/10-恋爱和结婚划不划算.md",
+      "number": 16,
+      "source": "作者经验，方法类建议；数据部分见本节前面各条",
+      "type": "experience-or-method"
+    },
+    {
+      "file": "book/18-养孩子划不划算.md",
+      "number": 4,
+      "source": "作者经验，无直接文献；口径见第 10 节",
+      "type": "experience-or-method"
+    },
+    {
+      "file": "book/18-养孩子划不划算.md",
+      "number": 5,
+      "source": "作者经验，无直接文献",
+      "type": "experience-or-method"
+    },
+    {
+      "file": "book/18-养孩子划不划算.md",
+      "number": 6,
+      "source": "作者经验，无直接文献；同类分析见第 10 节",
+      "type": "experience-or-method"
+    },
+    {
+      "file": "book/23-学什么技能划算.md",
+      "number": 1,
+      "source": "Laws of Malaysia. Children and Young Persons (Employment) Act 1966 (Act 350, 2019 Amendment) Sections 2, 4, 14; Jabatan Tenaga Kerja Semenanjung Malaysia (JTKSM).",
+      "type": "unresolved-reference"
+    },
+    {
+      "file": "book/23-学什么技能划算.md",
+      "number": 6,
+      "source": "World Bank Group. Malaysia Economic Monitor: Aiming High (Navigating the Skills Challenge); Khazanah Research Institute (KRI) The School-to-Work Transition Report.",
+      "type": "unresolved-reference"
+    },
+    {
+      "file": "book/23-学什么技能划算.md",
+      "number": 10,
+      "source": "Frey CB, Osborne MA (2017). The future of employment: how susceptible are jobs to computerisation? Technological Forecasting and Social Change, 114, 254-280; OECD Employment Outlook: Working with Technology.",
+      "type": "unresolved-reference"
+    },
+    {
+      "file": "book/23-学什么技能划算.md",
+      "number": 13,
+      "source": "职业生涯转换实践与敏捷学习原则（Agile Learning Principles）。",
+      "type": "experience-or-method"
+    },
+    {
+      "file": "book/23-学什么技能划算.md",
+      "number": 22,
+      "source": "Laws of Malaysia. Penal Code (Act 574) Sections 420, 465, 471; Suruhanjaya Pencegahan Rasuah Malaysia (SPRM) Guidelines on Fraudulent Qualifications.",
+      "type": "unresolved-reference"
+    },
+    {
+      "file": "book/23-学什么技能划算.md",
+      "number": 23,
+      "source": "马来西亚人力资源管理与劳动力市场薪酬调研报告（Michael Page / Randstad Malaysia Salary Guides）。",
+      "type": "unresolved-reference"
+    },
+    {
+      "file": "book/24-看病.md",
+      "number": 3,
+      "source": "Kementerian Kesihatan Malaysia. Surat Pekeliling Ketua Pengarah Kesihatan Bil. 1/2016: Penambahbaikan Sistem Temujanji dan Rujukan Pesakit di Fasiliti KKM.",
+      "type": "unresolved-reference"
+    },
+    {
+      "file": "book/24-看病.md",
+      "number": 4,
+      "source": "Kementerian Kesihatan Malaysia. Garis Panduan Rujukan Antara Fasiliti KKM (2020).",
+      "type": "unresolved-reference"
+    },
+    {
+      "file": "book/24-看病.md",
+      "number": 7,
+      "source": "Kementerian Kesihatan Malaysia. Emergency and Trauma Care Services Policy (2012); Clinical Practice Guidelines (CPG) Management of Acute ST-Elevation Myocardial Infarction.",
+      "type": "unresolved-reference"
+    },
+    {
+      "file": "book/24-看病.md",
+      "number": 8,
+      "source": "Kementerian Kesihatan Malaysia. Garis Panduan Perkhidmatan Kerja Sosial Perubatan KKM; Akta Fi 1951.",
+      "type": "unresolved-reference"
+    },
+    {
+      "file": "book/24-看病.md",
+      "number": 9,
+      "source": "Malaysian Medical Association (MMA). Guidelines on Disability Assessment; Civil Law Act 1956 (Act 67) Section 28A; Road Transport Act 1987.",
+      "type": "unresolved-reference"
+    },
+    {
+      "file": "book/24-看病.md",
+      "number": 11,
+      "source": "Suruhanjaya Pencegahan Rasuah Malaysia (SPRM). Akta SPRM 2009 (Akta 694) Seksyen 16 & 17; Peraturan-Peraturan Pegawai Awam (Kelakuan dan Tatatertib) 1993.",
+      "type": "unresolved-reference"
+    },
+    {
+      "file": "book/31-十八岁之后有哪几条路.md",
+      "number": 3,
+      "source": "Laws of Malaysia. Armed Forces Act 1972 (Act 77) Sections 54, 55, 60; Police Act 1967 (Act 344).",
+      "type": "unresolved-reference"
+    },
+    {
+      "file": "book/31-十八岁之后有哪几条路.md",
+      "number": 5,
+      "source": "Suruhanjaya Perkhidmatan Awam (SPA); Jabatan Perkhidmatan Awam (JPA) Surat Pekeliling Perkhidmatan.",
+      "type": "unresolved-reference"
+    },
+    {
+      "file": "book/31-十八岁之后有哪几条路.md",
+      "number": 6,
+      "source": "Jabatan Hal Ehwal Veteran ATM (JHEV); TEKUN Nasional Skim Pembiayaan Teman Veteran.",
+      "type": "unresolved-reference"
+    },
+    {
+      "file": "book/31-十八岁之后有哪几条路.md",
+      "number": 15,
+      "source": "Lembaga Hasil Dalam Negeri Malaysia (LHDN). Income Tax Act 1967 (Act 53) Section 3, Section 13, Section 114; Bank Negara Malaysia (BNM). Anti-Money Laundering and Counter Financing of Terrorism (AML/CFT) Policy.",
+      "type": "unresolved-reference"
+    },
+    {
+      "file": "book/33-残疾之后怎么活.md",
+      "number": 13,
+      "source": "Kementerian Pendidikan Malaysia (KPM). Lembaga Peperiksaan Malaysia (LPM). Buku Panduan Pengurusan Calon Berkeperluan Pendidikan Khas (CBPK); Majlis Peperiksaan Malaysia (MPM).",
+      "type": "unresolved-reference"
+    },
+    {
+      "file": "book/33-残疾之后怎么活.md",
+      "number": 14,
+      "source": "Kementerian Pendidikan Malaysia (KPM). Surat Pekeliling Ikhtisas KPM Bil. 4/2019: Pelaksanaan Dasar Sifar Penolakan Murid Berkeperluan Khas; Peraturan-Peraturan Pendidikan (Pendidikan Khas) 2013.",
+      "type": "unresolved-reference"
+    },
+    {
+      "file": "book/33-残疾之后怎么活.md",
+      "number": 21,
+      "source": "Savic G, et al. (2017). Causes of death after traumatic spinal cord injury - a 70-year British study. Spinal Cord, 55(10):891-897; European Association of Urology (EAU) Guidelines on Neuro-Urology (2026 Edition); Weld KJ, Dmochowski RR (2000). J Urol, 163(3):768-772.",
+      "type": "unresolved-reference"
+    }
+  ],
+  "changedEntries": [
+    {
+      "file": "book/01-不要早死.md",
+      "number": 8,
+      "sha256": "9da4c76751120c76d0cae7bd0401e62fdb3f29d49b9772e5c515d54845aaa4ff",
+      "sources": [
+        "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/screening-for-prediabetes-and-type-2-diabetes",
+        "https://www.moh.gov.my/",
+        "https://iku.gov.my/nhms-2023",
+        "https://doi.org/10.1001/jama.2021.22208",
+        "https://mems.my/wp-content/uploads/2021/03/CPG-T2DM_6th-Edition-2020_210226.pdf"
+      ]
+    },
+    {
+      "file": "book/01-不要早死.md",
+      "number": 12,
+      "sha256": "2e93196afeb36db4acf5704509dff9eed5953ea4d6a2b817e2d099565377dd2f",
+      "sources": [
+        "https://doi.org/10.1136/ip.2010.028688",
+        "https://doi.org/10.46234/ccdcw2023.198",
+        "https://doi.org/10.46234/ccdcw2024.057"
+      ]
+    },
+    {
+      "file": "book/01-不要早死.md",
+      "number": 19,
+      "sha256": "106a246cd73f6bad14df7c4c91e3641fde123b9b89626bf2690cfd1b8773ddea",
+      "sources": [
+        "https://doi.org/10.1002/14651858.CD001216.pub2",
+        "https://doi.org/10.1056/NEJMoa2208375"
+      ]
+    },
+    {
+      "file": "book/01-不要早死.md",
+      "number": 41,
+      "sha256": "c296ecd8a5bbcb63df5e0509f3e2f9011106a67b659574bfeed41b530f21b975",
+      "sources": [
+        "https://www.cma.gov.cn/kppd/kppdqxyr/kppdtyqx/201901/t20190124_513302.html",
+        "https://swj.beijing.gov.cn/swdt/ztzl/fnsbaqztxc/fnszlxx/202412/t20241226_3973959.html",
+        "https://www.dnr.state.mn.us/safety/ice/thickness.html",
+        "https://www.dnr.state.mn.us/safety/ice/index.html",
+        "https://www.dnr.state.mn.us/safety/ice/survival.html",
+        "https://www.weather.gov/safety/winter-ice-frost",
+        "https://www.ccohs.ca/oshanswers/hsprograms/work_ice.html"
+      ]
+    },
+    {
+      "file": "book/01-不要早死.md",
+      "number": 43,
+      "sha256": "c5576df7a3f4486e03d0fb2be2aed81374a2a5957fce139f5e00ef39b861888f",
+      "sources": [
+        "https://doi.org/10.1001/jama.293.13.1635",
+        "https://doi.org/10.1080/13811118.2020.1793857",
+        "https://doi.org/10.1017/S0033291714001299"
+      ]
+    },
+    {
+      "file": "book/01-不要早死.md",
+      "number": 48,
+      "sha256": "440899ac1471c9a17cc846651c2fd95eb896411dd0b6b5b1dde0c45a1934608b",
+      "sources": [
+        "https://doi.org/10.1371/journal.pone.0279957",
+        "https://doi.org/10.46234/ccdcw2021.219",
+        "https://doi.org/10.46234/ccdcw2020.264",
+        "https://doi.org/10.1089/fpd.2024.0131",
+        "https://scjgj.beijing.gov.cn/hdjl/xfts/202309/t20230904_3248296.html",
+        "https://amr.hunan.gov.cn/amr/xxx/xtdtx/202506/t20250630_33725786.html",
+        "https://amr.guizhou.gov.cn/zfxxgk/fdzdgknr/tzgg_5626971/tzgg_5626972/202307/t20230728_81318622.html",
+        "https://www.poison.org/first-aid-for-poisonings"
+      ]
+    },
+    {
+      "file": "book/02-不要慢慢死.md",
+      "number": 7,
+      "sha256": "50834d44bbea644ee1e0a154d5ce2b6d61a73a54d810b2ca886077ac1a872e6a",
+      "sources": [
+        "https://doi.org/10.1161/CIRCULATIONAHA.118.037401",
+        "https://doi.org/10.1001/jamainternmed.2019.2478"
+      ]
+    },
+    {
+      "file": "book/02-不要慢慢死.md",
+      "number": 14,
+      "sha256": "d1c29ed49dc7cd3cdd60632889fc53f7c3a6ebbc2aa430dc14054c605f52cabb",
+      "sources": [
+        "https://doi.org/10.1136/bjsports-2016-096822"
+      ]
+    },
+    {
+      "file": "book/02-不要慢慢死.md",
+      "number": 30,
+      "sha256": "86800acd5176aa9803626e15a8f45641caabf780659b56ee15b5fad0ae3a23fe",
+      "sources": [
+        "https://doi.org/10.1136/bmj.b929",
+        "https://doi.org/10.1016/S1470-2045(16)30239-X",
+        "https://doi.org/10.7326/M17-2000"
+      ]
+    },
+    {
+      "file": "book/03-不要浪费精力.md",
+      "number": 3,
+      "sha256": "3287924f922a1865b267a2bbf484ab29528705cef92f81433160579f8fd9c4ff",
+      "sources": [
+        "https://doi.org/10.1093/sleep/26.2.117",
+        "https://doi.org/10.1037/a0018883"
+      ]
+    },
+    {
+      "file": "book/05-不要浪费钱.md",
+      "number": 2,
+      "sha256": "e40d624c3120450fea781440744fd66124c02ea737acdf21adb4767907ea7629",
+      "sources": [
+        "https://www.hasil.gov.my",
+        "https://mytax.hasil.gov.my",
+        "https://www.hasil.gov.my/en/individu/pelepasan-cukai/"
+      ]
+    },
+    {
+      "file": "book/05-不要浪费钱.md",
+      "number": 8,
+      "sha256": "13919702109984417366539f36a52aac02903118ceac873a1a39d3778ab16b78",
+      "sources": [
+        "https://www.investmalaysia.gov.my/media/o0ajehya/contracts-act-1950.pdf"
+      ]
+    },
+    {
+      "file": "book/05-不要浪费钱.md",
+      "number": 9,
+      "sha256": "6645cd75c4b2e13f670bb03e2263b7f5106a3d1e86ee6e73a143ccc61385f241",
+      "sources": [
+        "https://www.investmalaysia.gov.my/media/o0ajehya/contracts-act-1950.pdf"
+      ]
+    },
+    {
+      "file": "book/05-不要浪费钱.md",
+      "number": 11,
+      "sha256": "0a77297e473982c5951a276ff078b9a9ffe4be6b3888dc8513dce2c0b4352f44",
+      "sources": [
+        "https://doi.org/10.1086/605298"
+      ]
+    },
+    {
+      "file": "book/05-不要浪费钱.md",
+      "number": 12,
+      "sha256": "1c4360bacd7a7b70a3fd903e85d87134fc80db254f8a8a38f7875bb3ba5ee501",
+      "sources": [
+        "https://www.npra.gov.my",
+        "https://www.knowyourmedicine.gov.my",
+        "https://npra.gov.my/~npraweb/index.php/en/biowaivers.html",
+        "https://pharmacy.moh.gov.my/ms/entri/label-keselamatan-hologram-farmatagtm.html"
+      ]
+    },
+    {
+      "file": "book/05-不要浪费钱.md",
+      "number": 13,
+      "sha256": "bcb3217621673ab6369bf006244a3f6a940ddae9c2fff602e22b5bf479ac31cf",
+      "sources": [
+        "https://www.moh.gov.my",
+        "https://www.hasil.gov.my",
+        "https://www.kwsp.gov.my",
+        "https://www.hasil.gov.my/en/individu/pelepasan-cukai/",
+        "https://www.moh.gov.my/en/core/health-information/service-rates/caj-pesakit-luar"
+      ]
+    },
+    {
+      "file": "book/05-不要浪费钱.md",
+      "number": 19,
+      "sha256": "f6d8ab46605cb423cd2eb3542d374705e3e1bb31306061f2d7e85631a642ba9a",
+      "sources": [
+        "https://doi.org/10.1111/j.1540-6261.1952.tb01525.x"
+      ]
+    },
+    {
+      "file": "book/06-反面清单.md",
+      "number": 5,
+      "sha256": "6a00e6b2a8161872353c80496d665703305506d20f41c9538a10f066f69ecf2a",
+      "sources": [
+        "https://doi.org/10.1056/NEJMoa052771"
+      ]
+    },
+    {
+      "file": "book/07-没钱的时候怎么活.md",
+      "number": 3,
+      "sha256": "121c1a0090887cbc54b22aa41709cb84b6e239eb595d742b515b45fdcae1b17f",
+      "sources": [
+        "https://www.jbg.gov.my/",
+        "https://www.malaysianbar.org.my/",
+        "https://www.jbg.gov.my/index.php/en/component/content/article/381-legal-aid-services?Itemid=1"
+      ]
+    },
+    {
+      "file": "book/07-没钱的时候怎么活.md",
+      "number": 7,
+      "sha256": "c26c425649bd76b9b5e4a967d1d5f6af6a89702b08410b4aef517b397c0d0dd9",
+      "sources": [
+        "https://bantuantunai.hasil.gov.my/",
+        "https://www.jkm.gov.my/",
+        "https://manfaat.mof.gov.my/bantuan/JKM-001",
+        "https://manfaat.mof.gov.my/bantuan/JKM-005"
+      ]
+    },
+    {
+      "file": "book/07-没钱的时候怎么活.md",
+      "number": 8,
+      "sha256": "45f22f076cdfd61835d32ad1bb4c5697d56913dced7bb215e57d4c1d27b66c75",
+      "sources": [
+        "https://www.jkm.gov.my/jkm/index.php?r=portal/left&id=bFRlWmhLSDl5dVZJdVhEbmtxNm9KUT09",
+        "https://www.hasil.gov.my/en/individu/pelepasan-cukai/"
+      ]
+    },
+    {
+      "file": "book/07-没钱的时候怎么活.md",
+      "number": 21,
+      "sha256": "8c81e90033e17d8d17d82e0b4ce09f3bec24e3efa59f27d6a6fe0159450b6c79",
+      "sources": [
+        "https://www.jwp.gov.my/a/4181"
+      ]
+    },
+    {
+      "file": "book/08-别把自己搭进去.md",
+      "number": 19,
+      "sha256": "dd850a6f9a8c5e9fda1bc3ca5e3b33dc7c963c4e0cf3221ed68dcefaf1bc315b",
+      "sources": [
+        "https://lom.agc.gov.my/",
+        "https://jpp.mohr.gov.my/",
+        "https://www.investmalaysia.gov.my/media/brtdgigj/limitation-act-1953.pdf"
+      ]
+    },
+    {
+      "file": "book/10-恋爱和结婚划不划算.md",
+      "number": 7,
+      "sha256": "40ec1cd8c91461148926dbf9cf0a457fa99c8963f11763801860478f1885d4ba",
+      "sources": [
+        "https://www.dosm.gov.my/"
+      ]
+    },
+    {
+      "file": "book/10-恋爱和结婚划不划算.md",
+      "number": 8,
+      "sha256": "512edc68990208155ef5d107bf81eb798957d1b6eb97bce80d9fa3c9ec8aa11f",
+      "sources": [
+        "https://doi.org/10.1016/j.socscimed.2006.08.031",
+        "https://doi.org/10.1093/aje/kwr111",
+        "https://doi.org/10.1186/s41256-020-00133-8"
+      ]
+    },
+    {
+      "file": "book/10-恋爱和结婚划不划算.md",
+      "number": 9,
+      "sha256": "833055052f1f9fb7f3f2ab48428064076c5a6f7184c78e266f46e14addea88f2",
+      "sources": [
+        "https://www.krinstitute.org/",
+        "https://www.dosm.gov.my/",
+        "https://www.ilo.org/",
+        "https://www.krinstitute.org/publications/when-do-men-care-covid-19-insights-on-care-crisis-and-masculinities"
+      ]
+    },
+    {
+      "file": "book/10-恋爱和结婚划不划算.md",
+      "number": 12,
+      "sha256": "8f6dbc9cf7acd187305ecf490a05d0f45be521126efc8729e20ad2a66943d7fe",
+      "sources": [
+        "https://lom.agc.gov.my/",
+        "https://www.investmalaysia.gov.my/media/o0ajehya/contracts-act-1950.pdf"
+      ]
+    },
+    {
+      "file": "book/10-恋爱和结婚划不划算.md",
+      "number": 14,
+      "sha256": "8e05d94f77d6387a571fa0b932e009d09c5a2a26966bdcb43e23cc6522da351d",
+      "sources": [
+        "https://lom.agc.gov.my/",
+        "https://www.moh.gov.my/",
+        "https://mylegal2u.com/law/act-164/2026-10-26-6d066226.pdf"
+      ]
+    },
+    {
+      "file": "book/10-恋爱和结婚划不划算.md",
+      "number": 18,
+      "sha256": "b7b20791be6af3c4d3356a16db0cfaff16eee9aa13ca0012ba7d1e760b89bd67",
+      "sources": [
+        "https://lom.agc.gov.my/",
+        "https://rockwillsonline.com.my/document/statute/Wills_Act_1959.pdf"
+      ]
+    },
+    {
+      "file": "book/11-程序员和技术人容易踩的红线.md",
+      "number": 5,
+      "sha256": "f7919f391afb15552ce59f725e38b9c310da3fa36fc516437f92c662e9ba7eb1",
+      "sources": [
+        "https://lom.agc.gov.my/",
+        "https://www.mcmc.gov.my/"
+      ]
+    },
+    {
+      "file": "book/12-创业与做生意.md",
+      "number": 16,
+      "sha256": "89b74c2d3f2abc889ccce954c597595fb2db4b91d8ddce18b5f8c93912cdf7ef",
+      "sources": [
+        "https://www.kwsp.gov.my/",
+        "https://www.perkeso.gov.my/",
+        "https://www.kwsp.gov.my/en/employer/responsibilities/registration"
+      ]
+    },
+    {
+      "file": "book/13-紧急情况.md",
+      "number": 4,
+      "sha256": "712f2b7312e6f85a92181d248bc46b36b72e5d97bf6cda63ea94b65aa58029ce",
+      "sources": [
+        "https://doi.org/10.1161/STROKEAHA.116.015169",
+        "https://doi.org/10.1161/strokeaha.115.010613",
+        "https://www.ifrc.org/sites/default/files/2026-03/IFRC%20International%20First%20Aid,%20Resuscitation%20and%20Education%20Guidelines%202025.pdf",
+        "https://www.redcross.org.uk/first-aid/learn-first-aid/stroke",
+        "https://www.nhs.uk/conditions/transient-ischaemic-attack-tia/symptoms/"
+      ]
+    },
+    {
+      "file": "book/13-紧急情况.md",
+      "number": 12,
+      "sha256": "10f45293b6c264c03cf374aece11f27a37aed8717e19d7f64e54f88189dc46d9",
+      "sources": [
+        "https://doi.org/10.1016/j.jamcollsurg.2018.01.047",
+        "https://doi.org/10.1097/SLA.0b013e31818842ba",
+        "https://doi.org/10.3760/cma.j.issn.1671-0282.2020.06.006",
+        "http://www.cem.org.cn/rhtml/20200606/index.htm",
+        "https://www.ifrc.org/sites/default/files/2026-03/IFRC%20International%20First%20Aid,%20Resuscitation%20and%20Education%20Guidelines%202025.pdf",
+        "https://www.redcross.org/take-a-class/resources/articles/how-to-apply-a-tourniquet"
+      ]
+    },
+    {
+      "file": "book/13-紧急情况.md",
+      "number": 15,
+      "sha256": "8d8783ad51dcf87fe9abdf18b948b76437f514124ca2acdb14c6a8d5a06a1019",
+      "sources": [
+        "https://doi.org/10.3389/fphar.2022.845689",
+        "https://doi.org/10.1111/all.15032",
+        "https://www.ifrc.org/sites/default/files/2026-03/IFRC%20International%20First%20Aid,%20Resuscitation%20and%20Education%20Guidelines%202025.pdf",
+        "https://www.gov.uk/drug-safety-update/adrenaline-auto-injector-advice-for-patients"
+      ]
+    },
+    {
+      "file": "book/13-紧急情况.md",
+      "number": 20,
+      "sha256": "92968afd58fc5cd77fafe13893c81d10fa5c8fdfa091620acc1873bca05ce168",
+      "sources": [
+        "https://www.nhs.uk/conditions/poisoning/",
+        "https://www.ifrc.org/sites/default/files/2026-03/IFRC%20International%20First%20Aid,%20Resuscitation%20and%20Education%20Guidelines%202025.pdf"
+      ]
+    },
+    {
+      "file": "book/13-紧急情况.md",
+      "number": 38,
+      "sha256": "6ea18ef6b1ffb31f7fdb93697cd119f4285eda252b06c570860232a9a9b14e40",
+      "sources": [
+        "https://www.cdc.gov/hivnexus/hcp/pep/index.html"
+      ]
+    },
+    {
+      "file": "book/14-账号与信息安全.md",
+      "number": 4,
+      "sha256": "42798128768fcc847ddd4abdd4b38ad435ab89a71f827cae6391e7efee2cfe52",
+      "sources": [
+        "https://www.fcc.gov/consumers/guides/protect-your-mobile-device"
+      ]
+    },
+    {
+      "file": "book/16-得了慢性病之后怎么活.md",
+      "number": 2,
+      "sha256": "20ac438093e1278408c9b3872d2b2d75be6537b4a42d80dda89bb11092080907",
+      "sources": [
+        "https://pharmacy.moh.gov.my/",
+        "https://pharmacy.moh.gov.my/ms/entri/sistem-pendispensan-ubat-bersepadu-spub.html",
+        "https://www.mkn.gov.my/web/ms/2026/09/30/penghantaran-ubat-melalui-pos-secara-percuma-bermula-1-okt-2026/"
+      ]
+    },
+    {
+      "file": "book/17-家里有老人.md",
+      "number": 1,
+      "sha256": "2648d21f6604c8432780d5de1a4aafd9b39dad087f9feb9baec9b1cab6b16b15",
+      "sources": [
+        "https://lom.agc.gov.my/",
+        "https://www.amanahraya.my/",
+        "https://www.kehakiman.gov.my/en/faq"
+      ]
+    },
+    {
+      "file": "book/17-家里有老人.md",
+      "number": 7,
+      "sha256": "963b55cdc8dea671fe3c493c2c65cae228038e9d0954bedeb7a7bec8286d9521",
+      "sources": [
+        "https://www.jkm.gov.my/",
+        "https://www.perkeso.gov.my/",
+        "https://www.hasil.gov.my/",
+        "https://www.malaysia.gov.my/my/personas/warga-emas/mendapatkan-bantuan-warga-emas/bantuan-warga-emas-bwe",
+        "https://www.hasil.gov.my/en/individu/pelepasan-cukai/"
+      ]
+    },
+    {
+      "file": "book/17-家里有老人.md",
+      "number": 11,
+      "sha256": "2134c7a56041bf04635f1a5951308f92e26f3187c5de7c40e0dcdc564d060e7d",
+      "sources": [
+        "https://lom.agc.gov.my/",
+        "https://www.jkm.gov.my/",
+        "https://www.hasil.gov.my/en/individu/pelepasan-cukai/"
+      ]
+    },
+    {
+      "file": "book/17-家里有老人.md",
+      "number": 12,
+      "sha256": "63723307fa295b579c00f50753d9a7a6f13188f06aaa279cf36c5b82b6b65dd9",
+      "sources": [
+        "https://lom.agc.gov.my/",
+        "https://jtksm.mohr.gov.my/",
+        "https://www.hasil.gov.my/en/individu/pelepasan-cukai/"
+      ]
+    },
+    {
+      "file": "book/18-养孩子划不划算.md",
+      "number": 1,
+      "sha256": "1ce496157eb8edb6d3ab005eee102f9e182a4cecc35c60c199402ec31871078d",
+      "sources": [
+        "https://www.hasil.gov.my/individu/kitaran-cukai-individu/lapor-pendapatan/pelepasan-cukai/",
+        "https://www.ptptn.gov.my/",
+        "https://www.jkm.gov.my/",
+        "https://www.malaysia.gov.my/en/categories/bantuan-kebajikan--kemudahan/bantuan-kewangan/bantuan-kanak-kanak-bkk",
+        "https://www.hasil.gov.my/en/individu/pelepasan-cukai/"
+      ]
+    },
+    {
+      "file": "book/19-在职离职和工伤.md",
+      "number": 2,
+      "sha256": "54e3b48b0ba6d88ee0c8c6f644e878d461165c3e88fb80f359e66c30832cddd5",
+      "sources": [
+        "https://jtksm.mohr.gov.my/",
+        "https://jtksm.gov.my/ms/soalan-lazim/akta-kerja-1955-pindaan-2022/cuti-sakit/berapakah-jumlah-kelayakan-baharu-bagi-cuti"
+      ]
+    },
+    {
+      "file": "book/19-在职离职和工伤.md",
+      "number": 7,
+      "sha256": "4820c2e690998d33276a596bab1fb3008cb0275ca54911c5c5cd085f3906ff7a",
+      "sources": [
+        "https://www.perkeso.gov.my/images/akta/ACT%20800/Akta%20800_EMPLOYMENT%20INSURANCE%20SYSTEM%20ACT%202017.pdf",
+        "https://perkeso.gov.my/en/our-services/protection/employment-insurance.html",
+        "https://jpp.mohr.gov.my/ems-pembuangan-kerja-seksyen-20/",
+        "https://www.perkeso.gov.my/images/imej/akta_dan_peraturan/EMPLOYMENT_INSURANCE_SYSTEM_ACT_2017_Act_800.pdf"
+      ]
+    },
+    {
+      "file": "book/19-在职离职和工伤.md",
+      "number": 8,
+      "sha256": "c3b99e8910625a11b51a122616ac210f90e1e3a2f0d3cb8e242b86c0d81530ed",
+      "sources": [
+        "https://www.icj.org/wp-content/uploads/1950/05/Malaysia-Evidence-Act-1950-2012-eng.pdf"
+      ]
+    },
+    {
+      "file": "book/19-在职离职和工伤.md",
+      "number": 16,
+      "sha256": "2652c3bc055a174751595a0b7c57fcfbc35c9205e6d1d879a0a3f9219a660072",
+      "sources": [
+        "https://jtksm.gov.my/en/borang/employment-act-1955"
+      ]
+    },
+    {
+      "file": "book/19-在职离职和工伤.md",
+      "number": 23,
+      "sha256": "30533e9bf274975e53831d37b7354ef7254d1f3369401de966027bb5f69cae84",
+      "sources": [
+        "https://jpp.mohr.gov.my/ems-pembuangan-kerja-seksyen-20/"
+      ]
+    },
+    {
+      "file": "book/19-在职离职和工伤.md",
+      "number": 24,
+      "sha256": "c2d150da05ba3344c02e03d95b37d13c390d51438eeb0614136132726b280608",
+      "sources": [
+        "https://jtksm.gov.my/sites/default/files/2023-11/Akta%20Kerja%201955%20%28Akta%20265%29_0.pdf",
+        "https://dosh.gov.my/wp-content/uploads/2026/01/JKKP_Akta-514_21Januari2026_FINAL.pdf",
+        "https://jtksm.gov.my/en/borang/employment-act-1955"
+      ]
+    },
+    {
+      "file": "book/19-在职离职和工伤.md",
+      "number": 25,
+      "sha256": "aa94be84169c7a1e5871ad2249116e25d0c52dcdda3377d3a77e83ca6737aa0e",
+      "sources": [
+        "https://www.investmalaysia.gov.my/media/o0ajehya/contracts-act-1950.pdf"
+      ]
+    },
+    {
+      "file": "book/20-刚出生的孩子怎么带.md",
+      "number": 5,
+      "sha256": "867b8845768314378af341b2f71ac25edb5ab2eae450d3ad814e372ddd061ced",
+      "sources": [
+        "https://doi.org/10.1016/j.jfp.2025.100571",
+        "https://doi.org/10.1186/s12866-025-04380-y",
+        "https://www.who.int/publications/i/item/9789241595414",
+        "https://doi.org/10.17590/20220510-104706",
+        "https://doi.org/10.1097/00005176-200410000-00002",
+        "https://doi.org/10.1186/s13052-016-0228-9",
+        "https://doi.org/10.1097/MPG.0000000000002100",
+        "https://www.cdc.gov/infant-toddler-nutrition/formula-feeding/preparation-and-storage.html"
+      ]
+    },
+    {
+      "file": "book/21-出国旅行与境外安全.md",
+      "number": 9,
+      "sha256": "dff617ca83a81187b03d9c6191ee9587c6e9c029f9ca362b8b6cd97746b830fe",
+      "sources": [
+        "https://www.motac.gov.my/semakan/",
+        "https://jtksm.mohr.gov.my/",
+        "https://lom.agc.gov.my/",
+        "https://www.law.cornell.edu/uscode/text/8/1182",
+        "https://jtksm.mohr.gov.my/en/services/private-employment-agencies"
+      ]
+    },
+    {
+      "file": "book/22-怎么放松.md",
+      "number": 12,
+      "sha256": "2699786a2c491e16fbd64b4ae42dcaf0789f00ac135018ddad19efa0f87af3c1",
+      "sources": [
+        "https://doi.org/10.1503/cmaj.091080",
+        "https://doi.org/10.1093/ije/dyw153",
+        "https://pubmed.ncbi.nlm.nih.gov/27450862/"
+      ]
+    },
+    {
+      "file": "book/23-学什么技能划算.md",
+      "number": 3,
+      "sha256": "1befe132760e721f1baf922cef69ab7999580386a45c4b3382a94611ffe0fd43",
+      "sources": [
+        "https://www.dosm.gov.my/portal-main/release-content/graduates-statistics-2024",
+        "https://www.dosm.gov.my/uploads/release-content/file_20260401145553.pdf"
+      ]
+    },
+    {
+      "file": "book/23-学什么技能划算.md",
+      "number": 4,
+      "sha256": "105db47f821073ee9f5c325dc78620631ecc9a37a9da66d35579c8bf811dc936",
+      "sources": [
+        "https://www.ptptn.gov.my/en/pelaksanaan-inisiatif-belanjawan-2026/"
+      ]
+    },
+    {
+      "file": "book/23-学什么技能划算.md",
+      "number": 5,
+      "sha256": "59682bbd5445ca4622c7a5c1470b2ae3cdcfe41fda8fb8ffdf92457b6a4707cf",
+      "sources": [
+        "https://www.mbot.org.my/registration/qualified-technicians",
+        "https://www.mbot.org.my/registration/graduate-technologists"
+      ]
+    },
+    {
+      "file": "book/23-学什么技能划算.md",
+      "number": 7,
+      "sha256": "635b0f9012dfd941b996f21b1f1e81feec5a5eb141006ec9f50375065a58f050",
+      "sources": [
+        "https://openknowledge.worldbank.org/bitstream/handle/10986/29672/WPS8402.pdf"
+      ]
+    },
+    {
+      "file": "book/23-学什么技能划算.md",
+      "number": 8,
+      "sha256": "16ff8cb52cce4dc9e9bee343938deb7949c2246ffb7e1748271bf4d1af09ad83",
+      "sources": [
+        "https://www2.mqa.gov.my/mqr/",
+        "https://www2.mqa.gov.my/mqr/english/epengiktirafan.cfm"
+      ]
+    },
+    {
+      "file": "book/23-学什么技能划算.md",
+      "number": 9,
+      "sha256": "971f3158f942778c8c639bf611f5e6949364e6d2ce0b50318824dca6acbfa66c",
+      "sources": [
+        "https://hrdcorp.gov.my/hrdcorp-claimable-courses"
+      ]
+    },
+    {
+      "file": "book/23-学什么技能划算.md",
+      "number": 11,
+      "sha256": "48765fc2ce356250f8addc002015cc6d26215c7daa2c4ad5454d2e33c56ae739",
+      "sources": [
+        "https://www.dsd.gov.my/en/soalan-lazim"
+      ]
+    },
+    {
+      "file": "book/23-学什么技能划算.md",
+      "number": 14,
+      "sha256": "6e513dd844910b9da08c8611c927d05940f28b7aca9e84da3cc5d97870b35218",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/33683913/"
+      ]
+    },
+    {
+      "file": "book/23-学什么技能划算.md",
+      "number": 15,
+      "sha256": "4896078fcc04f70fd1f37d25c8a274a629ce0401388e741166b05baf6fd2018a",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/16719566/"
+      ]
+    },
+    {
+      "file": "book/23-学什么技能划算.md",
+      "number": 16,
+      "sha256": "e3b322b76d360883ad8cf49c38a2b176c72499544ef2b50aad6ee2b9b8a418ee",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/26173288/"
+      ]
+    },
+    {
+      "file": "book/23-学什么技能划算.md",
+      "number": 17,
+      "sha256": "0041bf2b2c6620dadf2baad843b5c37f5ac4c768fd83601937ddf5c61149c203",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/31556629/"
+      ]
+    },
+    {
+      "file": "book/23-学什么技能划算.md",
+      "number": 18,
+      "sha256": "ef6b05ee646c341306d780f84821f66000132c3f9b0ca0cb49e1b43d4d08ead3",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/26162104/"
+      ]
+    },
+    {
+      "file": "book/23-学什么技能划算.md",
+      "number": 19,
+      "sha256": "5ff011d3a9f24f51eaffc9c23758c41790dfba6126cae6a0e27d933926a6c57f",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/29733621/"
+      ]
+    },
+    {
+      "file": "book/23-学什么技能划算.md",
+      "number": 20,
+      "sha256": "e5867ed0fe3e287d1347ae5162ae75b9a8d16e1263c00d3b2a8bf7099070e0c7",
+      "sources": [
+        "https://www.bem.org.my",
+        "https://www.mbot.org.my",
+        "https://www.mia.org.my",
+        "https://bem.org.my/files/FAQ/PP.pdf"
+      ]
+    },
+    {
+      "file": "book/23-学什么技能划算.md",
+      "number": 21,
+      "sha256": "152f838a2a30995d89ac98499d86c751eb376d140a539c0389569d8f2f7c0748",
+      "sources": [
+        "https://mia.org.my/storage/2025/11/CA-Application-Checklist_24Oct2025_Final.pdf"
+      ]
+    },
+    {
+      "file": "book/23-学什么技能划算.md",
+      "number": 24,
+      "sha256": "4906339a25f81ae250c2c2711fec8db311428e91a2e46e14337f3fee03189641",
+      "sources": [
+        "https://www.gov.uk/government/publications/postgraduate-degrees-labour-market-returns"
+      ]
+    },
+    {
+      "file": "book/23-学什么技能划算.md",
+      "number": 25,
+      "sha256": "365cc0d7fcb655709c0f0ba762e0bf5b2a4eca4e8b053dcf4ce19ada39b723f2",
+      "sources": [
+        "https://www.nature.com/articles/s41598-021-93687-7"
+      ]
+    },
+    {
+      "file": "book/24-看病.md",
+      "number": 1,
+      "sha256": "4160dfa5053bfe595bdc3c990f6bb2461b6f5cda564bd2faeb7ce944c043f329",
+      "sources": [
+        "https://www.moh.gov.my/en/core/health-information/service-rates/caj-pesakit-luar"
+      ]
+    },
+    {
+      "file": "book/24-看病.md",
+      "number": 2,
+      "sha256": "a177e72e8c5709fff8ee3cfbe8dfb74bdcb2c16885023125547c5caae1418dbb",
+      "sources": [
+        "https://www.moh.gov.my/en/core/health-information/service-rates/caj-pesakit-luar"
+      ]
+    },
+    {
+      "file": "book/24-看病.md",
+      "number": 5,
+      "sha256": "f8c5a33bbaa51689f54ac4c75c9e23931f4ecaef236a9fb44dc6159e1eed8a20",
+      "sources": [
+        "https://mmc.gov.my/wp-content/uploads/2019/11/Medical-RecordsMedical-Reports.pdf"
+      ]
+    },
+    {
+      "file": "book/24-看病.md",
+      "number": 6,
+      "sha256": "abc4625f73d9b8881986db15e8664343cb0635b11919a124e2227736a3006bf4",
+      "sources": [
+        "https://www.investmalaysia.gov.my/media/brtdgigj/limitation-act-1953.pdf",
+        "https://moh.spab.gov.my"
+      ]
+    },
+    {
+      "file": "book/24-看病.md",
+      "number": 10,
+      "sha256": "cc1444838c003ae9a86e5f6e2cdbbe06ac65cfca01bd7acdbee99db7cddb6a72",
+      "sources": [
+        "https://www.hasil.gov.my/en/individu/pelepasan-cukai/"
+      ]
+    },
+    {
+      "file": "book/24-看病.md",
+      "number": 13,
+      "sha256": "4842998c6693317e9c859ccdb99e01959e92dd72f223225522b532eb5e231eec",
+      "sources": [
+        "https://www.moh.gov.my/en/core/health-assistance/tabung-bantuan-perubatan-tbp"
+      ]
+    },
+    {
+      "file": "book/24-看病.md",
+      "number": 14,
+      "sha256": "78a8852e75e9a0891621b9ac1c721ad110346f797010700af4b3323faef676bd",
+      "sources": [
+        "https://pharmacy.moh.gov.my/ms/entri/sistem-pendispensan-ubat-bersepadu-spub.html"
+      ]
+    },
+    {
+      "file": "book/24-看病.md",
+      "number": 15,
+      "sha256": "49fcd7a045e687f71c94326a859589c67de2d1a5cc5f5edae363f1e0012c3ad7",
+      "sources": [
+        "https://www.fmos.org.my/en/who-we-are/",
+        "https://www.fmos.org.my/en/faq/"
+      ]
+    },
+    {
+      "file": "book/25-人走了以后要办什么.md",
+      "number": 2,
+      "sha256": "5c60b15ae0d53c42c2690909c910b204b9b216de966bc1ed59d73f85b686535c",
+      "sources": [
+        "https://www.jpn.gov.my/en/services/death/ordinary-registration-of-death-peninsular/"
+      ]
+    },
+    {
+      "file": "book/25-人走了以后要办什么.md",
+      "number": 5,
+      "sha256": "a51a9a1bee7a366edf3722480d4409ed06367a28db09cea317d0724cd37904da",
+      "sources": [
+        "https://www.jpn.gov.my/en/services/death/ordinary-registration-of-death-peninsular/",
+        "https://www.jpn.gov.my/en/services/death/late-registration-of-death-peninsular/"
+      ]
+    },
+    {
+      "file": "book/27-怀孕和生产.md",
+      "number": 8,
+      "sha256": "c6e3a6ee63497ebe1eeb7b65ea0cf6fc6a7896c48bcf8df6007a64624981cca9",
+      "sources": [
+        "https://www.nhs.uk/pregnancy/labour-and-birth/signs-that-labour-has-begun/",
+        "https://www.rcog.org.uk/for-the-public/browse-our-patient-information/umbilical-cord-prolapse-in-late-pregnancy/"
+      ]
+    },
+    {
+      "file": "book/29-遭遇重大打击之后.md",
+      "number": 11,
+      "sha256": "74e091c3389aa3a6873adf18ea0891e9409b07a072c544d63ab9f6a71ee9b894",
+      "sources": [
+        "https://mentari.moh.gov.my/frequently-asked-question/",
+        "https://mentari.moh.gov.my/services/"
+      ]
+    },
+    {
+      "file": "book/31-十八岁之后有哪几条路.md",
+      "number": 1,
+      "sha256": "612b890056418a01cd08fe096470ccf2334c50bbb9bf7643b53b5399d22a64b2",
+      "sources": [
+        "https://www.spa.gov.my/syarat-permohonan/spm-svm/pembantu-tadbir-perkeranian-operasi-gred-n1",
+        "https://spa.gov.my/syarat-permohonan/ijazah-sarjana-muda-sarjana-doktor-falsafah/pegawai-tadbir-dan-diplomatik-gred-m9",
+        "https://www2.mqa.gov.my/portalapela/SyaratPermohonanT3.cfm",
+        "https://www.mod.gov.my/index.php/maklumat/plkn-3-0"
+      ]
+    },
+    {
+      "file": "book/31-十八岁之后有哪几条路.md",
+      "number": 2,
+      "sha256": "4ab2f027f476c9debf4d02aba62a1947e7df1760098c19215040060ed700d0ef",
+      "sources": [
+        "https://www.mod.gov.my/index.php/maklumat/plkn-3-0"
+      ]
+    },
+    {
+      "file": "book/31-十八岁之后有哪几条路.md",
+      "number": 7,
+      "sha256": "3ee49ed6f54b9200a8caf7861b7f3577302e88455a87049418ccaf9700642d78",
+      "sources": [
+        "https://www.spa.gov.my/syarat-permohonan/spm-svm/pembantu-tadbir-perkeranian-operasi-gred-n1",
+        "https://spa.gov.my/syarat-permohonan/ijazah-sarjana-muda-sarjana-doktor-falsafah/pegawai-tadbir-dan-diplomatik-gred-m9"
+      ]
+    },
+    {
+      "file": "book/31-十八岁之后有哪几条路.md",
+      "number": 8,
+      "sha256": "0a5bbc1b5d9fd20a1748e31c6a470aa2a6d39784fd0ec5311649a54071894ac7",
+      "sources": [
+        "https://pismp.moe.gov.my",
+        "https://spa.gov.my/syarat-permohonan/ijazah-sarjana-muda-sarjana-doktor-falsafah/pegawai-perkhidmatan-pendidikan-gred-dg9"
+      ]
+    },
+    {
+      "file": "book/31-十八岁之后有哪几条路.md",
+      "number": 10,
+      "sha256": "95e903196f4babe6fdb9145cd666b37d6790756615c90e80b92540416aa962b4",
+      "sources": [
+        "https://www2.mqa.gov.my/portalapela/SyaratPermohonanT3.cfm",
+        "https://www2.mqa.gov.my/apel/APEL_C/dasarumumc.cfm"
+      ]
+    },
+    {
+      "file": "book/31-十八岁之后有哪几条路.md",
+      "number": 12,
+      "sha256": "df359fc6d815be00275004c2c6036585c613b53ea1db2fec47ececb00e895740",
+      "sources": [
+        "https://jtksm.gov.my/en/enforcement-gig-workers-act",
+        "https://dosh.gov.my/wp-content/uploads/2026/04/Penetapan-Tarikh-Permulaan-Kuat-Kuasa-Akta-Pekerja-Gig-2025-P.U.-B122_2026.pdf",
+        "https://perkeso.gov.my/en/our-services/protection/self-employed.html"
+      ]
+    },
+    {
+      "file": "book/31-十八岁之后有哪几条路.md",
+      "number": 13,
+      "sha256": "b2a8b6bd851b18d06c627cb051f531502248fd1758201f2b47925df9475a5105",
+      "sources": [
+        "https://www.investmalaysia.gov.my/media/o0ajehya/contracts-act-1950.pdf"
+      ]
+    },
+    {
+      "file": "book/31-十八岁之后有哪几条路.md",
+      "number": 14,
+      "sha256": "bdc1a8ad6971dd1695959bee508f465999b1b9abd50446b50af8ea2b2ca1dbc9",
+      "sources": [
+        "https://jtksm.gov.my/en/frequently-asked-questions/private-employment-agencies"
+      ]
+    },
+    {
+      "file": "book/33-残疾之后怎么活.md",
+      "number": 1,
+      "sha256": "d265005d61728f4696191acbb4937d341bafc7d96753cf51dccc5f61bedd263e",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3108991/"
+      ]
+    },
+    {
+      "file": "book/33-残疾之后怎么活.md",
+      "number": 2,
+      "sha256": "7746cc416cc30f51782a4f97970557ae79c4c3a24029a71a4438a99554a51819",
+      "sources": [
+        "https://doi.org/10.1038/sc.2017.98"
+      ]
+    },
+    {
+      "file": "book/33-残疾之后怎么活.md",
+      "number": 4,
+      "sha256": "dc216516b422c8b0ef1f4e63d442ff7cbc9a0319cdb8e1a90ae5eea5de415fff",
+      "sources": [
+        "https://doi.org/10.1001/jama.282.23.2215"
+      ]
+    },
+    {
+      "file": "book/33-残疾之后怎么活.md",
+      "number": 5,
+      "sha256": "f60911909ab205237a43302100c44511fa018f1169e0244653f73e91927f1c18",
+      "sources": [
+        "https://www.nice.org.uk/guidance/cg179/chapter/Recommendations",
+        "https://doi.org/10.1111/j.1532-5415.2010.03168.x"
+      ]
+    },
+    {
+      "file": "book/33-残疾之后怎么活.md",
+      "number": 7,
+      "sha256": "644b23f2741572b94bcac2fd7b71fe832e03449e2f17c09307fc82ac87932f1e",
+      "sources": [
+        "https://myrapid.com.my/wp-content/uploads/2026/01/ENG-RAPID-MESRA-FAQ-DEC-2025.pdf"
+      ]
+    },
+    {
+      "file": "book/33-残疾之后怎么活.md",
+      "number": 8,
+      "sha256": "219dcb6a110be08d43820f3b32aeb8d1397141d4998660d919b74c2996dd7489",
+      "sources": [
+        "https://www.jkm.gov.my/uploads/content-downloads/file_20250417100935.pdf"
+      ]
+    },
+    {
+      "file": "book/33-残疾之后怎么活.md",
+      "number": 9,
+      "sha256": "bd24eff414bab1c40240451b60c3caf9568a3e86de98d3f2c33e294967e68928",
+      "sources": [
+        "https://www.malaysia.gov.my/my/categories/bantuan-kebajikan--kemudahan/bantuan-kesihatan/bantuan-alat-sokongan-alat-tiruan-bat"
+      ]
+    },
+    {
+      "file": "book/33-残疾之后怎么活.md",
+      "number": 10,
+      "sha256": "ca48abac6e82d6f68446c33e369f0f664b16b9df7ef4c825ae13abdf56f3f9f0",
+      "sources": [
+        "https://phl.hasil.gov.my/pdf/pdfam/PR_03_2019.pdf"
+      ]
+    },
+    {
+      "file": "book/33-残疾之后怎么活.md",
+      "number": 11,
+      "sha256": "bc1f2dfe9c4b3d218eec35a7191415e90ab1222afcb2aa7480b148d6c8f5c5ba",
+      "sources": [
+        "https://www.hasil.gov.my/en/individu/pelepasan-cukai/"
+      ]
+    },
+    {
+      "file": "book/33-残疾之后怎么活.md",
+      "number": 12,
+      "sha256": "0e8eb5c778dcf70f385447adf5bada03d4e8e8697b23aca82d895c70bda3d409",
+      "sources": [
+        "https://myrapid.com.my/wp-content/uploads/2026/01/ENG-RAPID-MESRA-FAQ-DEC-2025.pdf"
+      ]
+    },
+    {
+      "file": "book/33-残疾之后怎么活.md",
+      "number": 15,
+      "sha256": "f2a278d77d18e948b7a0a9cc32c84b0e506ffa3729656b560f30aa60faeea5b8",
+      "sources": [
+        "https://www.jpj.gov.my/prosedur-pengisytiharan-pengecualian-lesen-kenderaan-motor-lkm-bagi-orang-kurang-upaya-oku/"
+      ]
+    },
+    {
+      "file": "book/33-残疾之后怎么活.md",
+      "number": 16,
+      "sha256": "8e55bc9a6a4f815d76ddbd76488483962c9a4d2e1b8ffc66f9e8c9af56edff96",
+      "sources": [
+        "https://www.cochrane.org/evidence/CD000197_organised-inpatient-stroke-unit-care"
+      ]
+    },
+    {
+      "file": "book/33-残疾之后怎么活.md",
+      "number": 17,
+      "sha256": "9b2e1f1330348f3bd645de712c9c68851de4d647237f7bbfa771376a84a16e13",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10529382/"
+      ]
+    },
+    {
+      "file": "book/33-残疾之后怎么活.md",
+      "number": 18,
+      "sha256": "eff1333c21b1e3fba4f1f4eae5de816ddfb52243b7dc039370b09e5b8b1c0636",
+      "sources": [
+        "https://www.moh.gov.my/images/04-penerbitan/akta-kesihatan/mental%20health%20act%202001.pdf"
+      ]
+    },
+    {
+      "file": "book/33-残疾之后怎么活.md",
+      "number": 20,
+      "sha256": "253547b27daf3bfa7c397089ba524096272f535d959504b2e215287c5f356ee2",
+      "sources": [
+        "https://jpp.mohr.gov.my/ems-pembuangan-kerja-seksyen-20/",
+        "https://suhakam.org.my/contact-us/"
+      ]
+    }
+  ]
+}

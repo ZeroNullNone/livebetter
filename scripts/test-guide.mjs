@@ -82,7 +82,11 @@ async function exercise(){
     click('#index-results [data-item="e-14-1"]');assert(!el('#sec-8').hidden && el('#e-14-1')===sameCard,'Index search locates an entry without losing its theme');
     await open('/index.html','#topics .topic-tile');
     click('[data-view="chapters"]');assert(doc().querySelectorAll('#chapters .index-row').length===34,'All 34 chapters available');
-    click('[data-view="essays"]');click('#essays .index-row');await wait(()=>el('#dm-doc h2'),'Essay failed to load');click('#dm-x');
+    click('[data-view="essays"]');
+    const essayLinks=[...doc().querySelectorAll('#essays .index-row')];
+    assert(essayLinks.length===9 && essayLinks.every(a=>a.href.startsWith('https://github.com/ZeroNullNone/livebetter/blob/main/docs/')),'All nine essay links retain the localized repository target for copied and modified-click navigation');
+    click('#essays .index-row');await wait(()=>el('#dm-doc h2'),'Essay failed to load');
+    assert(el('#dm-gh').href.startsWith('https://github.com/ZeroNullNone/livebetter/blob/main/docs/'),'Essay source link uses the localized repository');click('#dm-x');
     click('#open-portal');assert(!el('#portal-mask').hidden,'Quick reference opens');click('#pm-x');
     type('#q','EPF');await wait(()=>Number(el('#cnt').textContent)>0 && !el('#reader-head').hidden,'Search failed');
     assert(Number(el('#cnt').textContent)<Number(el('#tot').textContent),'Search filters entries');
