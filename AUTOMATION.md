@@ -30,7 +30,7 @@
 | 名称 | 类型 | 值 |
 | --- | --- | --- |
 | UPSTREAM_SYNC_ENABLED | Variable | 验证基准后设为 enabled，启用每天 09:00 检查 |
-| AUTO_MERGE_SYNC | Variable | 验收后设为 enabled，启用每小时四次的合并轮询 |
+| AUTO_MERGE_SYNC | Variable | 验收后设为 enabled，启用每周一 11:30（Asia/Kuala_Lumpur）的合并轮询，UTC cron 为 `30 3 * * 1` |
 | SYNC_AUTHORS | Variable | 逗号分隔的可信 PR 创建者 GitHub login（使用实测身份） |
 | SYNC_REVIEWERS | Variable | 逗号分隔的可信复核评论者 GitHub login，可与作者相同 |
 | PUBLIC_SITE_URL | Variable | 正式 HTTPS 地址，例如 https://guide.example.com/ |

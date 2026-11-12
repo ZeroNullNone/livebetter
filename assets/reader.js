@@ -1029,6 +1029,8 @@ async function dmOpen(path, from){
   setOverlay(true);
   DM.toc.textContent = ''; DM.heads = [];
   DM.title.textContent = decodeURIComponent(path.replace(/^docs\//, '').replace(/\.md$/, ''));
+  DM.gh.href = REPO_BLOB + path.split('/').map(encodeURIComponent).join('/');
+  DM.gh.hidden = false;
   DM.doc.innerHTML = '<div class="dm-load">正在读取 …</div>';
   DM.doc.scrollTop = 0;
   document.getElementById('dm-x').focus();
