@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "kind": "manual-neuro-urology-correction",
+  "repo": "ZeroNullNone/livebetter",
+  "baseSha": "0fbec4e3928b195aaeb8a47da4ab9457c19cbc3a",
+  "targetSha": "0fbec4e3928b195aaeb8a47da4ab9457c19cbc3a",
+  "notes": "Owner-authorized correction, repository baseline only; does not advance upstream checkpoint.",
+  "entries": [
+    {
+      "file": "book/33-残疾之后怎么活.md",
+      "number": 21,
+      "sha256": "8ce45b44617f8cf45a74f0ff8c5998f73390a34e946fd79c426c9ef49c9b5c9c",
+      "sources": [
+        "https://d56bochluxqnz.cloudfront.net/documents/full-guideline/EAU-Guidelines-on-Neuro-Urology-2026.pdf",
+        "https://pubmed.ncbi.nlm.nih.gov/10687973/"
+      ]
+    }
+  ],
+  "files": [],
+  "sources": [
+    {
+      "url": "https://d56bochluxqnz.cloudfront.net/documents/full-guideline/EAU-Guidelines-on-Neuro-Urology-2026.pdf",
+      "title": "EAU Guidelines on Neuro-Urology 2026",
+      "checkedAt": "2026-11-13",
+      "pages": [
+        21,
+        22,
+        27,
+        28,
+        32,
+        33
+      ],
+      "access": "Relevant full PDF sections read"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10687973/",
+      "title": "Effect of bladder management on urological complications in spinal cord injured patients",
+      "checkedAt": "2026-11-13",
+      "access": "PubMed/publisher indexed abstract matched; direct PubMed open returned minimal page"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28631749/",
+      "title": "Causes of death after traumatic spinal cord injury-a 70-year British study",
+      "checkedAt": "2026-11-13",
+      "access": "Abstract read; urogenital11.5% not a bladder-infection-specific category"
+    }
+  ]
+}
